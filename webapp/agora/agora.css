@@ -1,0 +1,53 @@
+/* CSS declarations go here */
+
+.center-pane {
+	top: 0px;
+	left: 0px;
+	position: relative;
+}
+
+.center-pane-out{
+	top: 0px;
+	left: 351px;
+	position: relative;
+}
+
+.left-pane {
+	top: 0px;
+	visibility: hidden;
+	position: absolute;
+}
+
+.left-pane-out {
+	top: 0px;
+	width: 350px;
+	visibility: visible;
+	position: absolute;
+}
+
+#dragArea {
+	height: 1600px;
+}
+
+.drag {
+   position: absolute;
+   border: 1px solid #89B;
+   background: #BCE;
+   height: 30px;
+   width: 100px;
+   cursor: move;
+   top: 170px;
+   left: -135px;
+   line-height: 30px;
+   text-align: center;
+   }
+.drop {
+   position: absolute;
+   width: 291px;
+   height: 299px;
+   border: 1px dashed #888;
+   }   
+.dropped {
+   background-color: #EBC;
+   border-color: #B89;
+   }  

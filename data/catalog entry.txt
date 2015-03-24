@@ -1,0 +1,39 @@
+ACG 3361 BA-ACCT 3(3,0) Cost Accounting I: PR: Junior standing, Accounting major or minor, and MAC 1105C, ECO 2013, ECO 2023, ACG 2071, each with a grade of “C” (2.0) or better. Theory and practice of using accounting information for managerial planning, and control as well as in costing, and pricing decisions. Fall, Spring.
+
+
+^([a-z[:upper:]]{3}) ([a-z| |:|\/|(|)|\--|,|&]*)
+
+^([a-z\u]{3}) (\d{4}C*) (\u{3}|\u{2})-(\u{4}|\u{3}) (\d)\((\d),(\d)\) ([\w| ]*):
+type: "$1",\nnumber: "$2",\ncollege: "$3",\ndept: "$4",\ncredits: $5,\nclasshrs: $6,\nlabhrs: $7,\ntitle: "$8"\n
+
+PR Full Text
+(PR: [\w| |,|“|”]*\(\d.\d\)[\w| |,|“|”]*.)
+PR: "$1"
+
+Course ID
+(\u{3} \d{4}C*)
+
+
+PR: stuff.
+PR: stuff and C.I.
+PR: or CR:
+PR: stuff; CR: otherstuff.
+PR: stuff and CR: stuff.
+CR: stuff. PR: stuff.
+CR: stuff and PR: stuff. 
+
+
+PR:[ |\w|,|“|”|-|\(|\)]+(\(\d.\d\))?[ |\w|,|“|”|-|\(|\)]+(C\.I\.)?.
+
+catalog entry
+(([A-Z]{3})\s(\d{4}[C|H]*))\s([A-Z]{3,4})-([A-Z]{2,5})\s((\d)\((\d)\,(\d)\))\W(.*):\s((?:PR:|CR:) .*?)\. (.*\. )(Fall|Spring|Summer|Occasional|Odd Spring|, )*\.
+
+UNIVERSITY OF CENTRAL FLORIDA\s\n*\d\d\d\s*\nUndergraduate Catalog 2014-2015
+
+course listing
+(([A-Z]{3})\s(\d{4}[C|H]*))\s([A-Z]{3,4})-([A-Z]{2,4})\s((\d)\((\d)\,(\d)\))\n(.*?):\s((?:PR:|CR:) (?:C\.I\.|(?:.|\n)*)\.) ((.*|\n)*\.) (Fall|Spring|Summer|Occasional|Odd Spring|, )*\.
+
+DEPARTMENT\s*OF\s*EECS\s*COURSE\s*LISTINGS\s*AND\s*DESCRIPTIONS\s*\d*\s*June\s*3\s*,\s2013 
+
+([a-z\u]{3}) (\d{4}(?:C|H)*) (\u{3}|\u{2})-(\u{2,3}) (\d\(\d,\d\))
+\n$1 $2 $3-$4 $5

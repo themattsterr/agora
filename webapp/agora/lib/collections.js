@@ -1,0 +1,1 @@
+AGORACourses = new Mongo.Collection('courses');

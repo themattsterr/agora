@@ -1,0 +1,276 @@
+
+
+BME 5572 ECS-ECE 3(3,0) Biomedical Nanotechnology: PR: EEL 3123C or C.I. Human Physiology, Bioelectric Phenomena and Neurons, Nanoelectronics for fabrication of biochips for human biomedical applications, self-assembly, bioelectronics, moral and ethical issues. Spring. 
+CAP 4053 ECS-CS 3(3,0) AI for Game Programming: PR: COT 3960 or COP 3502C or C.I. Surveys cutting-edge AI techniques for video games and board games and contrasts them with more traditional approaches. Spring. 
+CAP 4104 ECS-CS 3(3,0) Human and Technology Interaction: PR: COP 3330 and COP 3502C. Perceptual, cognitive, affective, social, organizational, commercial, and cultural factors. Disciplines, techniques and methodologies. Web, mobiles, and wearables. Embodied conversational agents. Elderly, disabled and special needs. Fall. 
+CAP 4453 ECS-CS 3(3,0) Robot Vision: PR: COP 3503C and MAC 2312, or C.I. Perspective and orthographic projections; the processing of edges, regions, motion, shading, texture, object detection, recognition, and machine learning. Fall, Spring. 
+CAP 4630 ECS-CS 3(3,0) Artificial Intelligence: PR: COP 3503C and COT 3960. Current methods in Al: knowledge-based systems, representation, inference, planning, natural language. Programming in Lisp or Prolog required. Fall. 
+CAP 4720 ECS-CS 3(3,0) Computer Graphics: PR: COP 3503C and COT 3960 and MAC 2147 or equivalent. Math for computer graphics, visibility and shading, graphics and data structure, curves and surfaces, commodity graphics hardware, and graphics API. Occasional.
+
+CAP 5015 ECS-CS 3(3,0) Multimedia Compression on the Internet: PR: Seniors and graduate students with interest in internet technology. Multimedia data; internet technology; entropy; compression methods; lossy compression; vector quantization; transform coding; wavelet video compression; model based compression. Occasional. 
+CAP 5055 ECS-CS 3(3,0) AI for Game Programming: PR: CS Foundation Exam or EEL 4851C or C.I. Surveys cutting-edge AI techniques for video games and board games and contrasts them with more traditional approaches. Spring. 
+CAP 5066 ECS-CS 3(3,0) Web Application Authoring Tools: PR: Graduate standing and/or approval of the Director of the Software Engineering Certificate Program. A survey of available tools for creating and maintaining websites, and methodologies for; determining which tool is best suited for a particular application environment. Fall. 
+CAP 5100 ECS-CS 3(3,0) Human-Computer Interface Design: PR: COP 4331C, graduate standing and/or approval of the Director of the Software Engineering Certificate Program. Focuses on dynamics of human-computer interaction. Provides a comprehensive overview of HCI design as a software discipline. Features a user-centered approach to Webbased application design. Fall. 
+CAP 5415 ECS-CS 3(3,0) Computer Vision: PR: COP 3503C, MAC 2312 and COT 3960. Image formation, binary vision, region growing and edge detection, shape representation, dynamic scene analysis, texture, stereo and range images, and knowledge representation. Fall.
+
+CAP 5510 ECS-CS 3(3,0) Bioinformatics: PR: Background in programing language or molecular biology. This course introduces problems, concepts, algorithms, and applications in Bioinformatics. It covers essential topics such as sequence alignment and prediction of gene and protein structure. Occasional. 
+CAP 5512 ECS-CS 3(3,0) Evolutionary Computation: PR: CAP 4630 or COP 3503C or C.I. This course covers the field of evolutionary computation, focusing on the theory and application of genetic algorithms. Spring. 
+CAP 5610 ECS-CS 3(3,0) Machine Learning: PR: CAP 4630 or C.I. Origin/ evaluation of machine intelligence; machine learning concepts and their applications in problem solving, planning and “expert systems” symbolic role of human and computers. Occasional. 
+CAP 5636 ECS-CS 3(3,0) Advanced Artificial Intelligence: PR: CAP 4630. Al theory of knowledge representation, “expert systems”, memory organization, problem solving, learning, planning, vision, and natural language. Fall. 
+CAP 5725 ECS-CS 3(3,0) Computer Graphics I: Architecture of graphics processors; display hardware; principles of programming and display software; problems and applications of graphic systems. Spring.
+
+CDA 3103 ECS-CS 3(3,0) Computer Logic and Organization: PR: COP 3223; CR: COT 3100C or MHF 3302 or MAD 2104. Logic design, computer arithmetic, Instruction Set Architecture (MIPS, SPIM simulator), performance, data path, control unit, memory hierarchy, I/O interface. Fall, Spring. 
+CDA 5106 ECS-CS 3(3,0) Advanced Computer Architecture: PR: EEL 4768C. Modern processor design, instruction-level parallelism, thread-level parallelism, data-level parallelism, memory hierarchy, and I/O. Fall, Spring. 
+CDA 5110 ECS-CS 3(3,0) Parallel Architecture and Algorithms: PR: COT 4210, CDA 5106. General-purpose vs. specialpurpose parallel computers; arrays, message-passing; shared-memory; taxonomy; parallelization techniques; communication synchronization and granularity; parallel data structures; automatic program restructuring. Occasional 
+
+
+CEN 3024 ECS-ECS 3(3,0) Software Development I: PR: COP 3330 or C.I. Software development concepts are introduced in the context of hands-on project implementation. SDLC, version control, design with UML, documentation, testing, 2&3-tier architecture. Spring. 
+
+
+CEN 4025 ECS-ECS 3(3,0) Software Development II: PR: CEN 3024 or C.I. A continuation of Software Development I with larger and more complex projects. Enterprise-level applications are covered including distributed and web-based systems using n-tier architecture. Fall.
+
+
+CEN 4333 ECS-ECS 3(3,0) Advanced Database Development: PR: COP 3330 or C.I. Professional-level database access from object-oriented systems, including complex SQL queries and stored procedures. Use of object-relational frameworks. Hands-on exercises with current RDBMS software. Spring. 
+
+
+CEN 4802 ECS-ECS 3(3,0) Software Integration, Configuration, and Testing: PR: CEN 3024 or equivalent or CI. Addresses approaches and issues associated with integration of software subsystems and components into one system to ensure that the subsystems function together. Spring. 
+
+
+CEN 4910 ECS-ECS 3(3,0) Software Development Project: PR: CEN 4025 or C.I. A software development project using the skills acquired from Software Development I & II. Working in teams, students develop a software system, simulating an industry experience. Spring. 
+CEN 5016 ECS-CS 3(3,0) Software Engineering: PR: COP 4331C. Application of formal software processes, engineering methods, and documentation standards to the development of large scale software systems. A team project is required. Spring. 
+CEN 5077 ECS-CS 3(3,0) Web Application Testing: PR: Graduate standing and/or approval of the Director of the Software Engineering Certificate Program. Test design strategies, patterns and tools. Metrics. Client-server and wireless applications testing. Automated testing. Quality assurance. Performance, security, and usability analysis. Cross site scripting tests. Occasional.
+
+CEN 5326 ECS-CS 3(3,0) Web Server Configuration and Maintenance: PR: COP 3502C, CNT 3004, graduate standing and/ or approval of the Director of the Software Engineering Certificate Program. Offers a comprehensive overview of the tools and techniques needed to succeed as a Web Server Administrator, including the tasks they are expected to perform. Occasional. 
+
+CGN 3501C ECS-CECE 3(2,3) Civil Engineering Materials: PR: EGN 3331, CHS 1440 or CHM 2045C each with a grade of “C” (2.0) or better. The characterization of materials used in civil engineering works to include concrete, bituminous polymers and composite materials. Fall, Spring. M&S fee $30.00 
+
+CGN 3700C ECS-CECE 4(3,2) Civil Engineering Measurements: PR: MAC 2312 and PHY 2049C both with a grade of “C” (2.0) or better. This course covers engineering measurement, data analysis, hardware of experiments including electronics, system components, and calibration, with specific applications in civil engineering. Spring. M&S fee $30.00 
+
+CGN 4808C ECS-CECE 3(2,2) CECE Capstone Design: PR: “C” (2.0) or better in a previous CECE design course and department consent. An interdisciplinary capstone design experience requiring problem definition, data collection, analysis of alternatives, economic evaluation of alternatives, and oral and written presentation of final design. Fall, Spring. 
+
+CGN 5506C ECS-CECE 3(2,2) Asphalt Concrete Mix Design: PR: CEG 4011C. Properties of asphalt, aggregate and asphalt mixtures, Marshall mix design, Hveem mix design, pavement rehabilitation. Occasional.
+
+CGS 1060C ECS-CS 3(2,2) Introduction to Computers: Digital literacy, computer hardware, peripheral components, memory devices, effects of computers on society, application of computers. Not open to Computer Science majors. Fall, Spring. 
+CGS 2100C ECS-CS 3(2,1) Computer Fundamentals for Business: Uses of computers and software in business, including business applications, commercial packages, and the internet. Not open to Computer Science majors. Fall, Spring. 
+CGS 2545C ECS-CS 3(2,1) Database Concepts: PR: COP 2500C or high level programming course (C, Java, C#, C++). Entity-relation model, relational database managements systems, normal forms, performance or databases, report generation. Fall, Spring. 
+CGS 2585C ECS-CS 3(2,1) Desktop/Internet Publishing: PR: COP 2500C or high level programming course (C, Java, C#, C++). Principles and techniques of page layout and formatting for documents and newsletters, presentation techniques, construction of web pages and design of integrated websites. Occasional. 
+
+CGS 3175 ECS-CS 3(3,0) Internet Applications: PR: COP 2500C or high level programming course (C, Java, C#, C++). HTML coding, using images, sound and animation, advanced text formatting, forms and CGS scripts, introduction to javascript. Fall, Spring.
+
+CGS 3269 ECS-CS 3(3,0) Computer Architecture Concepts: PR: COP 2500C or high level programming course (C, Java, C#, C++). CPU organization, current computer architectures, network file servers. Fall, Spring. 
+CGS 3763 ECS-CS 3(3,0) Operating System Concepts: PR: COP 2500C or high level programming course (C, Java, C#, C++). System calls, concept of processes, CPU scheduling, security issues, client server paradigms, and computer supported workgroups. Occasional. 
+CGS 4144 ECS-CS 3(3,0) Introduction to Informatics: PR: CGS 3175 and HIM 3006. Computers and mechanical intelligence. The information society. Social and information networks. Technology and its applications. Information organization and structure. Human behavior and communication. Occasional. 
+CGS 5131 ECS-CS 3(3,0) Computer Forensics I: Seizure and Examination of Computer Systems: PR: Computer literacy and C.I. Legal issues regarding seizure and chain of custody. Technical issues in acquiring computer evidence. Popular file systems are examined. Reporting issues in the legal system. Fall. 
+CIS 3003 ECS-CS 3(3,0) Fundamentals of Information Technology: PR: CGS 2545C and COP 3223. Pervasive themes in IT. Organizational issues. History of IT. IT and its related and informing disciplines. Application domains. Applications of math and statistics to IT. Fall.
+
+CIS 3360 ECS-CS 3(3,0) Security in Computing: PR: COP 3223 or EGN 3211 or CET 2364. Security theory. Legal and human factors, Malware, Intrusion patterns and tools, Windows, Unix, TCP/ IP, and applications vulnerabilities. Detection. Policies and enforcement. Protection and assurance. Occasional. 
+CIS 3362 ECS-CS 3(3,0) Cryptography and Information Security: PR: COP 3223 or EGN 3211 or CET 2364, and MAC 2147 or equivalent. Encryption algorithms and ciphers. Public and private keys. Key infrastructures. Authentication, confidentiality, integrity, and nonrepudiation. Digital signatures and certificates. Hash and digest algorithms. Standards. Occasional. 
+CIS 4004 ECS-CS 3(3,0) Web-Based Information Technology: PR: CNT 3004 and COP 3330. Digital libraries. Media formats. Compression. Streaming Media. Mobile internet and WML. Emerging technologies. Capacity planning for web services. Fall, Spring. 
+CIS 4313 ECS-CS 3(3,0) Managing IT Integration: PR: CIS 3003. Requirements, acquisition and sourcing. Integration. Project management. Testing and QA. Organizational context. Architecture. Spring. 
+CIS 4361 ECS-CS 3(3,0) Secure Operating Systems and Administration: PR: CIS 3360; CR: COP 4600 or CGS 3763 or EEL 4882. Understanding of secure operating systems requirements, design principles and theories, protection methods, access control, authentication, vulnerability, analysis and case studies. Occasional.
+
+CIS 4615 ECS-CS 3(3,0) Secure Software Development and Assurance: PR: (COP 4600 or CGS 3763) and (CIS 3360 or CIS 3362) or C.I. Thread modeling, Secure code life-cycle, Buffer overflows, race conditions and format string problems, Inputs and clients, File system, Cryptography applications, UMLsec, Java security and Reverse engineering. Occasional. 
+CIS 5105 ECS-CS 3(3,0) Capacity Planning and Performance Evaluation of Web Services: PR: COP 4600, graduate standing and/or approval of the Director of the Software Engineering Certificate Program. Web performance problems, basic performance concepts, quantitative models for web performance, planning the capacity of web services, understanding and characterizing the workload, measuring performance. Occasional. 
+CIS 5378 ECS-CS 3(3,0) Designing Secure Transactions in Web Applications: PR: Graduate standing and/or approval of the Director of the Software Engineering Certificate Program. Secure electronic commerce, data indirection, shell command injection, cross-site scripting, Web Trojans, symmetric encryption, security protocols, application vulnerabilities, threats and hackers. Spring. 
+CNT 3004 ECS-CS 3(3,0) Computer Network Concepts: CR: EEL 3041. Network media, protocol, current and evolving standards for local, metropolitan, wide area and wireless networks. Fall, Spring. 
+CNT 4403 ECS-CS 3(3,0) Network Security and Privacy: PR: (CNT 3004 or EEL 4781 or CNT 4704) and (CIS 3360 or CIS 3362) or C.I. Fundamentals of network security, protocols, secure applications, network intrusion detection, security policy, firewalls, and privacy issues. Occasional.
+
+CNT 4603 ECS-CS 3(3,0) System Administration and Maintenance: PR: CGS 3763. An examination of operating systems and applications installation, configuration, and maintenance, including client-server services, content management and deployment, server administration and management, and user/group management. Fall, Spring. 
+CNT 4703C ECS-CS 3(1,2) Design and Implementation of Computer Communication Networks: PR: CNT 3004, COP 3502C, MAD 2104 or COT 3100C. Data communication networking technologies (TCP/IP, Ethernet, Gigabit Ethernet, ATM, Frame Relay), products (routers, switches, adapters, cabling). Base design and detailed configuration including hands-on exercises. Fall, Spring. M&S fee $16.00 
+CNT 4704 ECS-CS 3(3,0) Analysis of Computer Communication Networks: PR: COT 3100C, STA 2023, MAC 2312. Network design using layering. Introduces cabling, topology, architecture, hardware and software. Includes performance and control issues such as congestion control, error control, contention resolution. Occasional. 
+CNT 4714 ECS-CS 3(3,0) Enterprise Computing: PR: CGS 3269, MAD 2104, COP 3330 and COP 3502C. Client-server architecture. Server-side scripting: Servlets, JSP, PHP. JDBC and MySQL database; connectivity. Multi-threaded Java applications. J2EE development. SSL., Event-driven programming. Fall, Spring. 
+CNT 5008 ECS-CS 3(3,0) Computer Communication Networks Architecture: PR: EEL 4768C. Computer networks, layers, protocols and interfaces, local area networks networking. Fall.
+
+COP 2500C ECS-CS 4(3,1) Concepts in Computer Science: Fundamental concepts in program design, data structures, algorithms, analysis and a survey of topics in CS. Not open to Computer Science majors. Fall, Spring. 
+COP 3223 ECS-CS 3(3,0) Introduction to Programming with C: Equivalent to EGN 3211. Programming in C including arrays, pointer manipulation and use of standard C math and IO libraries. Fall, Spring. 
+COP 3223H ECS-CS 3(3,0) Honors Introduction to Programming with C: PR: Consent of Honors. Programming with C including arrays, pointer manipulation and use of standard C math and IO libraries. With Honors content. Fall. 
+COP 3330 ECS-CS 3(3,0) Object Oriented Programming: PR: COP 3223 or EGN 3211. Object oriented programming concepts (classes, objects, methods, encapsulating, inheritance, interfaces) and the expression of these concepts in the programming languages such as JAVA. Fall, Spring. 
+COP 3402 ECS-CS 3(3,0) Systems Software: PR: CDA 3103, COP 3502C. Design and development of assemblers, linkers, loaders, and compilers. Study memory hierarchy, program performance, and system level I/O. Fall, Spring. 
+COP 3502C ECS-CS 3(3,1) Computer Science I: PR: (COP 3223 or EGN 3211) and MAC 1105C. Problem solving techniques, order analysis and notation, abstract data types, and recursion. Fall, Spring.
+
+COP 3502H ECS-CS 3(3,0) Honors Computer Science I: PR: Permission of Honors and (COP 3223 or EGN 3211) and MAC 1105C. Problem solving techniques, order analysis and notation, abstract data types, and recursion. Spring. 
+COP 3503C ECS-CS 3(3,1) Computer Science II: PR: COP 3502C and COP 3330 and (MAD 2104 or COT 3100C). Algorithm design and analysis for tree, list, set, and graph data models; algorithmic strategies and applications, and algorithmic complexity analysis; sorting and searching; practical applications. Fall, Spring. 
+COP 3503C ECS-CS 3(3,1) Honors Computer Science II: PR: Permission of Honors and (COP 3502H or COP 3502C) and COP 3330 and (MAD 2104 or COT 3100C). Algorithm design and analysis for tree, list, set, and graph data models; algorithmic strategies and applications, and algorithmic complexity analysis; sorting and searching; practical applications. With honors content. Fall. 
+COP 4020 ECS-CS 3(3,0) Programming Languages I: PR: COP 3503C and COT 3960. Paradigms and fundamental concepts of programming languages are presented, including: scope, binding, abstraction, encapsulation, typing etc. Design paradigms object-oriented, functional and logic programming are presented. Fall, Spring. 
+COP 4331C ECS-CS 3(3,1) Processes for Object-Oriented Software Development: PR: COP 3503C, COT 3960 (Foundation Exam - for Computer Science students). Concepts, principles, processes and methods for developing large software systems featuring a team project using objectoriented design in UML and implementation in C++. Fall, Spring.
+
+COP 4516C ECS-CS 3(1,3) Problem Solving Techniques and Team Dynamics: PR: COP 3503C. Design and implement solutions to problems requiring the applications of the different algorithms. Team project format. Occasional. 
+COP 4520 ECS-CS 3(3,0) Concepts of Parallel and Distributed Processing: PR: COP 3402 and COP 3503C and COT 3960. Parallel and distributed paradigms, architectures and algorithms, and the analytical tools, environments and languages needed to support these paradigms. Occasional. 
+COP 4600 ECS-CS 3(3,0) Operating Systems: PR: COP 3402 and COP 3503C and COT 3960 for Computer Science students. Function and organization of operating systems, process management, virtual memory, I/O management, and file management. Fall, Spring. COP 4610L ECS-CS 3(0,3) Operating Systems Laboratory: PR: COP 3502C. Exercises in the configuration, development, management and analysis of operating systems; OS Kernel support for semaphores and multi-tasking; security in a distributed heterogeneous environment. Fall, Spring. 
+COP 4710 ECS-CS 3(3,0) Database Systems: PR: COP 3503C. Storage and access Structures, database models and languages, related database design, and implementation techniques for database management systems. Fall, Spring.
+
+COP 4910 ECS-CS 3(3,0) Frontiers in Information Technology: PR: CNT 4603; CR: CNT 4703C. Research into leading edge information technologies that have a high likelihood of affecting the work place in the two to five year time frame. Fall, Spring. 
+COP 4934 ECS-CS 3(3,0) Senior Design I: PR: COP 3402, COP 3503C, Consent of Department of EECS; CR: COP 4331C. Students work in teams to demonstrate their knowledge of computer science and apply it to realistic and meaningful problems. Fall, Spring. 
+COP 4935 ECS-CS 3(3,0) Senior Design II: PR: COP 4934. Students work in teams to demonstrate their knowledge of computer science and apply it to realistic and meaningful problems. Fall, Spring. 
+COP 5021 ECS-CS 3(3,0) Program Analysis: PR: COP 4020 and COT 4210 or C.I. Static analysis of programs including theoretical and practical limitations, data flow analysis, abstract interpretation, and type and effect systems. Tools to automate program analysis. Even Spring. 
+COP 5537 ECS-CS 3(3,0) Network Optimization: PR: Graduate standing or C.I. Techniques for modeling complex, interconnected systems as networks; optimization with graph theory; algorithms, data structures, and computational complexity; statistical methods for studying large, evolving networks. Fall. 
+COP 5611 ECS-CS 3(3,0) Operating Systems Design Principles: PR: COP 4600. Structure and functions of operating systems, process communication techniques, high-level concurrent programming, virtual memory systems, elementary queuing theory, security, distributed systems, case studies. Spring.
+
+COP 5711 ECS-CS 3(3,0) Parallel and Distributed Database Systems: PR: COP 4710. Storage manager, implementation techniques for parallel DBMSs, distributed DBMS architectures, distributed database design, query processing, multidatabase systems. Occasional. 
+COT 3100C ECS-CS 3(3,1) Introduction to Discrete Structures: PR: MAC 1105C, MAC 1114C. Logic, sets, functions, relations, combinatorics, graphics, Boolean algebras, finite-state machines, Turing machines, unsolvability, computational complexity. Fall, Spring. 
+COT 3100H ECS-CS 3(3,0) Honors Introduction to Discrete Structures: PR: Permission of Honors and MAC 1105C, MAC 1114C. Logic, sets, functions, relations, combinatorics, graphics, Boolean algebras, finite-state machines, Turing machines, unsolvability, computational complexity. Occasional. 
+COT 3960 ECS-CS 0(1,0) CS Foundation Exam: PR: COP 3502C AND COT 3100C. Foundation examination for computer science majors. Required before taking advanced core courses in Computer Science and upper-division 4000 and 5000 level CS electives. Graded S/U. Fall, Spring. 
+COT 4210 ECS-CS 3(3,0) Discrete Structures II: PR: COP 3503C and COT 3960. Computation Theory. A study of the properties of grammars and automata as formal specifications for algorithms and families of languages. Fall, Spring. 
+COT 4400 ECS-CS 3(3,0) Tools for Algorithm Analysis: PR: COT 3960 and COP 3503C. Tools from discrete and continuous mathematics for analyzing complexity of algorithms. Order notation use and manipulation. Occasional.
+
+COT 4500 ECS-CS 3(3,0) Numerical Calculus: PR: MAC 2312 and COP 3223. Numerical methods for finding roots of nonlinear equations, solutions of systems of linear equations, and ordinary differential equations. Occasional. 
+COT 4810 ECS-CS 3(3,0) Topics in Computer Science: PR: COP 3402 and COP 3503C and COT 3960. A range of topics from the field of Computer science; application of oral and written communication skills; social, ethical and moral issues of computing. Fall, Spring. 
+COT 5310 ECS-CS 3(3,0) Formal Languages and Automata Theory: PR: COP 4020 and COT 4210. Classes of formal grammars and their relation to automata, normal forms, closure properties, decision problems. LR(K) grammars. Fall, Spring. 
+COT 5405 ECS-CS 3(3,0) Design and Analysis of Algorithms: PR: COT 4210. Classification of algorithms, e.g., recursive, divide andconquer, greedy, etc. Data Structures and algorithm design and performance. Time and space complexity analysis. Fall, Spring. 
+
+
+EEE 3307C ECS-ECE 4(3,3) Electronics I: PR: EEL 3123C. Electronic devices including p-n junctions, bipolar transistors, field effect transistors and device models. Fall, Spring. M&S fee $15.00 
+
+
+EEE 3342C ECS-ECE 3(2,3) Digital Systems: PR: MAC 2311C, MAC 2312, PHY 2048C, PHY 2049C all with a “C” (2.0) or better grade. Combinational and sequential logic circuits including registers, arithmetic units, memories, finite state machines, and design with programmable logic devices. Fall, Spring. M&S fee $9.00
+
+
+EEE 3350 ECS-ECE 3(3,0) Semiconductor Devices I: PR: EEL 3004C and PHY 3101. Semiconductor device physics, energy band diagrams, electronic devices including p-n junctions, bipolar transistors, field effect transistors and device models. Fall, Spring. 
+
+EEE 4309C ECS-ECE 4(3,3) Electronics II: PR: EEE 3307C, EEE 3342C. Ideal Op-Amps and applications. Introduction to Logic Circuits; Bipolar, MOS and CMOS families; Flip-flops and memory cells, comparators and timing circuits: A/D and D/A converters. Fall, Spring. M&S fee $20.00 
+
+EEE 4314 ECS-ECE 3(3,0) Device Electronics for Integrated Circuits: PR: EEE 3350. P.N. Junctions, Bipolar Transistor Analysis, Metal Semiconductor contacts, MOS Systems MOSFET Analysis and Limitations. Occasional. 
+
+EEE 4463 ECS-ECE 3(3,0) MEMS Devices and Applications: PR: EEE 3350 or C.I. Micro-Electro Mechanical Systems devices, microfabrication, sensors and actuators, bulk and surface micromachining, optical MEMS, instrumentation and applications. Fall. 
+
+EEE 5332C ECS-ECE 3(2,1) Thin Film Technology: PR: EEE 3350 or equivalent. Presents the various thin film deposition techniques for the fabrication of microelectronic, semiconductor, and optical devices. Occasional. M&S fee $70.00 
+
+EEE 5352 ECS-ECE 3(3,0) Semiconductor Material and Device Characterization: PR: EEE 3350 or C.I. Semiconductor material characterization resistivity, mobility, doping carrier lifetime, device properties, threshold voltage, interface charge of MOS devices, optical and surface characterization of films. Occasional.
+
+EEE 5353 ECS-ECE 3(3,0) Semiconductor Device Modeling and Simulation: PR: EEE 3307C. Large signal and small signal model development for semiconductor diodes, BJTs, and MOSFETs. Parameter extraction, numerical algorithm, and SPICE simulation are included. Spring. 
+
+EEE 5356C ECS-ECE 4(3,3) Fabrication of Solid-State Devices: PR: EEE 3350. Fabrication of microelectronic devices, processing technology, ion implantation and diffusion, device design, and layout. Laboratory includes device processing technology. Fall, Spring. M&S fee $70.00 
+
+EEE 5370 ECS-ECE 3(3,0) Operational Amplifiers: PR: EEE 4309C. Ideal and non-ideal Op-Amps. Linear applications. Active RC and switched-capacitor filters. Non-linear and other functional circuits. Frequency stability and compensation of Op-Amps. Even Fall. 
+
+EEE 5378 ECS-ECE 3(3,0) CMOS Analog and Digital Circuit Design: PR: EEE 4309C. Advanced principles and design techniques for CMOS ICs including most recent published results. Fall. 
+
+EEE 5390 ECS-ECE 3(3,0) Full-Custom VLSI Design: PR: EEE 3342C, EEE 3307C. CMOS VLSI design methodologies; full custom chip design, industrial CAD tools; simulation; verification. Spring. 
+
+EEE 5513 ECS-ECE 3(3,0) Digital Signal Processing Applications: PR: EEL 4750. The design and practical consideration for implementing Digital Signal Processing Algorithms including Fast Fourier Transform techniques, and some useful applications. Spring.
+
+EEE 5542 ECS-ECE 3(3,0) Random Processes I: PR: EEL 3552C and STA 3032. Elements of probability theory, random variables, and stochastic processes. Fall, Spring. 
+
+EEE 5555 ECS-ECE 3(3,0) Surface Acoustic Wave Devices and Systems: PR: EEL 3552C. Course discusses SAW technology which includes the physical phenomenon, transducer design and synthesis, filter design and performance parameters. Actual devices and communication systems are presented. Occasional. 
+
+EEE 5557 ECS-ECE 3(3,0) Introduction to Radar Systems: PR: EEL 3552C. Introduction to Pulse and CW Radar Systems. Chirp Radar Systems. Tracking Radar. Noise in Radar Systems. Spring. 
+
+EEL 3004C ECS-ECE 3(3,2) Electrical Networks: PR: MAC 2311C, MAC 2312, MAC 2313, PHY 2048C, PHY 2049C all with a “C” (2.0) or better grade. CR: MAP 2302. Analysis and design of linear circuits, transients, ac analysis, power calculations and three-phase circuits. Fall, Spring. 
+
+EEL 3004C ECS-ECE 3(3,2) Honors Electrical Networks: PR: Permission of Honors and MAC 2311C, MAC 2312, MAC 2313, PHY 2048C, PHY 2049C all with a “C” (2.0) or better grade. CR: MAP 2302. Analysis and design of linear circuits, transients, ac analysis, power calculations and three phase; circuits. Spring.
+
+EEL 3041 ECS-ECE 3(3,0) Circuit Analysis: PR: PHY 2053C. Study of electrical networks. Circuit analysis techniques are presented, including DC and steady state analysis. Power calculations, power distribution and dissipation are covered with examples relating to cables, connections, and buses. Not open to EE and CpE majors. Fall, Spring. 
+
+EEL 3123C ECS-ECE 4(3,1) Networks and Systems: PR: EEL 3004C, MAP 2302 with a “C” (2.0) or better grade. Network functions, Laplace transforms, frequency domain analysis using Fourier series and transforms, sampling theory and Z-transforms. Fall, Spring. M&S fee $15.00 
+
+EEL 3470 ECS-ECE 3(3,0) Electromagnetic Fields: PR: EEL 3004C. Electric and magnet fields and electromagnetic waves. Fall, Spring. 
+
+EEL 3531 ECS-ECE 3(3,0) Information Theory: PR: STA 2023. Entropy and mutual information. Asymptotic equipartition property. Entropy rates of a stochastic process. Date compression. Channel capacity. Gaussian channel. Rate distortion theory. Network information theory. Not open to EE or CpE majors. Fall, Spring. 
+
+EEL 3552C ECS-ECE 4(3,3) Analog and Digital Communication Fundamentals: PR: EEL 3123C. Fourier Transform Theory, fundamentals of AM and FM, Baseband pulse and digital signaling, Bandpass signaling, digital modulation and detection. Fall, Spring. M&S fee $15.00 
+
+EEL 3657 ECS-ECE 3(3,0) Linear Control Systems: PR: EEL 3123C. Control theory, transfer function modeling, Nyquist criteria, root locus, Bode plots, and Design of lead and lag compensation. Fall, Spring.
+
+EEL 3801C ECS-ECE 3(3,2) Computer Organization: PR: EGN 3211, EEE 3342C. Computer arithmetic, Instruction Set Architecture, performance, data path, control unit, memory hierarchy, I/O interface. Fall, Spring. EEL 4050L ECS-ECE 1(0,3) EECS Integrated Laboratory: PR: EEL 3552C, EEL 3657, EEL 4750. Topics: Sampling, Digital FIR and IIR Filters, DSP processing of sound signals, transmitters and receivers based upon AM and FM, PID controller and feedback systems, and power conversion. Occasional. 
+
+EEL 4140C ECS-ECE 4(3,3) Analog Filter Design: PR: EEL 3123C. Passive and active analog filter design. Fall. M&S fee $15.00 
+
+EEL 4205 ECS-ECE 3(3,0) Electric Machinery: PR: EEL 3004C. Fundamentals of DC and AC electric machines. Occasional. 
+
+EEL 4216 ECS-ECE 3(3,0) Fundamentals of Electric Power Systems: PR: EEL 3004C or C.I. Three-phase power representation and analysis, transformers, per unit system, symmetrical components, faults, and transmission lines. Spring. 
+
+EEL 4436C ECS-ECE 4(3,3) Microwave Engineering: PR: EEL 3470. Transmission line theory, Smith charts, S-parameters, simple impedance matching circuits, wave guides, resonators, basic microwave measurements. May be repeated for credit. Fall. M&S fee $35.00 
+
+EEL 4440 ECS-ECE 3(3,0) Optical Engineering: PR: EEL 3470, EEL 3552C or C.I. Lens systems, aberrations, sources, radiometry, detectors, physical optics, interferometric devices, applications to engineering design problems. Spring.
+
+EEL 4512C ECS-ECE 4(3,3) Communication Systems: PR: STA 3032, EEL 3552C and EEE 3307C. Information transmission, modulation, and noise; design and comparison systems in the presence of noise. Occasional. 
+
+EEL 4515C ECS-ECE 4(3,3) Digital Communication Systems: PR: EEL 3552C. Sampling and quantization, PAM, PWM, PTM, PCM, and Delta Modulation ASK, FSK, PSK, MPSK, introduction to coding. Fall. M&S fee $20.00 
+
+EEL 4518 ECS-ECE 3(3,0) Satellite Communications: PR: EEL 3552C. The principles of satellite communications, including communications satellites, Earth stations, link analysis, FDMA and TDMA. May be repeated for credit. Fall. 
+
+EEL 4612C ECS-ECE 4(3,3) Introduction to Modern and Robust Control: PR: EEL 3657. Classical control theory including differential equations and Laplace transform techniques, stability analysis, and classical frequency domain design. Modeling and Position, Speed, Vibration Control Design Laboratories. Occasional. 
+
+EEL 4635C ECS-ECE 4(3,3) Computer Control Systems: PR: EEL 3657. Discrete-time systems, the z-transform, and single loop computer control systems. Digital simulation in the analysis and design of processes with embedded computers. No graduate credit for both EEL 5630 and this course. Occasional. 
+
+EEL 4660 ECS-ECE 3(3,0) Robotic Systems: PR: EGN 4060C or EEL 4742C or COP 3503C. Team based development of a robotic system incorporating concepts such as sensing, computer vision, machine learning, localization, mapping, manipulation and locomotion. Spring.
+
+EEL 4742C ECS-ECE 4(3,3) Embedded Systems: PR: EEL 3801C. Microcontroller systems, assembly language programming, data representation, memory and device interfacing, timing analysis, parallel and serial communication, timers, interrupts, signal interfacing considerations, and applications. Fall, Spring. M&S fee $15.00 
+
+EEL 4750 ECS-ECE 3(3,0) Digital Signal Processing Fundamentals: PR: EEL 3123C. Study of discrete-time signals and systems, Z-transform, DFT introduction to digital filter design. Fall, Spring. 
+
+EEL 4768 ECS-ECE 3(3,0) Computer Architecture: PR: EEL 3801C or CDA 3103. Computer systems performance and evaluation, processor datapath and control, microprogrammed architectures, instruction and arithmetic pipelines, cache and virtual memory, and RISC vs. CISC. Fall, Spring. 
+
+EEL 4781 ECS-ECE 3(3,0) Computer Communication Networks: PR: EEL 3801C, STA 3032. Network models. Media access protocols. Data link control. Routing and flow control. Internetworking. Current architectures and protocols: OSI, ethernet, token, ring, FDDI, HSLC, X.25, etc. Fall, Spring. 
+
+EEL 4783 ECS-ECE 3(3,0) Hardware Description Languages in Digital Systems Design: PR: EEE 3342C. Hardware description languages, simulation and synthesis of RTL circuits and systems, design examples and projects. Occasional.
+
+EEL 4817H ECS-ECE 3(3,0) Honors Current Topics in Machine Learning II: PR: Consent of Honors and EEL 4818H. Research topics in Machine Learning. Students will be assigned a research project and a faculty mentor who will supervise this project. Spring. 
+EEL 4818H ECS-ECE 3(3,0) Honors Current Topics in Machine Learning I: PR: Consent of Honors and EEL 3801 or COP 3223 or STA 3032 or C.I. Machine Learning and Applications. ART Neural Networks, Genetic Algorithms, Decision Trees, Evolutionary Hardware, Evolutionary Neural Networks, and Reinforcement Learning. Fall. 
+
+EEL 4832 ECS-ECE 3(3,0) Engineering Applications of Computer Methods: PR: MAP 2302, STA 3032, EGN 3420. Engineering applications of numerical methods, including solution of differential equations, simulation, optimization, and multidimensional root-finding, integration and series approximations. Fall, Spring. 
+
+EEL 4851C ECS-ECE 4(3,3) Engineering Data Structures: PR: EEL 3801C. Design of data structures and algorithms, with emphasis on performance analysis, memory organization, stacks, queues, linked lists, trees, graphs, searches, and sorts. Introduction to object-oriented structures. Fall, Spring. 
+
+EEL 4872 ECS-ECE 3(3,0) Engineering Applications of Intelligent Systems: PR: EEL 4851C or COP 3503C or equivalent or C.I. Knowledge and intelligence, predicate logic and automated reasoning, heuristic search, knowledge representation, automated planning, introduction to machine learning, knowledge-based systems and philosophy of AI. Occasional.
+
+EEL 4882 ECS-ECE 3(3,0) Engineering Systems Software: PR: EEL 4851C and EEL 4742C. Introduction to operating systems concepts and facilities for engineering applications, including multiprogramming, resource allocation and management, systems utilities, and operating system implementation. Fall, Spring.
+
+EEL 4884C ECS-ECE 4(3,3) Engineering Software Design: PR: EEL 4851C. Software systems development life cycle, function and object-oriented methodologies, CASE; Analysis, design, and development of a large software project. Fall, Spring. 
+
+EEL 4890 ECS-ECE 3(3,0) Continuous System Simulation I: PR: MAP 2302. Numerical integration techniques and discrete time system models for approximating the dynamics of continuous systems. Occasional. 
+
+EEL 4914 ECS-ECE 3(3,0) Senior Design I: PR: EEE 3307C, EEL 4742C, and consent of School of EECS. Applications of engineering design to realistic and meaningful problems. Constraints such as economic factors, safety, reliability, aesthetics, ethics, social impact and engineering organizations are considered. Fall, Spring. EEL 4915L ECS-ECE 3(0,3) Senior Design II: PR: EEL 4914. Execution of electrical and computer engineering project including complete project design review, construction, testing and demonstration. Emphasis on design, prototyping, cost, functionality, presentation, team effort and final report. Fall, Spring. M&S fee $15.00
+
+EEL 5173 ECS-ECE 3(3,0) Linear Systems Theory: PR: EEL 3657. Models and properties of linear systems, transformation, controllability and observability, control and observer designs, MFD, and realization theory. Spring. 
+
+EEL 5185 ECS-ECE 3(3,0) System Identification: PR: EEL 3657 or C.I. Dynamic systems, models of time-invariant linear, timevarying and nonlinear systems, nonparametric frequencyand time-domain identification methods, kernel expansion techniques, parameter estimation methods, experiment design, and applications. Spring. 
+
+EEL 5245C ECS-ECE 3(2,1) Power Electronics: PR: EEE 4309C. Principles of power electronics, power semiconductor devices, inverter topologies, switch-mode and resonant dc-to-dc converters, cyclo-converters, applications. Fall. 
+
+EEL 5272 ECS-ECE 3(3,0) Biomedical Sensors: PR: EEL 4750 or EEL 4832 or C.I. Study of engineering concepts behind the various biomedical sensors used to monitor a patient undergoing clinical therapy. Occasional. 
+
+EEL 5432 ECS-ECE 3(3,0) Satellite Remote Sensing: PR: EEL 3470 or PHY 4324. Fundamentals of satellite remote sensing, orbits and geometry, radiative transfer theory, microwave and infrared sensing techniques, ocean, ice and atmosphere geophysical measurements. Occasional. 
+
+EEL 5437C ECS-ECE 4(3,3) Microwave Engineering: PR: EEL 3470 or C.I. Transmission line theory, Smith charts, S-parameters, simple impedance matching circuits, wave guides, resonators, basic microwave measurements. Fall. M&S fee $38.81
+
+EEL 5439C ECS-ECE 4(3,1) RF and Microwave Communications: PR: EEL 4436C or equivalent. RF and microwave active circuits microstrip amplifier, oscillator, and mixer design and fabrication. Receiver design, noise, familiarization with network and spectrum analyzers. Spring. M&S fee $40.00 
+
+EEL 5462C ECS-ECE 3(3,1) Antenna Analysis and Design: PR: EEL 3470 or equivalent. Fundamentals of antennas; dipoles, loops, arrays, apertures, and horns. Analysis and design of various antennas. Odd Fall. 
+
+EEL 5625 ECS-ECE 3(3,0) Applied Control Systems: PR: C.I. Designed to develop basic understanding of advanced control methods for nonlinear systems described by ordinary and partial differential equations and to expose recent results and ongoing research issues in the area of MEMS. Occasional. 
+
+EEL 5630 ECS-ECE 3(3,0) Digital Control Systems: PR: EEL 3657. Real-time digital control system analysis and design, Z-transforms, sampling and reconstruction, time and frequency response, stability analysis, digital controller design. Fall. 
+
+EEL 5669 ECS-ECE 3(3,0) Autonomous Robotic Systems: PR: EEL 3657 or C.I. Introduction to robotics, with emphasis on kinematics, dynamics, trajectory planning, regulation and tracking, formation control, and cooperative rules and behaviors of robotic vehicles. Odd Fall. 
+
+EEL 5690 ECS-ECE 3(3,0) Introduction to Medical Robotics and TeleOperation: PR: EEL 3657 or Medical students in their second year or later. Medical robots for minimally invasive surgery, kinematics, constrained workspace and dexterity, haptics, tele-operation and network based control, basics of laparoscopic surgery. Occasional.
+
+EEL 5704 ECS-ECE 3(3,0) Computer Aided Logical Design: PR: EEL 4742C. Design, analysis and synthesis of sequential logic circuits and systems. Data path and controller design using a hardware description language. Occasional. 
+
+EEL 5722C ECS-ECE 3(3,3) Field-Programmable Gate Array (FPGA) Design: PR: EEE 3342C or C.I. FPGA architectures, design flow, technology mapping, placement, routing, reconfigurable computing applications, and evolvable hardware. Even Fall. 
+
+EEL 5771C ECS-ECE 3(2,3) Engineering Applications of Computer Graphics: PR: EGN 3420 or C.I. Computer graphics in engineering applications. Laboratory assignments. Occasional. 
+
+EEL 5780 ECS-ECE 3(3,0) Wireless Networks: PR: EEL 4781 or C.I. The wireless networking topics include: cellular networks, multiple access protocols, channel assignment and resource allocation, mobility and location management, handoffs, routing, authentication, call admission control and QoS provisioning, network layer issues, wireless data networking (WAP, GSM, GPRS, CDMA, WCDMA.). Even Spring. 
+
+EEL 5820 ECS-ECE 3(3,0) Image Processing: PR: MAP 2302, EEL 4750 or C.I. Two-dimensional signal processing techniques; pictorial image representation; spatial filtering; image enhancement and encoding; segmentation and feature extraction; introduction to image understanding techniques. Odd Spring.
+
+EEL 5825 ECS-ECE 3(3,0) Pattern Recognition: PR: EEL 4750 or C.I. Preliminaries of pattern recognition, Bayesian Decision Theory, linear discriminant functions, Neural Network approaches, decision tree classifiers, unsupervised learning and clustering, non-parametric techniques, and other topics reflecting the state-of-the art. Occasional. 
+
+EEL 5860 ECS-ECE 3(3,0) Software Requirements Engineering: PR: Graduate standing or C.I. Excellent oral and written communication skills. Excellent problem solving skills. In-depth study of software requirements engineering within a process centered framework. Methods for requirements elicitation, analysis, description, and validation. Formal and informal specification. Occasional. 
+
+EEL 5874 ECS-ECE 3(3,0) Expert Systems and Knowledge Engineering: PR: EEL 4872 or CAP 4630 C.I. Introduction to expert systems in engineering. Expert systems tools and interviewing techniques. This course is hands-on and project oriented. Spring. 
+
+EEL 5881 ECS-ECE 3(3,0) Software Engineering I: PR: COP 4331C or C.I. Design, implementation, and testing of computer software for Engineering applications. Fall, Spring. 
+
+EEL 5892 ECS-ECE 3(3,0) Continuous System Simulation II: PR: EEL 4890. Introduction to Simulink. Numerical integration including one-step and multi-step methods. Stiff systems and numerical stability. Simulink projects. Odd Spring. 
+
+EEL 5936 ECS-ECE 0(1,0) Current Topics in EECS: PR: Open to all ECE graduate students. Lectures presented by ECE and national lectures will provide our students a broad view of the state of the art EE and CE fields. Graded S/U. Occasional.
+
+EGN 3211 ECS-ECE 3(3,0) Engineering Analysis and Computation: PR: MAC 2312. Engineering analysis and computation with structured constructs. Subscripted variables, functions, input/output. Applications in embedded systems and examples in numerical methods. Fall, Spring. 
+
+EGN 3373 ECS-ECE 3(3,0) Principles of Electrical Engineering: PR: PHY 2049C; CR: MAP 2302. Fundamentals of electrical circuits and analysis; fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. Fall, Spring. 
+EGN 3373H ECS-ECE 3(3,0) Honors Principles of Electrical Engineering: PR: Permission of Honors and PHY 2049C, CR: MAP 2302. Fundamentals of electrical circuits and analysis. Fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. Spring. 
+
+EGN 4060C ECS-ECS 3(2,3) Introduction to Robotics: PR: COP 3223 or EGN 3211; and EEL 3657or EEL 4742C or COP 3503C or EGN 3321 or EML 3217. Theory and application of robotics topics including; architecture, path planning, sensing and manipulation. Fall.

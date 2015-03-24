@@ -1,0 +1,292 @@
+
+<head>
+  <title>agora</title>
+</head>
+
+<body>
+	<div class="left-pane">
+			{{> courseList}}
+	</div>
+    	<div class="center-pane">
+
+	  		{{> schedule}}
+		</div>
+</body>
+
+
+<template name="schedule">
+	<div class="full height">
+		<div id="openSidebar" class="ui button">Sidebar</div>
+		<div class="ui segment">
+			<div id="dragArea" class="ui segment">
+				<div class="drop" id="dragAreaGrid">
+					{{#each schedule}}
+						{{#each withIndexYear fall year}}
+							<div class="drag blue" yr={{year}} col=0 row={{index}}>
+								{{value}}
+							</div>
+						{{/each}}
+						{{#each withIndexYear spring year}}
+							<div class="drag blue" yr={{year}} col=1 row={{index}}>
+								{{value}}
+							</div>
+						{{/each}}
+
+						{{#each withIndexYear summer year}}
+							<div class="drag blue" yr={{year}} col=2 row={{index}}>
+								{{value}}
+							</div>
+						{{/each}}
+					{{/each}}
+				</div>
+
+				{{#each schedule}}
+				<table class="ui three column celled table">
+					<thead>
+						<tr>
+						  <th>Fall</th>
+						  <th>Spring</th>
+						  <th>Summer</th>
+						</tr>
+					</thead>
+					<tbody id="tableDragArea{{year}}">
+						<tr>
+							<td class="fallClass1"><i class="radio icon"></i></td>
+							<td class="springClass1"><i class="radio icon"></i></td>
+							<td class="summerClass1"><i class="radio icon"></i></td>				
+						</tr>
+						<tr>
+							<td class="fallClass2"><i class="radio icon"></i></td>
+							<td class="springClass2"><i class="radio icon"></i></td>
+							<td class="summerClass2"><i class="radio icon"></i></td>								
+						</tr>
+						<tr>
+							<td class="fallClass3"><i class="radio icon"></i></td>
+							<td class="springClass3"><i class="radio icon"></i></td>
+							<td class="summerClass3"><i class="radio icon"></i></td>								
+						</tr>
+						<tr>
+							<td class="fallClass4"><i class="radio icon"></i></td>
+							<td class="springClass4"><i class="radio icon"></i></td>
+							<td class="summerClass4"><i class="radio icon"></i></td>								
+						</tr>
+						<tr>
+							<td class="fallClass5"><i class="radio icon"></i></td>
+							<td class="springClass5"><i class="radio icon"></i></td>
+							<td class="summerClass5"><i class="radio icon"></i></td>								
+						</tr>
+					</tbody>
+				</table>
+				{{/each}}
+
+			</div>
+		</div>
+  </div>
+</template>
+
+<template name="courseList">
+
+	<div class="ui segment">
+		<div class="ui form">
+			<div class="two fields">
+				<div class="field">
+					<div id="collegeDropdown" class="ui dropdown labeled search icon button">
+					    <i class="filter icon"></i>
+					    <span class="text">College</span>
+					    <div class="menu">
+					    	{{#each collegeList}}
+					    	<div class="item">{{this}}</div>
+					    	{{/each}}
+					  </div>
+					</div>
+				</div>		
+				<div class="field">
+					<div id="deptDropdown" class="ui dropdown labeled search icon button">
+						<i class="filter icon"></i>
+					    <span class="text">Dept</span>
+					    <div class="menu">
+					    	{{#each deptList}}
+					    	<div class="item">{{this}}</div>
+					    	{{/each}}
+					  </div>
+					</div>
+				</div>
+				<script>$('.ui.dropdown.labeled.search.icon.button').dropdown();</script>
+			</div>
+		<div class="field">
+			<div class="ui labeled icon input">
+				<div class="ui label">
+		    		Code
+		  		</div>
+				 <i class="filter icon"></i>
+			  	<input id="codeSearchBox" type="text">
+
+			</div>
+		</div>
+		<div class="field">
+			<div class="ui labeled icon input">
+			  	<div class="ui label">
+		    		Title
+		  		</div>
+				 <i class="filter icon"></i>
+			  	<input id="titleSearchBox" type="text">
+			</div>
+		</div>
+		<div class="two fluid fields">
+			<div class="field">
+				<div id="resetButton" class="ui fluid button">Reset</div>
+			</div>
+			<div class="field">
+				<div id="searchButton" class="ui fluid button">Search</div>
+			</div>
+		</div>
+
+	</div>
+
+<!-- 		<div class="ui fluid search form">
+			<div class="ui labeled icon input">
+				 <div class="ui label">
+		    		College
+		  		</div>
+			  <input id="collegeSearchBox" type="text" placeholder="ECS">
+			  <i class="search icon"></i>
+			</div>
+
+			<div class="ui labeled icon input">
+				 <div class="ui label">
+		    		Department
+		  		</div>
+			  <input id="deptSearchBox" type="text" placeholder="CS">
+			  <i class="search icon"></i>
+			</div>
+
+			<div class="ui labeled icon input">
+				 <div class="ui label">
+		    		Type
+		  		</div>
+			  <input id="typeSearchBox" type="text" placeholder="COP">
+			  <i class="search icon"></i>
+			</div>
+
+			<div class="ui labeled icon input">
+				 <div class="ui label">
+		    		Number
+		  		</div>
+			  <input id="numSearchBox" type="text" placeholder="3502">
+			  <i class="search icon"></i>
+			</div>
+
+			<div class="ui labeled icon input">
+				 <div class="ui label">
+		    		Title
+		  		</div>
+			  <input id="titleSearchBox" type="text" placeholder="Computer Science 1">
+			  <i class="search icon"></i>
+			</div>
+		</div> -->
+	</div>
+
+<div class="ui form">
+	<div class="three fields">
+		<div class="field">
+			<div id="yearDropdown" class="ui compact selection dropdown">
+				<input type="hidden" value="Year">
+				 <div class="text">Year</div>
+			    <i class="dropdown icon"></i>
+			    <div id="yearMenu" class="menu">
+			        <div class="item" data-value="0">Freshman</div>
+			        <div class="item" data-value="1">Sophomore</div>
+			        <div class="item" data-value="2">Junior</div>
+			        <div class="item" data-value="3">Senior</div>
+			    </div>
+			</div>
+			<script>$('#yearDropdown').dropdown();</script>
+		</div>
+		<div class="field">
+			<div id="semesterDropdown" class="ui compact selection dropdown">
+				<input type="hidden" value="Sem">
+				 <div class="text">Sem</div>
+			    <i class="dropdown icon"></i>
+			    <div id="semesterMenu" class="menu">
+			        <div class="item" data-value="0">Fall</div>
+			        <div class="item" data-value="1">Spring</div>
+			        <div class="item" data-value="2">Summer</div>
+			    </div>
+			</div>
+			<script>$('#semesterDropdown').dropdown();</script>
+		</div>
+		<div class="field">
+			<div id="addCourseButton" class="ui icon button"><i class="add icon"></i></div>
+			<div id="refreshButton" class="ui icon button"><i class="refresh icon"></i></div>
+		</div>
+					
+	</div>
+	
+</div>
+
+	<div class="ui red segment">
+
+		<div class="ui cards">
+		{{#each courseArray}}
+		  <div id="card{{_id}}" class="course card">
+		    <div class="middle aligned content">
+		      <div class="header">
+		        {{title}}
+		      </div>
+		      <div class="description">
+		        <p>
+			        {{identifier}} - {{college}}-{{dept}} {{cedits}}
+			    </p>
+			    <p>
+			        {{description}}
+			    </p><p>
+			        {{prereqs}}
+		    	</p>
+		      </div>
+		    </div>
+		  </div>
+		 {{/each}}
+    	</div>
+
+<!-- 		<div class="ui cards">
+			{{#each courseArray}}
+			  <div class="card">
+			    <div class="content">
+			      <div class="header">{{identifier}}</div>
+			      <div class="description">
+			        {{title}}<br>{{credits}}<br>{{description}}<br>{{prereqs}}
+			      </div>
+			    </div>
+			  </div>
+			 {{/each}}
+		</div> -->
+  	</div>
+<!--   	<div class="ui blue segment">
+  		<div class="3 fluid ui buttons">
+  		<div class="ui vertical animated button">
+		  <div class="hidden content">
+		  	<i class="red remove icon"></i>
+		  </div>
+		  <div class="visible content">
+		    Fall
+		  </div>
+		</div>
+		 <div class="ui vertical animated button">
+		  <div class="hidden content">
+		  	<i class="green add icon"></i>
+		  </div>
+		  <div class="visible content">
+		    Spring
+		  </div>
+		</div>
+		 <div class="ui vertical animated button">
+		  <div class="hidden content">
+		  	<i class="red minus icon"></i>
+		  </div>
+		  <div class="visible content">
+		    Summer
+		  </div>
+		</div>
+	</div>
+  	</div> -->
+</template>
