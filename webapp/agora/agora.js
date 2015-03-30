@@ -2,12 +2,11 @@
 
 if (Meteor.isClient) {
 
-  Template.registerHelper('withIndexYear', function (array, year) {
+  Template.registerHelper('withIndex', function (array) {
     return _.map(array, function (val, i) {
       return {
         'index': i,
-        'value': val,
-        'year' : year
+        'value': val
       };
     });
   });
@@ -16,14 +15,14 @@ if (Meteor.isClient) {
     return Session.get('isSidebarOpen');
   });
 
-  Template.courseList.rendered = function(){
-      $('#searchResults').css({top: '220px',width:'350px', 'min-height':'740px'});
-  }
-
   Session.setDefault('searchParam', {});
   Session.setDefault('selectedCourse',null);
   Session.setDefault('selectedCard',null);
   Session.setDefault('isSidebarOpen',false);
+
+  Template.courseList.rendered = function(){
+      $('#searchResults').css({top: '220px',width:'350px', 'min-height':'740px'});
+  }
 
   Template.courseList.helpers({
     courseArray: function () {
@@ -90,36 +89,28 @@ if (Meteor.isClient) {
       Template.courseList.rendered();
     },
     'click #addCourseButton' : function(event){
-      var grid = Session.get('scheduleGrid');
-      var sched = Session.get('schedule');
+      var schedule = Session.get('schedule');
       var course = Session.get('selectedCourse');
       var lastCard = Session.get('selectedCard');
       var col = $('#semesterDropdown').dropdown('get value');
       var yr = $('#yearDropdown').dropdown('get value');
-      var gridRow = null;
+      var row = null;
 
       if (col == 'Sem' || yr == 'Year')
         return false;
 
-      for(var row in grid[yr][col]) {
-        if(grid[yr][col][row]) {
-          gridRow = row;
+      for(var curRow in schedule[yr][col]) {
+        if(schedule[yr][col][curRow] == "") {
+          row = curRow;
           console.log(yr,col,row);
           break;
         }
       }
       
-      if(gridRow && course) {
-        if (col == 0)
-          sched[yr].fall[gridRow] = course.identifier;
-        if (col == 1)
-          sched[yr].spring[gridRow] = course.identifier;
-        if (col == 2)
-          sched[yr].summer[gridRow] = course.identifier;
+      if(row && course) {
+        schedule[yr][col][row] = course.identifier;
 
-        grid[yr][col][gridRow] = 0;
-        Session.set('scheduleGrid',grid);
-        Session.set('schedule',sched);
+        Session.set('schedule',schedule);
         Session.set('selectedCourse',null);
         Session.set('selectedCard',null);
         $('#'+ lastCard).css('background','rgb(255, 255, 255)');
@@ -157,80 +148,33 @@ if (Meteor.isClient) {
     }
   });
 
-/*  var schedule = [
-  {
-    year : 0,
-    fall : ["ACG 4671","CAP 4053","CCE 4810C","CCE 4402"],
-    spring : ["CAP 5610","CAP 5510","CAP 5100"],
-    summer : ["CAP 5015","CAP 4104","CAP 4453","CAP 4720"]
-  },
-  {
-    year : 1,
-    fall : ["ACG 4671","CAP 4053","CCE 4810C","CCE 4402"],
-    spring : ["CAP 5610","CAP 5510","CAP 5100"],
-    summer : ["CAP 5015","CAP 4104","CAP 4453","CAP 4720"]
-  },
-  {
-    year : 2,
-    fall : ["ACG 4671","CAP 4053","CCE 4810C","CCE 4402"],
-    spring : ["CAP 5610","CAP 5510","CAP 5100"],
-    summer : ["CAP 5015","CAP 4104","CAP 4453","CAP 4720"]
-  },
-  {
-    year : 3,
-    fall : ["ACG 4671","CAP 4053","CCE 4810C","CCE 4402"],
-    spring : ["CAP 5610","CAP 5510","CAP 5100"],
-    summer : ["CAP 5015","CAP 4104","CAP 4453","CAP 4720"]
-  }];*/
+var sched = 
+[// schedule[0] is the first year
+  [ //schedule[0][0] is the first semester (fall) of the first year 
+      ["ACG 4671","CAP 4053","CCE 4810C","CCE 4402",""],
+      ["","","","",""],
+      ["","","COP 1234","",""]  
+  ],
+  [   
+      ["","","","",""],
+      ["","","","",""],
+      ["","","","",""]  
+  ],
+  [   
+      ["","","","",""],
+      ["","","","",""],
+      ["","","","",""]  
+  ],
+  [   
+      ["","","","",""],
+      ["","","","",""],
+      ["","","","",""]  
+  ]
+];
 
-    var schedule = [
-  {
-    year : 0,
-    fall : [],
-    spring : [],
-    summer : []
-  },
-  {
-    year : 1,
-    fall : [],
-    spring : [],
-    summer : []
-  },
-  {
-    year : 2,
-    fall : [],
-    spring : [],
-    summer : []
-  },
-  {
-    year : 3,
-    fall : [],
-    spring : [],
-    summer : []
-  }];
+  Session.setDefault('schedule',sched);
 
-  var scheduleGrid = [
-              [   [1,1,1,1,1],
-                  [1,1,1,1,1],
-                  [1,1,1,1,1]  ],
-
-              [   [1,1,1,1,1],
-                  [1,1,1,1,1],
-                  [1,1,1,1,1]  ],
-
-              [   [1,1,1,1,1],
-                  [1,1,1,1,1],
-                  [1,1,1,1,1]  ],
-
-              [   [1,1,1,1,1],
-                  [1,1,1,1,1],
-                  [1,1,1,1,1]  ]
-    ];
-
-  Session.setDefault('schedule',schedule);
-  Session.setDefault('scheduleGrid',scheduleGrid);
-
-
+  Session.setDefault('renderOrder', { last: 0 });
 
   Template.schedule.rendered = function(){
 
@@ -265,12 +209,12 @@ if (Meteor.isClient) {
         yearCount = $('.ui.three.column.celled.table').length;
 
     for (var i = 0; i < $('.drag').length; i++){
-      var col = $('.drag')[i].getAttribute('col'),
-          row = $('.drag')[i].getAttribute('row'),
-          yr = $('.drag')[i].getAttribute('yr'),
+      var coordinates = $('.drag')[i].getAttribute('coords'),
+          coordsObj = JSON.parse(coordinates);
+          col = coordsObj.x,
+          row = coordsObj.y,
+          yr = coordsObj.z,
           curDiv = $('.drag')[i];
-
-      scheduleGrid[yr][col][row] = 0;
 
     $(curDiv).css({
         top: row*(cellHeight) + (6*(yr)*cellHeight),
@@ -280,11 +224,10 @@ if (Meteor.isClient) {
       });
 
     }
-    Session.set('scheduleGrid',scheduleGrid);
     
 jQuery(function($){
-       var grid = Session.get('scheduleGrid');
-       var originalGridX, originalGridY, originalYear;
+       var schedule = Session.get('schedule');
+       var originalGridX, originalGridY, originalYear, originalValue;
        var $div = $('#dragAreaGrid');
        var z = 1;
        var gridCoords = function(x,y){
@@ -303,13 +246,14 @@ jQuery(function($){
 
        $('.drag')
         .drag("start",function( ev, dd ){
-            grid = Session.get('scheduleGrid');
+            schedule = Session.get('schedule');
             var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
 
             originalGridX = coords.x;
             originalGridY = coords.y;
             originalYear = coords.z;
-            grid[originalYear][originalGridX][originalGridY] = 1;
+            originalValue = schedule[originalYear][originalGridX][originalGridY];
+            schedule[originalYear][originalGridX][originalGridY] = "";
 
             $( this ).css({
               zIndex: z++,
@@ -340,11 +284,11 @@ jQuery(function($){
 
             var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
 
-            if(coords.z >= 0 && coords.z < yearCount && grid[coords.z][coords.x][coords.y] == 1) {
-              grid[coords.z][coords.x][coords.y] = 0;
-              $(this)[0].setAttribute('col',coords.x);
-              $(this)[0].setAttribute('row',coords.y);
-              $(this)[0].setAttribute('yr',coords.z);
+            if(coords.z >= 0 && coords.z < yearCount && schedule[coords.z][coords.x][coords.y] == "") {
+              schedule[coords.z][coords.x][coords.y] = originalValue;
+              var coordsAttr = '{ \"z\":' + yr + ', \"x\": '+col+', \"y\": '+row+'}';
+
+              $(this)[0].setAttribute('coords',coordsAttr);
 
             } else {
               $( this ).css('visibility','visible')
@@ -352,10 +296,10 @@ jQuery(function($){
                   top: dd.originalY,
                   left: dd.originalX
                }, 420 );
-              grid[originalYear][originalGridX][originalGridY] = 0;
+              schedule[originalYear][originalGridX][originalGridY] = originalValue;
             }
 
-            Session.set('scheduleGrid',grid);
+            Session.set('schedule', schedule);
             $( this ).css({
               background: "#BCE"
             });
@@ -366,12 +310,65 @@ jQuery(function($){
 
   Template.schedule.helpers({
 
-    schedule: function () {
-      return Session.get('schedule');
+    yearsWithTitles: function () {
+      return ['2011','2012','2013','2014','2015'];
+    },
+
+    scheduleCourseNameFromCoords: function (coordString) {
+      var coords = JSON.parse(coordString);
+      var curSched = Session.get('schedule');
+      return curSched[coords.z][coords.x][coords.y];
+    },
+
+    scheduleHTMLArray: function () {
+      var curSched = Session.get('schedule');
+      var renderOrder = Session.get('renderOrder');
+      var HTMLArray = [];
+
+      for (var yr in curSched) {
+        for (var col in curSched[yr]){
+          for (var row in curSched[yr][col]){
+            var val = curSched[yr][col][row];
+            if (val != ""){
+              var coords = '{ \"z\":' + yr + ', \"x\": '+col+', \"y\": '+row+'}';
+              if ( !renderOrder[val] ) {
+                renderOrder[val] = renderOrder["last"] + 1;
+                renderOrder["last"]++;
+              }
+              HTMLArray.push({ courseInfo: val, coords: coords, render: renderOrder[val] });
+            }
+          }
+        }
+      }
+      Session.set('renderOrder',renderOrder);
+
+      HTMLArray.sort(function(a, b) { 
+        if (a.render > b.render) 
+          { return 1; } 
+        if (a.render < b.render) 
+          { return -1; } 
+        return 0; 
+      });
+
+      return HTMLArray;
     }
   });
 
   Template.schedule.events({
+    'click #importButton' : function() {
+      $('#importModal').modal({
+        closable:false,
+        onDeny : function(){
+
+        },
+        onApprove : function(){
+          var importString = $('#importInfoField').val();
+          Meteor.call('parseCourseData','12345Matt',importString,10,15, function(err,result) {
+            Session.set('schedule',result);
+          });
+        }
+      }).modal('show');
+    },
     'click #openSidebar': function () {
 
       //$('.ui.sidebar').sidebar('toggle');
@@ -383,14 +380,14 @@ jQuery(function($){
         Session.set('isSidebarOpen',false);
         openedElement[0].className = 'center-pane';
         $('.left-pane-out')[0].className = 'left-pane'
-        $('.left-pane-button').css('left','0px');
+        $('.left-pane').css('left','0px');
       }
 
       if(!openedElement.length) {
         Session.set('isSidebarOpen',true);
         initialElement[0].className = 'center-pane-out';
         $('.left-pane')[0].className = 'left-pane-out';
-        $('.left-pane-button').css('left','350px');
+        $('.left-pane').css('left','350px');
 
       }
 

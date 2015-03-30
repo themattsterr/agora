@@ -10,11 +10,6 @@
 			{{> courseList}}
 			{{/if}}
 	</div>
-	<div class="left-pane-button">
-		<i class="small left caret icon"></i>
-		<i class="small left caret icon"></i>
-		<i class="small left caret icon"></i>
-	</div>
 	<div class="center-pane">
 
   		{{> schedule}}
@@ -23,41 +18,51 @@
 
 
 <template name="schedule">
+	<div id="importModal" class="ui fullscreen modal">
+		<div class="header">
+      		Import Course Schedule
+		</div>
+		<div class="content">
+			<div class='ui form'>
+				<div class="fluid field">
+					<label>Course Info</label>
+					<textarea id="importInfoField"></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="actions">
+		      <div id="cancelButton" class="ui deny button">Cancel</div>
+		      <div id="updateButton" class="ui green approve button">Import</div>
+    	</div>
+	</div>
+	<script>$('.ui.fullscreen.modal').modal();
+	</script>
 	<div class="full height">
+
+
 		<div id="openSidebar" class="ui button">Sidebar</div>
+		<div id="importButton" class="ui button">Import</div>
+
 		<div class="ui segment">
 			<div id="dragArea" class="ui segment">
 				<div class="drop" id="dragAreaGrid">
-					{{#each schedule}}
-						{{#each withIndexYear fall year}}
-							<div class="drag blue" yr={{year}} col=0 row={{index}}>
-								{{value}}
-							</div>
-						{{/each}}
-						{{#each withIndexYear spring year}}
-							<div class="drag blue" yr={{year}} col=1 row={{index}}>
-								{{value}}
-							</div>
-						{{/each}}
-
-						{{#each withIndexYear summer year}}
-							<div class="drag blue" yr={{year}} col=2 row={{index}}>
-								{{value}}
-							</div>
-						{{/each}}
+					{{#each scheduleHTMLArray}}
+						<div class="drag blue" coords={{coords}}>
+							{{courseInfo}}
+						</div>
 					{{/each}}
 				</div>
 
-				{{#each schedule}}
+				{{#each yearsWithTitles}}
 				<table class="ui three column celled table">
 					<thead>
 						<tr>
-						  <th>Fall</th>
-						  <th>Spring</th>
-						  <th>Summer</th>
+						  <th>Fall {{this}}</th>
+						  <th>Spring {{this}}</th>
+						  <th>Summer {{this}}</th>
 						</tr>
 					</thead>
-					<tbody id="tableDragArea{{year}}">
+					<tbody id="tableDragArea">
 						<tr>
 							<td class="fallClass1"><i class="radio icon"></i></td>
 							<td class="springClass1"><i class="radio icon"></i></td>
@@ -148,48 +153,6 @@
 
 	</div>
 
-<!-- 		<div class="ui fluid search form">
-			<div class="ui labeled icon input">
-				 <div class="ui label">
-		    		College
-		  		</div>
-			  <input id="collegeSearchBox" type="text" placeholder="ECS">
-			  <i class="search icon"></i>
-			</div>
-
-			<div class="ui labeled icon input">
-				 <div class="ui label">
-		    		Department
-		  		</div>
-			  <input id="deptSearchBox" type="text" placeholder="CS">
-			  <i class="search icon"></i>
-			</div>
-
-			<div class="ui labeled icon input">
-				 <div class="ui label">
-		    		Type
-		  		</div>
-			  <input id="typeSearchBox" type="text" placeholder="COP">
-			  <i class="search icon"></i>
-			</div>
-
-			<div class="ui labeled icon input">
-				 <div class="ui label">
-		    		Number
-		  		</div>
-			  <input id="numSearchBox" type="text" placeholder="3502">
-			  <i class="search icon"></i>
-			</div>
-
-			<div class="ui labeled icon input">
-				 <div class="ui label">
-		    		Title
-		  		</div>
-			  <input id="titleSearchBox" type="text" placeholder="Computer Science 1">
-			  <i class="search icon"></i>
-			</div>
-		</div> -->
-
 <div class="ui form">
 	<div class="three fields">
 		<div class="field">
@@ -233,10 +196,7 @@
 </script>
 
 </div>
-
-
 	<div id="searchResults" class="ui red segment">
-
 		<div class="ui cards">
 		{{#each courseArray}}
 		  <div id="card{{_id}}" class="course card">
@@ -258,46 +218,5 @@
 		  </div>
 		 {{/each}}
     	</div>
-
-<!-- 		<div class="ui cards">
-			{{#each courseArray}}
-			  <div class="card">
-			    <div class="content">
-			      <div class="header">{{identifier}}</div>
-			      <div class="description">
-			        {{title}}<br>{{credits}}<br>{{description}}<br>{{prereqs}}
-			      </div>
-			    </div>
-			  </div>
-			 {{/each}}
-		</div> -->
   	</div>
-<!--   	<div class="ui blue segment">
-  		<div class="3 fluid ui buttons">
-  		<div class="ui vertical animated button">
-		  <div class="hidden content">
-		  	<i class="red remove icon"></i>
-		  </div>
-		  <div class="visible content">
-		    Fall
-		  </div>
-		</div>
-		 <div class="ui vertical animated button">
-		  <div class="hidden content">
-		  	<i class="green add icon"></i>
-		  </div>
-		  <div class="visible content">
-		    Spring
-		  </div>
-		</div>
-		 <div class="ui vertical animated button">
-		  <div class="hidden content">
-		  	<i class="red minus icon"></i>
-		  </div>
-		  <div class="visible content">
-		    Summer
-		  </div>
-		</div>
-	</div>
-  	</div> -->
 </template>

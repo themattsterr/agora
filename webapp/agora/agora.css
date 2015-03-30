@@ -46,11 +46,11 @@
    position: absolute;
    border: 1px solid #89B;
    background: #BCE;
-   height: 0px;
-   width: 0px;
+   height: 30px;
+   width: 130px;
    cursor: move;
-   top: 170px;
-   left: -135px;
+   top: -65px;
+   left: 0px;
    line-height: 30px;
    text-align: center;
    }
