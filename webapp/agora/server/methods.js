@@ -10,7 +10,7 @@ Meteor.methods({
 	},
 	'parseCourseData' : function(idUser, courseData, yearStart, yearEnd){
 
-		var regex = /((FA|SP|SU)[0-1][0-9]) ([A-Z]{3})(\d{4}(H|C)*)/gm
+		var regex = /((FA|SP|SU)[0-3][0-9]) ([A-Z]{3})(\d{4}(H|C)*)/gm
 		var arr = courseData.match(regex);
 		var coursesToAdd = [];
 		var sched = 
@@ -46,6 +46,8 @@ Meteor.methods({
 			var semYear = arr[i].split(' ')[0];
 			var identifier = arr[i].split(' ')[1].substr(0,3) + ' ' + arr[i].split(' ')[1].substr(3);
 			var year = Number(semYear.substr(2)) - yearStart;
+			if (year + yearStart > yearEnd)
+				break;
 			var col = -1;
 			if (semYear.substr(0,2) == 'FA')
 				col = 0;

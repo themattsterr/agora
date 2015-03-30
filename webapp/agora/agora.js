@@ -363,7 +363,10 @@ jQuery(function($){
         },
         onApprove : function(){
           var importString = $('#importInfoField').val();
-          Meteor.call('parseCourseData','12345Matt',importString,10,15, function(err,result) {
+          var yearStart = Number($('#yearStartInput').val().substr(2));
+          var yearEnd = Number($('#yearEndInput').val().substr(2));
+
+          Meteor.call('parseCourseData','12345Matt',importString,yearStart,yearEnd, function(err,result) {
             Session.set('schedule',result);
           });
         }
