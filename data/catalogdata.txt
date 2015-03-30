@@ -1141,32 +1141,17 @@ EGS 3031 ECS-ECS 0(2,0) Leadership in Engineering II: PR: Junior standing in a C
 EGS 4624 ECS-IEMS 3(3,0) Engineering Innovation and Leadership: PR: Senior standing. A broad range of topics including corporate organization structures, individual and team leadership, and techniques to enhance innovation and creativity. Spring. 
 EGS 4710 ECS-ECS 3(3,0) Energy and Society: Investigation of available energy forms; energy resources versus requirements in an increasingly complex technological society; possible solutions and future predictions. Occasional. 
 EGS 4950 ECS-ECS 3(3,0) Engineering Leadership Capstone: PR: Enrolled in Engineering Leadership Minor or Certificate; CR: approved design course in Engineering or Computer Science Students will reflect upon and define their professional approach. Students will develop their professional portfolio, concept of operations, and individual strategic plan. Fall,Spring. 
-EGN 3321H ECS-MECH/AERO Honors Engineering Analysis - Dynamics: PR: Permission of Honors and EGN 3310, CR: MAC 2313. Kinematics and kinetics of particles and rigid bodies; mass and acceleration; work and energy; impulse and momentum. Occasional. 
-EGN 3331 ECS-CECE Mechanics of Materials: PR: EGN 3310 with a grade of “C” or better; CR: MAP 2302. Concepts of stress, strain, strength, deflection of axial force members, shafts in torsion, beams in flexure, combined stress, stability of columns, and design of simple elements. Fall,Spring. 
-EGN 3343 ECS-MECH/AERO 3(3,0) Thermodynamics: CR: EGN 3321 or EML 3217, MAP 2302. Work, heat, and energy transformations. Relation of properties. Laws, concepts, and modes of analysis common to all applications of thermodynamics in engineering. Fall,Spring. 
-EGN 3343H ECS-MECH/AERO 3(3,0) Honors Thermodynamics: PR: Honors status; CR: EGN 3321 or EGN 3321H or EML 3217, & MAP 2302. Work, heat, and energy transformations. Relation of properties. Laws, concepts, and models of analysis common to all applications of thermodynamics in engineering. Honors content. Spring. 
-EGN 3358 Thermo-Fluids-Heat Transfer: PR: EGN 3310, MAP 2302. Introduction to first and second laws of thermodynamics, continuum fluid mechanics, and heat transfer for electrical, industrial, and computer engineering majors. Fall,Spring. 
-EGN 3365 ECS-MECH/AERO 3(3,0) Structure and Properties of Materials: PR: (CHS 1440 or CHM 2045C) and MAC 2312 with grades of “C” (2.0) or better in both. Atomic structure and bonding, crystal structure and imperfections, solidification, phase transformations, phase diagrams, heat treatment, mechanical & electrical properties, materials characterization techniques. Fall,Spring. 
-EGN 3365H ECS-MECH/AERO Honors Structure and Properties of Materials: PR: MAC 2312, and (CHS 1440 or CHM 2045C), with grades of “C” (2.0) or better in both; and consent of Honors. Atomic bonding; lattices; phonons; crystal structure; diffraction; defects; diffusion; phase equilibria and diagrams; transformations kinetics; mechanical, thermal, electrical, optical, and magnetic properties. With Honors content. Spring. 
-EGN 3373 ECS-ECE 3(3,0) Principles of Electrical Engineering: PR: PHY 2049C; CR: MAP 2302. Fundamentals of electrical circuits and analysis; fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. Fall,Spring. 
-EGN 3373H ECS-ECE 3(3,0) Honors Principles of Electrical Engineering: PR: Permission of Honors and PHY 2049C, CR: MAP 2302. Fundamentals of electrical circuits and analysis. Fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. Spring. 
-ECS-MECH/AERO 
-3(3,0) 
-EGN 3420 Engineering Analysis: PR: EGN 3211, and MAC 2312 with a “C” (2.0) or better. Engineering applications of numerical methods including curve fitting, matrix operations, root finding, interpolating, integration and plotting. Occasional. 
-EGN 3613 Engineering Economic Analysis: PR: MAC 2311C with a grade of “C” (2.0) or better, not open to Industrial Engineering students. Economic evaluation of engineering alternatives and design. Time value of money and economic impact of taxes, risk, depreciation. Fall,Spring. 
-ECS-ECE 
-3(3,0) 
-ECS-IEMS 
-2(2,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
+EGN 3321H ECS-MECH/AERO 3(3,0) Honors Engineering Analysis - Dynamics: PR: Permission of Honors and EGN 3310, CR: MAC 2313. Kinematics and kinetics of particles and rigid bodies; mass and acceleration; work and energy; impulse and momentum. Occasional.
+EGN 3331 ECS-CECE 3(3,0) Mechanics of Materials: PR: EGN 3310 with a grade of “C” or better; CR: MAP 2302. Concepts of stress, strain, strength, deflection of axial force members, shafts in torsion, beams in flexure, combined stress, stability of columns, and design of simple elements. Fall,Spring.
+EGN 3343 ECS-MECH/AERO 3(3,0) Thermodynamics: CR: EGN 3321 or EML 3217, MAP 2302. Work, heat, and energy transformations. Relation of properties. Laws, concepts, and modes of analysis common to all applications of thermodynamics in engineering. Fall,Spring.
+EGN 3343H ECS-MECH/AERO 3(3,0) Honors Thermodynamics: PR: Honors status; CR: EGN 3321 or EGN 3321H or EML 3217, & MAP 2302. Work, heat, and energy transformations. Relation of properties. Laws, concepts, and models of analysis common to all applications of thermodynamics in engineering. Honors content. Spring.
+EGN 3358 ECS-MECH/AERO 3(3,0) Thermo-Fluids-Heat Transfer: PR: EGN 3310, MAP 2302. Introduction to first and second laws of thermodynamics, continuum fluid mechanics, and heat transfer for electrical, industrial, and computer engineering majors. Fall,Spring.
+EGN 3365 ECS-MECH/AERO 3(3,0) Structure and Properties of Materials: PR: (CHS 1440 or CHM 2045C) and MAC 2312 with grades of “C” (2.0) or better in both. Atomic structure and bonding, crystal structure and imperfections, solidification, phase transformations, phase diagrams, heat treatment, mechanical & electrical properties, materials characterization techniques. Fall,Spring.
+EGN 3365H ECS-MECH/AERO 3(3,0) Honors Structure and Properties of Materials: PR: MAC 2312, and (CHS 1440 or CHM 2045C), with grades of “C” (2.0) or better in both; and consent of Honors. Atomic bonding; lattices; phonons; crystal structure; diffraction; defects; diffusion; phase equilibria and diagrams; transformations kinetics; mechanical, thermal, electrical, optical, and magnetic properties. With Honors content. Spring.
+EGN 3373 ECS-ECE 3(3,0) Principles of Electrical Engineering: PR: PHY 2049C; CR: MAP 2302. Fundamentals of electrical circuits and analysis; fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. Fall,Spring.
+EGN 3373H ECS-ECE 3(3,0) Honors Principles of Electrical Engineering: PR: Permission of Honors and PHY 2049C, CR: MAP 2302. Fundamentals of electrical circuits and analysis. Fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. Spring.
+EGN 3420 ECS-ECE 3(3,0) Engineering Analysis: PR: EGN 3211, and MAC 2312 with a “C” (2.0) or better. Engineering applications of numerical methods including curve fitting, matrix operations, root finding, interpolating, integration and plotting. Occasional.
+EGN 3613 ECS-IEMS 2(2,0) Engineering Economic Analysis: PR: MAC 2311C with a grade of “C” (2.0) or better, not open to Industrial Engineering students. Economic evaluation of engineering alternatives and design. Time value of money and economic impact of taxes, risk, depreciation. Fall,Spring. 
 EIN 2002 ECS-IEMS 1(1,0) Introduction to Industrial Engineering and Management Systems: PR: MAC 2311C with a grade of a “C” (2.0) or better and sophomore standing. Introduction to the profession of Industrial Engineering and important skills necessary for success. Course includes presentations by local IE professionals. Fall. 
 EIN 3314 ECS-IEMS 3(3,0) Work Analysis and Design: PR: STA 3032 with a grade of “C” (2.0) or better or C.I. Introduction to lean six sigma analysis as applied to design and improvement of work systems in any organization. Various data collection and analysis methods utilized. Fall. 
 EIN 3351 ECS-IEMS 3(3,0) Engineering Economic Analysis and Cost Engineering: PR: MAC 2311C with a grade of “C” (2.0) or better. Knowledge and understanding of economic evaluation of engineering and management alternatives, cost analysis, budgeting and estimating techniques. Spring. 
@@ -1200,19 +1185,12 @@ EMA 5060 ECS-MSE 3(3,0) Polymer Science and Engineering: PR: EGN 3365 Structure 
 EMA 5104 ECS-MSE 3(3,0) Intermediate Structure and Properties of Materials: PR: EGN 3365 Fundamentals of dislocation theory, metallurgical thermodynamics and diffusion. Phase transformations, strengthening mechanisms and fracture. Introduction to engineering polymers, ceramics, and composites. Fall. 
 EMA 5106 ECS-MSE 3(3,0) Metallurgical Thermodynamics: PR: EGN 3365. Laws of thermodynamics, phase equilibria, reactions between condensed and gaseous phases, reaction equilibria in condensed solution and phase diagrams. Occasional. 
 EMA 5108 ECS-MSE 3(3,0) Surface Science: PR: PHY 2049C and C.I. Methods of chemical and physical analysis of surfaces, with emphasis on ultra-high vacuum spectroscopics utilizing electron, ion and photon probes. Occasional. 
-EIN 5317 Training System Design: PR: Seniors, post bac or graduate standing or C.I. How human performance deficiencies should be addressed from a systems design point of view. Manpower, personnel, and training considerations will be examined. Occasional. 
-EIN 5346 ECS-IEMS 3(3,0) Engineering Logistics: Study of the logistics life cycle involving planning, analysis and design, testing, production, distribution, and support. Occasional. 
+EIN 5317 ECS-IEMS 3(3,0) Training System Design: PR: Seniors, post bac or graduate standing or C.I. How human performance deficiencies should be addressed from a systems design point of view. Manpower, personnel, and training considerations will be examined. Occasional. EIN 5346 ECS-IEMS 3(3,0) Engineering Logistics: Study of the logistics life cycle involving planning, analysis and design, testing, production, distribution, and support. Occasional. 
 EIN 5356 ECS-IEMS 3(3,0) Cost Engineering: Cost estimation and control of engineering systems throughout the product life cycle. Occasional. 
 EIN 5392C ECS-IEMS 3(2,2) Manufacturing Systems Engineering: PR: EIN 4391C or C.I. The integration of manufacturing technologies and information processing concepts into a system for controlling the manufacturing enterprise. Occasional. 
 ELD 4241 ED-CFCS 4(4,0) Introduction and Program Planning for Specific Learning Disabilities: PR: EEX 2010. Theories and historical foundations of specific learning disabilities and the development of highly specialized techniques and curriculum materials. Occasional. 
 EMA 3000 ECS-MSE 3(3,0) Engineering Polymeric, Ceramic, and Composite Materials: PR: EGN 3365 or EMA 3706. Structure, properties, processing of engineering polymeric, ceramic, and composite materials. Occasional. 
 EMA 3012C ECS-MSE 3(2,2) Experimental Techniques in Mechanics and Materials: PR: EGN 3365, EGM 3601. Materials characterization (optical and scanning electron microscopy, x-ray diffraction), heat treatment, mechanical testing (hardness, tensile, impact, etc.). Fall,Spring. M&S fee $45.00 
-ECS-IEMS 
-3(3,0) 
-
-
- 
-
 EMA 5140 ECS-MSE 3(3,0) Introduction to Ceramic Materials: PR: EGN 3365 Uses, structure, physical and chemical properties, and processing of ceramic materials. Discussions will include recent developments for high technology applications. Occasional. 
 EMA 5317 ECS-MSE 3(3,0) Materials Kinetics: PR: C.I. Mass and thermal transport, phase transformations and Arrhenius rate processes. Occasional. 
 EMA 5326 ECS-MSE 3(3,0) Corrosion Science and Engineering: PR: EGN 3365 Electrochemical principles and applications to detecting and monitoring corrosion processes. Various forms of corrosion, their causes and control. Techniques of corrosion protection. Occasional. 
@@ -1231,8 +1209,6 @@ EME 2041 ED-E&HS 3(3,0) Introduction to Applications of Technology in Education:
 EME 4312 ED-E&HS 3(3,0) Applications of Technology in Education: Classroom applications of instructional media. including computers. Includes experiences with equipment, commercial and teacher-made media, and their uses. Occasional. 
 EME 5050 ED-E&HS 3(3,0) Fundamentals of Technology for Educators: PR: Post bac or C.I. Designed to provide participants with an introduction to the field of educational technology content with emphasis on using and integrating technology in K-12 to improve the teaching and learning process. Fall,Spring. 
 EME 5051 ED-E&HS 3(3,0) Technologies of Instruction and Information Management: PR: Acceptance into Ed Media program or C.I. Theories and practices in utilizing instructional media and information technologies. Emphasis on new and emerging technologies and their effects on the school and media program. Fall. 
-
- 
 EML 3217 ECS-MECH/AERO 3(3,0) Engineering Mechanics - Dynamics: PR: MAC 2313 with a grade of “C” (2.0) or better, EGN 3310; CR: MAP 2302. Kinematics and kinetics of particles and rigid bodies; mass and acceleration, work and energy, impulse and momentum, introduction to kinematics of mechanisms; introduction to 3D rigid body dynamics; central force. Fall,Spring. 
 EML 3262 ECS-MECH/AERO 3(3,0) Kinematics of Mechanisms: PR: EGN 3321 and a “C” (2.0) or better in all of the following: MAC 2311C, MAC 2312, MAC 2313, MAP 2302 and PHY 2048. Graphical, mathematical, and computer-aided kinematics, analysis, and synthesis of basic mechanisms. Fall. 
 EML 3303C ECS-MECH/AERO 3(2,3) Mechanical Engineering Measurements: PR: EGN 3343, CR: EGM 3601. Theory, calibration and use of instruments. Measurement techniques, data analysis, report writing. Laboratory topics related to mechanical engineering. Fall. M&S fee $15.00 
@@ -1245,26 +1221,13 @@ EML 4142 ECS-MECH/AERO 3(3,0) Heat Transfer: PR: EML 3701 and EML 3034C. Conduct
 EML 4143 ECS-MECH/AERO 3(3,0) Heat Transfer II: PR: EML 4142. Advanced topics in heat transfer, multi-dimensional conduction, transient conduction, convection heat transfer, participating medium, boiling and condensation. Fall. 
 EML 4145 ECS-MECH/AERO 2(2,0) Topics in Heat Transfer: PR: EML 3701, EML 3034C; CR: EML 4142. Boiling and condensation heat transfer. Radiation heat transfer in enclosures without and with participating media. Multi-mode heat transfer. Spring. 
 EML 4220 ECS-MECH/AERO 3(3,0) Vibration Analysis: PR: EGN 3321, EGM 3601 and EML 3034C. Undamped and damped vibration of single degree freedom systems. Forced vibration. Transient response. Multiple degree of freedom systems. Normal modes. Spring. 
-EME 5053 Electronic Resources for Education: PR: Graduate standing or C.I. Study and application of electronic resources available for education including techniques for locating, evaluating, and integrating them into the classroom. Fall. 
-ED-E&HS 3(3,0) 
-EME 5208 Production Techniques for Instructional Settings: PR: Acceptance into Ed Media Program or C.I. Skills in producing instructional materials. Emphasis on graphic, audio, video, and photographic skills and the application of instructional and communication theories. Spring. 
-ED-E&HS 3(3,0) 
-EME 5225 ED-E&HS Media for Children and Young Adults: PR: Acceptance into Ed Media Program or C.I. Survey of materials for children’s and young adults’ informational and recreational needs; analysis, evaluation, and utilization of print and non-print materials. Spring. 
-EME 5811 ED-TL&L Teaching and Learning with Technology: Overview of technologies for teaching and for learning. Practical strategies for using technology in the classroom. May be used in the degree program a maximum of 4 times. Occasional. 
-EML 3001C Machine Shop Practice: PR: EGM 3601, EGN 3365 or EMA 3706. Set up and operation of mill and lathe, cutting tools, holding devices, cutting speeds and feed rates. Measurement devices. Hands-on experience. Occasional. M&S fee $29.00 
+EME 5053  ED-E&HS 3(3,0) Electronic Resources for Education: PR: Graduate standing or C.I. Study and application of electronic resources available for education including techniques for locating, evaluating, and integrating them into the classroom. Fall. 
+EME 5208  ED-E&HS 3(3,0) Production Techniques for Instructional Settings: PR: Acceptance into Ed Media Program or C.I. Skills in producing instructional materials. Emphasis on graphic, audio, video, and photographic skills and the application of instructional and communication theories. Spring. 
+EME 5225 ED-E&HS  3(3,0) Media for Children and Young Adults: PR: Acceptance into Ed Media Program or C.I. Survey of materials for children’s and young adults’ informational and recreational needs; analysis, evaluation, and utilization of print and non-print materials. Spring. 
+EME 5811 ED-TL&L  1(1,0) Teaching and Learning with Technology: Overview of technologies for teaching and for learning. Practical strategies for using technology in the classroom. May be used in the degree program a maximum of 4 times. Occasional. 
+EML 3001C  ECS-MECH/AERO 1(1,2) Machine Shop Practice: PR: EGM 3601, EGN 3365 or EMA 3706. Set up and operation of mill and lathe, cutting tools, holding devices, cutting speeds and feed rates. Measurement devices. Hands-on experience. Occasional. M&S fee $29.00 
 EML 3034C ECS-MECH/AERO 3(3,1) Modeling Methods in Mechanical and Aerospace Engineering: PR: “C” (2.0) or better in all of the following prerequisites: MAC 2311C, MAC 2312, MAC 2313, MAP 2302 and PHY 2048C. CR: EML 3217 and EAS 3990 or EML 3990. Computer aided modeling of mechanical and aerospace systems. Solution methods. Curve fitting. Numerical calculus and solution of differential equations with applications to mechanical and aerospace engineering. Fall,Spring. 
-EML 3101 ECS-MECH/AERO Thermodynamics of Mechanical Systems: PR: EGN 3343 and a “C” (2.0) or better in all of the following: MAC 2311C, MAC 2312, MAC 2313, MAP 2302 and PHY 2048. Applied thermodynamics, availability analysis, thermodynamics of reactive and non-reactive mixtures, thermodynamic relations of properties. Thermodynamic design analysis of complete mechanical systems. Fall. 
-ECS-MECH/AERO 
-1(1,2) 
-3(3,0) 
-1(1,0) 
-3(3,0) 
-
-
- 
-
- 
-
+EML 3101 ECS-MECH/AERO 3(3,0) Thermodynamics of Mechanical Systems: PR: EGN 3343 and a “C” (2.0) or better in all of the following: MAC 2311C, MAC 2312, MAC 2313, MAP 2302 and PHY 2048. Applied thermodynamics, availability analysis, thermodynamics of reactive and non-reactive mixtures, thermodynamic relations of properties. Thermodynamic design analysis of complete mechanical systems. Fall. 
 EML 4221C ECS-MECH/AERO 2(1,2) Mechanical Systems Experimental Techniques: PR: EML 3303C or EAS 3800C; CR: EML 4220 or EAS 4210. Provides a teaching/laboratory of dynamic vibration and modal analysis testing and theory using modern instrumentation and software tools to develop competence in designing and conducting tests, analysis and interpreting engineering data. Occasional. M&S fee $35.00 
 EML 4225 ECS-MECH/AERO 3(3,0) Introduction to Vibrations and Controls: PR: EML 3217, EGM 3601, EML 3034C, EGN 3373. Undamped and damped vibration analysis of mechanical systems with single and two degrees of freedom; forced vibration; concepts of feedback controls; classical proportional, derivative and integral (PID) feedback controls and root locus. Fall,Spring. 
 EML 4231L ECS-MECH/AERO 3(0,3) Advanced Mechanics of Structures: PR: EGM 3601. An in depth analysis of the various modes of mechanical failure and characterization of structures with applications in MAE. Fall,Spring. 
@@ -1293,25 +1256,62 @@ EML 5291 ECS-MECH/AERO 3(3,0) MEMS Materials: PR: EML 5060, EML 6211, or C.I. In
 EML 5292 ECS-MECH/AERO 3(3,0) Fundamental Phenomenon and Scaling laws in Miniature Engineering Systems: PR: EML 5060, EML 6211, or C.I. Introduction to meso-, micro-, and nano-scales, and related terminology, constitutive relationships at these scales and how these relationships affect the behavior and performance of systems. Effect of miniaturization on a few common engineering systems. Odd Fall. 
 EML 5311 ECS-MECH/AERO 3(3,0) System Control: PR: EML 4312C; CR: EML 5060 Modern control theory for linear and non-linear systems; controllability and observability. Linear state feedback and state estimators, compensator design. Occasional. 
 EML 5402 ECS-MECH/AERO 3(3,0) Turbomachinery: PR: EML 3101, EML 4703 or EAS 4134. Application of the principles of fluid mechanics, thermodynamics, and aerodynamics to the design and analysis of steam and gas turbines, compressors, and pumps. Occasional. 
-EML 4504 ECS-MECH/AERO Design & Analysis of Machine Components II: PR: EML 3500; CR: EML 4535C. Application of the principles of component analysis to the design of mechanisms. Spring. 
-EML 4535C ECS-MECH/AERO CAD/CAM: PR: EGN 3343, EML 3034C, and EGM 3601; CR EAS 4200 or EML 3500. CAD/CAM/FEM computational technology. Basic concepts. Concurrent engineering approach to mechanical, thermal, and aerospace systems design and analysis. Use of in-house software. Fall,Spring. 
-EML 4600 HVAC Systems Engineering: PR: EGN 3343. Heating, ventilation, air-conditioning, and refrigeration principles and systems design. Phychrometrics, heating and cooling loads, equipment and components, and distribution systems. Fall. 
-EML 4602 Applied HVAC Engineering: PR: EGN 3343; CR: EML 4142. Applications of HVAC systems design with the objective of optimizing energy efficiency, humidity control, ventilation, and indoor air quality. Dehumidification performance of the various HVAC system types and their interactions with the building. Spring. 
-EML 4703 ECS-MECH/AERO 3(3,0) Fluid Mechanics II: PR: EML 3701. Continuation of Fluid Mechanics I. External flows, fluid machinery, compressible flows, design projects. Fall. 
-ECS-MECH/AERO 
-3(3,0) 
-ECS-MECH/AERO 
-3(3,0) 
-EML 4804C ECS-MECH/AERO Digital Control in Mechatronics: PR: EML 4312C and EML 3303C. Discrete microprocessor control of mechatronics dynamic systems using state-space representation, digital controllers, design for mechatronic applications. Spring. M&S fee $15.00 
-EML 4991 ECS-MECH/AERO 0(0,0) Mechanical Career and Academic Faculty Advising II: PR: EML 3990 and department consent. Mandatory meeting with students and their faculty advisor for career/academic advising. Graded S/U. Fall,Spring. 
-EML 5026C ECS-MECH/AERO 3(2,2) Advanced Engineering Design Practice: PR: EGM 3601; CR: (EML 3500 or EAS 4200) and (EML 4220 or EAS 4210). Designed to familiarize students with the basic CAD/CAM solid modeling techniques in a project oriented environment. Construct part models, drawings, and assemblies. Use of in-house software. Occasional. 
-EML 5060 ECS-MECH/AERO 3(3,0) Mathematical Methods in Mechanical and Aerospace Engineering: PR: MAP 2302. Vector field theory, generalized coordinates, complex variables, contour integration and Laplace and Fourier transforms and inversions, variable coefficient ODEs and solution of PDEs for governing equations of heat transfer, ideal fluid flow, and mechanics. Fall. 
-3(3,0) 
-3(2,3) 
-3(2,3) 
 
-
- 
+EML 4504 ECS-MECH/AERO 3(3,0)
+Design & Analysis of Machine Components
+II: PR: EML 3500; CR: EML 4535C. Application of
+the principles of component analysis to the design of
+mechanisms. Spring.
+EML 4535C ECS-MECH/AERO 3(2,3)
+CAD/CAM: PR: EGN 3343, EML 3034C, and EGM 3601;
+CR EAS 4200 or EML 3500. CAD/CAM/FEM computational
+technology. Basic concepts. Concurrent engineering
+approach to mechanical, thermal, and aerospace
+systems design and analysis. Use of in-house software.
+Fall,Spring.
+EML 4600 ECS-MECH/AERO 3(3,0)
+HVAC Systems Engineering: PR: EGN 3343.
+Heating, ventilation, air-conditioning, and refrigeration
+principles and systems design. Phychrometrics, heating and
+cooling loads, equipment and components, and distribution
+systems. Fall.
+EML 4602 ECS-MECH/AERO 3(3,0)
+Applied HVAC Engineering: PR: EGN 3343; CR:
+EML 4142. Applications of HVAC systems design with
+the objective of optimizing energy efficiency, humidity
+control, ventilation, and indoor air quality. Dehumidification
+performance of the various HVAC system types and their
+interactions with the building. Spring.
+EML 4703 ECS-MECH/AERO 3(3,0)
+Fluid Mechanics II: PR: EML 3701. Continuation
+of Fluid Mechanics I. External flows, fluid machinery,
+compressible flows, design projects. Fall.
+EML 4804C ECS-MECH/AERO 3(2,3)
+Digital Control in Mechatronics: PR: EML
+4312C and EML 3303C. Discrete microprocessor control
+of mechatronics dynamic systems using state-space
+representation, digital controllers, design for mechatronic
+applications. Spring. M&S fee $15.00
+EML 4991 ECS-MECH/AERO 0(0,0)
+Mechanical Career and Academic Faculty
+Advising II: PR: EML 3990 and department consent.
+Mandatory meeting with students and their faculty advisor
+for career/academic advising. Graded S/U. Fall,Spring.
+EML 5026C ECS-MECH/AERO 3(2,2)
+Advanced Engineering Design Practice: PR:
+EGM 3601; CR: (EML 3500 or EAS 4200) and (EML 4220
+or EAS 4210). Designed to familiarize students with the
+basic CAD/CAM solid modeling techniques in a project
+oriented environment. Construct part models, drawings,
+and assemblies. Use of in-house software. Occasional.
+EML 5060 ECS-MECH/AERO 3(3,0)
+Mathematical Methods in Mechanical and
+Aerospace Engineering: PR: MAP 2302. Vector
+field theory, generalized coordinates, complex variables,
+contour integration and Laplace and Fourier transforms and
+inversions, variable coefficient ODEs and solution of PDEs
+for governing equations of heat transfer, ideal fluid flow, and
+mechanics. Fall. 
 
 EML 5403 ECS-MECH/AERO 3(3,0) Science and Technology of Fuel Cells: PR: EGN 3365, EMA 4102 or C.I. Fundamental knowledge along with hands-on experience with design, manufacturing and operation of fuel cells. Occasional. 
 EML 5430C ECS-MECH/AERO 3(2,3) Design for Manufacturing in Turbomachinery: Gas/Steam/Wind Turbines & Generators: PR: EGN 3365 or EMA 3706. Overall assembly of rotating and stationary components in power generation powertrains; probabilistic design, materials, coatings, manufacturing steps, defects for gas/steam/wind turbines and generators. Fall. 
@@ -1326,8 +1326,6 @@ EML 5713 ECS-MECH/AERO 3(3,0) Intermediate Fluid Mechanics: PR: EML 4703. CR: EM
 EML 5760 ECS-MECH/AERO 3(3,0) Biofluid Mechanics: PR: MAP 2302, EML 3701, EML 4703. Analysis of biomedical and bioengineering systems using principles of transport phenomena. Governing equations of fluid flow, circulatory systems blood flow, macro and microcirculation, and blood rheology. Occasional. 
 EML 5761C ECS-MECH/AERO 3(3,2) Applied and Computational Biofluids: PR: EML 4304C, EML 4703. Principles and foundations of applied fluid mechanics and computational methods to the human circulation. In addition to case studies, the course provides laboratory experiences in bioengineering with application to biofluid mechanics. Odd Spring. 
 EML 5936 ECS-MECH/AERO 1(1,0) Mechanical, Materials, and Aerospace Engineering Graduate Seminar: MMAE graduate student seminar. Graded S/U. Occasional. 
-
- 
 ENC 3250H CAH-WRITE 3(3,0) Honors Professional Writing: PR: Consent of Honors Study of and practice with professional writing as a rhetorical act involving problem solving and audience accommodation; includes research and text production practices as well as business genres and conventions. With Honors content. Occasional. 
 ENC 3310 CAH-ENG 3(3,0) Magazine Writing I: PR: Grade of C (2.0) or better required in ENC 1102. Intensive practice in description narration, exposition and argumentation; control of tone, mood, viewpoint, and level of diction. Applicable to article, essay, and short story writing. Fall,Spring. 
 ENC 3311 CAH-WRITE 3(3,0) Essay as Cultural Commentary: PR: Grade of C (2.0) or better required in ENC 1102 or C.I. Rhetorical and historical study, analysis, and writing of essay as reflective exploration and cultural commentary. Fall,Spring. 
@@ -1342,26 +1340,76 @@ ENC 3372 CAH-WRITE 3(3,0) Topics in Civic Rhetoric and Writing: PR: Grade of “
 ENC 3373 CAH-WRITE 3(3,0) Cultural Rhetorics: PR: Grade of “C” (2.0) or better required in ENC 1102. Study of the diverse cultural production of and the cultural forces impacting the rhetoric of individuals and communities. Occasional. 
 ENC 3375 CAH-WRITE 3(3,0) Rhetoric in Popular Culture: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Exploration of how persuasion works in a specific set of popular culture discourses, such as sports, music, and gaming. Occasional. 
 ENC 3417 CAH-WRITE 3(3,0) Literacy and Technology: PR: Grade of “C” (2.0) or better required in ENC 1102. Study of technology’s impact on writing and literacy, focus on new media. Spring. 
-ENC 1101 CAH-WRITE Composition I: Expository writing with emphasis on effective communication and critical thinking. Emphasizing the writing process writing topics are based on selected readings and on student experiences. The “NC” grading policy applies to this course. Fall,Spring. 
-ENC 1101H CAH-WRITE Honors Freshman Composition I: PR: Score of 60+ on TSWE of SAT or C.I. and permission of Honors. Expository writing with emphasis on effective communication and critical thinking. Emphasizing the writing process writing topics are based on selected readings and on student experiences. The “NC” grading policy applies to this course. Honors-level content. Fall,Spring. 
-ENC 1102 CAH-WRITE 3(3,0) Composition II: PR: ENC 1101 with a grade of “C-” or better. Focus on extensive research in analytical and argumentative writing based on a variety of readings from the humanities. Emphasis on developing critical thinking and diversity of perspective. The “NC” grading policy applies to this course. Fall,Spring. 
-ENC 1102H CAH-WRITE 3(3,0) Honors Freshman Composition II: PR: ENC 1101H with a grade of “C-” or better or C.I. and permission of Honors. Same as ENC 1102, with honors-level content. Note on Freshman English Program: ENC 1101 and 1102 must be taken before enrolling in any English course numbered above 1102. The “NC” grading policy applies to this course. Fall,Spring. 
-ENC 1130 CAH-WRITE Improving College-Level Writing: Entry-level writing course designed to prepare students to read and write effectively at the college level. Fall. 
-ENC 2127 CAH-WRITE Grammar and Composition: A systematic study of grammar and mechanics to improve editing for clarity and accuracy in writing. Occasional. 
-ENC 2411C CAH-ENG 3(2,1) Digital Literacy for the Liberal Arts: Designed to help students better understand how computer technologies have shaped our culture and ourselves; to become critical consumers of technology; to acquire a critical sensibility regarding the manner in which technology affects and is affected by texts. Occasional. 
-ENC 3211 CAH-ENG 3(3,0) Theory and Practice of Technical Writing: PR: Grade of C (2.0) or better required in ENC 1102, junior standing, or C.I. Exploring definitions and theoretical foundations in technical writing field, and the roles of writers in industry. Fall,Spring. 
-ENC 3241 CAH-ENG 3(3,0) Writing for the Technical Professional: PR: Grade of C (2.0) or better in ENC 1102, junior standing, or C.I. Writing effective correspondence, instructions, proposals, and informal and formal reports Fall,Spring. 
-ENC 3241H CAH-ENG 3(3,0) Honors Writing for the Technical Professional: PR: Grade of C (2.0) or better required in ENC 1102H or equivalent credit, and Consent of Honors. Instruction and practice in expository prose used in technical writing, layout and design of data, and translation of technical documents for the lay audience. With Honors content. Occasional. 
-ENC 3250 CAH-WRITE 3(3,0) Professional Writing: PR: Grade of “C” (2.0) or better required in ENC 1102 Study of and practice with professional writing as a rhetorical act involving problem solving and audience accommodation; includes research and text production practices as well as business genres and conventions. Fall,Spring. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
 
-
- 
-
- 
+ENC 1101 CAH-WRITE 3(3,0)
+Composition I: Expository writing with emphasis on
+effective communication and critical thinking. Emphasizing
+the writing process writing topics are based on selected
+readings and on student experiences. The “NC” grading
+policy applies to this course. Fall,Spring.
+ENC 1101H CAH-WRITE 3(3,0)
+Honors Freshman Composition I: PR: Score
+of 60+ on TSWE of SAT or C.I. and permission of
+Honors. Expository writing with emphasis on effective
+communication and critical thinking. Emphasizing the writing
+process writing topics are based on selected readings and
+on student experiences. The “NC” grading policy applies to
+this course. Honors-level content. Fall,Spring.
+ENC 1102 CAH-WRITE 3(3,0)
+Composition II: PR: ENC 1101 with a grade of “C-”
+or better. Focus on extensive research in analytical and
+argumentative writing based on a variety of readings from
+the humanities. Emphasis on developing critical thinking
+and diversity of perspective. The “NC” grading policy applies
+to this course. Fall,Spring.
+ENC 1102H CAH-WRITE 3(3,0)
+Honors Freshman Composition II: PR: ENC
+1101H with a grade of “C-” or better or C.I. and permission
+of Honors. Same as ENC 1102, with honors-level content.
+Note on Freshman English Program: ENC 1101 and 1102
+must be taken before enrolling in any English course
+numbered above 1102. The “NC” grading policy applies to
+this course. Fall,Spring.
+ENC 1130 CAH-WRITE 3(3,0)
+Improving College-Level Writing: Entry-level
+writing course designed to prepare students to read and
+write effectively at the college level. Fall.
+ENC 2127 CAH-WRITE 3(3,0)
+Grammar and Composition: A systematic study of
+grammar and mechanics to improve editing for clarity and
+accuracy in writing. Occasional.
+ENC 2411C CAH-ENG 3(2,1)
+Digital Literacy for the Liberal Arts: Designed to
+help students better understand how computer technologies
+have shaped our culture and ourselves; to become critical
+consumers of technology; to acquire a critical sensibility
+regarding the manner in which technology affects and is
+affected by texts. Occasional.
+ENC 3211 CAH-ENG 3(3,0)
+Theory and Practice of Technical Writing:
+PR: Grade of C (2.0) or better required in ENC 1102,
+junior standing, or C.I. Exploring definitions and theoretical
+foundations in technical writing field, and the roles of writers
+in industry. Fall,Spring.
+ENC 3241 CAH-ENG 3(3,0)
+Writing for the Technical Professional: PR:
+Grade of C (2.0) or better in ENC 1102, junior standing,
+or C.I. Writing effective correspondence, instructions,
+proposals, and informal and formal reports Fall,Spring.
+ENC 3241H CAH-ENG 3(3,0)
+Honors Writing for the Technical Professional:
+PR: Grade of C (2.0) or better required in ENC 1102H or
+equivalent credit, and Consent of Honors. Instruction and
+practice in expository prose used in technical writing, layout
+and design of data, and translation of technical documents
+for the lay audience. With Honors content. Occasional.
+ENC 3250 CAH-WRITE 3(3,0)
+Professional Writing: PR: Grade of “C” (2.0) or
+better required in ENC 1102 Study of and practice with
+professional writing as a rhetorical act involving problem
+solving and audience accommodation; includes research
+and text production practices as well as business genres
+and conventions. Fall,Spring. 
 
 ENC 3433 CAH-WRITE 3(3,0) Multimedia Writing and Composition: PR: “C” (2.0) or better in ENC 1102 or C.I. Study and practice of multimedia writing (involving sound, visual, and linguistic forms) with an emphasis on the process of text production and remixing for different rhetorical contexts and audiences. Occasional. 
 ENC 3453 CAH-WRITE 3(3,0) Writing About Health and Medicine: PR: Grade of “C” (2.0) or better required in ENC 1102 or C.I. Writing practices and genres of the health professions, with emphasis on writing about health and medicine for lay audiences. Occasional. 
@@ -1391,23 +1439,64 @@ ENC 4416 CAH-WRITE 3(3,0) Writing in Digital Environments: PR: Grade of “C” 
 ENC 4416H CAH-WRITE 3(3,0) Honors Writing in Digital Environments: PR: Consent of Honors. Critical and rhetorical engagement with digital writing and networked systems, including a range of online media and genres. With Honors content. Occasional. 
 ENC 4434 CAH-WRITE 3(3,0) Visual and Material Rhetorics: PR: “C” (2.0) or better in ENC 1102 or C.I. Study of visual and material textual elements within different historical and contemporary rhetorical practices and performances. Students will use a variety of compositional materials to produce texts. Occasional. 
 ENC 4504 CAH-WRITE 3(3,0) Contemporary Composition Theory: PR: Grade of “C” (2.0) or better required in ENC 1102. Considers major theoretical paradigms and more emergent theoretical explorations in modern and contemporary composition studies. Occasional. 
-ENC 4265 CAH-ENG Writing for the Computer Industry: PR: Grade of C (2.0) or better in ENC 1102 and junior standing, or C.I. Creating different kinds of software manuals or online help systems for the computer industry. Occasional. 
-ENC 4275 CAH-WRITE Theory and Practice of Tutoring Writing: PR: Grade of “C” (2.0) or better in ENC 1102 and C.I. Theory and practice of assessing and responding to writing from the standpoint of a collaborator, as opposed to evaluator. Fall. 
-ENC 4280 CAH-ENG 3(3,0) Technical Writing Style: PR: Grade of C (2.0) or better required in ENC 3211 or ENC 3241 or C.I. Strategies for understanding and improving writing styles, particularly for a variety of technical writing genres. Spring. 
-ENC 4290 CAH-ENG Usability Testing for Technical Communication: PR: Grade of “C” (2.0) or better required in ENC 3241 or C.I. Usability theory and techniques for evaluating manuals, online documentation, and other technical communication genres. Occasional. 
-ENC 4293 CAH-ENG 3(3,0) Documentation and the Collaborative Process: PR: Grade of C (2.0) or better required in ENC 3211 or ENC 3241. Development of a book-length project from idea to final published product. Examples may include style manuals, policies and procedures, and training manuals. Fall,Spring. 
-ENC 4294 CAH-ENG 3(3,0) Documentation and Client-Based Collaboration: PR: Grade of C (2.0) or better required in ENC 4293. Practical application of editing theory to large ongoing projects from the student’s particular field. Should be taken concurrently with ENC 4215. Fall,Spring. 
-ENC 4298 CAH-ENG 3(3,0) Technical Communication for the Virtual Workplace: PR: ENC 1102. Collaborative technologies used in the modern workplace and the challenges associated with virtual collaboration. Students will participate in a virtual team project. Fall,Spring. 
-ENC 4312 CAH-ENG 3(3,0) Theory & Practice Persuasive Writing: PR: Grade of C (2.0) or better required in ENC 1102. A study of the theory and practice of persuasion, including logical emotional and ethical appeals. Occasional. 
-ENC 4313 CAH-ENG Research Writing: PR: Grade of C (2.0) or better in ENC 1102, junior standing, and C.I. Writing correspondence, instructions, proposals, and informal and formal reports in various disciplines. Occasional. 
-ENC 4353 CAH-WRITE 3(3,0) Writing for Social Change: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Study of how activist writing and other symbolic action can be used to mobilize social or policy change around contemporary controversial issues. Occasional. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
 
+ENC 4265 CAH-ENG 3(3,0)
+Writing for the Computer Industry: PR: Grade
+of C (2.0) or better in ENC 1102 and junior standing, or C.I.
+Creating different kinds of software manuals or online help
+systems for the computer industry. Occasional.
+ENC 4275 CAH-WRITE 3(3,0)
+Theory and Practice of Tutoring Writing: PR:
+Grade of “C” (2.0) or better in ENC 1102 and C.I. Theory
+and practice of assessing and responding to writing from the
+standpoint of a collaborator, as opposed to evaluator. Fall.
+ENC 4280 CAH-ENG 3(3,0)
+Technical Writing Style: PR: Grade of C (2.0) or
+better required in ENC 3211 or ENC 3241 or C.I. Strategies
+for understanding and improving writing styles, particularly
+for a variety of technical writing genres. Spring.
+ENC 4290 CAH-ENG 3(3,0)
+Usability Testing for Technical
+Communication: PR: Grade of “C” (2.0) or better
+required in ENC 3241 or C.I. Usability theory and techniques
+for evaluating manuals, online documentation, and other
+technical communication genres. Occasional.
+ENC 4293 CAH-ENG 3(3,0)
+Documentation and the Collaborative
+Process: PR: Grade of C (2.0) or better required in
+ENC 3211 or ENC 3241. Development of a book-length
+project from idea to final published product. Examples may
+include style manuals, policies and procedures, and training
+manuals. Fall,Spring.
+ENC 4294 CAH-ENG 3(3,0)
+Documentation and Client-Based
+Collaboration: PR: Grade of C (2.0) or better required
+in ENC 4293. Practical application of editing theory to large
+ongoing projects from the student’s particular field. Should
+be taken concurrently with ENC 4215. Fall,Spring.
+ENC 4298 CAH-ENG 3(3,0)
+Technical Communication for the Virtual
+Workplace: PR: ENC 1102. Collaborative technologies
+used in the modern workplace and the challenges associated
+with virtual collaboration. Students will participate in a virtual
+team project. Fall,Spring.
+ENC 4312 CAH-ENG 3(3,0)
+Theory & Practice Persuasive Writing: PR:
+Grade of C (2.0) or better required in ENC 1102. A study
+of the theory and practice of persuasion, including logical
+emotional and ethical appeals. Occasional.
+ENC 4313 CAH-ENG 3(3,0)
+Research Writing: PR: Grade of C (2.0) or better in
+ENC 1102, junior standing, and C.I. Writing correspondence,
+instructions, proposals, and informal and formal reports in
+various disciplines. Occasional.
+ENC 4353 CAH-WRITE 3(3,0)
+Writing for Social Change: PR: Grade of “C” (2.0)
+or better in ENC 1102 or C.I. Study of how activist writing
+and other symbolic action can be used to mobilize social or
+policy change around contemporary controversial issues.
+Occasional. 
 
- 
 
 ENC 4523 CAH-WRITE 3(3,0) Writing and Identity: PR: Grade of “C” (2.0) or better required in ENC 1102. Explores the role of identity in writing, particularly negotiating gender, race, class, sexual identity and other difference issues. Occasional. 
 ENC 4544 CAH-WRITE 3(3,0) Writing Pedagogy: PR: Grade of “C” (2.0) or better required in ENC 1102. Overview of pedagogical issues and strategies related to the teaching of writing, with focus on college-level writing. Occasional. 
@@ -1440,30 +1529,70 @@ ENV 3001 ECS-CECE 3(3,0) Introduction to Environmental Engineering: PR: A grade 
 ENV 4120 ECS-CECE 3(3,0) Air Pollution Control: PR: EGN 3343, CWR 3201 and ENV 3001 all with a grade of “C” (2.0) or better. Air pollution engineering including air resources management, engineering design, and operation of air pollution control systems. Fall. 
 ENV 4122C ECS-CECE 3(2,2) Air Pollution Control Design: PR: ENV 4120 with grade of “C” (2.0) or better and department consent. Project course on design of air pollution control equipment and systems. Spring. 
 ENV 4300C ECS-CECE 3(2,2) Solid Waste Facility Design: PR: ENV 4341 with grade of “C” (2.0) or better and department consent. Project course on design of a municipal solid waste landfill. Occasional. 
-ENG 3833 Marketing Your Writing: PR: “C” (2.0) or better in ENC 1102 or C.I. Exploration of writing markets and publishing opportunities therein, the submission process, and author marketing and negotiation strategies. Spring. 
-ENG 3836 CAH-WRITE 3(3,0) Professional Lives and Literacy Practices: PR: “C” (2.0) or better in ENC 1102 Study of technology-assisted professional writing and literacy practices around knowledge management work in organizations and communities. Fall,Spring. 
-CAH-WRITE 
-3(3,0) 
-ENG 4114 Literature and Film: PR: Grade of C (2.0) or better required in ENG 3014. The differences in emphasis, medium, and technique in selected novels and their film adaptations. Occasional. 
-ENG 4614 CAH-ENG 3(3,0) Discourse of Global Cultural Studies: PR: ENG 3014. American popular culture texts in world context, using concepts and theories from global cultural studies to analyze transmission, translation, and appropriation. Occasional. 
-CAH-ENG 3(3,0) 
-ENG 5009 Methods of Bibliography and Research: PR: Graduate status or senior standing or C.I. Bibliographical, library and systematic approaches to research at the graduate level in language and literature. Fall. 
-ENL 2012 CAH-ENG 3(3,0) English Literature I: PR: Grade of C (2.0) or better required in ENC 1102. Beowulf to 1798. Fall,Spring. 
-ENL 2022 CAH-ENG 3(3,0) English Literature II: PR: Grade of C (2.0) or better required in ENC 1102. From 1798 to 1914. Fall,Spring. 
-ENL 3222 CAH-ENG 3(3,0) Renaissance Women in Literature: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Literature by and about women in the Renaissance. Occasional. 
-ENL 3231 CAH-ENG 3(3,0) Restoration Literature: PR: Grade of “C” or better in ENC 1102. This course surveys the poetry, drama, and prose written during the Restoration era (1660-1700) and the social, historical, and political contexts. Occasional. 
-ENL 3296 CAH-ENG 3(3,0) Gothic Literature: PR: Grade of “C” or better required in ENC 1102. A study of Gothic literature (prose, poetry, drama) in the British Isles and its cultural contexts. Occasional. 
-CAH-ENG 3(3,0) 
-ENL 3296H Honors Gothic Literature: PR: ENC 1102 and Consent of Honors. A study of Gothic literature (prose, poetry, drama) in the British Isles and its cultural contexts. With Honors content. Occasional. 
-ENL 3654 CAH-ENG 3(3,0) Black British Literature: PR: Grade of “C” or better required in ENC 1102. Study of literature written inside the UK by authors of African, South Asian, and Caribbean lineage. Occasional. 
-ENL 4101 CAH-ENG 3(3,0) English Novel: PR: Grade of C (2.0) or better required in ENG 3014. Analysis of major English novelists. Occasional. 
-CAH-ENG 
-3(3,0) 
+
+ENG 3833 CAH-WRITE 3(3,0)
+Marketing Your Writing: PR: “C” (2.0) or better
+in ENC 1102 or C.I. Exploration of writing markets and
+publishing opportunities therein, the submission process,
+and author marketing and negotiation strategies. Spring.
+ENG 3836 CAH-WRITE 3(3,0)
+Professional Lives and Literacy Practices: PR:
+“C” (2.0) or better in ENC 1102 Study of technology-assisted
+professional writing and literacy practices around knowledge
+management work in organizations and communities.
+Fall,Spring.
+ENG 4114 CAH-ENG 3(3,0)
+Literature and Film: PR: Grade of C (2.0) or better
+required in ENG 3014. The differences in emphasis,
+medium, and technique in selected novels and their film
+adaptations. Occasional.
+ENG 4614 CAH-ENG 3(3,0)
+Discourse of Global Cultural Studies: PR: ENG
+3014. American popular culture texts in world context,
+using concepts and theories from global cultural studies
+to analyze transmission, translation, and appropriation.
+Occasional.
+ENG 5009 CAH-ENG 3(3,0)
+Methods of Bibliography and Research: PR:
+Graduate status or senior standing or C.I. Bibliographical,
+library and systematic approaches to research at the
+graduate level in language and literature. Fall.
+ENL 2012 CAH-ENG 3(3,0)
+English Literature I: PR: Grade of C (2.0) or better
+required in ENC 1102. Beowulf to 1798. Fall,Spring.
+ENL 2022 CAH-ENG 3(3,0)
+English Literature II: PR: Grade of C (2.0) or better
+required in ENC 1102. From 1798 to 1914. Fall,Spring.
+ENL 3222 CAH-ENG 3(3,0)
+Renaissance Women in Literature: PR: Grade
+of “C” (2.0) or better in ENC 1102 or C.I. Literature by and
+about women in the Renaissance. Occasional.
+ENL 3231 CAH-ENG 3(3,0)
+Restoration Literature: PR: Grade of “C” or better
+in ENC 1102. This course surveys the poetry, drama, and
+prose written during the Restoration era (1660-1700) and
+the social, historical, and political contexts. Occasional.
+ENL 3296 CAH-ENG 3(3,0)
+Gothic Literature: PR: Grade of “C” or better required
+in ENC 1102. A study of Gothic literature (prose, poetry,
+drama) in the British Isles and its cultural contexts.
+Occasional.
+ENL 3296H CAH-ENG 3(3,0)
+Honors Gothic Literature: PR: ENC 1102 and
+Consent of Honors. A study of Gothic literature (prose,
+poetry, drama) in the British Isles and its cultural contexts.
+With Honors content. Occasional.
+ENL 3654 CAH-ENG 3(3,0)
+Black British Literature: PR: Grade of “C” or better
+required in ENC 1102. Study of literature written inside
+the UK by authors of African, South Asian, and Caribbean
+lineage. Occasional.
+ENL 4101 CAH-ENG 3(3,0)
+English Novel: PR: Grade of C (2.0) or better
+required in ENG 3014. Analysis of major English novelists.
+Occasional. 
 
 
- 
-
- 
 
 ENV 4341 ECS-CECE 3(3,0) Solid & Hazardous Waste Management: PR: ENV 3001 with a grade of “C” (2.0) or better. Engineering design, planning, and analysis problems associated with storage, collection, processing, and disposal of solid and hazardous wastes. Fall. 
 ENV 4433C ECS-CECE 3(2,2) Environmental Engineering Wastewater Design: PR: EES 4111C, ENV 4531 both with grades of “C” (2.0) or better and department consent. Project course in advanced municipal and industrial wastewater treatment design with emphasis on teamwork to complete the design process. Occasional. 
@@ -1498,25 +1627,49 @@ EUH 2000H CAH-HIST 3(3,0) Honors Western Civilization I: PR: Permission of Honor
 EUH 2001 CAH-HIST 3(3,0) Western Civilization II: A survey of western civilization from 1648 to present. May be taken before EUH 2000. Fall,Spring. 
 EUH 2001H CAH-HIST 3(3,0) Honors Western Civilization II: PR: Permission of Honors. A survey of western civilization from 1648 to present. May be taken before EUH 2000. Honors-level content. Fall,Spring. 
 EUH 3122 CAH-HIST 3(3,0) Medieval Society and Civilization: PR: EUH 2000 and 2001 or C.I. Fall,Spring. 
-ESI 4234 Quality Engineering: PR: STA 3032 with a grade of “C” (2.0) or better. Basic concepts and techniques of quality control; applications of statistics in industrial research; design of quality assurance systems; reliability engineering. Fall. 
-ESI 4312 Operations Research: PR: STA 3032 and MAS 3105 with grades of “C” (2.0) or better in both. Introduction to linear, non-linear, and dynamic programming. Decision analysis, random processes, and queueing. Course covers theory through application and implementation of results. Fall. 
-ECS-IEMS 
-3(3,0) 
-ECS-IEMS 
-3(3,0) 
-ESI 4523C Systems Simulation: PR: ESI 4312 with a grade of “C” (2.0) or better. Methods and procedures for simulating large-scale systems with digital computers. High level simulation languages are used. Spring. 
-ECS-IEMS 
-3(2,2) 
-ESI 4628C ECS-IEMS Industrial Engineering Applications of Computers: CR: STA 3032 with a grade of “C” (2.0) or better. Survey of computer methods in industrial engineering practice. Topics include: spreadsheets, databases, expert systems, and project management. Lab exercises. Fall. 
-ESI 5219 ECS-IEMS 3(3,0) Engineering Statistics: PR: C.I. Discrete and continuous probability distributions, hypothesis testing, regression, nonparametric stats and ANOVA. Fall,Spring. 
-ESI 5227 ECS-IEMS 3(3,0) Total Quality Improvement: PR: STA 3032 or equivalent. Quality improvement (QI) tools and techniques, advanced QI techniques, quality improvement systems, total quality management concepts and implementation, planning and management tools, and case studies. Occasional. 
-ESI 5236 Reliability Engineering: PR: ESI 4234 or equivalent, or C.I. Reliability theory and modeling approaches. Topics include: failure data analysis, maintainability, reliability standards (DOD), software reliability, reliability in design, and electronic systems reliability. Fall. 
-ECS-IEMS 
-3(3,0) 
-3(2,2) 
 
+ESI 4234 ECS-IEMS 3(3,0)
+Quality Engineering: PR: STA 3032 with a grade of
+“C” (2.0) or better. Basic concepts and techniques of quality
+control; applications of statistics in industrial research;
+design of quality assurance systems; reliability engineering.
+Fall.
+ESI 4312 ECS-IEMS 3(3,0)
+Operations Research: PR: STA 3032 and MAS
+3105 with grades of “C” (2.0) or better in both. Introduction
+to linear, non-linear, and dynamic programming. Decision
+analysis, random processes, and queueing. Course covers
+theory through application and implementation of results.
+Fall.
+ESI 4523C ECS-IEMS 3(2,2)
+Systems Simulation: PR: ESI 4312 with a grade of
+“C” (2.0) or better. Methods and procedures for simulating
+large-scale systems with digital computers. High level
+simulation languages are used. Spring.
+ESI 4628C ECS-IEMS 3(2,2)
+Industrial Engineering Applications of
+Computers: CR: STA 3032 with a grade of “C” (2.0) or
+better. Survey of computer methods in industrial engineering
+practice. Topics include: spreadsheets, databases, expert
+systems, and project management. Lab exercises. Fall.
+ESI 5219 ECS-IEMS 3(3,0)
+Engineering Statistics: PR: C.I. Discrete and
+continuous probability distributions, hypothesis testing,
+regression, nonparametric stats and ANOVA. Fall,Spring.
+ESI 5227 ECS-IEMS 3(3,0)
+Total Quality Improvement: PR: STA 3032 or
+equivalent. Quality improvement (QI) tools and techniques,
+advanced QI techniques, quality improvement systems,
+total quality management concepts and implementation,
+planning and management tools, and case studies.
+Occasional.
+ESI 5236 ECS-IEMS 3(3,0)
+Reliability Engineering: PR: ESI 4234 or equivalent,
+or C.I. Reliability theory and modeling approaches. Topics
+include: failure data analysis, maintainability, reliability
+standards (DOD), software reliability, reliability in design,
+and electronic systems reliability. Fall. 
 
- 
 
 EUH 3124 CAH-HIST 3(3,0) The Crusades: PR: EUH 2000 and EUH 2001, or C.I. The phenomenon of crusading in medieval Europe and the Middle East, including theories of “just war” and jihad. Even Spring. 
 EUH 3142 CAH-HIST 3(3,0) Renaissance and Reformation: PR: EUH 2000 and 2001 or C.I. Influence of Renaissance humanism on arts, letters, and politics; Luther and Protestantism; the Catholic Counter-Reformation and the Thirty Years’ War. Occasional. 
@@ -1550,29 +1703,66 @@ EUH 5579 CAH-HIST 3(3,0) Colloquium in Soviet Russia: PR: Graduate status or sen
 EUH 5595 CAH-HIST 3(3,0) Colloquium in Czarist Russia: PR: Graduate status or senior standing or C.I. Selected topics on the literature of Russia under the Czars prior to 1917. Occasional. 
 EUH 5905 CAH-HIST 3(3,0) European Imperialism: PR: Graduate standing or C.I. Readings in selected topics in the history of European Imperialism. May be used in the degree program a maximum of 3 times only when course content is different. Occasional. 
 EUH 5925 CAH-HIST 3(3,0) Colloquium in Medieval Europe: PR: Graduate standing or C.I. Readings in selected topics in the history of medieval Europe. May be used in the degree program a maximum of 3 times only when course content is different. Occasional. 
-EUH 4426 CAH-HIST Sex and Gender in Antiquity: PR: EUH 2000 or WOH 2012. Examines the concepts of sex and gender in Greek and Roman societies and their impact on modern society. Occasional. 
-EUH 4465 CAH-HIST Hitler’s Third Reich: PR: EUH 2000 and 2001 or C.I. German nationalism and militarism; World War I and Versailles Treaty; the Weimar Republic and the rise of the Nazis; Second World War, division and recovery. Occasional. 
-EUH 4500 English History to 1485: PR: EUH 2000 and 2001 or C.I. Occasional. 
-CAH-HIST CAH-HIST 
-3(3,0) 3(3,0) 
-EUH 4501 English History: 1485-1815: PR: EUH 2000 and 2001 or C.I. Occasional. 
-EUH 4502 CAH-HIST British History: 1815-Present: PR: EUH 2000 and 2001 or C.I. Occasional. 
-EUH 4571 CAH-HIST History of Russia to 1801: PR: EUH 2000 and 2001 or C.I. Kievan State; Mongol Yoke; Development of Muscovite Expansionism and Absolutism; Time of Troubles; Westernization of Russia under Peter I and Catherine; Role of Orthodox Church. Occasional. 
-EUH 4574 CAH-HIST History of Russia: 1801-1917: PR: EUH 2000 and 2001 or C.I. Alexander I; Napoleonic Invasion, Revolutionary Movement; Russian Policy toward Central Asia and China; Great Reforms; Russo-Japanese War; Revolution of 1905; Constitutional Period; Triple Entente. Occasional. 
-EUH 4576 CAH-HIST 3(3,0) History of Russia in the 20th Century: PR: EUH 2000 and 2001 or C.I. War and Revolution, Lenin, Stalinist Period, WWII, The Cold War. Collapse of Soviet Union, the New Russia. Occasional. 
-EUH 4582 CAH-HIST 20th Century Russian Diplomatic History: PR: C.I. Russian diplomatic history from the signing of the Entente Cordiale to the aftermath of the Cold War. Occasional. 
-EUH 4610 Women in European Society: From Medieval to Modern: PR: Junior standing or C.I. This course examines the changing situation of women in Europe from the Middle Ages to the twentieth century. Occasional. 
-EUH 4610H CAH-HIST 3(3,0) Honors Women in European Society: PR: GEP Honors completion or permission of Honors. Interdisciplinary approach to the changing situation of women in Europe across space and over time with honors-level content. Occasional. 
-CAH-HIST 
-3(3,0) 
-EUH 4620 European Great Powers: 1815-1914: PR: EUH 2000 and 2001 or C.I. Congress of Vienna, Metternich’s system Crimean War, unifications of Italy& Germany, the Bismarckian era, the alliance systems, and the outbreak of World War I. Occasional. 
-CAH-HIST 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 3(3,0) 
-3(3,0) 
-3(3,0) 
+
+EUH 4426 CAH-HIST 3(3,0)
+Sex and Gender in Antiquity: PR: EUH 2000 or
+WOH 2012. Examines the concepts of sex and gender in
+Greek and Roman societies and their impact on modern
+society. Occasional.
+EUH 4465 CAH-HIST 3(3,0)
+Hitler’s Third Reich: PR: EUH 2000 and 2001 or
+C.I. German nationalism and militarism; World War I and
+Versailles Treaty; the Weimar Republic and the rise of
+the Nazis; Second World War, division and recovery.
+Occasional.
+EUH 4500 CAH-HIST 3(3,0)
+English History to 1485: PR: EUH 2000 and 2001
+or C.I. Occasional.
+EUH 4501 CAH-HIST 3(3,0)
+English History: 1485-1815: PR: EUH 2000 and
+2001 or C.I. Occasional.
+EUH 4502 CAH-HIST 3(3,0)
+British History: 1815-Present: PR: EUH 2000 and
+2001 or C.I. Occasional.
+EUH 4571 CAH-HIST 3(3,0)
+History of Russia to 1801: PR: EUH 2000 and
+2001 or C.I. Kievan State; Mongol Yoke; Development of
+Muscovite Expansionism and Absolutism; Time of Troubles;
+Westernization of Russia under Peter I and Catherine; Role
+of Orthodox Church. Occasional.
+EUH 4574 CAH-HIST 3(3,0)
+History of Russia: 1801-1917: PR: EUH 2000 and
+2001 or C.I. Alexander I; Napoleonic Invasion, Revolutionary
+Movement; Russian Policy toward Central Asia and China;
+Great Reforms; Russo-Japanese War; Revolution of 1905;
+Constitutional Period; Triple Entente. Occasional.
+EUH 4576 CAH-HIST 3(3,0)
+History of Russia in the 20th Century: PR: EUH
+2000 and 2001 or C.I. War and Revolution, Lenin, Stalinist
+Period, WWII, The Cold War. Collapse of Soviet Union, the
+New Russia. Occasional.
+EUH 4582 CAH-HIST 3(3,0)
+20th Century Russian Diplomatic History:
+PR: C.I. Russian diplomatic history from the signing of
+the Entente Cordiale to the aftermath of the Cold War.
+Occasional.
+EUH 4610 CAH-HIST 3(3,0)
+Women in European Society: From Medieval
+to Modern: PR: Junior standing or C.I. This course
+examines the changing situation of women in Europe from
+the Middle Ages to the twentieth century. Occasional.
+EUH 4610H CAH-HIST 3(3,0)
+Honors Women in European Society: PR: GEP
+Honors completion or permission of Honors. Interdisciplinary
+approach to the changing situation of women in Europe
+across space and over time with honors-level content.
+Occasional.
+EUH 4620 CAH-HIST 3(3,0)
+European Great Powers: 1815-1914: PR: EUH
+2000 and 2001 or C.I. Congress of Vienna, Metternich’s
+system Crimean War, unifications of Italy& Germany, the
+Bismarckian era, the alliance systems, and the outbreak of
+World War I. Occasional. 
 
 
  
@@ -1613,27 +1803,68 @@ FIL 3427C CAH-SVAD 3(2,4) Introduction to Film Production: PR: or CR: FIL 2107 a
 FIL 3455C CAH-SVAD 6(2,4) Film Landscapes: Story, Image and Production Design: PR: FIL 2423 or FIL 3427C, and FIL 2030. The use of landscape in film and its importance to the art of production design. Occasional. 
 FIL 3462C CAH-SVAD 3(3,1) Cinematic Expression: PR: FIL 3803C. Cinematography using video format; study of fundamentals of motion-picture communication, film structure and storytelling. Spring. 
 FIL 3483 CAH-SVAD 3(3,0) Directing the Actor for Film II: PR: FIL 2481. Characterization and scene study as it applies to directing the actor for film. Occasional. 
-FIL 2480 Directing for Film I: PR: FIL 1007, FIL 1008, and FIL 3427C. PR or CR: FIL 3115. Introduction to processes and techniques for film directing. Spring. 
-FIL 2481 CAH-SVAD 3(3,0) Directing the Actor for Film I: PR: Film BFA or World Cinema major. Developing an ability to direct and work with film actors effectively, using various acting and directing techniques. Spring. 
-CAH-SVAD 
-3(3,0) 
-FIL 2552 CAH-SVAD Editing I: PR: FIL 1008 and FIL 3427C. PR or CR: FIL 3115. Basic editing concepts and techniques, using non- linear editing systems. Spring. 
-FIL 3006 CAH-SVAD 3(3,0) Art of the Cinema: PR: FIL 2030. An analysis of basic elements of cinematic style including film direction, editing, cinematography, art direction and sound. Fall,Spring. 
-FIL 3035C CAH-SVAD 3(3,1) Film Histories II: PR: FIL 2030. Surveys and questions historical approaches to film and seeks to open up the field of historical enquiry to a variety of views. Fall. 
-FIL 3036 CAH-SVAD 3(3,0) Film History I: PR: FIL 2030, FIL 2107 and Film BFA, World Cinema, or Cinema Studies major. Examines film history in a depth of detail and with rigor that is appropriate for majors in the subject. This course covers cinema history from 1895 to 1945. Fall. 
-FIL 3037 CAH-SVAD Film History II: PR: FIL 2030, FIL 2107 and Film BFA, World Cinema, or Cinema Studies major. Film history in a depth of detail and with rigor that is appropriate for majors in the subject. This course covers from 1946 to the present. Spring. 
-FIL 3041 History of Animated Films I: PR: Cinema Studies, Art, Animation or Digital Media major. Evolution of animation from its roots in Art, Theatre, and Novelty Inventions to its rise as a cinematic force of popular storytelling. Even Fall. 
-FIL 3051 CAH-SVAD 3(3,0) Avant-Garde Cinema: PR: Junior standing or C.I. History and aesthetics of Avant-Garde Cinema with an emphasis on post WWII North American films and filmmakers. Spring. 
-CAH-SVAD 
-3(3,0) 
-FIL 3070C Cinema in the 1920s: PR: FIL 3035C. Films of the 1920s as they pertain to the political, social, cultural, and artistic context of the period. Occasional. 
-FIL 3071C CAH-SVAD 3(3,1) Cinema in the 1930s: PR: FIL 3035C. Films of the 1930s as they pertain to the political, social, cultural, and artistic context of the period. Occasional. 
-FIL 3072C CAH-SVAD 3(3,1) Cinema in the 1940s and 1950s: PR: FIL 3035C. Films of the 1940s and 1950s as they pertain to the political, social, cultural, and artistic context of the period. Occasional. 
-FIL 3073C CAH-SVAD 3(3,1) Cinema in the 1960s and 1970s: PR: FIL 3035C. Films of the 1960s and 1970s as they relate to the political, social, cultural, and artistic context of the period. Occasional. 
-CAH-SVAD 
-3(3,1) 
-3(3,0) 
-3(3,0) 
+
+FIL 2480 CAH-SVAD 3(3,0)
+Directing for Film I: PR: FIL 1007, FIL 1008, and FIL
+3427C. PR or CR: FIL 3115. Introduction to processes and
+techniques for film directing. Spring.
+FIL 2481 CAH-SVAD 3(3,0)
+Directing the Actor for Film I: PR: Film BFA or
+World Cinema major. Developing an ability to direct and
+work with film actors effectively, using various acting and
+directing techniques. Spring.
+FIL 2552 CAH-SVAD 3(3,0)
+Editing I: PR: FIL 1008 and FIL 3427C. PR or CR: FIL
+3115. Basic editing concepts and techniques, using nonlinear
+editing systems. Spring.
+FIL 3006 CAH-SVAD 3(3,0)
+Art of the Cinema: PR: FIL 2030. An analysis of basic
+elements of cinematic style including film direction, editing,
+cinematography, art direction and sound. Fall,Spring.
+FIL 3035C CAH-SVAD 3(3,1)
+Film Histories II: PR: FIL 2030. Surveys and questions
+historical approaches to film and seeks to open up the field
+of historical enquiry to a variety of views. Fall.
+FIL 3036 CAH-SVAD 3(3,0)
+Film History I: PR: FIL 2030, FIL 2107 and Film BFA,
+World Cinema, or Cinema Studies major. Examines film
+history in a depth of detail and with rigor that is appropriate
+for majors in the subject. This course covers cinema history
+from 1895 to 1945. Fall.
+FIL 3037 CAH-SVAD 3(3,0)
+Film History II: PR: FIL 2030, FIL 2107 and Film BFA,
+World Cinema, or Cinema Studies major. Film history in a
+depth of detail and with rigor that is appropriate for majors
+in the subject. This course covers from 1946 to the present.
+Spring.
+FIL 3041 CAH-SVAD 3(3,0)
+History of Animated Films I: PR: Cinema Studies,
+Art, Animation or Digital Media major. Evolution of animation
+from its roots in Art, Theatre, and Novelty Inventions to its
+rise as a cinematic force of popular storytelling. Even Fall.
+FIL 3051 CAH-SVAD 3(3,0)
+Avant-Garde Cinema: PR: Junior standing or
+C.I. History and aesthetics of Avant-Garde Cinema with
+an emphasis on post WWII North American films and
+filmmakers. Spring.
+FIL 3070C CAH-SVAD 3(3,1)
+Cinema in the 1920s: PR: FIL 3035C. Films of the
+1920s as they pertain to the political, social, cultural, and
+artistic context of the period. Occasional.
+FIL 3071C CAH-SVAD 3(3,1)
+Cinema in the 1930s: PR: FIL 3035C. Films of the
+1930s as they pertain to the political, social, cultural, and
+artistic context of the period. Occasional.
+FIL 3072C CAH-SVAD 3(3,1)
+Cinema in the 1940s and 1950s: PR: FIL 3035C.
+Films of the 1940s and 1950s as they pertain to the
+political, social, cultural, and artistic context of the period.
+Occasional.
+FIL 3073C CAH-SVAD 3(3,1)
+Cinema in the 1960s and 1970s: PR: FIL 3035C.
+Films of the 1960s and 1970s as they relate to the
+political, social, cultural, and artistic context of the period.
+Occasional. 
 
 
  
@@ -1670,24 +1901,77 @@ FIL 4303C CAH-SVAD 3(3,1) Film Fiction and the Document: PR: LIT 2110, FIL 3075C
 FIL 4434C CAH-SVAD 3(2,4) Capstone I: PR: FIL 3132 and Film BFA or World Cinema major. Intensive tutorial guidance, instruction and evaluation of final film projects from initial concept through production. May be repeated for credit. Fall. 
 FIL 4436 CAH-SVAD 3(3,0) Film Theory/Film Production: PR: Junior standing and FIL 1008 or C.I. Non-narrative filmmaking demonstrating the dynamic interplay between producing, viewing, reading and writing about images. Odd Spring. 
 FIL 4451 CAH-SVAD 3(3,0) Design for Film: PR: FIL 3427C, or C.I. Analysis of visual structure of film. Specific problems in art direction. Fall. 
-FIL 3845 CAH-SVAD World Cinema Traditions: PR: or CR: FIL 3036 or FIL 3037 and Film BFA, World Cinema, or Cinema Studies major. The relationship among film, history, and culture in selected Asian, African, Latin American, and Middle Eastern countries. Fall,Spring. 
-FIL 3847 CAH-SVAD 3(3,0) Latin American Cinema: PR: or CR: FIL 3036 or FIL 3037 and Film BFA, World Cinema, or Cinema Studies major. Latin American films and film movements, historical and contemporary issues, social, and aesthetic concerns. Spring. 
-FIL 3850 CAH-SVAD 3(3,0) Cinema Directors: PR: FIL 3803C and Film BFA, World Cinema, or Cinema Studies major, or C.I. Intensive study of the work of selected film-makers using multiple modes of criticism and author analysis to examine films. Occasional. 
-FIL 3852 Cinema Criticism Writing: PR: FIL 3036 or FIL 3037 and ENC 1102, FIL 2030, FIL 3803C. Modes of cinema criticism. Occasional. 
-CAH-SVAD 
-3(3,0) 
-FIL 3860C CAH-SVAD The Shot, Framing, Point of View: PR: FIL 3035C. Approaches to the shot, framing and point of view. Occasional. 
-FIL 3861C CAH-SVAD 3(3,1) Film and Photography: PR: FIL 3076C. Historical and Cultural relationship between photography and film. Occasional. 
-FIL 3862C CAH-SVAD 3(3,1) Narrative Structures in Film: PR: LIT 2110 and LIT 2120. Different structures of narrative in film and the ways in which narrative structures have been theorized and understood. Fall. 
-FIL 3865C CAH-SVAD 3(3,1) Mise en scène and Theatricality: PR: THE 2000. Relationship between theatre and cinema with specific emphasis on mise en scène. Spring. 
-FIL 3870C CAH-SVAD 3(3,1) Music, Natural Sounds and Dialogue in Film: PR: FIL 3035C. Study of relationship between music, natural sounds, dialogue, and moving images. Occasional. 
-FIL 3871 CAH-SVAD 3(3,0) The American Film Artist: PR: FIL 2030. Analysis of a major American filmmaker’s style, vision and works; how these evolved and their impact on film and the culture. May be repeated for credit. Fall. M&S fee $5.00 
-FIL 3876C CAH-SVAD 3(3,1) Experimental Cinema I: PR: FIL 3075C. A notion of cinema as an expansion of possibilities organized around formal, material, and conceptual aspects of film. Fall,Spring. 
-FIL 3877C CAH-SVAD 3(3,1) Experimental Cinema II: PR: FIL 3876C. Concentration on specific aesthetic strategies of experimental film including those derived from the work of artists outside of the film related to treatments of reality and the perception of light. Spring. 
-FIL 3878C CAH-SVAD 3(3,1) Color and Lighting in Cinema: PR: FIL 3035C. Ideas and practices related to lighting and color primarily in film but also painting, sculpture, photography and theatre. Occasional. 
-FIL 3880C CAH-SVAD 3(3,1) Images of Women in Film: PR: FIL 2030. Images of women in film and how these images are shaped and structured in relation to circumstances of production, aesthetics, cultural, historical, and ideological factors. Fall,Spring. 
-3(3,0) 
-3(3,1) 
+
+FIL 3845 CAH-SVAD 3(3,0)
+World Cinema Traditions: PR: or CR: FIL 3036 or
+FIL 3037 and Film BFA, World Cinema, or Cinema Studies
+major. The relationship among film, history, and culture in
+selected Asian, African, Latin American, and Middle Eastern
+countries. Fall,Spring.
+FIL 3847 CAH-SVAD 3(3,0)
+Latin American Cinema: PR: or CR: FIL 3036 or
+FIL 3037 and Film BFA, World Cinema, or Cinema Studies
+major. Latin American films and film movements, historical
+and contemporary issues, social, and aesthetic concerns.
+Spring.
+FIL 3850 CAH-SVAD 3(3,0)
+Cinema Directors: PR: FIL 3803C and Film BFA,
+World Cinema, or Cinema Studies major, or C.I. Intensive
+study of the work of selected film-makers using multiple
+modes of criticism and author analysis to examine films.
+Occasional.
+FIL 3852 CAH-SVAD 3(3,0)
+Cinema Criticism Writing: PR: FIL 3036 or FIL 3037
+and ENC 1102, FIL 2030, FIL 3803C. Modes of cinema
+criticism. Occasional.
+FIL 3860C CAH-SVAD 3(3,1)
+The Shot, Framing, Point of View: PR: FIL
+3035C. Approaches to the shot, framing and point of view.
+Occasional.
+FIL 3861C CAH-SVAD 3(3,1)
+Film and Photography: PR: FIL 3076C. Historical
+and Cultural relationship between photography and film.
+Occasional.
+FIL 3862C CAH-SVAD 3(3,1)
+Narrative Structures in Film: PR: LIT 2110 and
+LIT 2120. Different structures of narrative in film and the
+ways in which narrative structures have been theorized and
+understood. Fall.
+FIL 3865C CAH-SVAD 3(3,1)
+Mise en scène and Theatricality: PR: THE 2000.
+Relationship between theatre and cinema with specific
+emphasis on mise en scène. Spring.
+FIL 3870C CAH-SVAD 3(3,1)
+Music, Natural Sounds and Dialogue in Film:
+PR: FIL 3035C. Study of relationship between music, natural
+sounds, dialogue, and moving images. Occasional.
+FIL 3871 CAH-SVAD 3(3,0)
+The American Film Artist: PR: FIL 2030. Analysis of
+a major American filmmaker’s style, vision and works; how
+these evolved and their impact on film and the culture. May
+be repeated for credit. Fall. M&S fee $5.00
+FIL 3876C CAH-SVAD 3(3,1)
+Experimental Cinema I: PR: FIL 3075C. A notion
+of cinema as an expansion of possibilities organized
+around formal, material, and conceptual aspects of film.
+Fall,Spring.
+FIL 3877C CAH-SVAD 3(3,1)
+Experimental Cinema II: PR: FIL 3876C.
+Concentration on specific aesthetic strategies of
+experimental film including those derived from the work of
+artists outside of the film related to treatments of reality and
+the perception of light. Spring.
+FIL 3878C CAH-SVAD 3(3,1)
+Color and Lighting in Cinema: PR: FIL 3035C.
+Ideas and practices related to lighting and color primarily in
+film but also painting, sculpture, photography and theatre.
+Occasional.
+FIL 3880C CAH-SVAD 3(3,1)
+Images of Women in Film: PR: FIL 2030. Images
+of women in film and how these images are shaped
+and structured in relation to circumstances of production,
+aesthetics, cultural, historical, and ideological factors.
+Fall,Spring. 
 
 
  
@@ -1723,25 +2007,70 @@ FIN 4424 BA-FIN 3(3,0) Advanced Topics in Financial Management: PR: FIN 3414 wit
 FIN 4453 BA-FIN 3(3,0) Financial Models: PR: FIN 3403C, FIN 3414, and FIN 3504, each with a “C” (2.0) or better; open to majors or minors which require this course. Mathematical models applied specifically to financial problems, including those models suitable for representation and solutions on computers. Fall,Spring. 
 FIN 4514 BA-FIN 3(3,0) Portfolio Analysis and Management: PR: FIN 3403C, FIN 3303 and FIN 3504, each with a “C” (2.0) or better; open to majors or minors which require this course. Portfolio and capital market theory in the determination of rational investment policies. Risk analysis, portfolio analysis, and evaluation techniques. Fall,Spring. 
 FIN 4533 BA-FIN 3(3,0) Financial Derivatives: PR: FIN 3403C, FIN 3303 and FIN 3504, each with a “C” (2.0) or better; open to majors or minors which require this course. Options, futures, forwards, and other derivative contracts. Investments traded in these markets are examined. Pricing and hedging are considered. Fall,Spring. 
-FIL 4935C Current Problems in Film Theory: PR: FIL 3035C. Concentration on most recent work in film studies concerned with film theory. Occasional. 
-FIL 4939C CAH-SVAD 3(3,1) Current Problems in Film History: PR: FIL 3035C. Concentration on the most recent work in film studies concerned with film history. Occasional. 
-CAH-SVAD 
-3(3,1) 
-FIL 5406 CAH-SVAD Theories of Film Production: PR: Film MFA student or C.I. Comparative analysis of motion picture production methodologies, including the studio industrial model, from a historical/critical perspective. Spring. 
-FIL 5414 CAH-SVAD 3(3,0) Film Vision, Scope & Financing: PR: Acceptance to the MFA Film & Digital Media program. Exploration of the creative and business challenges filmmakers encounter when working on a screenplay, including financing, making, and distributing a digital, microbudget motion picture. Spring. 
-FIL 5419 CAH-SVAD 3(3,0) Developing the Film Screenplay: PR: Admission to MFA Film & Digital Media-Entre Dig Cin track, or C.I. Development of an existing, original screenplay to fit the demands, limits, and possibilities of the microbudget, digital film paradigm. Fall. 
-FIL 5800 Research Methods in Film and Digital Media: PR: Admission to Film and Digital Media graduate program or C.I. Research methodology for the study and production of film and new media. Spring. 
-CAH-SVAD 
-3(3,0) 
-FIL 5853 CAH-SVAD Independent Cinematic Forms: PR: Admission to MFA Film & Digital Media/Entre Dig Cin track, or C.I. Evolution of low budget independent cinematic films through the works of modern and classical filmmakers within and beyond the studio system. Fall. 
-FIL 5864 CAH-SVAD Ways of Seeing: The Expressive Potential of Film: PR: Admission to MFA Film and Digital Media or C.I. A study of multidisciplinary theories that relate to the practice of filmmaking. Fall. 
-FIL 5924 CAH-SVAD Graduate Seminar: PR: Admission to MFA Film & Digital Media/Entrepreneurial Digital Cinema track, or C.I. Strategies for a successful graduate experience, and forum for modes of inquiry, film technique, production and distribution issues; and thesis defense preparation. Graded S/U. May be used in the degree program a maximum of 6 times. Fall. 
-FIN 2100 BA-FIN 3(3,0) Personal Finance and Investments: PR: Open to all students (majors, minors, and non-majors). An overview of personal and family financial planning. Topics include housing, investments, insurance, retirement planning, estate planning, financial services, consumer credit, and tax planning. Fall,Spring. 
-FIN 3303 BA-FIN 3(3,0) Financial Markets: PR: FIN 3403C with a “C” (2.0) or better; open to majors or minors which require this course. The role of short and long-term financial markets and financial institutions in capital formation and allocation. Theories and mathematics of interest rates. Fall,Spring. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-1(1,0) 
+
+FIL 4935C CAH-SVAD 3(3,1)
+Current Problems in Film Theory: PR: FIL
+3035C. Concentration on most recent work in film studies
+concerned with film theory. Occasional.
+FIL 4939C CAH-SVAD 3(3,1)
+Current Problems in Film History: PR: FIL
+3035C. Concentration on the most recent work in film
+studies concerned with film history. Occasional.
+FIL 5406 CAH-SVAD 3(3,0)
+Theories of Film Production: PR: Film MFA
+student or C.I. Comparative analysis of motion picture
+production methodologies, including the studio industrial
+model, from a historical/critical perspective. Spring.
+FIL 5414 CAH-SVAD 3(3,0)
+Film Vision, Scope & Financing: PR: Acceptance
+to the MFA Film & Digital Media program. Exploration of
+the creative and business challenges filmmakers encounter
+when working on a screenplay, including financing, making,
+and distributing a digital, microbudget motion picture.
+Spring.
+FIL 5419 CAH-SVAD 3(3,0)
+Developing the Film Screenplay: PR: Admission
+to MFA Film & Digital Media-Entre Dig Cin track, or C.I.
+Development of an existing, original screenplay to fit the
+demands, limits, and possibilities of the microbudget, digital
+film paradigm. Fall.
+FIL 5800 CAH-SVAD 3(3,0)
+Research Methods in Film and Digital Media:
+PR: Admission to Film and Digital Media graduate program
+or C.I. Research methodology for the study and production
+of film and new media. Spring.
+FIL 5853 CAH-SVAD 3(3,0)
+Independent Cinematic Forms: PR: Admission
+to MFA Film & Digital Media/Entre Dig Cin track, or C.I.
+Evolution of low budget independent cinematic films through
+the works of modern and classical filmmakers within and
+beyond the studio system. Fall.
+FIL 5864 CAH-SVAD 3(3,0)
+Ways of Seeing: The Expressive Potential of
+Film: PR: Admission to MFA Film and Digital Media or
+C.I. A study of multidisciplinary theories that relate to the
+practice of filmmaking. Fall.
+FIL 5924 CAH-SVAD 1(1,0)
+Graduate Seminar: PR: Admission to MFA Film
+& Digital Media/Entrepreneurial Digital Cinema track, or
+C.I. Strategies for a successful graduate experience, and
+forum for modes of inquiry, film technique, production and
+distribution issues; and thesis defense preparation. Graded
+S/U. May be used in the degree program a maximum of 6
+times. Fall.
+FIN 2100 BA-FIN 3(3,0)
+Personal Finance and Investments: PR: Open to
+all students (majors, minors, and non-majors). An overview
+of personal and family financial planning. Topics include
+housing, investments, insurance, retirement planning,
+estate planning, financial services, consumer credit, and tax
+planning. Fall,Spring.
+FIN 3303 BA-FIN 3(3,0)
+Financial Markets: PR: FIN 3403C with a “C” (2.0)
+or better; open to majors or minors which require this
+course. The role of short and long-term financial markets
+and financial institutions in capital formation and allocation.
+Theories and mathematics of interest rates. Fall,Spring. 
 
 
  
@@ -1775,6 +2104,7 @@ FRW 3370 CAH-LANG 3(3,0) Short Stories of 18th, 19th and 20th Centuries: PR: FRE
 FRW 3740 CAH-LANG 3(3,0) The French Literature of Canada: PR: FRE 2201 or equivalent. A survey of the French literature of Canada from the late 19th century to the present, with particular emphasis on the novel and short story. Occasional. 
 FRW 3752 CAH-LANG 3(3,0) French Caribbean Literature: PR: FRE 2201 or equivalent. Literature of the French speaking Caribbean from colonial times to the present, in French. Occasional. 
 FRW 3760 CAH-LANG 3(3,0) Creole Identity in the French-Speaking World: PR: FRE 2201 or equivalent. Creole literatures and cultures of the Francophone world. Spring. 
+
 FRE 2200 Intermediate French Language and Civilization I: PR: FRE 1121C or equivalent. Development of language skills and cultural knowledge at the intermediate level. Fall,Spring. 
 CAH-LANG 
 3(3,1) 
@@ -1836,6 +2166,7 @@ GEB 4934 BA-BA 0(0,1) Current Topics in Business Administration: PR: Admission t
 GEB 5516 BA-MAN 3(3,0) Technological Entrepreneurship: PR: Graduate standing. Focus of the course is on identification, evaluation and commercialization of new technologies. Emphasis will be placed on the legal, financial and strategy aspects of technology transfer and development. Occasional. 
 GEB 5941 BA-BA 1.5(1.5,0) Professional Business Practicum: PR: Acceptance in the graduate program. The practicum is to provide a professional business work experience for students entering the MBA program without such experience. Occasional. 
 GEO 1200 COS-POLS 3(3,0) Physical Geography: Basic physical elements of geography, including climate, landforms, soils, natural vegetation, minerals, and their integrated patterns of world distribution. Fall,Spring. 
+
 GEA 4405 CAH-LAS Geography of Latin America: PR: ENC 1102 or C.I. Geography of Latin America and the Caribbean, including geophysical, cultural, economic, and social characteristics and processes. Occasional. 
 GEB 1091C BA-BA 2(1,1) Foundations of Leadership: PR: LEAD Scholars Program. Seminar for LEAD Scholars in the College of Business providing a foundation of leadership, scholarship, and service regarding disciplines in the college. Fall,Spring. 
 GEB 2350 Foundations of Business: Introduction to the U.S. business system and the role it plays in a global economy. Fall. 

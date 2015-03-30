@@ -4,13 +4,21 @@
 </head>
 
 <body>
-	<div class="left-pane">
-			{{> courseList}}
-	</div>
-    	<div class="center-pane">
 
-	  		{{> schedule}}
-		</div>
+	<div class="left-pane">
+			{{#if isSidebarOpen}}
+			{{> courseList}}
+			{{/if}}
+	</div>
+	<div class="left-pane-button">
+		<i class="small left caret icon"></i>
+		<i class="small left caret icon"></i>
+		<i class="small left caret icon"></i>
+	</div>
+	<div class="center-pane">
+
+  		{{> schedule}}
+	</div>
 </body>
 
 
@@ -85,12 +93,12 @@
 </template>
 
 <template name="courseList">
-
-	<div class="ui segment">
+	<div class="ui sticky">
+	<div id="searchArea" class="ui segment">
 		<div class="ui form">
-			<div class="two fields">
+			<div class="two fluid fields">
 				<div class="field">
-					<div id="collegeDropdown" class="ui dropdown labeled search icon button">
+					<div id="collegeDropdown" class="ui fluid dropdown labeled search icon button">
 					    <i class="filter icon"></i>
 					    <span class="text">College</span>
 					    <div class="menu">
@@ -101,7 +109,7 @@
 					</div>
 				</div>		
 				<div class="field">
-					<div id="deptDropdown" class="ui dropdown labeled search icon button">
+					<div id="deptDropdown" class="ui fluid dropdown labeled search icon button">
 						<i class="filter icon"></i>
 					    <span class="text">Dept</span>
 					    <div class="menu">
@@ -111,25 +119,22 @@
 					  </div>
 					</div>
 				</div>
+
 				<script>$('.ui.dropdown.labeled.search.icon.button').dropdown();</script>
 			</div>
-		<div class="field">
-			<div class="ui labeled icon input">
-				<div class="ui label">
-		    		Code
-		  		</div>
-				 <i class="filter icon"></i>
-			  	<input id="codeSearchBox" type="text">
+		<div class="two fluid fields">
+			<div class="field">
+				<div class="ui left icon input">
+					 <i class="filter icon"></i>
+				  	<input id="codeSearchBox" type="text" placeholder="Code">
 
+				</div>
 			</div>
-		</div>
-		<div class="field">
-			<div class="ui labeled icon input">
-			  	<div class="ui label">
-		    		Title
-		  		</div>
-				 <i class="filter icon"></i>
-			  	<input id="titleSearchBox" type="text">
+			<div class="field">
+				<div class="ui left icon input">
+					 <i class="filter icon"></i>
+				  	<input id="titleSearchBox" type="text" placeholder="Title">
+				</div>
 			</div>
 		</div>
 		<div class="two fluid fields">
@@ -184,7 +189,6 @@
 			  <i class="search icon"></i>
 			</div>
 		</div> -->
-	</div>
 
 <div class="ui form">
 	<div class="three fields">
@@ -221,10 +225,17 @@
 		</div>
 					
 	</div>
-	
+</div>
+</div>
+<script>
+	$('.ui.sticky').sticky();
+	$('#searchArea').css({width:'350px',height:'220px'});
+</script>
+
 </div>
 
-	<div class="ui red segment">
+
+	<div id="searchResults" class="ui red segment">
 
 		<div class="ui cards">
 		{{#each courseArray}}

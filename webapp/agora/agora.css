@@ -18,23 +18,36 @@
 	position: absolute;
 }
 
+.left-pane-button {
+   top: 0px;
+   left: 0px;
+   width: 10px;
+   height: 1000px;
+   background: gray;
+   visibility: visible;
+   position: absolute;
+   z-index: 10;
+}
+
 .left-pane-out {
 	top: 0px;
 	width: 350px;
+   height: 1000px;
 	visibility: visible;
 	position: absolute;
+   overflow-y: scroll;
 }
 
 #dragArea {
-	height: 1600px;
+	height: 1000px;
 }
 
 .drag {
    position: absolute;
    border: 1px solid #89B;
    background: #BCE;
-   height: 30px;
-   width: 100px;
+   height: 0px;
+   width: 0px;
    cursor: move;
    top: 170px;
    left: -135px;

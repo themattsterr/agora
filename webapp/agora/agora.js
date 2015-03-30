@@ -12,13 +12,18 @@ if (Meteor.isClient) {
     });
   });
 
-  Template.courseList.rendered = function(){
+  Template.registerHelper('isSidebarOpen', function () {
+    return Session.get('isSidebarOpen');
+  });
 
+  Template.courseList.rendered = function(){
+      $('#searchResults').css({top: '220px',width:'350px', 'min-height':'740px'});
   }
 
   Session.setDefault('searchParam', {});
   Session.setDefault('selectedCourse',null);
   Session.setDefault('selectedCard',null);
+  Session.setDefault('isSidebarOpen',false);
 
   Template.courseList.helpers({
     courseArray: function () {
@@ -66,6 +71,8 @@ if (Meteor.isClient) {
       $('#deptDropdown').dropdown('restore defaults');
       $('#codeSearchBox').val('');
       $('#titleSearchBox').val('');
+      $('#yearDropdown').dropdown('restore defaults');
+      $('#semesterDropdown').dropdown('restore defaults');
     },
     'click #searchButton' : function(){
       var search = Session.get('searchParam');
@@ -80,6 +87,7 @@ if (Meteor.isClient) {
     },
     'click #refreshButton' : function(event) {
       Template.schedule.rendered();
+      Template.courseList.rendered();
     },
     'click #addCourseButton' : function(event){
       var grid = Session.get('scheduleGrid');
@@ -117,7 +125,7 @@ if (Meteor.isClient) {
         $('#'+ lastCard).css('background','rgb(255, 255, 255)');
 
         console.log('resetting');
-        Template.schedule.rendered();
+
 
       }
 
@@ -372,13 +380,18 @@ jQuery(function($){
       var openedElement = $('.center-pane-out');
 
       if (!initialElement.length) {
+        Session.set('isSidebarOpen',false);
         openedElement[0].className = 'center-pane';
         $('.left-pane-out')[0].className = 'left-pane'
+        $('.left-pane-button').css('left','0px');
       }
 
       if(!openedElement.length) {
+        Session.set('isSidebarOpen',true);
         initialElement[0].className = 'center-pane-out';
         $('.left-pane')[0].className = 'left-pane-out';
+        $('.left-pane-button').css('left','350px');
+
       }
 
     }
@@ -390,5 +403,6 @@ jQuery(function($){
 if (Meteor.isServer) {
   Meteor.startup(function () {
     // code to run on server at startup
+    Meteor.call('insertData',courses);
   });
 }
