@@ -5646,6 +5646,60 @@ var coursesSemesters = [
         "semester3": ""
     },
     {
+        "course": "EML 4504",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EML 4535C",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "EML 4600",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EML 4602",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EML 4703",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EML 4804C",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EML 4991",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "EML 5026C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EML 5060",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
         "course": "EML 5403",
         "semester1": "Occasional",
         "semester2": "",
@@ -5781,6 +5835,42 @@ var coursesSemesters = [
         "course": "ENC 3417",
         "semester1": "Spring",
         "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 1101H",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 1102",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 1102H",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 3211",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 3241H",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 3250",
+        "semester1": "Fall",
+        "semester2": "Spring",
         "semester3": ""
     },
     {
@@ -5941,6 +6031,66 @@ var coursesSemesters = [
     },
     {
         "course": "ENC 4504",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4265",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4275",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4280",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4290",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4293",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4294",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4298",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4312",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4313",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENC 4353",
         "semester1": "Occasional",
         "semester2": "",
         "semester3": ""
@@ -6108,6 +6258,84 @@ var coursesSemesters = [
         "semester3": ""
     },
     {
+        "course": "ENG 3833",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENG 3836",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENG 4114",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENG 4614",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENG 5009",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 2012",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 2022",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 3222",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 3231",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 3296",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 3296H",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 3654",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ENL 4101",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
         "course": "ENV 4341",
         "semester1": "Fall",
         "semester2": "",
@@ -6270,6 +6498,42 @@ var coursesSemesters = [
         "semester3": ""
     },
     {
+        "course": "ESI 4234",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ESI 4312",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ESI 4523C",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ESI 5219",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "ESI 5227",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ESI 5236",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
         "course": "EUH 3142",
         "semester1": "Occasional",
         "semester2": "",
@@ -6421,6 +6685,78 @@ var coursesSemesters = [
     },
     {
         "course": "EUH 5925",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4426",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4465",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4500",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4501",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4502",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4571",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4574",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4576",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4582",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4610",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4610H",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "EUH 4620",
         "semester1": "Occasional",
         "semester2": "",
         "semester3": ""
@@ -6600,6 +6936,78 @@ var coursesSemesters = [
         "semester3": ""
     },
     {
+        "course": "FIL 2480",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 2481",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 2552",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3006",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3035C",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3036",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3037",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3051",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3070C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3071C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3072C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3073C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
         "course": "FIL 3492C",
         "semester1": "Occasional",
         "semester2": "",
@@ -6759,6 +7167,90 @@ var coursesSemesters = [
         "course": "FIL 4451",
         "semester1": "Fall",
         "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3845",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3847",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3850",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3852",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3860C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3861C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3862C",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3865C",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3870C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3871",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3876C",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3877C",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3878C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 3880C",
+        "semester1": "Fall",
+        "semester2": "Spring",
         "semester3": ""
     },
     {
@@ -6925,6 +7417,72 @@ var coursesSemesters = [
     },
     {
         "course": "FIN 4533",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 4935C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 4939C",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5406",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5414",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5419",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5800",
+        "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5853",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5864",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIL 5924",
+        "semester1": "Fall",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FIN 2100",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
+        "course": "FIN 3303",
         "semester1": "Fall",
         "semester2": "Spring",
         "semester3": ""
@@ -7100,6 +7658,12 @@ var coursesSemesters = [
     {
         "course": "FRE 3760",
         "semester1": "Spring",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "FRE 3954",
+        "semester1": "Occasional",
         "semester2": "",
         "semester3": ""
     },
@@ -7477,6 +8041,12 @@ var coursesSemesters = [
     },
     {
         "course": "GEW 3101",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "GEW 3480",
         "semester1": "Occasional",
         "semester2": "",
         "semester3": ""
@@ -8791,6 +9361,12 @@ var coursesSemesters = [
     },
     {
         "course": "ITA 3472",
+        "semester1": "Occasional",
+        "semester2": "",
+        "semester3": ""
+    },
+    {
+        "course": "ITT 3443",
         "semester1": "Occasional",
         "semester2": "",
         "semester3": ""

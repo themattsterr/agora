@@ -1,4 +1,50 @@
 Meteor.methods({
+	'getUserData':function(id){
+		var user = AGORAUsers.findOne({_id:id});
+		return user;
+	},
+	'createUserData': function(id, first, last, major, catalog, startSem, startYear, endSem, endYear, advisor, nid, numOfCourses){
+		return AGORAUsers.insert(
+		{				//modifier
+			_id: id,
+			firstName: first,
+			lastName: last,
+			isAdvisor: false,
+			major: major,
+			catalog: catalog,
+			startSem: startSem,
+			startYear: startYear,
+			endSem: endSem,
+			endYear: endYear,
+			advisor: advisor,
+			nid: nid,
+			numOfCourses: numOfCourses,
+		});
+	},
+	'updateUserData': function(id, first, last, major, catalog, startSem, startYear, endSem, endYear, advisor, nid, numOfCourses){
+		var updateCount = AGORAUsers.update(
+		{_id:id},			//selector
+		{	$set :{				//modifier
+			_id: id,
+			firstName: first,
+			lastName: last,
+			isAdvisor: false,
+			major: major,
+			catalog: catalog,
+			startSem: startSem,
+			startYear: startYear,
+			endSem: endSem,
+			endYear: endYear,
+			advisor: advisor,
+			nid: nid,
+			numOfCourses: numOfCourses,
+		}},	{upsert : false});
+	},
+	'addStudentToAdvisorList' :function(id_Advisor,id_Student){
+		AGORAUsers.update({_id:id_Advisor},{$addToSet: {id_Students: id_Student}},function(error,count){
+			console.log(error,count);
+		});
+	},
 	'insertData' : function(arr){
 		if (AGORACourses.find({}).fetch().length == 0) {
 			console.log('inserting data')
@@ -8,7 +54,7 @@ Meteor.methods({
 			}
 		}
 	},
-	'parseCourseData' : function(idUser, courseData, yearStart, yearEnd){
+	'parseCourseData' : function(courseData){
 
 		var regex = /((FA|SP|SU)[0-3][0-9]) ([A-Z]{3})(\d{4}(H|C)*)/gm
 		var arr = courseData.match(regex);
@@ -41,13 +87,13 @@ Meteor.methods({
 		      ["","","","",""]  
 		  ]
 		];
-
+		var yearStart = Number(arr[0].split(' ')[0].substr(2));
+		var yearEnd = Number(arr[arr.length - 1].split(' ')[0].substr(2));
 		for(var i in arr){
 			var semYear = arr[i].split(' ')[0];
 			var identifier = arr[i].split(' ')[1].substr(0,3) + ' ' + arr[i].split(' ')[1].substr(3);
 			var year = Number(semYear.substr(2)) - yearStart;
-			if (year + yearStart > yearEnd)
-				break;
+
 			var col = -1;
 			if (semYear.substr(0,2) == 'FA')
 				col = 0;
@@ -56,23 +102,28 @@ Meteor.methods({
 			else if (semYear.substr(0,2) == 'SU')
 				col = 2;
 
+			
 			var course = {identifier: identifier, yr: year, col: col};
-			coursesToAdd.push(course);
+			if (year + yearStart <= yearEnd || year < 0)
+				coursesToAdd.push(course);
 		}
 
 		for(var i in coursesToAdd) {
 			var curCourse = coursesToAdd[i];
-			for (var curRow in sched[curCourse.yr-1][curCourse.col]){
-				if (sched[curCourse.yr-1][curCourse.col][curRow] == ""){
-					sched[curCourse.yr-1][curCourse.col][curRow] = curCourse.identifier;
+			console.log(curCourse);
+			for (var curRow in sched[curCourse.yr][curCourse.col]){
+				if (sched[curCourse.yr][curCourse.col][curRow] == ""){
+					sched[curCourse.yr][curCourse.col][curRow] = curCourse.identifier;
 					break;
 				}
 			}
 		}
 
-		AGORAUsers.update({_id:idUser}, {$set:{importedSched: sched , yearStart: yearStart, yearEnd: yearEnd}}, {upsert:true} );
 
-		return sched;
+		return {"schedule": sched, "yearStart": yearStart, "yearEnd": yearEnd, "numOfCourses": coursesToAdd.length};
 
+	},
+	'importCourseSchedule' : function(idUser, scheduleData){
+		AGORAUsers.update({_id:idUser}, {$set:{importedSched: scheduleData} }, {upsert:true} );
 	}
 });

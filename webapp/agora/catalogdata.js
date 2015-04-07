@@ -10766,6 +10766,20 @@ courses = [
         "description": "Students will develop their professional portfolio, concept of operations, and individual strategic plan. "
     },
     {
+        "identifier": "EGN 3331",
+        "type": "EGN",
+        "number": "3331",
+        "college": "ECS",
+        "dept": "CECE",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Mechanics of Materials",
+        "prereqs": "PR: EGN 3310 with a grade of “C” or better; CR: MAP 2302",
+        "description": "Concepts of stress, strain, strength, deflection of axial force members, shafts in torsion, beams in flexure, combined stress, stability of columns, and design of simple elements. "
+    },
+    {
         "identifier": "EGN 3373",
         "type": "EGN",
         "number": "3373",
@@ -10792,6 +10806,34 @@ courses = [
         "title": "Honors Principles of Electrical Engineering",
         "prereqs": "PR: Permission of Honors and PHY 2049C, CR: MAP 2302",
         "description": "Fundamentals of electrical circuits and analysis. Fundamentals of electronics and AC power systems, transformers, electromechanics and rotating machines. "
+    },
+    {
+        "identifier": "EGN 3420",
+        "type": "EGN",
+        "number": "3420",
+        "college": "ECS",
+        "dept": "ECE",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Engineering Analysis",
+        "prereqs": "PR: EGN 3211, and MAC 2312 with a “C” (2.0) or better",
+        "description": "Engineering applications of numerical methods including curve fitting, matrix operations, root finding, interpolating, integration and plotting. "
+    },
+    {
+        "identifier": "EGN 3613",
+        "type": "EGN",
+        "number": "3613",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "2(2,0)",
+        "contact hrs": "2",
+        "class hrs": "2",
+        "lab hrs": "0",
+        "title": "Engineering Economic Analysis",
+        "prereqs": "PR: MAC 2311C with a grade of “C” (2.0) or better, not open to Industrial Engineering students",
+        "description": "Economic evaluation of engineering alternatives and design. Time value of money and economic impact of taxes, risk, depreciation. "
     },
     {
         "identifier": "EIN 2002",
@@ -11170,6 +11212,20 @@ courses = [
         "title": "Surface Science",
         "prereqs": "PR: PHY 2049C and C.I",
         "description": "Methods of chemical and physical analysis of surfaces, with emphasis on ultra-high vacuum spectroscopics utilizing electron, ion and photon probes. "
+    },
+    {
+        "identifier": "EIN 5317",
+        "type": "EIN",
+        "number": "5317",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Training System Design",
+        "prereqs": "PR: Seniors, post bac or graduate standing or C.I",
+        "description": "How human performance deficiencies should be addressed from a systems design point of view. Manpower, personnel, and training considerations will be examined. Occasional. EIN 5346 ECS-IEMS 3(3,0) Engineering Logistics: Study of the logistics life cycle involving planning, analysis and design, testing, production, distribution, and support. "
     },
     {
         "identifier": "EIN 5392C",
@@ -11620,6 +11676,20 @@ courses = [
         "description": "Study of technology’s impact on writing and literacy, focus on new media. "
     },
     {
+        "identifier": "ENC 1101H",
+        "type": "ENC",
+        "number": "1101H",
+        "college": "CAH",
+        "dept": "WRITE",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Honors Freshman Composition I",
+        "prereqs": "PR: Score of 60+ on TSWE of SAT or C.I",
+        "description": "and permission of Honors. Expository writing with emphasis on effective communication and critical thinking. Emphasizing the writing process writing topics are based on selected readings and on student experiences. The “NC” grading policy applies to this course. Honors-level content. "
+    },
+    {
         "identifier": "ENC 1102",
         "type": "ENC",
         "number": "1102",
@@ -12054,6 +12124,34 @@ courses = [
         "description": "Considers major theoretical paradigms and more emergent theoretical explorations in modern and contemporary composition studies. "
     },
     {
+        "identifier": "ENC 4265",
+        "type": "ENC",
+        "number": "4265",
+        "college": "CAH",
+        "dept": "ENG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Writing for the Computer Industry",
+        "prereqs": "PR: Grade of C (2.0) or better in ENC 1102 and junior standing, or C.I",
+        "description": "Creating different kinds of software manuals or online help systems for the computer industry. "
+    },
+    {
+        "identifier": "ENC 4275",
+        "type": "ENC",
+        "number": "4275",
+        "college": "CAH",
+        "dept": "WRITE",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Theory and Practice of Tutoring Writing",
+        "prereqs": "PR: Grade of “C” (2.0) or better in ENC 1102 and C.I",
+        "description": "Theory and practice of assessing and responding to writing from the standpoint of a collaborator, as opposed to evaluator. "
+    },
+    {
         "identifier": "ENC 4280",
         "type": "ENC",
         "number": "4280",
@@ -12066,6 +12164,20 @@ courses = [
         "title": "Technical Writing Style",
         "prereqs": "PR: Grade of C (2.0) or better required in ENC 3211 or ENC 3241 or C.I",
         "description": "Strategies for understanding and improving writing styles, particularly for a variety of technical writing genres. "
+    },
+    {
+        "identifier": "ENC 4290",
+        "type": "ENC",
+        "number": "4290",
+        "college": "CAH",
+        "dept": "ENG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Usability Testing for Technical Communication",
+        "prereqs": "PR: Grade of “C” (2.0) or better required in ENC 3241 or C.I",
+        "description": "Usability theory and techniques for evaluating manuals, online documentation, and other technical communication genres. "
     },
     {
         "identifier": "ENC 4293",
@@ -12122,6 +12234,20 @@ courses = [
         "title": "Theory & Practice Persuasive Writing",
         "prereqs": "PR: Grade of C (2.0) or better required in ENC 1102",
         "description": "A study of the theory and practice of persuasion, including logical emotional and ethical appeals. "
+    },
+    {
+        "identifier": "ENC 4313",
+        "type": "ENC",
+        "number": "4313",
+        "college": "CAH",
+        "dept": "ENG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Research Writing",
+        "prereqs": "PR: Grade of C (2.0) or better in ENC 1102, junior standing, and C.I",
+        "description": "Writing correspondence, instructions, proposals, and informal and formal reports in various disciplines. "
     },
     {
         "identifier": "ENC 4353",
@@ -12516,6 +12642,34 @@ courses = [
         "description": "Project course on design of a municipal solid waste landfill. "
     },
     {
+        "identifier": "ENG 3833",
+        "type": "ENG",
+        "number": "3833",
+        "college": "CAH",
+        "dept": "WRITE",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Marketing Your Writing",
+        "prereqs": "PR: “C” (2.0) or better in ENC 1102 or C.I",
+        "description": "Exploration of writing markets and publishing opportunities therein, the submission process, and author marketing and negotiation strategies. "
+    },
+    {
+        "identifier": "ENG 4114",
+        "type": "ENG",
+        "number": "4114",
+        "college": "CAH",
+        "dept": "ENG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Literature and Film",
+        "prereqs": "PR: Grade of C (2.0) or better required in ENG 3014",
+        "description": "The differences in emphasis, medium, and technique in selected novels and their film adaptations. "
+    },
+    {
         "identifier": "ENG 4614",
         "type": "ENG",
         "number": "4614",
@@ -12528,6 +12682,20 @@ courses = [
         "title": "Discourse of Global Cultural Studies",
         "prereqs": "PR: ENG 3014",
         "description": "American popular culture texts in world context, using concepts and theories from global cultural studies to analyze transmission, translation, and appropriation. "
+    },
+    {
+        "identifier": "ENG 5009",
+        "type": "ENG",
+        "number": "5009",
+        "college": "CAH",
+        "dept": "ENG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Methods of Bibliography and Research",
+        "prereqs": "PR: Graduate status or senior standing or C.I",
+        "description": "Bibliographical, library and systematic approaches to research at the graduate level in language and literature. "
     },
     {
         "identifier": "ENL 2012",
@@ -12598,6 +12766,20 @@ courses = [
         "title": "Gothic Literature",
         "prereqs": "PR: Grade of “C” or better required in ENC 1102",
         "description": "A study of Gothic literature (prose, poetry, drama) in the British Isles and its cultural contexts. "
+    },
+    {
+        "identifier": "ENL 3296H",
+        "type": "ENL",
+        "number": "3296H",
+        "college": "CAH",
+        "dept": "ENG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Honors Gothic Literature",
+        "prereqs": "PR: ENC 1102 and Consent of Honors",
+        "description": "A study of Gothic literature (prose, poetry, drama) in the British Isles and its cultural contexts. With Honors content. "
     },
     {
         "identifier": "ENL 3654",
@@ -12992,6 +13174,62 @@ courses = [
         "description": "A survey of western civilization from 1648 to present. May be taken before EUH 2000. Honors-level content. "
     },
     {
+        "identifier": "ESI 4234",
+        "type": "ESI",
+        "number": "4234",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Quality Engineering",
+        "prereqs": "PR: STA 3032 with a grade of “C” (2.0) or better",
+        "description": "Basic concepts and techniques of quality control; applications of statistics in industrial research; design of quality assurance systems; reliability engineering. "
+    },
+    {
+        "identifier": "ESI 4312",
+        "type": "ESI",
+        "number": "4312",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Operations Research",
+        "prereqs": "PR: STA 3032 and MAS 3105 with grades of “C” (2.0) or better in both",
+        "description": "Introduction to linear, non-linear, and dynamic programming. Decision analysis, random processes, and queueing. Course covers theory through application and implementation of results. "
+    },
+    {
+        "identifier": "ESI 4523C",
+        "type": "ESI",
+        "number": "4523C",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "3(2,2)",
+        "contact hrs": "3",
+        "class hrs": "2",
+        "lab hrs": "2",
+        "title": "Systems Simulation",
+        "prereqs": "PR: ESI 4312 with a grade of “C” (2.0) or better",
+        "description": "Methods and procedures for simulating large-scale systems with digital computers. High level simulation languages are used. "
+    },
+    {
+        "identifier": "ESI 4628C",
+        "type": "ESI",
+        "number": "4628C",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "3(2,2)",
+        "contact hrs": "3",
+        "class hrs": "2",
+        "lab hrs": "2",
+        "title": "Industrial Engineering Applications of Computers",
+        "prereqs": "CR: STA 3032 with a grade of “C” (2.0) or better",
+        "description": "Survey of computer methods in industrial engineering practice. Topics include: spreadsheets, databases, expert systems, and project management. Lab exercises. "
+    },
+    {
         "identifier": "ESI 5219",
         "type": "ESI",
         "number": "5219",
@@ -13018,6 +13256,20 @@ courses = [
         "title": "Total Quality Improvement",
         "prereqs": "PR: STA 3032 or equivalent",
         "description": "Quality improvement (QI) tools and techniques, advanced QI techniques, quality improvement systems, total quality management concepts and implementation, planning and management tools, and case studies. "
+    },
+    {
+        "identifier": "ESI 5236",
+        "type": "ESI",
+        "number": "5236",
+        "college": "ECS",
+        "dept": "IEMS",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Reliability Engineering",
+        "prereqs": "PR: ESI 4234 or equivalent, or C.I",
+        "description": "Reliability theory and modeling approaches. Topics include: failure data analysis, maintainability, reliability standards (DOD), software reliability, reliability in design, and electronic systems reliability. "
     },
     {
         "identifier": "EUH 3124",
@@ -13398,6 +13650,62 @@ courses = [
         "description": "Readings in selected topics in the history of medieval Europe. May be used in the degree program a maximum of 3 times only when course content is different. "
     },
     {
+        "identifier": "EUH 4426",
+        "type": "EUH",
+        "number": "4426",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Sex and Gender in Antiquity",
+        "prereqs": "PR: EUH 2000 or WOH 2012",
+        "description": "Examines the concepts of sex and gender in Greek and Roman societies and their impact on modern society. "
+    },
+    {
+        "identifier": "EUH 4465",
+        "type": "EUH",
+        "number": "4465",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Hitler’s Third Reich",
+        "prereqs": "PR: EUH 2000 and 2001 or C.I",
+        "description": "German nationalism and militarism; World War I and Versailles Treaty; the Weimar Republic and the rise of the Nazis; Second World War, division and recovery. "
+    },
+    {
+        "identifier": "EUH 4571",
+        "type": "EUH",
+        "number": "4571",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "History of Russia to 1801",
+        "prereqs": "PR: EUH 2000 and 2001 or C.I",
+        "description": "Kievan State; Mongol Yoke; Development of Muscovite Expansionism and Absolutism; Time of Troubles; Westernization of Russia under Peter I and Catherine; Role of Orthodox Church. "
+    },
+    {
+        "identifier": "EUH 4574",
+        "type": "EUH",
+        "number": "4574",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "History of Russia: 1801-1917",
+        "prereqs": "PR: EUH 2000 and 2001 or C.I",
+        "description": "Alexander I; Napoleonic Invasion, Revolutionary Movement; Russian Policy toward Central Asia and China; Great Reforms; Russo-Japanese War; Revolution of 1905; Constitutional Period; Triple Entente. "
+    },
+    {
         "identifier": "EUH 4576",
         "type": "EUH",
         "number": "4576",
@@ -13412,6 +13720,34 @@ courses = [
         "description": "War and Revolution, Lenin, Stalinist Period, WWII, The Cold War. Collapse of Soviet Union, the New Russia. "
     },
     {
+        "identifier": "EUH 4582",
+        "type": "EUH",
+        "number": "4582",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "20th Century Russian Diplomatic History: PR",
+        "prereqs": "C.I",
+        "description": "Russian diplomatic history from the signing of the Entente Cordiale to the aftermath of the Cold War. "
+    },
+    {
+        "identifier": "EUH 4610",
+        "type": "EUH",
+        "number": "4610",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Women in European Society: From Medieval to Modern",
+        "prereqs": "PR: Junior standing or C.I",
+        "description": "This course examines the changing situation of women in Europe from the Middle Ages to the twentieth century. "
+    },
+    {
         "identifier": "EUH 4610H",
         "type": "EUH",
         "number": "4610H",
@@ -13424,6 +13760,20 @@ courses = [
         "title": "Honors Women in European Society",
         "prereqs": "PR: GEP Honors completion or permission of Honors",
         "description": "Interdisciplinary approach to the changing situation of women in Europe across space and over time with honors-level content. "
+    },
+    {
+        "identifier": "EUH 4620",
+        "type": "EUH",
+        "number": "4620",
+        "college": "CAH",
+        "dept": "HIST",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "European Great Powers: 1815-1914",
+        "prereqs": "PR: EUH 2000 and 2001 or C.I",
+        "description": "Congress of Vienna, Metternich’s system Crimean War, unifications of Italy& Germany, the Bismarckian era, the alliance systems, and the outbreak of World War I. "
     },
     {
         "identifier": "EXP 3204C",
@@ -13846,6 +14196,20 @@ courses = [
         "description": "Characterization and scene study as it applies to directing the actor for film. "
     },
     {
+        "identifier": "FIL 2480",
+        "type": "FIL",
+        "number": "2480",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Directing for Film I",
+        "prereqs": "PR: FIL 1007, FIL 1008, and FIL 3427C",
+        "description": "PR or CR: FIL 3115. Introduction to processes and techniques for film directing. "
+    },
+    {
         "identifier": "FIL 2481",
         "type": "FIL",
         "number": "2481",
@@ -13858,6 +14222,20 @@ courses = [
         "title": "Directing the Actor for Film I",
         "prereqs": "PR: Film BFA or World Cinema major",
         "description": "Developing an ability to direct and work with film actors effectively, using various acting and directing techniques. "
+    },
+    {
+        "identifier": "FIL 2552",
+        "type": "FIL",
+        "number": "2552",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Editing I",
+        "prereqs": "PR: FIL 1008 and FIL 3427C",
+        "description": "PR or CR: FIL 3115. Basic editing concepts and techniques, using nonlinear editing systems. "
     },
     {
         "identifier": "FIL 3006",
@@ -13902,6 +14280,20 @@ courses = [
         "description": "Examines film history in a depth of detail and with rigor that is appropriate for majors in the subject. This course covers cinema history from 1895 to 1945. "
     },
     {
+        "identifier": "FIL 3037",
+        "type": "FIL",
+        "number": "3037",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Film History II",
+        "prereqs": "PR: FIL 2030, FIL 2107 and Film BFA, World Cinema, or Cinema Studies major",
+        "description": "Film history in a depth of detail and with rigor that is appropriate for majors in the subject. This course covers from 1946 to the present. "
+    },
+    {
         "identifier": "FIL 3051",
         "type": "FIL",
         "number": "3051",
@@ -13914,6 +14306,20 @@ courses = [
         "title": "Avant-Garde Cinema",
         "prereqs": "PR: Junior standing or C.I",
         "description": "History and aesthetics of Avant-Garde Cinema with an emphasis on post WWII North American films and filmmakers. "
+    },
+    {
+        "identifier": "FIL 3070C",
+        "type": "FIL",
+        "number": "3070C",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,1)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "1",
+        "title": "Cinema in the 1920s",
+        "prereqs": "PR: FIL 3035C",
+        "description": "Films of the 1920s as they pertain to the political, social, cultural, and artistic context of the period. "
     },
     {
         "identifier": "FIL 3071C",
@@ -14336,6 +14742,20 @@ courses = [
         "description": "Analysis of visual structure of film. Specific problems in art direction. "
     },
     {
+        "identifier": "FIL 3845",
+        "type": "FIL",
+        "number": "3845",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "World Cinema Traditions",
+        "prereqs": "PR: or CR: FIL 3036 or FIL 3037 and Film BFA, World Cinema, or Cinema Studies major",
+        "description": "The relationship among film, history, and culture in selected Asian, African, Latin American, and Middle Eastern countries. "
+    },
+    {
         "identifier": "FIL 3847",
         "type": "FIL",
         "number": "3847",
@@ -14362,6 +14782,34 @@ courses = [
         "title": "Cinema Directors",
         "prereqs": "PR: FIL 3803C and Film BFA, World Cinema, or Cinema Studies major, or C.I",
         "description": "Intensive study of the work of selected film-makers using multiple modes of criticism and author analysis to examine films. "
+    },
+    {
+        "identifier": "FIL 3852",
+        "type": "FIL",
+        "number": "3852",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Cinema Criticism Writing",
+        "prereqs": "PR: FIL 3036 or FIL 3037 and ENC 1102, FIL 2030, FIL 3803C",
+        "description": "Modes of cinema criticism. "
+    },
+    {
+        "identifier": "FIL 3860C",
+        "type": "FIL",
+        "number": "3860C",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,1)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "1",
+        "title": "The Shot, Framing, Point of View",
+        "prereqs": "PR: FIL 3035C",
+        "description": "Approaches to the shot, framing and point of view. "
     },
     {
         "identifier": "FIL 3861C",
@@ -14896,6 +15344,20 @@ courses = [
         "description": "Options, futures, forwards, and other derivative contracts. Investments traded in these markets are examined. Pricing and hedging are considered. "
     },
     {
+        "identifier": "FIL 4935C",
+        "type": "FIL",
+        "number": "4935C",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,1)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "1",
+        "title": "Current Problems in Film Theory",
+        "prereqs": "PR: FIL 3035C",
+        "description": "Concentration on most recent work in film studies concerned with film theory. "
+    },
+    {
         "identifier": "FIL 4939C",
         "type": "FIL",
         "number": "4939C",
@@ -14908,6 +15370,20 @@ courses = [
         "title": "Current Problems in Film History",
         "prereqs": "PR: FIL 3035C",
         "description": "Concentration on the most recent work in film studies concerned with film history. "
+    },
+    {
+        "identifier": "FIL 5406",
+        "type": "FIL",
+        "number": "5406",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Theories of Film Production",
+        "prereqs": "PR: Film MFA student or C.I",
+        "description": "Comparative analysis of motion picture production methodologies, including the studio industrial model, from a historical/critical perspective. "
     },
     {
         "identifier": "FIL 5414",
@@ -14936,6 +15412,62 @@ courses = [
         "title": "Developing the Film Screenplay",
         "prereqs": "PR: Admission to MFA Film & Digital Media-Entre Dig Cin track, or C.I",
         "description": "Development of an existing, original screenplay to fit the demands, limits, and possibilities of the microbudget, digital film paradigm. "
+    },
+    {
+        "identifier": "FIL 5800",
+        "type": "FIL",
+        "number": "5800",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Research Methods in Film and Digital Media",
+        "prereqs": "PR: Admission to Film and Digital Media graduate program or C.I",
+        "description": "Research methodology for the study and production of film and new media. "
+    },
+    {
+        "identifier": "FIL 5853",
+        "type": "FIL",
+        "number": "5853",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Independent Cinematic Forms",
+        "prereqs": "PR: Admission to MFA Film & Digital Media/Entre Dig Cin track, or C.I",
+        "description": "Evolution of low budget independent cinematic films through the works of modern and classical filmmakers within and beyond the studio system. "
+    },
+    {
+        "identifier": "FIL 5864",
+        "type": "FIL",
+        "number": "5864",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Ways of Seeing: The Expressive Potential of Film",
+        "prereqs": "PR: Admission to MFA Film and Digital Media or C.I",
+        "description": "A study of multidisciplinary theories that relate to the practice of filmmaking. "
+    },
+    {
+        "identifier": "FIL 5924",
+        "type": "FIL",
+        "number": "5924",
+        "college": "CAH",
+        "dept": "SVAD",
+        "cedits": "1(1,0)",
+        "contact hrs": "1",
+        "class hrs": "1",
+        "lab hrs": "0",
+        "title": "Graduate Seminar",
+        "prereqs": "PR: Admission to MFA Film & Digital Media/Entrepreneurial Digital Cinema track, or C.I",
+        "description": "Strategies for a successful graduate experience, and forum for modes of inquiry, film technique, production and distribution issues; and thesis defense preparation. Graded S/U. May be used in the degree program a maximum of 6 times. "
     },
     {
         "identifier": "FIN 2100",
@@ -15370,6 +15902,20 @@ courses = [
         "title": "Advanced French Oral Communication",
         "prereqs": "PR: FRE 2201 or equivalent",
         "description": "Vocabulary building with systematic training in diction and locution. Speeches and oral presentations as well as production and delivery of real-life dialogues. "
+    },
+    {
+        "identifier": "FRE 3954",
+        "type": "FRE",
+        "number": "3954",
+        "college": "CAH",
+        "dept": "LANG",
+        "cedits": "6(6,0)",
+        "contact hrs": "6",
+        "class hrs": "6",
+        "lab hrs": "0",
+        "title": "Study Abroad in the Caribbean",
+        "prereqs": "PR: FRE 2201 or equivalent",
+        "description": "Travel through Caribbean islands, studying the diversity within the Creole cultures. May be repeated for credit. "
     },
     {
         "identifier": "FRW 3770",
@@ -16168,6 +16714,20 @@ courses = [
         "title": "Survey of German Literature II",
         "prereqs": "PR: GER 2201 or equivalent",
         "description": "Main literary currents and works from 19th Century Realism to the present. "
+    },
+    {
+        "identifier": "GEW 3480",
+        "type": "GEW",
+        "number": "3480",
+        "college": "CAH",
+        "dept": "LANG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "German Post-War Literature",
+        "prereqs": "PR: GER 2201",
+        "description": "This course examines the works of German, Austrian and Swiss writers after World War II. "
     },
     {
         "identifier": "GEW 4531",
@@ -17990,6 +18550,20 @@ courses = [
         "description": "Dynamics of small groups and teams from social and applied psychology perspectives. "
     },
     {
+        "identifier": "INP 5825",
+        "type": "INP",
+        "number": "5825",
+        "college": "COS",
+        "dept": "PSYCH",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Human-computer Interface (HCI) design: A team approach",
+        "prereqs": "PR: Graduate status or senior standing or C.I",
+        "description": "Interdisciplinary approach to human- computer interface design, including behavior, engineering, computer science, and instructional aspects. Tools and techniques for team development and the evaluation of software for usability. "
+    },
+    {
         "identifier": "INR 2002",
         "type": "INR",
         "number": "2002",
@@ -18674,6 +19248,20 @@ courses = [
         "title": "Renaissance Art Abroad",
         "prereqs": "PR: Junior standing",
         "description": "A study of Renaissance art from Giotto to Michelangelo. "
+    },
+    {
+        "identifier": "ITT 3443",
+        "type": "ITT",
+        "number": "3443",
+        "college": "CAH",
+        "dept": "LANG",
+        "cedits": "3(3,0)",
+        "contact hrs": "3",
+        "class hrs": "3",
+        "lab hrs": "0",
+        "title": "Dante’s Inferno",
+        "prereqs": "PR: ITW 3100",
+        "description": "An in-depth study of Dante’s Inferno. In English. "
     },
     {
         "identifier": "ITT 3480",

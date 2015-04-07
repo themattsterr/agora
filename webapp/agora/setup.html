@@ -1,0 +1,143 @@
+<template name="setup">
+<form id="accountForm" class="ui form segment">
+    <div class="ui form">
+            <h4 class="ui horizontal header divider">
+                Account Settings
+        </h4>
+        <div class="field">
+            <label>Name</label>
+            <div class="ui two fields">
+                <div class="ui field">
+                    <input type="text" id="firstName" placeholder="First Name">
+                </div>
+                <div class="ui field">
+                    <input type="text" id="lastName" placeholder="Last Name">
+                </div>
+            </div>
+        </div>
+        <div class="field">
+            <label>Academic Info</label>
+
+            <div class="ui two fields">
+                <div class="ui field">
+                    <input type="text" id="nidField" placeholder="NID">
+                </div>
+                <div class="ui field">
+                    <div id="advisorDropdown" class="ui fluid dropdown labeled icon button">
+                        <i class="dropdown icon"></i>
+                        <span class="text">Advisor</span>
+                        <input type="hidden" id="advisorField">
+                        <div class="menu">
+                            {{#each advisorList}}
+                            <div class="item">{{this}}</div>
+                            {{/each}}
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="ui two fields">
+                <div class="ui field">
+                    <div id="majorDropdown" class="ui fluid dropdown labeled icon button">
+                        <i class="dropdown icon"></i>
+                        <span class="text">Major</span>
+                        <input type="hidden" id="majorField">
+                        <div class="menu">
+                            {{#each majorList}}
+                            <div class="item">{{this}}</div>
+                            {{/each}}
+                      </div>
+                    </div>
+                </div>
+                <div class="ui field">
+                    <div id="catalogYearDropdown" class="ui fluid dropdown labeled icon button">
+                        <i class="dropdown icon"></i>
+                        <span class="text">Catalog Year</span>
+                        <input type="hidden" id="catalogYearField">
+                        <div class="menu">
+                            {{#each catalogYearList}}
+                            <div class="item">{{this}}</div>
+                            {{/each}}
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="field">
+            <label>Date Range</label>
+            <div class="ui four fields">
+                <div class="ui field">
+                    <div id="startSemDropdown" class="ui fluid dropdown labeled icon button">
+                        <i class="dropdown icon"></i>
+                        <span class="text">Select</span>
+                        <input type="hidden" id="startSemesterField">                        
+                        <div class="menu">
+                            <div class="item">Spring</div>
+                            <div class="item">Summer</div>
+                            <div class="item">Fall</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="ui field">
+                    <input type="number" id="startYearField" placeholder="2000">
+                </div>
+                <div class="ui field">
+                    <div id="endSemDropdown" class="ui fluid dropdown labeled icon button">
+                        <i class="dropdown icon"></i>
+                        <span class="text">Select</span>
+                        <input type="hidden" id="endSemesterField">
+                        <div class="menu">
+                            <div class="item">Spring</div>
+                            <div class="item">Summer</div>
+                            <div class="item">Fall</div>
+                      </div>
+                    </div>
+                </div>
+                <div class="ui field">
+                    <input type="number" id="endYearField" placeholder="2020">
+                </div>
+            </div>
+        </div>
+
+        <div id="submitButton" class="ui green right floated submit button">Save</div>
+        <div class="ui error message"></div>
+    </div>
+</form>
+      <div class="ui form segment">
+        <h4 class="ui horizontal header divider">
+                Import Courses
+        </h4>
+
+        <div id="courseImportForm" class="ui form">
+
+            <div class="ui fluid field">
+                <label>Degree Audit Text Area</label>
+                <textarea id="importInfoField"></textarea>
+                <div id="findCoursesButton" class="ui bottom attached button">Find Courses</div>
+            </div>
+
+            <div class="ui fluid field">
+                <label>Courses Found</label>
+                <table></table>
+            </div>
+
+            <div class="ui fluid field">
+            {{#each yearsWithTitles}}
+                {{{foundCoursesHTML this}}}
+            {{/each}}
+            </div>
+
+            <div id="importButton" class="ui right floated blue button">
+                Import
+            </div>
+
+
+  </div>
+        <div id="setupError" class="ui error message">
+            <div class="header">Error</div>
+        </div>
+    </div>
+    <script>$('.ui.dropdown.labeled.icon.button').dropdown();</script>
+</template>

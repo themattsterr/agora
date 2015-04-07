@@ -1,0 +1,42 @@
+<template name="login">
+
+
+    
+    <div class="ui centered form segment">
+        <div clas="ui field">
+            <div class="ui left icon input">
+                <i class="at icon"></i>
+                <input id="loginEmailField" placeholder="Email" type="text">
+            </div>
+        </div>
+        <div clas="ui field">
+            <div class="ui left icon input">
+                  <i class="lock icon"></i>
+                  <input id="loginPasswordField" placeholder="Password" type="password">
+            </div>
+        </div>
+        {{#if isSignUp}}
+        <div clas="ui field">
+            <div class="ui left icon input">
+                  <i class="lock icon"></i>
+                  <input id="loginVerifyPasswordField" placeholder="Verify Password" type="password">
+            </div>
+        </div>
+        {{/if}}
+        <div clas="ui field">
+            <div class="buttons" align="center">
+                <div id="signInButton" class="ui button">Sign in</div>
+                {{#if isSignUp}}
+                <div id="createAccountButton" class="ui button">Create account</div>
+                {{else}}
+                <div id="signUpButton" class="ui button">Sign up</div>
+                {{/if}}
+            </div>
+        </div>
+        <div id="loginError" class="ui error message">
+            <div class="header">Error</div>
+        </div>
+    </div>
+    
+
+</template>

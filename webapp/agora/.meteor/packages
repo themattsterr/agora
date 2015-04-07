@@ -5,9 +5,11 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
 insecure
 semantic:ui-css
 jquery
 cw4gn3r:jquery-event-drag
 semantic:ui-dropdown
+accounts-base
+accounts-password
+autopublish

@@ -1256,63 +1256,15 @@ EML 5291 ECS-MECH/AERO 3(3,0) MEMS Materials: PR: EML 5060, EML 6211, or C.I. In
 EML 5292 ECS-MECH/AERO 3(3,0) Fundamental Phenomenon and Scaling laws in Miniature Engineering Systems: PR: EML 5060, EML 6211, or C.I. Introduction to meso-, micro-, and nano-scales, and related terminology, constitutive relationships at these scales and how these relationships affect the behavior and performance of systems. Effect of miniaturization on a few common engineering systems. Odd Fall. 
 EML 5311 ECS-MECH/AERO 3(3,0) System Control: PR: EML 4312C; CR: EML 5060 Modern control theory for linear and non-linear systems; controllability and observability. Linear state feedback and state estimators, compensator design. Occasional. 
 EML 5402 ECS-MECH/AERO 3(3,0) Turbomachinery: PR: EML 3101, EML 4703 or EAS 4134. Application of the principles of fluid mechanics, thermodynamics, and aerodynamics to the design and analysis of steam and gas turbines, compressors, and pumps. Occasional. 
-
-EML 4504 ECS-MECH/AERO 3(3,0)
-Design & Analysis of Machine Components
-II: PR: EML 3500; CR: EML 4535C. Application of
-the principles of component analysis to the design of
-mechanisms. Spring.
-EML 4535C ECS-MECH/AERO 3(2,3)
-CAD/CAM: PR: EGN 3343, EML 3034C, and EGM 3601;
-CR EAS 4200 or EML 3500. CAD/CAM/FEM computational
-technology. Basic concepts. Concurrent engineering
-approach to mechanical, thermal, and aerospace
-systems design and analysis. Use of in-house software.
-Fall,Spring.
-EML 4600 ECS-MECH/AERO 3(3,0)
-HVAC Systems Engineering: PR: EGN 3343.
-Heating, ventilation, air-conditioning, and refrigeration
-principles and systems design. Phychrometrics, heating and
-cooling loads, equipment and components, and distribution
-systems. Fall.
-EML 4602 ECS-MECH/AERO 3(3,0)
-Applied HVAC Engineering: PR: EGN 3343; CR:
-EML 4142. Applications of HVAC systems design with
-the objective of optimizing energy efficiency, humidity
-control, ventilation, and indoor air quality. Dehumidification
-performance of the various HVAC system types and their
-interactions with the building. Spring.
-EML 4703 ECS-MECH/AERO 3(3,0)
-Fluid Mechanics II: PR: EML 3701. Continuation
-of Fluid Mechanics I. External flows, fluid machinery,
-compressible flows, design projects. Fall.
-EML 4804C ECS-MECH/AERO 3(2,3)
-Digital Control in Mechatronics: PR: EML
-4312C and EML 3303C. Discrete microprocessor control
-of mechatronics dynamic systems using state-space
-representation, digital controllers, design for mechatronic
-applications. Spring. M&S fee $15.00
-EML 4991 ECS-MECH/AERO 0(0,0)
-Mechanical Career and Academic Faculty
-Advising II: PR: EML 3990 and department consent.
-Mandatory meeting with students and their faculty advisor
-for career/academic advising. Graded S/U. Fall,Spring.
-EML 5026C ECS-MECH/AERO 3(2,2)
-Advanced Engineering Design Practice: PR:
-EGM 3601; CR: (EML 3500 or EAS 4200) and (EML 4220
-or EAS 4210). Designed to familiarize students with the
-basic CAD/CAM solid modeling techniques in a project
-oriented environment. Construct part models, drawings,
-and assemblies. Use of in-house software. Occasional.
-EML 5060 ECS-MECH/AERO 3(3,0)
-Mathematical Methods in Mechanical and
-Aerospace Engineering: PR: MAP 2302. Vector
-field theory, generalized coordinates, complex variables,
-contour integration and Laplace and Fourier transforms and
-inversions, variable coefficient ODEs and solution of PDEs
-for governing equations of heat transfer, ideal fluid flow, and
-mechanics. Fall. 
-
+EML 4504 ECS-MECH/AERO 3(3,0) Design & Analysis of Machine Components II: PR: EML 3500; CR: EML 4535C. Application of the principles of component analysis to the design of mechanisms. Spring.
+EML 4535C ECS-MECH/AERO 3(2,3) CAD/CAM: PR: EGN 3343, EML 3034C, and EGM 3601; CR EAS 4200 or EML 3500. CAD/CAM/FEM computational  technology. Basic concepts. Concurrent engineering  approach to mechanical, thermal, and aerospace systems design and analysis. Use of in-house software. Fall,Spring.
+EML 4600 ECS-MECH/AERO 3(3,0) HVAC Systems Engineering: PR: EGN 3343. Heating, ventilation, air-conditioning, and refrigeration principles and systems design. Phychrometrics, heating and cooling loads, equipment and components, and distribution systems. Fall.
+EML 4602 ECS-MECH/AERO 3(3,0) Applied HVAC Engineering: PR: EGN 3343; CR: EML 4142. Applications of HVAC systems design with the objective of optimizing energy efficiency, humidity control, ventilation, and indoor air quality. Dehumidification performance of the various HVAC system types and their interactions with the building. Spring.
+EML 4703 ECS-MECH/AERO 3(3,0) Fluid Mechanics II: PR: EML 3701. Continuation of Fluid Mechanics I. External flows, fluid machinery, compressible flows, design projects. Fall.
+EML 4804C ECS-MECH/AERO 3(2,3) Digital Control in Mechatronics: PR: EML 4312C and EML 3303C. Discrete microprocessor control of mechatronics dynamic systems using state-space representation, digital controllers, design for mechatronic applications. Spring. M&S fee $15.00
+EML 4991 ECS-MECH/AERO 0(0,0) Mechanical Career and Academic Faculty Advising II: PR: EML 3990 and department consent. Mandatory meeting with students and their faculty advisor for career/academic advising. Graded S/U. Fall,Spring.
+EML 5026C ECS-MECH/AERO 3(2,2) Advanced Engineering Design Practice: PR: EGM 3601; CR: (EML 3500 or EAS 4200) and (EML 4220 or EAS 4210). Designed to familiarize students with the basic CAD/CAM solid modeling techniques in a project oriented environment. Construct part models, drawings, and assemblies. Use of in-house software. Occasional.
+EML 5060 ECS-MECH/AERO 3(3,0) Mathematical Methods in Mechanical and Aerospace Engineering: PR: MAP 2302. Vector field theory, generalized coordinates, complex variables, contour integration and Laplace and Fourier transforms and inversions, variable coefficient ODEs and solution of PDEs for governing equations of heat transfer, ideal fluid flow, and mechanics. Fall. 
 EML 5403 ECS-MECH/AERO 3(3,0) Science and Technology of Fuel Cells: PR: EGN 3365, EMA 4102 or C.I. Fundamental knowledge along with hands-on experience with design, manufacturing and operation of fuel cells. Occasional. 
 EML 5430C ECS-MECH/AERO 3(2,3) Design for Manufacturing in Turbomachinery: Gas/Steam/Wind Turbines & Generators: PR: EGN 3365 or EMA 3706. Overall assembly of rotating and stationary components in power generation powertrains; probabilistic design, materials, coatings, manufacturing steps, defects for gas/steam/wind turbines and generators. Fall. 
 EML 5431C ECS-MECH/AERO 3(2,3) Design for Mechanical & Dynamic Integrity and Reliability in Turbomachinery: PR: EGM 3601, EML 4220 or EML 4225, EGN 3365 or EMA 3706. Mechanical & dynamic integrity issues such as creep, fatigue, fracture, rotordynamics, vibration, flutter, as related to turbines and generators; reliability; cost-time-performance trade-off in design. Spring. 
@@ -1340,77 +1292,17 @@ ENC 3372 CAH-WRITE 3(3,0) Topics in Civic Rhetoric and Writing: PR: Grade of “
 ENC 3373 CAH-WRITE 3(3,0) Cultural Rhetorics: PR: Grade of “C” (2.0) or better required in ENC 1102. Study of the diverse cultural production of and the cultural forces impacting the rhetoric of individuals and communities. Occasional. 
 ENC 3375 CAH-WRITE 3(3,0) Rhetoric in Popular Culture: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Exploration of how persuasion works in a specific set of popular culture discourses, such as sports, music, and gaming. Occasional. 
 ENC 3417 CAH-WRITE 3(3,0) Literacy and Technology: PR: Grade of “C” (2.0) or better required in ENC 1102. Study of technology’s impact on writing and literacy, focus on new media. Spring. 
-
-ENC 1101 CAH-WRITE 3(3,0)
-Composition I: Expository writing with emphasis on
-effective communication and critical thinking. Emphasizing
-the writing process writing topics are based on selected
-readings and on student experiences. The “NC” grading
-policy applies to this course. Fall,Spring.
-ENC 1101H CAH-WRITE 3(3,0)
-Honors Freshman Composition I: PR: Score
-of 60+ on TSWE of SAT or C.I. and permission of
-Honors. Expository writing with emphasis on effective
-communication and critical thinking. Emphasizing the writing
-process writing topics are based on selected readings and
-on student experiences. The “NC” grading policy applies to
-this course. Honors-level content. Fall,Spring.
-ENC 1102 CAH-WRITE 3(3,0)
-Composition II: PR: ENC 1101 with a grade of “C-”
-or better. Focus on extensive research in analytical and
-argumentative writing based on a variety of readings from
-the humanities. Emphasis on developing critical thinking
-and diversity of perspective. The “NC” grading policy applies
-to this course. Fall,Spring.
-ENC 1102H CAH-WRITE 3(3,0)
-Honors Freshman Composition II: PR: ENC
-1101H with a grade of “C-” or better or C.I. and permission
-of Honors. Same as ENC 1102, with honors-level content.
-Note on Freshman English Program: ENC 1101 and 1102
-must be taken before enrolling in any English course
-numbered above 1102. The “NC” grading policy applies to
-this course. Fall,Spring.
-ENC 1130 CAH-WRITE 3(3,0)
-Improving College-Level Writing: Entry-level
-writing course designed to prepare students to read and
-write effectively at the college level. Fall.
-ENC 2127 CAH-WRITE 3(3,0)
-Grammar and Composition: A systematic study of
-grammar and mechanics to improve editing for clarity and
-accuracy in writing. Occasional.
-ENC 2411C CAH-ENG 3(2,1)
-Digital Literacy for the Liberal Arts: Designed to
-help students better understand how computer technologies
-have shaped our culture and ourselves; to become critical
-consumers of technology; to acquire a critical sensibility
-regarding the manner in which technology affects and is
-affected by texts. Occasional.
-ENC 3211 CAH-ENG 3(3,0)
-Theory and Practice of Technical Writing:
-PR: Grade of C (2.0) or better required in ENC 1102,
-junior standing, or C.I. Exploring definitions and theoretical
-foundations in technical writing field, and the roles of writers
-in industry. Fall,Spring.
-ENC 3241 CAH-ENG 3(3,0)
-Writing for the Technical Professional: PR:
-Grade of C (2.0) or better in ENC 1102, junior standing,
-or C.I. Writing effective correspondence, instructions,
-proposals, and informal and formal reports Fall,Spring.
-ENC 3241H CAH-ENG 3(3,0)
-Honors Writing for the Technical Professional:
-PR: Grade of C (2.0) or better required in ENC 1102H or
-equivalent credit, and Consent of Honors. Instruction and
-practice in expository prose used in technical writing, layout
-and design of data, and translation of technical documents
-for the lay audience. With Honors content. Occasional.
-ENC 3250 CAH-WRITE 3(3,0)
-Professional Writing: PR: Grade of “C” (2.0) or
-better required in ENC 1102 Study of and practice with
-professional writing as a rhetorical act involving problem
-solving and audience accommodation; includes research
-and text production practices as well as business genres
-and conventions. Fall,Spring. 
-
+ENC 1101 CAH-WRITE 3(3,0) Composition I: Expository writing with emphasis on effective communication and critical thinking. Emphasizing the writing process writing topics are based on selected readings and on student experiences. The “NC” grading policy applies to this course. Fall,Spring.
+ENC 1101H CAH-WRITE 3(3,0) Honors Freshman Composition I: PR: Score of 60+ on TSWE of SAT or C.I. and permission of Honors. Expository writing with emphasis on effective communication and critical thinking. Emphasizing the writing process writing topics are based on selected readings and on student experiences. The “NC” grading policy applies to this course. Honors-level content. Fall,Spring.
+ENC 1102 CAH-WRITE 3(3,0) Composition II: PR: ENC 1101 with a grade of “C-” or better. Focus on extensive research in analytical and argumentative writing based on a variety of readings from the humanities. Emphasis on developing critical thinking and diversity of perspective. The “NC” grading policy applies to this course. Fall,Spring.
+ENC 1102H CAH-WRITE 3(3,0) Honors Freshman Composition II: PR: ENC 1101H with a grade of “C-” or better or C.I. and permission of Honors. Same as ENC 1102, with honors-level content. Note on Freshman English Program: ENC 1101 and 1102 must be taken before enrolling in any English course numbered above 1102. The “NC” grading policy applies to this course. Fall,Spring.
+ENC 1130 CAH-WRITE 3(3,0) Improving College-Level Writing: Entry-level writing course designed to prepare students to read and write effectively at the college level. Fall.
+ENC 2127 CAH-WRITE 3(3,0) Grammar and Composition: A systematic study of grammar and mechanics to improve editing for clarity and accuracy in writing. Occasional.
+ENC 2411C CAH-ENG 3(2,1) Digital Literacy for the Liberal Arts: Designed to help students better understand how computer technologies have shaped our culture and ourselves; to become critical consumers of technology; to acquire a critical sensibility regarding the manner in which technology affects and is affected by texts. Occasional.
+ENC 3211 CAH-ENG 3(3,0) Theory and Practice of Technical Writing: PR: Grade of C (2.0) or better required in ENC 1102, junior standing, or C.I. Exploring definitions and theoretical foundations in technical writing field, and the roles of writers in industry. Fall,Spring.
+ENC 3241 CAH-ENG 3(3,0) Writing for the Technical Professional: PR: Grade of C (2.0) or better in ENC 1102, junior standing, or C.I. Writing effective correspondence, instructions, proposals, and informal and formal reports Fall,Spring.
+ENC 3241H CAH-ENG 3(3,0) Honors Writing for the Technical Professional: PR: Grade of C (2.0) or better required in ENC 1102H or equivalent credit, and Consent of Honors. Instruction and practice in expository prose used in technical writing, layout and design of data, and translation of technical documents for the lay audience. With Honors content. Occasional.
+ENC 3250 CAH-WRITE 3(3,0) Professional Writing: PR: Grade of “C” (2.0) or better required in ENC 1102 Study of and practice with professional writing as a rhetorical act involving problem solving and audience accommodation; includes research and text production practices as well as business genres and conventions. Fall,Spring. 
 ENC 3433 CAH-WRITE 3(3,0) Multimedia Writing and Composition: PR: “C” (2.0) or better in ENC 1102 or C.I. Study and practice of multimedia writing (involving sound, visual, and linguistic forms) with an emphasis on the process of text production and remixing for different rhetorical contexts and audiences. Occasional. 
 ENC 3453 CAH-WRITE 3(3,0) Writing About Health and Medicine: PR: Grade of “C” (2.0) or better required in ENC 1102 or C.I. Writing practices and genres of the health professions, with emphasis on writing about health and medicine for lay audiences. Occasional. 
 ENC 3454 CAH-WRITE 3(3,0) Topics in Professional and Digital Writing: PR: Grade of “C” (2.0) or better required in ENC 1102. In-depth study and application of a specific issue related to professional and/or digital writing. Occasional. 
@@ -1439,65 +1331,16 @@ ENC 4416 CAH-WRITE 3(3,0) Writing in Digital Environments: PR: Grade of “C” 
 ENC 4416H CAH-WRITE 3(3,0) Honors Writing in Digital Environments: PR: Consent of Honors. Critical and rhetorical engagement with digital writing and networked systems, including a range of online media and genres. With Honors content. Occasional. 
 ENC 4434 CAH-WRITE 3(3,0) Visual and Material Rhetorics: PR: “C” (2.0) or better in ENC 1102 or C.I. Study of visual and material textual elements within different historical and contemporary rhetorical practices and performances. Students will use a variety of compositional materials to produce texts. Occasional. 
 ENC 4504 CAH-WRITE 3(3,0) Contemporary Composition Theory: PR: Grade of “C” (2.0) or better required in ENC 1102. Considers major theoretical paradigms and more emergent theoretical explorations in modern and contemporary composition studies. Occasional. 
-
-ENC 4265 CAH-ENG 3(3,0)
-Writing for the Computer Industry: PR: Grade
-of C (2.0) or better in ENC 1102 and junior standing, or C.I.
-Creating different kinds of software manuals or online help
-systems for the computer industry. Occasional.
-ENC 4275 CAH-WRITE 3(3,0)
-Theory and Practice of Tutoring Writing: PR:
-Grade of “C” (2.0) or better in ENC 1102 and C.I. Theory
-and practice of assessing and responding to writing from the
-standpoint of a collaborator, as opposed to evaluator. Fall.
-ENC 4280 CAH-ENG 3(3,0)
-Technical Writing Style: PR: Grade of C (2.0) or
-better required in ENC 3211 or ENC 3241 or C.I. Strategies
-for understanding and improving writing styles, particularly
-for a variety of technical writing genres. Spring.
-ENC 4290 CAH-ENG 3(3,0)
-Usability Testing for Technical
-Communication: PR: Grade of “C” (2.0) or better
-required in ENC 3241 or C.I. Usability theory and techniques
-for evaluating manuals, online documentation, and other
-technical communication genres. Occasional.
-ENC 4293 CAH-ENG 3(3,0)
-Documentation and the Collaborative
-Process: PR: Grade of C (2.0) or better required in
-ENC 3211 or ENC 3241. Development of a book-length
-project from idea to final published product. Examples may
-include style manuals, policies and procedures, and training
-manuals. Fall,Spring.
-ENC 4294 CAH-ENG 3(3,0)
-Documentation and Client-Based
-Collaboration: PR: Grade of C (2.0) or better required
-in ENC 4293. Practical application of editing theory to large
-ongoing projects from the student’s particular field. Should
-be taken concurrently with ENC 4215. Fall,Spring.
-ENC 4298 CAH-ENG 3(3,0)
-Technical Communication for the Virtual
-Workplace: PR: ENC 1102. Collaborative technologies
-used in the modern workplace and the challenges associated
-with virtual collaboration. Students will participate in a virtual
-team project. Fall,Spring.
-ENC 4312 CAH-ENG 3(3,0)
-Theory & Practice Persuasive Writing: PR:
-Grade of C (2.0) or better required in ENC 1102. A study
-of the theory and practice of persuasion, including logical
-emotional and ethical appeals. Occasional.
-ENC 4313 CAH-ENG 3(3,0)
-Research Writing: PR: Grade of C (2.0) or better in
-ENC 1102, junior standing, and C.I. Writing correspondence,
-instructions, proposals, and informal and formal reports in
-various disciplines. Occasional.
-ENC 4353 CAH-WRITE 3(3,0)
-Writing for Social Change: PR: Grade of “C” (2.0)
-or better in ENC 1102 or C.I. Study of how activist writing
-and other symbolic action can be used to mobilize social or
-policy change around contemporary controversial issues.
-Occasional. 
-
-
+ENC 4265 CAH-ENG 3(3,0) Writing for the Computer Industry: PR: Grade of C (2.0) or better in ENC 1102 and junior standing, or C.I. Creating different kinds of software manuals or online help systems for the computer industry. Occasional.
+ENC 4275 CAH-WRITE 3(3,0) Theory and Practice of Tutoring Writing: PR: Grade of “C” (2.0) or better in ENC 1102 and C.I. Theory and practice of assessing and responding to writing from the standpoint of a collaborator, as opposed to evaluator. Fall.
+ENC 4280 CAH-ENG 3(3,0) Technical Writing Style: PR: Grade of C (2.0) or better required in ENC 3211 or ENC 3241 or C.I. Strategies for understanding and improving writing styles, particularly for a variety of technical writing genres. Spring.
+ENC 4290 CAH-ENG 3(3,0) Usability Testing for Technical Communication: PR: Grade of “C” (2.0) or better required in ENC 3241 or C.I. Usability theory and techniques for evaluating manuals, online documentation, and other technical communication genres. Occasional.
+ENC 4293 CAH-ENG 3(3,0) Documentation and the Collaborative Process: PR: Grade of C (2.0) or better required in ENC 3211 or ENC 3241. Development of a book-length project from idea to final published product. Examples may include style manuals, policies and procedures, and training manuals. Fall,Spring.
+ENC 4294 CAH-ENG 3(3,0) Documentation and Client-Based Collaboration: PR: Grade of C (2.0) or better required in ENC 4293. Practical application of editing theory to large ongoing projects from the student’s particular field. Should be taken concurrently with ENC 4215. Fall,Spring.
+ENC 4298 CAH-ENG 3(3,0) Technical Communication for the Virtual Workplace: PR: ENC 1102. Collaborative technologies used in the modern workplace and the challenges associated with virtual collaboration. Students will participate in a virtual team project. Fall,Spring.
+ENC 4312 CAH-ENG 3(3,0) Theory & Practice Persuasive Writing: PR: Grade of C (2.0) or better required in ENC 1102. A study of the theory and practice of persuasion, including logical emotional and ethical appeals. Occasional.
+ENC 4313 CAH-ENG 3(3,0) Research Writing: PR: Grade of C (2.0) or better in ENC 1102, junior standing, and C.I. Writing correspondence, instructions, proposals, and informal and formal reports in various disciplines. Occasional.
+ENC 4353 CAH-WRITE 3(3,0) Writing for Social Change: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Study of how activist writing and other symbolic action can be used to mobilize social or policy change around contemporary controversial issues. Occasional. 
 ENC 4523 CAH-WRITE 3(3,0) Writing and Identity: PR: Grade of “C” (2.0) or better required in ENC 1102. Explores the role of identity in writing, particularly negotiating gender, race, class, sexual identity and other difference issues. Occasional. 
 ENC 4544 CAH-WRITE 3(3,0) Writing Pedagogy: PR: Grade of “C” (2.0) or better required in ENC 1102. Overview of pedagogical issues and strategies related to the teaching of writing, with focus on college-level writing. Occasional. 
 ENC 4944 CAH-WRITE 3(3,0) Writing Internship: PR: Junior standing and ENC 3331 and ENG 3836. Training and practice in professional and/or civic writing through approved internship with business or organization; involves reporting and reflecting on experience Fall. 
@@ -1513,8 +1356,6 @@ ENG 3014 CAH-ENG 3(3,0) Theories and Techniques of Literature Study: PR: Junior 
 ENG 3073 CAH-ENG 3(3,0) Cultural Studies Literature: PR: Grade of C (2.0) or better required in ENC 1102. The theoretical and cultural developments over time that call for broadening the applications of literary analysis to produce “cultural studies.” Occasional. 
 ENG 3612 CAH-ENG 3(3,0) Trends in Literary, Cultural, and Textual Studies: PR: Grade of “C” (2.0) or better in ENC 1102. Literary analysis of textual production within contemporary social trends and new technologies. May be used in the degree program a maximum of 2 times only when course content is different. Occasional. 
 ENG 3817 CAH-ENG 3(3,0) Digital Archives: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Examines “debates” in the digital humanities and prepares students to work with the creation, management, and preservation of digital archives content. Occasional. 
-
- 
 ENL 4220 CAH-ENG 3(3,0) English Renaissance Poetry and Prose: PR: Grade of C (2.0) or better required in ENG 3014. The course will examine selected poetry and prose of Wyatt, Surrey, Sidney, Spenser, Marlowe, Raleigh, Daniel, Shakespeare, Chapman, Lyly & others. Occasional. 
 ENL 4230 CAH-ENG 3(3,0) 18th Century Studies: PR: Grade of C (2.0) or better required in ENG 3014. Reading, analysis, and discussion of literature in English: 1660-1880. May be repeated for credit. Occasional. 
 ENL 4240 CAH-ENG 3(3,0) English Romantic Writers: PR: Grade of C (2.0) or better required in ENG 3014. Study of English poets and essayists of the romantic period, such as Wordsworth, Coleridge, Hazlitt, Lamb, Byron, Shelley and Keats. Occasional. 
@@ -1529,71 +1370,19 @@ ENV 3001 ECS-CECE 3(3,0) Introduction to Environmental Engineering: PR: A grade 
 ENV 4120 ECS-CECE 3(3,0) Air Pollution Control: PR: EGN 3343, CWR 3201 and ENV 3001 all with a grade of “C” (2.0) or better. Air pollution engineering including air resources management, engineering design, and operation of air pollution control systems. Fall. 
 ENV 4122C ECS-CECE 3(2,2) Air Pollution Control Design: PR: ENV 4120 with grade of “C” (2.0) or better and department consent. Project course on design of air pollution control equipment and systems. Spring. 
 ENV 4300C ECS-CECE 3(2,2) Solid Waste Facility Design: PR: ENV 4341 with grade of “C” (2.0) or better and department consent. Project course on design of a municipal solid waste landfill. Occasional. 
-
-ENG 3833 CAH-WRITE 3(3,0)
-Marketing Your Writing: PR: “C” (2.0) or better
-in ENC 1102 or C.I. Exploration of writing markets and
-publishing opportunities therein, the submission process,
-and author marketing and negotiation strategies. Spring.
-ENG 3836 CAH-WRITE 3(3,0)
-Professional Lives and Literacy Practices: PR:
-“C” (2.0) or better in ENC 1102 Study of technology-assisted
-professional writing and literacy practices around knowledge
-management work in organizations and communities.
-Fall,Spring.
-ENG 4114 CAH-ENG 3(3,0)
-Literature and Film: PR: Grade of C (2.0) or better
-required in ENG 3014. The differences in emphasis,
-medium, and technique in selected novels and their film
-adaptations. Occasional.
-ENG 4614 CAH-ENG 3(3,0)
-Discourse of Global Cultural Studies: PR: ENG
-3014. American popular culture texts in world context,
-using concepts and theories from global cultural studies
-to analyze transmission, translation, and appropriation.
-Occasional.
-ENG 5009 CAH-ENG 3(3,0)
-Methods of Bibliography and Research: PR:
-Graduate status or senior standing or C.I. Bibliographical,
-library and systematic approaches to research at the
-graduate level in language and literature. Fall.
-ENL 2012 CAH-ENG 3(3,0)
-English Literature I: PR: Grade of C (2.0) or better
-required in ENC 1102. Beowulf to 1798. Fall,Spring.
-ENL 2022 CAH-ENG 3(3,0)
-English Literature II: PR: Grade of C (2.0) or better
-required in ENC 1102. From 1798 to 1914. Fall,Spring.
-ENL 3222 CAH-ENG 3(3,0)
-Renaissance Women in Literature: PR: Grade
-of “C” (2.0) or better in ENC 1102 or C.I. Literature by and
-about women in the Renaissance. Occasional.
-ENL 3231 CAH-ENG 3(3,0)
-Restoration Literature: PR: Grade of “C” or better
-in ENC 1102. This course surveys the poetry, drama, and
-prose written during the Restoration era (1660-1700) and
-the social, historical, and political contexts. Occasional.
-ENL 3296 CAH-ENG 3(3,0)
-Gothic Literature: PR: Grade of “C” or better required
-in ENC 1102. A study of Gothic literature (prose, poetry,
-drama) in the British Isles and its cultural contexts.
-Occasional.
-ENL 3296H CAH-ENG 3(3,0)
-Honors Gothic Literature: PR: ENC 1102 and
-Consent of Honors. A study of Gothic literature (prose,
-poetry, drama) in the British Isles and its cultural contexts.
-With Honors content. Occasional.
-ENL 3654 CAH-ENG 3(3,0)
-Black British Literature: PR: Grade of “C” or better
-required in ENC 1102. Study of literature written inside
-the UK by authors of African, South Asian, and Caribbean
-lineage. Occasional.
-ENL 4101 CAH-ENG 3(3,0)
-English Novel: PR: Grade of C (2.0) or better
-required in ENG 3014. Analysis of major English novelists.
-Occasional. 
-
-
-
+ENG 3833 CAH-WRITE 3(3,0) Marketing Your Writing: PR: “C” (2.0) or better in ENC 1102 or C.I. Exploration of writing markets and publishing opportunities therein, the submission process, and author marketing and negotiation strategies. Spring.
+ENG 3836 CAH-WRITE 3(3,0) Professional Lives and Literacy Practices: PR: “C” (2.0) or better in ENC 1102 Study of technology-assisted professional writing and literacy practices around knowledge management work in organizations and communities. Fall,Spring.
+ENG 4114 CAH-ENG 3(3,0) Literature and Film: PR: Grade of C (2.0) or better required in ENG 3014. The differences in emphasis, medium, and technique in selected novels and their film adaptations. Occasional.
+ENG 4614 CAH-ENG 3(3,0) Discourse of Global Cultural Studies: PR: ENG 3014. American popular culture texts in world context, using concepts and theories from global cultural studies to analyze transmission, translation, and appropriation. Occasional.
+ENG 5009 CAH-ENG 3(3,0) Methods of Bibliography and Research: PR: Graduate status or senior standing or C.I. Bibliographical, library and systematic approaches to research at the graduate level in language and literature. Fall.
+ENL 2012 CAH-ENG 3(3,0) English Literature I: PR: Grade of C (2.0) or better required in ENC 1102. Beowulf to 1798. Fall,Spring.
+ENL 2022 CAH-ENG 3(3,0) English Literature II: PR: Grade of C (2.0) or better required in ENC 1102. From 1798 to 1914. Fall,Spring.
+ENL 3222 CAH-ENG 3(3,0) Renaissance Women in Literature: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Literature by and about women in the Renaissance. Occasional.
+ENL 3231 CAH-ENG 3(3,0) Restoration Literature: PR: Grade of “C” or better in ENC 1102. This course surveys the poetry, drama, and prose written during the Restoration era (1660-1700) and the social, historical, and political contexts. Occasional.
+ENL 3296 CAH-ENG 3(3,0) Gothic Literature: PR: Grade of “C” or better required in ENC 1102. A study of Gothic literature (prose, poetry, drama) in the British Isles and its cultural contexts. Occasional.
+ENL 3296H CAH-ENG 3(3,0) Honors Gothic Literature: PR: ENC 1102 and Consent of Honors. A study of Gothic literature (prose, poetry, drama) in the British Isles and its cultural contexts. With Honors content. Occasional.
+ENL 3654 CAH-ENG 3(3,0) Black British Literature: PR: Grade of “C” or better required in ENC 1102. Study of literature written inside the UK by authors of African, South Asian, and Caribbean lineage. Occasional.
+ENL 4101 CAH-ENG 3(3,0) English Novel: PR: Grade of C (2.0) or better required in ENG 3014. Analysis of major English novelists. Occasional. 
 ENV 4341 ECS-CECE 3(3,0) Solid & Hazardous Waste Management: PR: ENV 3001 with a grade of “C” (2.0) or better. Engineering design, planning, and analysis problems associated with storage, collection, processing, and disposal of solid and hazardous wastes. Fall. 
 ENV 4433C ECS-CECE 3(2,2) Environmental Engineering Wastewater Design: PR: EES 4111C, ENV 4531 both with grades of “C” (2.0) or better and department consent. Project course in advanced municipal and industrial wastewater treatment design with emphasis on teamwork to complete the design process. Occasional. 
 ENV 4531 ECS-CECE 3(3,0) Environmental Engineering Operations & Processes I: PR: ENV 3001, CWR 3201 both with a minimum grade of “C” (2.0) or better. Water and wastewater treatment design considerations with effluent and sludge handling, treatment, and disposal. Fall,Spring. 
@@ -1627,50 +1416,13 @@ EUH 2000H CAH-HIST 3(3,0) Honors Western Civilization I: PR: Permission of Honor
 EUH 2001 CAH-HIST 3(3,0) Western Civilization II: A survey of western civilization from 1648 to present. May be taken before EUH 2000. Fall,Spring. 
 EUH 2001H CAH-HIST 3(3,0) Honors Western Civilization II: PR: Permission of Honors. A survey of western civilization from 1648 to present. May be taken before EUH 2000. Honors-level content. Fall,Spring. 
 EUH 3122 CAH-HIST 3(3,0) Medieval Society and Civilization: PR: EUH 2000 and 2001 or C.I. Fall,Spring. 
-
-ESI 4234 ECS-IEMS 3(3,0)
-Quality Engineering: PR: STA 3032 with a grade of
-“C” (2.0) or better. Basic concepts and techniques of quality
-control; applications of statistics in industrial research;
-design of quality assurance systems; reliability engineering.
-Fall.
-ESI 4312 ECS-IEMS 3(3,0)
-Operations Research: PR: STA 3032 and MAS
-3105 with grades of “C” (2.0) or better in both. Introduction
-to linear, non-linear, and dynamic programming. Decision
-analysis, random processes, and queueing. Course covers
-theory through application and implementation of results.
-Fall.
-ESI 4523C ECS-IEMS 3(2,2)
-Systems Simulation: PR: ESI 4312 with a grade of
-“C” (2.0) or better. Methods and procedures for simulating
-large-scale systems with digital computers. High level
-simulation languages are used. Spring.
-ESI 4628C ECS-IEMS 3(2,2)
-Industrial Engineering Applications of
-Computers: CR: STA 3032 with a grade of “C” (2.0) or
-better. Survey of computer methods in industrial engineering
-practice. Topics include: spreadsheets, databases, expert
-systems, and project management. Lab exercises. Fall.
-ESI 5219 ECS-IEMS 3(3,0)
-Engineering Statistics: PR: C.I. Discrete and
-continuous probability distributions, hypothesis testing,
-regression, nonparametric stats and ANOVA. Fall,Spring.
-ESI 5227 ECS-IEMS 3(3,0)
-Total Quality Improvement: PR: STA 3032 or
-equivalent. Quality improvement (QI) tools and techniques,
-advanced QI techniques, quality improvement systems,
-total quality management concepts and implementation,
-planning and management tools, and case studies.
-Occasional.
-ESI 5236 ECS-IEMS 3(3,0)
-Reliability Engineering: PR: ESI 4234 or equivalent,
-or C.I. Reliability theory and modeling approaches. Topics
-include: failure data analysis, maintainability, reliability
-standards (DOD), software reliability, reliability in design,
-and electronic systems reliability. Fall. 
-
-
+ESI 4234 ECS-IEMS 3(3,0) Quality Engineering: PR: STA 3032 with a grade of “C” (2.0) or better. Basic concepts and techniques of quality control; applications of statistics in industrial research; design of quality assurance systems; reliability engineering. Fall.
+ESI 4312 ECS-IEMS 3(3,0) Operations Research: PR: STA 3032 and MAS 3105 with grades of “C” (2.0) or better in both. Introduction to linear, non-linear, and dynamic programming. Decision analysis, random processes, and queueing. Course covers theory through application and implementation of results. Fall.
+ESI 4523C ECS-IEMS 3(2,2) Systems Simulation: PR: ESI 4312 with a grade of “C” (2.0) or better. Methods and procedures for simulating large-scale systems with digital computers. High level simulation languages are used. Spring.
+ESI 4628C ECS-IEMS 3(2,2) Industrial Engineering Applications of Computers: CR: STA 3032 with a grade of “C” (2.0) or better. Survey of computer methods in industrial engineering practice. Topics include: spreadsheets, databases, expert systems, and project management. Lab exercises. Fall.
+ESI 5219 ECS-IEMS 3(3,0) Engineering Statistics: PR: C.I. Discrete and continuous probability distributions, hypothesis testing, regression, nonparametric stats and ANOVA. Fall,Spring.
+ESI 5227 ECS-IEMS 3(3,0) Total Quality Improvement: PR: STA 3032 or equivalent. Quality improvement (QI) tools and techniques, advanced QI techniques, quality improvement systems, total quality management concepts and implementation, planning and management tools, and case studies. Occasional.
+ESI 5236 ECS-IEMS 3(3,0) Reliability Engineering: PR: ESI 4234 or equivalent, or C.I. Reliability theory and modeling approaches. Topics include: failure data analysis, maintainability, reliability standards (DOD), software reliability, reliability in design, and electronic systems reliability. Fall. 
 EUH 3124 CAH-HIST 3(3,0) The Crusades: PR: EUH 2000 and EUH 2001, or C.I. The phenomenon of crusading in medieval Europe and the Middle East, including theories of “just war” and jihad. Even Spring. 
 EUH 3142 CAH-HIST 3(3,0) Renaissance and Reformation: PR: EUH 2000 and 2001 or C.I. Influence of Renaissance humanism on arts, letters, and politics; Luther and Protestantism; the Catholic Counter-Reformation and the Thirty Years’ War. Occasional. 
 EUH 3180 CAH-HIST 3(3,0) Sorcerers, Saints and Heretics: Religion in the Medieval World: PR: EUH 2000 or C.I. Examines the mixture of superstition, paganism, heresies, Jewish and Muslim communities and the rising Catholic Church that formed religious life and shaped society and culture in Medieval Europe. Occasional. 
@@ -1688,8 +1440,6 @@ EUH 3651 CAH-HIST 3(3,0) War and Society: Evolution of weapons, tactics, strateg
 EUH 4283 CAH-HIST 3(3,0) Cold War Homefronts: PR: EUH 2000 and EUH 2001, or C.I. The Cold War from the homefront perspective addressing both sides of the Iron Curtain. Occasional. 
 EUH 4284 CAH-HIST 3(3,0) Fascism and Nazism in the Interwar Europe: PR: EUH 2000 and 2001. Fascist and Nazi movements in interwar Europe, mostly Italy and Germany. Origin, development, seizure of power, system of government, ideology, domestic and foreign policies, resistance to these movements. Occasional. 
 EUH 4400 CAH-HIST 3(3,0) The History of Ancient Greece: PR: EUH 2000, EUH 2001 or WOH 2012, WOH 2022 Systems of government in the various city-states of the ancient Greek world from the Bronze Age through the Hellenistic era (C. 1200BCE-30BCE). Occasional. 
-
- 
 EUH 4663 CAH-HIST 3(3,0) History of Communism in Europe: PR: EUH 2000 and EUH 2001. History of communist movements and regimes in Europe from mid-19th century to the fall of the Berlin Wall. The course focuses on the history of communism outside of Russia and opposition to the communist regimes. Occasional. 
 EUH 4674 CAH-HIST 3(3,0) Sport and Society in the Ancient World: PR: EUH 2000, EUH 2001 or WOH 2012, WOH 2022. A comparison of the original form of the Olympic Games (and ancient notions of sport) to their modern counterparts. Occasional. 
 EUH 4674H CAH-HIST 3(3,0) Honors Sports & Society in the Ancient World: PR: GEP Honors completion or permission of Honors. Interdisciplinary approach to comparing the Original Olympic games and other ancient athletic spectacles with their modern counterparts with honors-level content. Occasional. 
@@ -1703,72 +1453,18 @@ EUH 5579 CAH-HIST 3(3,0) Colloquium in Soviet Russia: PR: Graduate status or sen
 EUH 5595 CAH-HIST 3(3,0) Colloquium in Czarist Russia: PR: Graduate status or senior standing or C.I. Selected topics on the literature of Russia under the Czars prior to 1917. Occasional. 
 EUH 5905 CAH-HIST 3(3,0) European Imperialism: PR: Graduate standing or C.I. Readings in selected topics in the history of European Imperialism. May be used in the degree program a maximum of 3 times only when course content is different. Occasional. 
 EUH 5925 CAH-HIST 3(3,0) Colloquium in Medieval Europe: PR: Graduate standing or C.I. Readings in selected topics in the history of medieval Europe. May be used in the degree program a maximum of 3 times only when course content is different. Occasional. 
-
-EUH 4426 CAH-HIST 3(3,0)
-Sex and Gender in Antiquity: PR: EUH 2000 or
-WOH 2012. Examines the concepts of sex and gender in
-Greek and Roman societies and their impact on modern
-society. Occasional.
-EUH 4465 CAH-HIST 3(3,0)
-Hitler’s Third Reich: PR: EUH 2000 and 2001 or
-C.I. German nationalism and militarism; World War I and
-Versailles Treaty; the Weimar Republic and the rise of
-the Nazis; Second World War, division and recovery.
-Occasional.
-EUH 4500 CAH-HIST 3(3,0)
-English History to 1485: PR: EUH 2000 and 2001
-or C.I. Occasional.
-EUH 4501 CAH-HIST 3(3,0)
-English History: 1485-1815: PR: EUH 2000 and
-2001 or C.I. Occasional.
-EUH 4502 CAH-HIST 3(3,0)
-British History: 1815-Present: PR: EUH 2000 and
-2001 or C.I. Occasional.
-EUH 4571 CAH-HIST 3(3,0)
-History of Russia to 1801: PR: EUH 2000 and
-2001 or C.I. Kievan State; Mongol Yoke; Development of
-Muscovite Expansionism and Absolutism; Time of Troubles;
-Westernization of Russia under Peter I and Catherine; Role
-of Orthodox Church. Occasional.
-EUH 4574 CAH-HIST 3(3,0)
-History of Russia: 1801-1917: PR: EUH 2000 and
-2001 or C.I. Alexander I; Napoleonic Invasion, Revolutionary
-Movement; Russian Policy toward Central Asia and China;
-Great Reforms; Russo-Japanese War; Revolution of 1905;
-Constitutional Period; Triple Entente. Occasional.
-EUH 4576 CAH-HIST 3(3,0)
-History of Russia in the 20th Century: PR: EUH
-2000 and 2001 or C.I. War and Revolution, Lenin, Stalinist
-Period, WWII, The Cold War. Collapse of Soviet Union, the
-New Russia. Occasional.
-EUH 4582 CAH-HIST 3(3,0)
-20th Century Russian Diplomatic History:
-PR: C.I. Russian diplomatic history from the signing of
-the Entente Cordiale to the aftermath of the Cold War.
-Occasional.
-EUH 4610 CAH-HIST 3(3,0)
-Women in European Society: From Medieval
-to Modern: PR: Junior standing or C.I. This course
-examines the changing situation of women in Europe from
-the Middle Ages to the twentieth century. Occasional.
-EUH 4610H CAH-HIST 3(3,0)
-Honors Women in European Society: PR: GEP
-Honors completion or permission of Honors. Interdisciplinary
-approach to the changing situation of women in Europe
-across space and over time with honors-level content.
-Occasional.
-EUH 4620 CAH-HIST 3(3,0)
-European Great Powers: 1815-1914: PR: EUH
-2000 and 2001 or C.I. Congress of Vienna, Metternich’s
-system Crimean War, unifications of Italy& Germany, the
-Bismarckian era, the alliance systems, and the outbreak of
-World War I. Occasional. 
-
-
- 
-
- 
-
+EUH 4426 CAH-HIST 3(3,0) Sex and Gender in Antiquity: PR: EUH 2000 or WOH 2012. Examines the concepts of sex and gender in Greek and Roman societies and their impact on modern society. Occasional.
+EUH 4465 CAH-HIST 3(3,0) Hitler’s Third Reich: PR: EUH 2000 and 2001 or C.I. German nationalism and militarism; World War I and Versailles Treaty; the Weimar Republic and the rise of the Nazis; Second World War, division and recovery. Occasional.
+EUH 4500 CAH-HIST 3(3,0) English History to 1485: PR: EUH 2000 and 2001 or C.I. Occasional. 
+EUH 4501 CAH-HIST 3(3,0) English History: 1485-1815: PR: EUH 2000 and 2001 or C.I. Occasional.
+EUH 4502 CAH-HIST 3(3,0) British History: 1815-Present: PR: EUH 2000 and 2001 or C.I. Occasional.
+EUH 4571 CAH-HIST 3(3,0) History of Russia to 1801: PR: EUH 2000 and 2001 or C.I. Kievan State; Mongol Yoke; Development of Muscovite Expansionism and Absolutism; Time of Troubles; Westernization of Russia under Peter I and Catherine; Role of Orthodox Church. Occasional.
+EUH 4574 CAH-HIST 3(3,0) History of Russia: 1801-1917: PR: EUH 2000 and 2001 or C.I. Alexander I; Napoleonic Invasion, Revolutionary Movement; Russian Policy toward Central Asia and China; Great Reforms; Russo-Japanese War; Revolution of 1905; Constitutional Period; Triple Entente. Occasional.
+EUH 4576 CAH-HIST 3(3,0) History of Russia in the 20th Century: PR: EUH 2000 and 2001 or C.I. War and Revolution, Lenin, Stalinist Period, WWII, The Cold War. Collapse of Soviet Union, the New Russia. Occasional.
+EUH 4582 CAH-HIST 3(3,0) 20th Century Russian Diplomatic History: PR: C.I. Russian diplomatic history from the signing of the Entente Cordiale to the aftermath of the Cold War. Occasional.
+EUH 4610 CAH-HIST 3(3,0) Women in European Society: From Medieval to Modern: PR: Junior standing or C.I. This course examines the changing situation of women in Europe from the Middle Ages to the twentieth century. Occasional.
+EUH 4610H CAH-HIST 3(3,0) Honors Women in European Society: PR: GEP Honors completion or permission of Honors. Interdisciplinary approach to the changing situation of women in Europe across space and over time with honors-level content. Occasional.
+EUH 4620 CAH-HIST 3(3,0) European Great Powers: 1815-1914: PR: EUH 2000 and 2001 or C.I. Congress of Vienna, Metternich’s system Crimean War, unifications of Italy& Germany, the Bismarckian era, the alliance systems, and the outbreak of World War I. Occasional. 
 EVR 1001 COS-BIOL 3(3,0) Introduction to Environmental Science: Environmental science and environmental systems in the context of real places, real people, real problems and real data. Fall. 
 EXP 3204C COS-PSYCH 4(3,2) Perception: PR: PSY 2012. Consideration of physical and psychological variables in perceptual phenomena. Lecture/Lab. Fall. 
 EXP 3250 COS-PSYCH 3(3,0) Principles of Human Factors Psychology: PR: PSY 2012. The study of human performance in human- machine-environment systems. Topics will include human factors psychology in the design of displays and controls, human information processing, and the effects of some environmental variables on human performance. Spring. 
@@ -1803,72 +1499,19 @@ FIL 3427C CAH-SVAD 3(2,4) Introduction to Film Production: PR: or CR: FIL 2107 a
 FIL 3455C CAH-SVAD 6(2,4) Film Landscapes: Story, Image and Production Design: PR: FIL 2423 or FIL 3427C, and FIL 2030. The use of landscape in film and its importance to the art of production design. Occasional. 
 FIL 3462C CAH-SVAD 3(3,1) Cinematic Expression: PR: FIL 3803C. Cinematography using video format; study of fundamentals of motion-picture communication, film structure and storytelling. Spring. 
 FIL 3483 CAH-SVAD 3(3,0) Directing the Actor for Film II: PR: FIL 2481. Characterization and scene study as it applies to directing the actor for film. Occasional. 
-
-FIL 2480 CAH-SVAD 3(3,0)
-Directing for Film I: PR: FIL 1007, FIL 1008, and FIL
-3427C. PR or CR: FIL 3115. Introduction to processes and
-techniques for film directing. Spring.
-FIL 2481 CAH-SVAD 3(3,0)
-Directing the Actor for Film I: PR: Film BFA or
-World Cinema major. Developing an ability to direct and
-work with film actors effectively, using various acting and
-directing techniques. Spring.
-FIL 2552 CAH-SVAD 3(3,0)
-Editing I: PR: FIL 1008 and FIL 3427C. PR or CR: FIL
-3115. Basic editing concepts and techniques, using nonlinear
-editing systems. Spring.
-FIL 3006 CAH-SVAD 3(3,0)
-Art of the Cinema: PR: FIL 2030. An analysis of basic
-elements of cinematic style including film direction, editing,
-cinematography, art direction and sound. Fall,Spring.
-FIL 3035C CAH-SVAD 3(3,1)
-Film Histories II: PR: FIL 2030. Surveys and questions
-historical approaches to film and seeks to open up the field
-of historical enquiry to a variety of views. Fall.
-FIL 3036 CAH-SVAD 3(3,0)
-Film History I: PR: FIL 2030, FIL 2107 and Film BFA,
-World Cinema, or Cinema Studies major. Examines film
-history in a depth of detail and with rigor that is appropriate
-for majors in the subject. This course covers cinema history
-from 1895 to 1945. Fall.
-FIL 3037 CAH-SVAD 3(3,0)
-Film History II: PR: FIL 2030, FIL 2107 and Film BFA,
-World Cinema, or Cinema Studies major. Film history in a
-depth of detail and with rigor that is appropriate for majors
-in the subject. This course covers from 1946 to the present.
-Spring.
-FIL 3041 CAH-SVAD 3(3,0)
-History of Animated Films I: PR: Cinema Studies,
-Art, Animation or Digital Media major. Evolution of animation
-from its roots in Art, Theatre, and Novelty Inventions to its
-rise as a cinematic force of popular storytelling. Even Fall.
-FIL 3051 CAH-SVAD 3(3,0)
-Avant-Garde Cinema: PR: Junior standing or
-C.I. History and aesthetics of Avant-Garde Cinema with
-an emphasis on post WWII North American films and
-filmmakers. Spring.
-FIL 3070C CAH-SVAD 3(3,1)
-Cinema in the 1920s: PR: FIL 3035C. Films of the
-1920s as they pertain to the political, social, cultural, and
-artistic context of the period. Occasional.
-FIL 3071C CAH-SVAD 3(3,1)
-Cinema in the 1930s: PR: FIL 3035C. Films of the
-1930s as they pertain to the political, social, cultural, and
-artistic context of the period. Occasional.
-FIL 3072C CAH-SVAD 3(3,1)
-Cinema in the 1940s and 1950s: PR: FIL 3035C.
-Films of the 1940s and 1950s as they pertain to the
-political, social, cultural, and artistic context of the period.
-Occasional.
-FIL 3073C CAH-SVAD 3(3,1)
-Cinema in the 1960s and 1970s: PR: FIL 3035C.
-Films of the 1960s and 1970s as they relate to the
-political, social, cultural, and artistic context of the period.
-Occasional. 
-
-
- 
-
+FIL 2480 CAH-SVAD 3(3,0) Directing for Film I: PR: FIL 1007, FIL 1008, and FIL 3427C. PR or CR: FIL 3115. Introduction to processes and techniques for film directing. Spring.
+FIL 2481 CAH-SVAD 3(3,0) Directing the Actor for Film I: PR: Film BFA or World Cinema major. Developing an ability to direct and work with film actors effectively, using various acting and directing techniques. Spring.
+FIL 2552 CAH-SVAD 3(3,0) Editing I: PR: FIL 1008 and FIL 3427C. PR or CR: FIL 3115. Basic editing concepts and techniques, using nonlinear editing systems. Spring.
+FIL 3006 CAH-SVAD 3(3,0) Art of the Cinema: PR: FIL 2030. An analysis of basic elements of cinematic style including film direction, editing, cinematography, art direction and sound. Fall,Spring.
+FIL 3035C CAH-SVAD 3(3,1) Film Histories II: PR: FIL 2030. Surveys and questions historical approaches to film and seeks to open up the field of historical enquiry to a variety of views. Fall.
+FIL 3036 CAH-SVAD 3(3,0) Film History I: PR: FIL 2030, FIL 2107 and Film BFA, World Cinema, or Cinema Studies major. Examines film history in a depth of detail and with rigor that is appropriate for majors in the subject. This course covers cinema history from 1895 to 1945. Fall.
+FIL 3037 CAH-SVAD 3(3,0) Film History II: PR: FIL 2030, FIL 2107 and Film BFA, World Cinema, or Cinema Studies major. Film history in a depth of detail and with rigor that is appropriate for majors in the subject. This course covers from 1946 to the present. Spring.
+FIL 3041 CAH-SVAD 3(3,0) History of Animated Films I: PR: Cinema Studies, Art, Animation or Digital Media major. Evolution of animation from its roots in Art, Theatre, and Novelty Inventions to its rise as a cinematic force of popular storytelling. Even Fall.
+FIL 3051 CAH-SVAD 3(3,0) Avant-Garde Cinema: PR: Junior standing or C.I. History and aesthetics of Avant-Garde Cinema with an emphasis on post WWII North American films and filmmakers. Spring.
+FIL 3070C CAH-SVAD 3(3,1) Cinema in the 1920s: PR: FIL 3035C. Films of the 1920s as they pertain to the political, social, cultural, and artistic context of the period. Occasional. 
+FIL 3071C CAH-SVAD 3(3,1) Cinema in the 1930s: PR: FIL 3035C. Films of the 1930s as they pertain to the political, social, cultural, and artistic context of the period. Occasional.
+FIL 3072C CAH-SVAD 3(3,1) Cinema in the 1940s and 1950s: PR: FIL 3035C. Films of the 1940s and 1950s as they pertain to the political, social, cultural, and artistic context of the period. Occasional.
+FIL 3073C CAH-SVAD 3(3,1) Cinema in the 1960s and 1970s: PR: FIL 3035C. Films of the 1960s and 1970s as they relate to the political, social, cultural, and artistic context of the period. Occasional. 
 FIL 3492C CAH-SVAD 3(3,1) Performance in Film: PR: FIL 3035C. Study of the different traditions and forms of acting in film. Occasional. 
 FIL 3534 CAH-SVAD 3(3,0) Sound Design for Film I: PR: FIL 3427C and Film BFA or C.I. Technical and aesthetic aspects of production and post-production sound recording, editing, and mixing for film. Fall. 
 FIL 3720C CAH-SVAD 3(2,4) Introduction to Animation: PR: DIG 3951 and declared Character Animation specialization, or ART 3950 and declared Experimental Animation specialization, or a minimum grade of “B” (3.0) in DIG 4713 and declared Game Design specialization. Introductory computer graphic techniques utilizing microcomputer systems. Techniques include basic paint systems, color cycling and 2D animation. Fall,Spring. 
@@ -1884,8 +1527,6 @@ FIL 3826 CAH-SVAD 3(3,0) American Cinema: PR: Film BFA, World Cinema, or Cinema 
 FIL 3831 CAH-SVAD 3(4,0) Black Cinema: PR: Junior standing and ENC 1102. Independent black film movements; theory, aesthetics and criticism of African-American, African-Canadian and African- Caribbean cinema. Fall. 
 FIL 3841 CAH-SVAD 3(3,0) French New Wave Cinema: PR: FIL 3036 or FIL 3037, or C.I. Post-World War II period of the French cinema, emphasizing the work of Renoir, Bresson, Godard, Rohmer, Resnais, and Rivette. Occasional. 
 FIL 3842 CAH-SVAD 3(3,0) International Cinema: PR: or CR: FIL 3036 or FIL 3037, and Film BFA or Cinema Studies major. Post-World War II period of the international cinema, with emphasis on the cinemas of Europe and Asia. Occasional. 
-
- 
 FIL 3922 CAH-SVAD 1(1,1) Film Colloquium: PR: Film majors only. A series of lectures, films and forums designed for students in the film program. The class is team taught by film faculty and guest speakers from the film industry. Graded S/U. May be repeated for credit. Fall,Spring. 
 FIL 4040 CAH-SVAD 3(3,0) Animation Film History for Non Film Majors: PR: ENC 1102. Evolution of animation since World War II. Fall,Spring. 
 FIL 4042 CAH-SVAD 3(3,0) History of Animated Films II: PR: FIL 3041, and Cinema Studies, Art, Animation or Digital Media major. Growth and diversification of American and international animation since 1945. Spring. 
@@ -1901,83 +1542,20 @@ FIL 4303C CAH-SVAD 3(3,1) Film Fiction and the Document: PR: LIT 2110, FIL 3075C
 FIL 4434C CAH-SVAD 3(2,4) Capstone I: PR: FIL 3132 and Film BFA or World Cinema major. Intensive tutorial guidance, instruction and evaluation of final film projects from initial concept through production. May be repeated for credit. Fall. 
 FIL 4436 CAH-SVAD 3(3,0) Film Theory/Film Production: PR: Junior standing and FIL 1008 or C.I. Non-narrative filmmaking demonstrating the dynamic interplay between producing, viewing, reading and writing about images. Odd Spring. 
 FIL 4451 CAH-SVAD 3(3,0) Design for Film: PR: FIL 3427C, or C.I. Analysis of visual structure of film. Specific problems in art direction. Fall. 
-
-FIL 3845 CAH-SVAD 3(3,0)
-World Cinema Traditions: PR: or CR: FIL 3036 or
-FIL 3037 and Film BFA, World Cinema, or Cinema Studies
-major. The relationship among film, history, and culture in
-selected Asian, African, Latin American, and Middle Eastern
-countries. Fall,Spring.
-FIL 3847 CAH-SVAD 3(3,0)
-Latin American Cinema: PR: or CR: FIL 3036 or
-FIL 3037 and Film BFA, World Cinema, or Cinema Studies
-major. Latin American films and film movements, historical
-and contemporary issues, social, and aesthetic concerns.
-Spring.
-FIL 3850 CAH-SVAD 3(3,0)
-Cinema Directors: PR: FIL 3803C and Film BFA,
-World Cinema, or Cinema Studies major, or C.I. Intensive
-study of the work of selected film-makers using multiple
-modes of criticism and author analysis to examine films.
-Occasional.
-FIL 3852 CAH-SVAD 3(3,0)
-Cinema Criticism Writing: PR: FIL 3036 or FIL 3037
-and ENC 1102, FIL 2030, FIL 3803C. Modes of cinema
-criticism. Occasional.
-FIL 3860C CAH-SVAD 3(3,1)
-The Shot, Framing, Point of View: PR: FIL
-3035C. Approaches to the shot, framing and point of view.
-Occasional.
-FIL 3861C CAH-SVAD 3(3,1)
-Film and Photography: PR: FIL 3076C. Historical
-and Cultural relationship between photography and film.
-Occasional.
-FIL 3862C CAH-SVAD 3(3,1)
-Narrative Structures in Film: PR: LIT 2110 and
-LIT 2120. Different structures of narrative in film and the
-ways in which narrative structures have been theorized and
-understood. Fall.
-FIL 3865C CAH-SVAD 3(3,1)
-Mise en scène and Theatricality: PR: THE 2000.
-Relationship between theatre and cinema with specific
-emphasis on mise en scène. Spring.
-FIL 3870C CAH-SVAD 3(3,1)
-Music, Natural Sounds and Dialogue in Film:
-PR: FIL 3035C. Study of relationship between music, natural
-sounds, dialogue, and moving images. Occasional.
-FIL 3871 CAH-SVAD 3(3,0)
-The American Film Artist: PR: FIL 2030. Analysis of
-a major American filmmaker’s style, vision and works; how
-these evolved and their impact on film and the culture. May
-be repeated for credit. Fall. M&S fee $5.00
-FIL 3876C CAH-SVAD 3(3,1)
-Experimental Cinema I: PR: FIL 3075C. A notion
-of cinema as an expansion of possibilities organized
-around formal, material, and conceptual aspects of film.
-Fall,Spring.
-FIL 3877C CAH-SVAD 3(3,1)
-Experimental Cinema II: PR: FIL 3876C.
-Concentration on specific aesthetic strategies of
-experimental film including those derived from the work of
-artists outside of the film related to treatments of reality and
-the perception of light. Spring.
-FIL 3878C CAH-SVAD 3(3,1)
-Color and Lighting in Cinema: PR: FIL 3035C.
-Ideas and practices related to lighting and color primarily in
-film but also painting, sculpture, photography and theatre.
-Occasional.
-FIL 3880C CAH-SVAD 3(3,1)
-Images of Women in Film: PR: FIL 2030. Images
-of women in film and how these images are shaped
-and structured in relation to circumstances of production,
-aesthetics, cultural, historical, and ideological factors.
-Fall,Spring. 
-
-
- 
-
- 
-
+FIL 3845 CAH-SVAD 3(3,0) World Cinema Traditions: PR: or CR: FIL 3036 or FIL 3037 and Film BFA, World Cinema, or Cinema Studies major. The relationship among film, history, and culture in selected Asian, African, Latin American, and Middle Eastern countries. Fall,Spring.
+FIL 3847 CAH-SVAD 3(3,0) Latin American Cinema: PR: or CR: FIL 3036 or FIL 3037 and Film BFA, World Cinema, or Cinema Studies major. Latin American films and film movements, historical and contemporary issues, social, and aesthetic concerns. Spring.
+FIL 3850 CAH-SVAD 3(3,0) Cinema Directors: PR: FIL 3803C and Film BFA, World Cinema, or Cinema Studies major, or C.I. Intensive study of the work of selected film-makers using multiple modes of criticism and author analysis to examine films. Occasional.
+FIL 3852 CAH-SVAD 3(3,0) Cinema Criticism Writing: PR: FIL 3036 or FIL 3037 and ENC 1102, FIL 2030, FIL 3803C. Modes of cinema criticism. Occasional.
+FIL 3860C CAH-SVAD 3(3,1) The Shot, Framing, Point of View: PR: FIL 3035C. Approaches to the shot, framing and point of view. Occasional.
+FIL 3861C CAH-SVAD 3(3,1) Film and Photography: PR: FIL 3076C. Historical and Cultural relationship between photography and film. Occasional.
+FIL 3862C CAH-SVAD 3(3,1) Narrative Structures in Film: PR: LIT 2110 and LIT 2120. Different structures of narrative in film and the ways in which narrative structures have been theorized and understood. Fall.
+FIL 3865C CAH-SVAD 3(3,1) Mise en scène and Theatricality: PR: THE 2000. Relationship between theatre and cinema with specific emphasis on mise en scène. Spring.
+FIL 3870C CAH-SVAD 3(3,1) Music, Natural Sounds and Dialogue in Film: PR: FIL 3035C. Study of relationship between music, natural sounds, dialogue, and moving images. Occasional.
+FIL 3871 CAH-SVAD 3(3,0) The American Film Artist: PR: FIL 2030. Analysis of a major American filmmaker’s style, vision and works; how these evolved and their impact on film and the culture. May be repeated for credit. Fall. M&S fee $5.00
+FIL 3876C CAH-SVAD 3(3,1) Experimental Cinema I: PR: FIL 3075C. A notion of cinema as an expansion of possibilities organized around formal, material, and conceptual aspects of film. Fall,Spring.
+FIL 3877C CAH-SVAD 3(3,1) Experimental Cinema II: PR: FIL 3876C. Concentration on specific aesthetic strategies of experimental film including those derived from the work of artists outside of the film related to treatments of reality and the perception of light. Spring.
+FIL 3878C CAH-SVAD 3(3,1) Color and Lighting in Cinema: PR: FIL 3035C. Ideas and practices related to lighting and color primarily in film but also painting, sculpture, photography and theatre. Occasional.
+FIL 3880C CAH-SVAD 3(3,1) Images of Women in Film: PR: FIL 2030. Images of women in film and how these images are shaped and structured in relation to circumstances of production, aesthetics, cultural, historical, and ideological factors. Fall,Spring. 
 FIL 4453C CAH-SVAD 4(3,2) Special Problems in Film Design: PR: FIL 2423 or FIL 3427C and FIL 2030. A series of exercises in craft, techniques, and design for film production, including animation. Occasional. 
 FIL 4472C CAH-SVAD 3(2,4) Cinematography II: PR: Film major, FIL 3427C, FIL 2461. Advanced principles and practices of cinematography. Spring. M&S fee $5.00 
 FIL 4486C CAH-SVAD 3(3,1) Directing for Film II: PR: Film BFA major and FIL 2480. Principles and practice in directing narrative and/or documentary motion pictures. Fall. M&S fee $5.00 
@@ -2007,74 +1585,17 @@ FIN 4424 BA-FIN 3(3,0) Advanced Topics in Financial Management: PR: FIN 3414 wit
 FIN 4453 BA-FIN 3(3,0) Financial Models: PR: FIN 3403C, FIN 3414, and FIN 3504, each with a “C” (2.0) or better; open to majors or minors which require this course. Mathematical models applied specifically to financial problems, including those models suitable for representation and solutions on computers. Fall,Spring. 
 FIN 4514 BA-FIN 3(3,0) Portfolio Analysis and Management: PR: FIN 3403C, FIN 3303 and FIN 3504, each with a “C” (2.0) or better; open to majors or minors which require this course. Portfolio and capital market theory in the determination of rational investment policies. Risk analysis, portfolio analysis, and evaluation techniques. Fall,Spring. 
 FIN 4533 BA-FIN 3(3,0) Financial Derivatives: PR: FIN 3403C, FIN 3303 and FIN 3504, each with a “C” (2.0) or better; open to majors or minors which require this course. Options, futures, forwards, and other derivative contracts. Investments traded in these markets are examined. Pricing and hedging are considered. Fall,Spring. 
-
-FIL 4935C CAH-SVAD 3(3,1)
-Current Problems in Film Theory: PR: FIL
-3035C. Concentration on most recent work in film studies
-concerned with film theory. Occasional.
-FIL 4939C CAH-SVAD 3(3,1)
-Current Problems in Film History: PR: FIL
-3035C. Concentration on the most recent work in film
-studies concerned with film history. Occasional.
-FIL 5406 CAH-SVAD 3(3,0)
-Theories of Film Production: PR: Film MFA
-student or C.I. Comparative analysis of motion picture
-production methodologies, including the studio industrial
-model, from a historical/critical perspective. Spring.
-FIL 5414 CAH-SVAD 3(3,0)
-Film Vision, Scope & Financing: PR: Acceptance
-to the MFA Film & Digital Media program. Exploration of
-the creative and business challenges filmmakers encounter
-when working on a screenplay, including financing, making,
-and distributing a digital, microbudget motion picture.
-Spring.
-FIL 5419 CAH-SVAD 3(3,0)
-Developing the Film Screenplay: PR: Admission
-to MFA Film & Digital Media-Entre Dig Cin track, or C.I.
-Development of an existing, original screenplay to fit the
-demands, limits, and possibilities of the microbudget, digital
-film paradigm. Fall.
-FIL 5800 CAH-SVAD 3(3,0)
-Research Methods in Film and Digital Media:
-PR: Admission to Film and Digital Media graduate program
-or C.I. Research methodology for the study and production
-of film and new media. Spring.
-FIL 5853 CAH-SVAD 3(3,0)
-Independent Cinematic Forms: PR: Admission
-to MFA Film & Digital Media/Entre Dig Cin track, or C.I.
-Evolution of low budget independent cinematic films through
-the works of modern and classical filmmakers within and
-beyond the studio system. Fall.
-FIL 5864 CAH-SVAD 3(3,0)
-Ways of Seeing: The Expressive Potential of
-Film: PR: Admission to MFA Film and Digital Media or
-C.I. A study of multidisciplinary theories that relate to the
-practice of filmmaking. Fall.
-FIL 5924 CAH-SVAD 1(1,0)
-Graduate Seminar: PR: Admission to MFA Film
-& Digital Media/Entrepreneurial Digital Cinema track, or
-C.I. Strategies for a successful graduate experience, and
-forum for modes of inquiry, film technique, production and
-distribution issues; and thesis defense preparation. Graded
-S/U. May be used in the degree program a maximum of 6
-times. Fall.
-FIN 2100 BA-FIN 3(3,0)
-Personal Finance and Investments: PR: Open to
-all students (majors, minors, and non-majors). An overview
-of personal and family financial planning. Topics include
-housing, investments, insurance, retirement planning,
-estate planning, financial services, consumer credit, and tax
-planning. Fall,Spring.
-FIN 3303 BA-FIN 3(3,0)
-Financial Markets: PR: FIN 3403C with a “C” (2.0)
-or better; open to majors or minors which require this
-course. The role of short and long-term financial markets
-and financial institutions in capital formation and allocation.
-Theories and mathematics of interest rates. Fall,Spring. 
-
-
- 
-
+FIL 4935C CAH-SVAD 3(3,1) Current Problems in Film Theory: PR: FIL 3035C. Concentration on most recent work in film studies concerned with film theory. Occasional.
+FIL 4939C CAH-SVAD 3(3,1) Current Problems in Film History: PR: FIL 3035C. Concentration on the most recent work in film studies concerned with film history. Occasional.
+FIL 5406 CAH-SVAD 3(3,0) Theories of Film Production: PR: Film MFA student or C.I. Comparative analysis of motion picture production methodologies, including the studio industrial model, from a historical/critical perspective. Spring.
+FIL 5414 CAH-SVAD 3(3,0) Film Vision, Scope & Financing: PR: Acceptance to the MFA Film & Digital Media program. Exploration of the creative and business challenges filmmakers encounter when working on a screenplay, including financing, making, and distributing a digital, microbudget motion picture. Spring.
+FIL 5419 CAH-SVAD 3(3,0) Developing the Film Screenplay: PR: Admission to MFA Film & Digital Media-Entre Dig Cin track, or C.I. Development of an existing, original screenplay to fit the demands, limits, and possibilities of the microbudget, digital film paradigm. Fall.
+FIL 5800 CAH-SVAD 3(3,0) Research Methods in Film and Digital Media: PR: Admission to Film and Digital Media graduate program or C.I. Research methodology for the study and production of film and new media. Spring.
+FIL 5853 CAH-SVAD 3(3,0) Independent Cinematic Forms: PR: Admission to MFA Film & Digital Media/Entre Dig Cin track, or C.I. Evolution of low budget independent cinematic films through the works of modern and classical filmmakers within and beyond the studio system. Fall.
+FIL 5864 CAH-SVAD 3(3,0) Ways of Seeing: The Expressive Potential of Film: PR: Admission to MFA Film and Digital Media or C.I. A study of multidisciplinary theories that relate to the practice of filmmaking. Fall.
+FIL 5924 CAH-SVAD 1(1,0) Graduate Seminar: PR: Admission to MFA Film & Digital Media/Entrepreneurial Digital Cinema track, or C.I. Strategies for a successful graduate experience, and forum for modes of inquiry, film technique, production and distribution issues; and thesis defense preparation. Graded S/U. May be used in the degree program a maximum of 6 times. Fall.
+FIN 2100 BA-FIN 3(3,0) Personal Finance and Investments: PR: Open to all students (majors, minors, and non-majors). An overview of personal and family financial planning. Topics include housing, investments, insurance, retirement planning, estate planning, financial services, consumer credit, and tax planning. Fall,Spring.
+FIN 3303 BA-FIN 3(3,0) Financial Markets: PR: FIN 3403C with a “C” (2.0) or better; open to majors or minors which require this course. The role of short and long-term financial markets and financial institutions in capital formation and allocation. Theories and mathematics of interest rates. Fall,Spring. 
 FIN 4560C BA-FIN 4(3,1) Applied Portfolio Management 1: PR: Finance major, FIN 3403C and FIN 3504, each with a “C” (2.0) or better, and C.I. For UCF Student Managed Portfolio program participants. Provides detailed, rigorous analyses of equity portfolio management topics, including risk/ return, valuation, forecasting, portfolio construction, and performance appraisal. Occasional. 
 FIN 4561C BA-FIN 4(3,1) Applied Portfolio Management 2: PR: Finance major, FIN 4560C with a “C” (2.0) or better, and C.I. For UCF Student Managed Portfolio program participants. Rigorous coverage of advanced portfolio management topics, including uses of derivatives, tax issues, and style investing. Occasional. 
 FIN 4604 BA-FIN 3(3,0) International Financial Management: PR: FIN 3403C with a “C” (2.0) or better; open to majors or minors which require this course. Analysis of the foreign financial methods and investment, currency futures market, capital budgeting, cash management, examination of Eurocurrency market and international bond markets. Fall,Spring. 
@@ -2088,8 +1609,6 @@ FLE 5331 ED-TL&L 3(3,0) Foreign Language Methods at the Secondary Level: PR: Gra
 FLE 5335 ED-TL&L 3(3,0) Foreign Language Methods at the Elementary Level: PR: Graduate standing or C.I. Methods of planning and teaching foreign language at the elementary level. The emphasis is on teaching communicatively and on integrating culture in the K-6 classroom. May be repeated for credit. Occasional. 
 FRE 1120C CAH-LANG 4(3,1) Elementary French Language and Civilization I: Introduces the student to French culture through the major language skills: listening, speaking, reading and writing. Open only to students with no experience in the language. Fall,Spring. 
 FRE 1121C CAH-LANG 4(3,1) Elementary French Language and Civilization II: PR: FRE 1120C or equivalent. Continuation of FRE 1120C. Fall,Spring. 
-
- 
 FRE 4422 CAH-LANG 3(3,0) Advanced French Composition: PR: FRE 3420. Readings and written imitations of modern literary styles in the form of themes, sketches, poems, and original stories. Spring. 
 FRE 4471 CAH-LANG 6(6,0) Advanced French Cultural Studies Abroad: PR: FRE 2201 or equivalent, or C.I. Students will develop strong conversational skills at the third year level while studying French culture abroad. May be repeated for credit. Occasional. 
 FRE 4500 CAH-LANG 3(3,0) French Civilization and Culture: PR:FRE 3420. A survey analyzing development of key elements of French life: its historical, artistic, intellectual, scientific, and spiritual contributions to the world via readings, lectures, films, and other media. Conducted in French. Occasional. 
@@ -2104,38 +1623,20 @@ FRW 3370 CAH-LANG 3(3,0) Short Stories of 18th, 19th and 20th Centuries: PR: FRE
 FRW 3740 CAH-LANG 3(3,0) The French Literature of Canada: PR: FRE 2201 or equivalent. A survey of the French literature of Canada from the late 19th century to the present, with particular emphasis on the novel and short story. Occasional. 
 FRW 3752 CAH-LANG 3(3,0) French Caribbean Literature: PR: FRE 2201 or equivalent. Literature of the French speaking Caribbean from colonial times to the present, in French. Occasional. 
 FRW 3760 CAH-LANG 3(3,0) Creole Identity in the French-Speaking World: PR: FRE 2201 or equivalent. Creole literatures and cultures of the Francophone world. Spring. 
-
-FRE 2200 Intermediate French Language and Civilization I: PR: FRE 1121C or equivalent. Development of language skills and cultural knowledge at the intermediate level. Fall,Spring. 
-CAH-LANG 
-3(3,1) 
-FRE 2201 CAH-LANG Intermediate French Language and Civilization II: PR: FRE 2200 or equivalent. Continuation of FRE 2200 with emphasis on French civilization. Fall,Spring. 
-FRE 2210 CAH-LANG Intensive French Conversation: PR: One year of French or equivalent. Practical use of the language, leading toward fluency and correctness in speaking. Occasional. 
+FRE 2200  CAH-LANG 3(3,1) Intermediate French Language and Civilization I: PR: FRE 1121C or equivalent. Development of language skills and cultural knowledge at the intermediate level. Fall,Spring. 
+FRE 2201 CAH-LANG  3(3,1) Intermediate French Language and Civilization II: PR: FRE 2200 or equivalent. Continuation of FRE 2200 with emphasis on French civilization. Fall,Spring. 
+FRE 2210 CAH-LANG  3(3,0) Intensive French Conversation: PR: One year of French or equivalent. Practical use of the language, leading toward fluency and correctness in speaking. Occasional. 
 FRE 2270 CAH-LANG 8(16,10) Intermediate French Study Abroad: PR: Elementary French. Intermediate French language and civilization taught in the native environment. Occasional. 
 FRE 3300 CAH-LANG 3(3,0) French Grammar: PR: FRE 2201 or equivalent. An in-depth review of the structures of French for students who intend to take French literature courses. Fall. 
-FRE 3410 CAH-LANG Advanced Oral French Abroad: PR: FRE 2200, FRE 2201 or equivalent. Designed for students participating in the Study Abroad Program in France. Students will be immersed throughout the term speaking French. May be repeated for credit. Occasional. 
-FRE 3420 CAH-LANG French Composition: PR: FRE 2201 or equivalent. Development of skills in composition. Fall. 
+FRE 3410 CAH-LANG  3(3,0) Advanced Oral French Abroad: PR: FRE 2200, FRE 2201 or equivalent. Designed for students participating in the Study Abroad Program in France. Students will be immersed throughout the term speaking French. May be repeated for credit. Occasional. 
+FRE 3420 CAH-LANG  3(3,0) French Composition: PR: FRE 2201 or equivalent. Development of skills in composition. Fall. 
 FRE 3423 CAH-LANG 3(3,0) Advanced French Grammar Abroad: PR: FRE 2200, FRE 2201 or equivalent. Students will be immersed throughout the term applying grammatical concepts as they relate to written expression in order to enhance oral expression. May be repeated for credit. Occasional. 
 FRE 3440 CAH-LANG 3(3,0) Business French I: PR: Three semesters of French language. Introduces vocabulary and terminology in various French business activities, as well as standards, procedures, and practices of the French business world. Occasional. 
-FRE 3441 Business French II: PR: FRE 3440 or C.I. Introduction to French business language and practices. Occasional. 
+FRE 3441  CAH-LANG 3(3,0) Business French II: PR: FRE 3440 or C.I. Introduction to French business language and practices. Occasional. 
 FRE 3760 CAH-LANG 3(3,0) Advanced French Oral Communication: PR: FRE 2201 or equivalent. Vocabulary building with systematic training in diction and locution. Speeches and oral presentations as well as production and delivery of real-life dialogues. Spring. 
-CAH-LANG 
-3(3,0) 
-FRE 3780 CAH-LANG French Phonetics and Diction: French phonology, with emphasis on phonic groupings. Spring. 
-3(3,0) FRE 3954 CAH-LANG 6(6,0) 
-Study Abroad in the Caribbean: PR: FRE 2201 or equivalent. Travel through Caribbean islands, studying the diversity within the Creole cultures. May be repeated for credit. Occasional. 
-FRE 4421 Advanced French Conversation: PR: FRE 3760. Advanced conversation on directed topics from various disciplines; literature, art, psychology, philosophy, music, business, and the sciences. Fall. 
-CAH-LANG 
-3(3,0) 
-3(3,1) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
+FRE 3780 CAH-LANG  3(3,0) French Phonetics and Diction: French phonology, with emphasis on phonic groupings. Spring. 
+FRE 3954 CAH-LANG 6(6,0) Study Abroad in the Caribbean: PR: FRE 2201 or equivalent. Travel through Caribbean islands, studying the diversity within the Creole cultures. May be repeated for credit. Occasional. 
+FRE 4421  CAH-LANG 3(3,0) Advanced French Conversation: PR: FRE 3760. Advanced conversation on directed topics from various disciplines; literature, art, psychology, philosophy, music, business, and the sciences. Fall. 
 FRW 3770 CAH-LANG 3(3,0) Francophone Literature: PR: FRE 2201. The literature of the Francophone world. Students will read, analyze and discuss literary works written in French. Even Spring. 
 FRW 3810 CAH-LANG 3(3,0) French Literary Texts and Analysis: PR: FRE 2201. French Literature and literary analysis from the Middle Ages to the present. Course is conducted in French. Fall. 
 FRW 4281 CAH-LANG 3(3,0) 20th Century French Novels: PR: FRW 3100 or FRW 3101 or equivalent. Contemporary French Novel. Will focus on post-war authors, both traditional and avant-garde, such as Bazin, Beckett, Butor, Camus, Mauriac, Malraux and Sarraute. Occasional. 
@@ -2166,24 +1667,16 @@ GEB 4934 BA-BA 0(0,1) Current Topics in Business Administration: PR: Admission t
 GEB 5516 BA-MAN 3(3,0) Technological Entrepreneurship: PR: Graduate standing. Focus of the course is on identification, evaluation and commercialization of new technologies. Emphasis will be placed on the legal, financial and strategy aspects of technology transfer and development. Occasional. 
 GEB 5941 BA-BA 1.5(1.5,0) Professional Business Practicum: PR: Acceptance in the graduate program. The practicum is to provide a professional business work experience for students entering the MBA program without such experience. Occasional. 
 GEO 1200 COS-POLS 3(3,0) Physical Geography: Basic physical elements of geography, including climate, landforms, soils, natural vegetation, minerals, and their integrated patterns of world distribution. Fall,Spring. 
-
-GEA 4405 CAH-LAS Geography of Latin America: PR: ENC 1102 or C.I. Geography of Latin America and the Caribbean, including geophysical, cultural, economic, and social characteristics and processes. Occasional. 
+GEA 4405 CAH-LAS  3(3,0) Geography of Latin America: PR: ENC 1102 or C.I. Geography of Latin America and the Caribbean, including geophysical, cultural, economic, and social characteristics and processes. Occasional. 
 GEB 1091C BA-BA 2(1,1) Foundations of Leadership: PR: LEAD Scholars Program. Seminar for LEAD Scholars in the College of Business providing a foundation of leadership, scholarship, and service regarding disciplines in the college. Fall,Spring. 
-GEB 2350 Foundations of Business: Introduction to the U.S. business system and the role it plays in a global economy. Fall. 
+GEB 2350  BA-MAR 3(3,0) Foundations of Business: Introduction to the U.S. business system and the role it plays in a global economy. Fall. 
 GEB 3003 BA-MAN 1(1,0) Career Research & Planning: PR: Admission to the College of Business Designed to provide a basic understanding of the importance of career professionalism in today’s competitive business environment. The course focuses on self-awareness and career research and planning. Fall,Spring. 
 GEB 3005 BA-MAN 1(1,0) Career Search Strategy: PR: GEB 3003. Provides a basic understanding of the importance of career professionalism in today’s competitive business environment. The course focuses on personal branding/ marketing and career search strategies. Fall,Spring. 
 GEB 3031 BA-MAN 3(3,0) Cornerstone: Professional Skills for Business: PR: Junior standing. An orientation to opportunities and challenges facing managers in contemporary business organizations. Introduces competencies of team work, communication, creative thinking, and adapting to change. Fall,Spring. 
-BA-MAR 3(3,0) 
-GEB 3031L Cornerstone Lab: Professional Skills for Business: PR: CBA major/minor or approved major/minor CR: GEB 3031. Students apply concepts and principles introduced in GEB 3031 and related skills essential to academic and professional success. Fall,Spring. 
+GEB 3031L  BA-MAN 1(0,2) Cornerstone Lab: Professional Skills for Business: PR: CBA major/minor or approved major/minor CR: GEB 3031. Students apply concepts and principles introduced in GEB 3031 and related skills essential to academic and professional success. Fall,Spring. 
 GEB 3113 BA-MAN 3(3,0) Creativity and Entrepreneurship: PR: Sophomore Standing. Discovering and assessing opportunities, creating solutions, and formulating sustainable business models necessary to deliver benefits to society and markets. Fall,Spring. 
 GEB 3375 BA-FIN 3(3,0) Introduction to International Business: PR: Junior standing and ACG 2071, ECO 2013 and ECO 2023, each with a “C” (2.0) or better. Understanding the interdependence of globalized world economy and similarities between domestic and international business domains. Fall,Spring. 
 GEB 3375H BA-FIN 3(3,0) Honors Introduction to International Business: PR: Junior standing, permission of Honors, ACG 2071, ECO 2013, and ECO 2023, each with a “C” (2.0) or better. Understanding the interdependence of globalized world economy and similarities between domestic and international business domains. Same as GEB 3375 with honors level content. Occasional. 
-BA-MAN 1(0,2) 
-3(3,0) 
-
-
- 
-
 GEO 2370 COS-POLS 3(3,0) Resources Geography: Analysis of basic principles and problems associated with development, use, conservation, and management of natural resources, with special emphasis on the United States. Fall,Spring. 
 GEO 3471 COS-POLS 3(3,0) World Political Geography: PR: ENC 1102 or POS 2041 or C.I. Analysis of factors which affect power relations among nations, including area, location, political styles, ethnic divisions, and the politics of energy. Fall,Spring. 
 GER 1120C CAH-LANG 4(4,1) Honors Elementary German Language and Civilization I: PR: Permission of Honors. Introduces the student to German culture through the major language skills: listening, speaking, reading and writing. Open only to students with no experience in this language. Honors level content. Occasional. 
@@ -2201,8 +1694,6 @@ GER 3272 CAH-LANG 2(2,0) Modern German Civilization Abroad II: PR: GER 2201 or e
 GER 3420 CAH-LANG 3(3,0) Intensive German Composition: PR: GER 2201 or equivalent. Development of skills in composition. Occasional. 
 GER 3440 CAH-LANG 3(3,0) Business German I: PR: GER 2200. Introduction to German business language and practices. Occasional. 
 GER 3441 CAH-LANG 3(3,0) Business German II: PR: GER 3440. Continuation of Business German I. Occasional. 
-
- 
 GEY 5600 ED-CFCS 3(3,0) Physiology of Aging: PR: BSC 2010C or PCB 3703C or APK 4110C or equivalent. The purpose of this course is to develop the student’s understanding of the effects of human aging on various body systems. Occasional. 
 GEY 5648 HPA-SOWK 3(3,0) Gerontology: An Interdisciplinary Approach: PR: Graduate status or senior standing or C.I. The study of aging will be presented from man interdisciplinary and multidisciplinary approach spanning the social sciences and health.Occasional. 
 GIS 3043C UGST-INTERDISC 3(2,2) GIS for Environmental Studies: PR: CGS 1060C and BSC 2010C, or C.I. Geographic Information Systems (GIS) technology for environmental analysis. GIS theory with training using ArcGIS, including environmental analysis and facility siting studies. Odd Fall. 
@@ -2216,7 +1707,7 @@ GRA 3102C CAH-SVAD 3(2,4) Intermediate Graphic Design I: PR: Acceptance in Graph
 GRA 3112C CAH-SVAD 3(2,4) Intermediate Graphic Design II: PR: GRA 3102C or C.I. Further development of studio techniques and problems in graphic design with emphasis on digital prepress. Spring. M&S fee $43.00 
 GRA 3202C CAH-SVAD 3(2,4) Type & Design: PR: ART 2201C, ART 2203C, ART 2300C, ART 2301C. A survey of type, calligraphy and letter forms and their appropriate use as subject matter for graphic design and publication. Fall,Odd Spring. 
 GRA 3747C CAH-SVAD 3(2,4) Intermediate Illustration I: PR: ART 2201C, ART 2203C, ART 2301C, and successful portfolio review. Techniques, production processes, media and materials used to create illustration for works utilizing sequential visual narrative. Fall. M&S fee $45.00 
-GER 3470 CAH-LANG Advanced German Study Abroad: PR: GER 2201. Advanced German grammar in the context of conversation and composition taught in the native environment. Occasional. 
+GER 3470 CAH-LANG  6(6,0) Advanced German Study Abroad: PR: GER 2201. Advanced German grammar in the context of conversation and composition taught in the native environment. Occasional. 
 GER 3760 CAH-LANG 3(3,0) Advanced German Oral Communication: PR: GER 2201 or equivalent. Vocabulary building with systematic training in diction and locution. Speeches and oral presentations as well as production and delivery of real-life dialogues. Even Fall. 
 GER 3780 CAH-LANG 3(3,0) German Phonetics and Diction: PR: GER 2240. The fundamental principles of German pronunciation. Occasional. 
 GER 4422 CAH-LANG 3(3,0) Advanced German Grammar: PR: GER 3760, or any other 3000 level German course. An accelerated grammar course designated for advanced students of the German language. Occasional. 
@@ -2224,22 +1715,12 @@ GER 4510 CAH-LANG 3(3,0) Life and Culture in Nazi Germany: PR: C.I. Confrontatio
 GER 4520 CAH-LANG 3(3,0) Modern Germany: PR: Given in German. An introduction to the history of postwar Germany from the two Germanies to unification and today’s Germany. Occasional. 
 GEW 3100 CAH-LANG 3(3,0) Survey of German Literature I: PR: GER 2201 or equivalent. Main literary currents and works from the Middle Ages through 19th Century Romanticism. Occasional. 
 GEW 3101 CAH-LANG 3(3,0) Survey of German Literature II: PR: GER 2201 or equivalent. Main literary currents and works from 19th Century Realism to the present. Occasional. 
-GEW 3370 CAH-LANG Short Story: PR: GER 2201 or equivalent. German short prose works of the 19th and 20th centuries. Occasional. 
-3(3,0) GEW 3480 CAH-LANG 3(3,0) 
-German Post-War Literature: PR: GER 2201. This course examines the works of German, Austrian and Swiss writers after World War II. Occasional. 
-GEW 4482 CAH-LANG German Children’s Literature: PR: GER 2200. A look into the history of German children’s literature with a concentration on works after World War II. Occasional. 
+GEW 3370 CAH-LANG  3(3,0) Short Story: PR: GER 2201 or equivalent. German short prose works of the 19th and 20th centuries. Occasional. 
+GEW 3480 CAH-LANG 3(3,0) German Post-War Literature: PR: GER 2201. This course examines the works of German, Austrian and Swiss writers after World War II. Occasional. 
+GEW 4482 CAH-LANG  3(3,0) German Children’s Literature: PR: GER 2200. A look into the history of German children’s literature with a concentration on works after World War II. Occasional. 
 GEW 4531 CAH-LANG 3(3,0) The Age of Goethe and Schiller: PR: GER 2201. Selected texts of Goethe and Schiller are examined, with particular attention to their relationship to both German classicism and German romanticism. Occasional. 
 GEY 3001 HPA-SOWK 3(3,0) Gerontology: An Interdisciplinary Overview: PR: Junior standing or C.I. Study of aging from an interdisciplinary perspective that bridges social and behavioral sciences, nursing, social work, allied health, and natural sciences. May be repeated for credit. Fall. 
-GEY 5007 CON-NURS Women and Healthy Aging: PR: Graduate standing or senior undergraduate. The examination of the health promotion opportunities and bio-psycho-social challenges of women as they age. Spring. 
-6(6,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
+GEY 5007 CON-NURS  3(3,0) Women and Healthy Aging: PR: Graduate standing or senior undergraduate. The examination of the health promotion opportunities and bio-psycho-social challenges of women as they age. Spring. 
 GRA 3803C CAH-SVAD 3(2,4) Intermediate Computer Graphic Design: PR: GRA 3102C or declared Web Design Track, ART 2201C, ART 2300C, and DIG 3716C. Graphic design techniques and methods relating to web design and development. Fall,Spring. 
 GRA 3950 CAH-SVAD 0(0,0) Graphic Design Portfolio Application: PR: ART 2201C, ART 2203C, ART 2300C, ART 2301C, GRA 2101C, ARH 2050, ARH 2051. Portfolio application for students entering the SVAD Graphic Design program. Graded S/U. Spring. 
 GRA 4154C CAH-SVAD 3(2,4) Advanced Illustration: PR: ART 2201C, ART 2203C, ART 2300C, ART 2301C, and a satisfactory portfolio review or C.I. Advanced techniques in the utilization of digital platforms to emulate traditional media. May be used in the degree program a maximum of 3 times. Spring. M&S fee $45.00 
@@ -2277,20 +1758,12 @@ HFT 3770 RCHM-TEA 3(3,0) Cruise Line Operations and Management: PR: HFT 1000 and
 HFT 3785 RCHM-TEA 3(3,0) Management of Gaming Enterprises: PR: Junior level standing. an in-depth study of gaming-based organizations including cruise ships, Indian reservation casinos, and others. The history and development of gaming organizations, the economics, social, and cultural impact of gaming and managerial challenges and opportunities in the industry. Occasional. 
 HFT 3792 RCHM-TEA 3(3,0) Event Design and Production: PR: HFT 1000, HFT 2750, HFT 3443, and HFT 3670; or C.I. The many aspects of event production, including art, design, and staging. Provides hands on practical experience. Occasional. 
 HFT 3798 RCHM-TEA 3(3,0) Fairs and Festivals: PR: HFT 1000 and HFT 2750; or C.I. Evolution of modern day exhibitions and trade shows from fairs and festivals. Occasional. 
-HFT 3354 RCHM-TEA Agronomy for Golf Course Management: PR: HFT 3353. Primary roles and responsibilities of the golf course superintendent. Occasional. 
-HFT 3357 RCHM-TEA Golf & Club Event Operations: PR: HFT 1000; HFT 2500. Develop, plan, and organize golf tournaments of all types. Occasional. 
+HFT 3354 RCHM-TEA  3(3,0) Agronomy for Golf Course Management: PR: HFT 3353. Primary roles and responsibilities of the golf course superintendent. Occasional. 
+HFT 3357 RCHM-TEA  3(3,0) Golf & Club Event Operations: PR: HFT 1000; HFT 2500. Develop, plan, and organize golf tournaments of all types. Occasional. 
 HFT 3373 RCHM-TEA 3(3,0) Event Design, Production & Technology: PR: HFT 1000, HFT 2750, and HFT 3670, or C.I. Aspects of event production, including art, design and staging. How technology is used in the event industry to increase effectiveness and productivity. Fall,Spring. 
-HFT 3384 RCHM-TEA Golf and Club Enterprises Management: PR: HFT 1000 and FSS 2221C. Comprehensive examination of the golf and club management industry, its related national and international associations, and career path opportunities. Occasional. 
+HFT 3384 RCHM-TEA  3(3,0) Golf and Club Enterprises Management: PR: HFT 1000 and FSS 2221C. Comprehensive examination of the golf and club management industry, its related national and international associations, and career path opportunities. Occasional. 
 HFT 3431 RCHM-HSP SERV 3(3,0) Hospitality industry Managerial Accounting: PR: ECO 2013 or ECO 2023, and MAC 1105 and HFT 2401. Presentation, interpretation, and analysis of internal and external hospitality industry financial reports affecting management decisions using hospitality industry systems of accounting. Fall,Spring. 
-HFT 3443 RCHM-TEA Event Technology: PR: HFT 1000 and HFT 2750; or C.I. Use of technology in the event industry to solidify processes and help people be more productive. Covers types of technology for different event processes. Occasional. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
+HFT 3443 RCHM-TEA  3(3,0) Event Technology: PR: HFT 1000 and HFT 2750; or C.I. Use of technology in the event industry to solidify processes and help people be more productive. Covers types of technology for different event processes. Occasional. 
 HFT 3813 RCHM-FOOD&LODG 3(3,0) Foodservice Marketing, Sales, and Distribution: PR: HFT 2500 and HFT 3263. Food service marketing, sales, and distribution from both an operator and supplier perspective. Fall,Spring. 
 HFT 3868 RCHM-FOOD&LODG 3(3,0) History and Culture of Wine: PR: Minimum age of 21 and a History course or C.I. The role that wine has played in the history, culture, and religion of diverse civilizations. Occasional. M&S fee $70.00 
 HFT 3933 RCHM-RCHM 1(1,0) Distinguished Lectures in Hospitality Management: PR: HFT 1000, Junior standing. First hand introduction to hospitality leaders, their perspectives on the segments they represent, and the breadth of those segments. Graded S/U. Fall,Spring. 
@@ -2306,11 +1779,9 @@ HFT 4275 RCHM-FOOD&LODG 3(3,0) Development of Vacation Ownership Resorts: PR: HF
 HFT 4277 RCHM-TEA 3(3,0) Yacht, Country, And City Club Management: PR: HFT 1000 and junior standing or C.I. A study of the history, development, operation and management of Yacht, Country and City Clubs. Emphasis will be placed on operational aspects. Fall. 
 HFT 4281 RCHM-FOOD&LODG 3(3,0) Restaurant Leadership Strategies and Tactics: PR: HFT 3263 and Junior standing. An analysis of the leadership styles of restaurant industry founders and executives. Occasional. 
 HFT 4286 RCHM-HSP SERV 3(3,0) Hospitality Communications: PR: HFT 1000; HFT 2220; FSS 2221C; HFT 2254; HFT 2500; HFT 3603; HFT 2750; HFT 2401; HFT 3444; HFT 3540. Communication exchanges in the hospitality industry for effective presentations, conflict resolution, and report writing. Emphasis on inter departmental dependence by managers in hospitality enterprises in the areas of reading, writing, speaking, and listening. Fall,Spring. 
-HFT 4295 RCHM-HSP SERV Leadership and Strategic Management in Hospitality Industry: PR: Completion of Hospitality Management Core program. Principles of strategic decision making in various hospitality and tourism organizations; lectures, class discussions, and group case analysis presentations. Fall,Spring. 
-HFT 4343 RCHM-HSP SERV Hospitality Facilities Management: PR: HFT 1000, HFT 2254 and Junior standing; or C.I. Principles of facility planning, layout, design, and physical plant characteristics for hotels, timeshares and shared ownership properties, restaurants and foodservice and other hospitality related venues. Fall,Spring. 
+HFT 4295 RCHM-HSP SERV 3(3,0) Leadership and Strategic Management in Hospitality Industry: PR: Completion of Hospitality Management Core program. Principles of strategic decision making in various hospitality and tourism organizations; lectures, class discussions, and group case analysis presentations. Fall,Spring. 
+HFT 4343 RCHM-HSP SERV 3(3,0) Hospitality Facilities Management: PR: HFT 1000, HFT 2254 and Junior standing; or C.I. Principles of facility planning, layout, design, and physical plant characteristics for hotels, timeshares and shared ownership properties, restaurants and foodservice and other hospitality related venues. Fall,Spring. 
 HFT 4358 RCHM-TEA 3(3,0) Golf & Club Facility Design: PR: HFT 4277. Golf course and golf facility design from a functional perspective and from a perspective of form. Occasional. 
-
- 
 HFT 4522 RCHM-FOOD&LODG 3(3,0) Resort Sales Tactics and Strategies: PR: HFT 1000, HFT 2254, or C.I. Sales tactics and business-to- business strategies employed in the sales and marketing of resort hotels, timeshares, and shared ownership properties. Fall. 
 HFT 4561 RCHM-TEA 3(3,0) Destination Marketing: PR: HFT 2500 and HFT 3700. Development of destination-oriented marketing goals and strategies with an emphasis on integrated destination marketing. Covers trends and challenges influencing destination marketing. Occasional. 
 HFT 4614 RCHM-TEA 3(3,0) Risk Management in Theme Parks and Attractions: PR: HFT 4755 and HFT 3603; or C.I. Examines principles and issues related to the nature and mitigation of risks at theme parks and attractions. Covers all theme park operating departments. Occasional. 
@@ -2324,31 +1795,14 @@ HFT 4755 RCHM-TEA 3(3,0) Theme Park and Attraction Management: PR: HFT 1000 and 
 HFT 4757 RCHM-TEA 3(3,0) Event Management: PR: All courses in the Event Management core, or C.I. The development, design, and evaluation of events that meet stakeholder needs and expectations. Incorporates a case study approach. Requires event volunteer hours approved by instructor. Fall,Spring. M&S fee $65.00 
 HFT 4758 RCHM-TEA 3(3,0) Operational Issues in the Theme Park and Attraction Industry: PR: HFT 4755. Organizational structure and operational culture of theme parks and attractions Fall. 
 HFT 4759 RCHM-TEA 3(3,0) Product Development in Theme Parks and Attractions: PR: HFT 4755 and junior standing or C.I. The strategic management process associated with product development in the theme parks and attraction industry. Occasional. 
-HFT 4375 RCHM-TEA Advanced Trade Show Management: PR: HFT 4754 or C.I. Trade show installation, floor management and dismantling/shipping. Pre-event logistics and on-site management of critical success factors. Occasional. 
+HFT 4375 RCHM-TEA  3(3,0) Advanced Trade Show Management: PR: HFT 4754 or C.I. Trade show installation, floor management and dismantling/shipping. Pre-event logistics and on-site management of critical success factors. Occasional. 
 HFT 4394 RCHM-TEA 3(3,0) Event Operations: PR: All courses in the Event Management core, or C.I. Planning and implementing a live event. Fall,Spring. 
-HFT 4413 Technology Applications for Hospitality Management: PR: HFT 3444 Hospitality Information Systems. Provides students with fundamental information system concepts and techniques for effective applications to strategic thinking in hospitality organizations. Odd Spring. 
+HFT 4413  RCHM-HSP SERV 3(3,0) Technology Applications for Hospitality Management: PR: HFT 3444 Hospitality Information Systems. Provides students with fundamental information system concepts and techniques for effective applications to strategic thinking in hospitality organizations. Odd Spring. 
 HFT 4432 RCHM-HSP SERV 3(3,0) Hospitality Industry Auditing: PR: HFT 3431 Hospitality Industry Managerial Accounting. Provides basic fundamentals of eliminating fraud and saving money through proper internal controls in the hospitality industry. Occasional. 
-RCHM-HSP SERV 
-3(3,0) 
-HFT 4457 Food, Beverage, and Labor Cost Controls: PR: HFT 3263, HFT 3431, and Junior standing. Provides students with basic fundamentals of food, beverage, and labor cost control systems in the hospitality industry. Fall,Spring. 
-RCHM-HSP SERV 
-3(3,0) 
-HFT 4464 Hospitality Industry Finance: PR: HFT 3431 and junior standing or C.I. Working knowledge of finance concepts and theories applicable to the Hospitality Industry including evaluating management contracts, franchising, and leasing. Odd Fall,Odd Spring. 
-RCHM-HSP SERV 
-3(3,0) 
-HFT 4468 RCHM-HSP SERV Hospitality Industry Revenue Management: PR: HFT 2254 and HFT 3431, and Junior standing. Revenue management practices in hospitality organizations which include capacity management, revenue forecasting pricing strategies, and distribution. Fall,Spring. 
-HFT 4473 RCHM-HSP SERV Hospitality Development Analysis: PR: HFT 2254 or HFT 3263, HFT 2500, HFT 3431, and Junior standing. Review of methodological operation, financial and marketing aspects of analyses for foodservice, hotels, timeshares, and shared ownership development projects. Spring. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
+HFT 4457  RCHM-HSP SERV 3(3,0) Food, Beverage, and Labor Cost Controls: PR: HFT 3263, HFT 3431, and Junior standing. Provides students with basic fundamentals of food, beverage, and labor cost control systems in the hospitality industry. Fall,Spring. 
+HFT 4464  RCHM-HSP SERV 3(3,0) Hospitality Industry Finance: PR: HFT 3431 and junior standing or C.I. Working knowledge of finance concepts and theories applicable to the Hospitality Industry including evaluating management contracts, franchising, and leasing. Odd Fall,Odd Spring. 
+HFT 4468 RCHM-HSP SERV 3(3,0) Hospitality Industry Revenue Management: PR: HFT 2254 and HFT 3431, and Junior standing. Revenue management practices in hospitality organizations which include capacity management, revenue forecasting pricing strategies, and distribution. Fall,Spring. 
+HFT 4473 RCHM-HSP SERV 3(3,0) Hospitality Development Analysis: PR: HFT 2254 or HFT 3263, HFT 2500, HFT 3431, and Junior standing. Review of methodological operation, financial and marketing aspects of analyses for foodservice, hotels, timeshares, and shared ownership development projects. Spring. 
 HFT 4762 RCHM-TEA 3(3,0) Current Practices in the Airline Industry: PR: Junior standing. A survey of the U.S. and International airline industry. Emphasis on the organization and management functions of the airlines. Occasional. 
 HFT 4795 RCHM-TEA 3(3,0) Entertainment Arts and Events: PR: HFT 2750 and HFT 4755 or C.I. A historical perspective of theme park, event, and attraction entertainment. Covers show development, event production, creative processes, casting, costuming, staffing, and evaluation. Fall,Spring. 
 HFT 4796 RCHM-TEA 3(3,0) International Events: PR: HFT 1000 and HFT 2750; or C.I. Considerations when planning events that are held outside of the United States or that attract a large number of participants from outside the United States. Occasional. 
@@ -2364,7 +1818,7 @@ HIM 4256C HPA-HMI 3(2,2) Coding Procedures II: PR: HSC 3537 or C.I. Principles a
 HIM 4344C HPA-HMI 4(3,2) Health Information Department Management: PR: HIM 3116C; HSA 4180 or MAN 3025; or C.I. Personnel administration; budgeting; forms analysis; work distribution and simplification; equipment selection; ergonomics and space planning. Fall. 
 HIM 4508C HPA-HMI 3(2,2) Quality Management: PR: HSC 3537 or C.I. Principles and mechanics of quality improvement; utilization review; case management and risk management. Fall,Spring. 
 HIM 4656C HPA-HMI 3(2,2) Health Information Management Systems: PR: or CR: HIM 3006. Vitalization of computerized information systems, management and patient care in the health care industry, systems analysis, system design and project management concepts. Fall,Spring. 
-HIM 4676 HPA-HMI Professional Development and Issues in Health Information Management: PR: HIM 4344C, HIM 4508C. Analysis of management functions in health care setting; the HIM professional as an educator; problem-solving techniques; professional ethics; alternative careers. Spring. 
+HIM 4676 HPA-HMI  3(3,0) Professional Development and Issues in Health Information Management: PR: HIM 4344C, HIM 4508C. Analysis of management functions in health care setting; the HIM professional as an educator; problem-solving techniques; professional ethics; alternative careers. Spring. 
 HIM 4816C HPA-HP 3(1,4) Professional Practice Experience II: PR: HIM 3806C and CR: HIM 4226C, HIM 4256C, HIM 4344C, and HIM 4508C. Transcription; coding; quality improvement; risk management; human resources; statistics; accrediting and licensing; revenue management cycle; medical staff organization. Fall,Spring. 
 HIM 4838 HPA-HMI 5(0,15) Management Affiliation: PR: or CR: HIM 4676 and HIM 4816C. Assignment to a selected health care facility serving in an administrative capacity under the direction of a Registered Health Information Administrator; lab exercises; comprehensive exam. Fall,Spring. 
 HIM 5118C HPA-HMI 4(3,1) Health Care Informatics and Information Technology: PR: Admission to M.S. in Health Care Informatics or C.I. An overview of information systems in healthcare and information technology in healthcare decision making. Ethical, planning and legal issues of informatics will be explored. Fall. 
@@ -2382,24 +1836,14 @@ HLP 2701 ED-CFCS 3(3,0) Peer Education Training: PR: Sophomore standing and C.I.
 HSA 3012 HPA-HP 3(3,0) Issues & Trends in Public Health: PR: Sophomore standing and (CGS 1060C or CGS 2100C). The American public health system, looking at the historical, present day, and future organization and management of all its components. Occasional. 
 HSA 3111 HPA-HP 3(3,0) U.S. Health Care Systems: PR: (CGS 1060C or CGS 2100C) and Sophomore Standing. A survey of the economics, social, and political aspects of the health care system in the United States. Fall,Spring. 
 HSA 3170 HPA-HP 3(3,0) Health Care Finance: PR: HSA majors - PR: or CR: HSA 3111 and PR: ACG 2021 and ACG 2071; non-HSA majors: ACG 2021 and ACG 2071. Budgeting and resource allocation related to health care agencies. Fall,Spring. 
-HIM 3006 Foundations Management (HIM): PR: ENC 1102. Foundation of profession; release of information; record analysis; numbering and filing systems; standards for long-term care; ambulatory care; and mental health records. Fall,Spring. 
+HIM 3006  HPA-HMI 3(3,0) Foundations of Health Information  Management (HIM): PR: ENC 1102. Foundation of profession; release of information; record analysis; numbering and filing systems; standards for long-term care; ambulatory care; and mental health records. Fall,Spring. 
 HIM 3116C HPA-HMI 4(3,2) Health Record Organization and Management: PR: HIM 3006 and acceptance into the upper-division limited access HIIM program; or C.I. Nomenclatures/classification systems; health and vital statistics; data analysis and presentation; indexing; computer abstracting; accrediting and approving agencies; medical staff organization. Spring. 
 HIM 3806C HPA-HMI 3(1,4) Professional Practice Experience I: PR: Admission to HIM program. CR: HIM 3006, HSC 3537 and HIM 3116C. Virtual hospital tour; master patient index; numbering and filing systems; assembly and analysis; incomplete record control; record storage; retention and retrieval; and release of information. Fall,Spring. 
-HPA-HMI 3(3,0) of Health Information 
-HIS 3949 Cooperative Education in History: PR: Departmental permission required before registering. Cooperative education experience in history. Graded S/U. May be repeated for credit. Occasional. 
+HIS 3949  CAH-HIST 0(0,8) Cooperative Education in History: PR: Departmental permission required before registering. Cooperative education experience in history. Graded S/U. May be repeated for credit. Occasional. 
 HIS 4065 CAH-HIST 3(3,0) Public History: Principles & Techniques: PR: AMH 2020 or C.I. Practice of public history including historic preservation, museum studies, archival management, oral history, digital history, historical editing, and conservation science. Occasional. 
-HIS 3462 CAH-HIST History of Science: PR: EUH 2000 and EUH 2001 or C.I. Examines past and present science, scientific thought, and the relationship between science and society. Occasional. 
-CAH-HIST 
-0(0,8) 
-HIS 4070 CAH-HIST Oral History: PR: Either AMH 2010, AMH 2020 or C.I. Theories and practices of oral history. Field work required. Occasional. 
+HIS 3462 CAH-HIST  3(3,0) History of Science: PR: EUH 2000 and EUH 2001 or C.I. Examines past and present science, scientific thought, and the relationship between science and society. Occasional. 
+HIS 4070 CAH-HIST  3(3,0) Oral History: PR: Either AMH 2010, AMH 2020 or C.I. Theories and practices of oral history. Field work required. Occasional. 
 HIS 4150 CAH-HIST 3(3,0) History and Historians: PR: C.I. A study of European and/or American historiography. May be used in the degree program a maximum of 2 times. Fall,Spring. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
 HSA 3222 HPA-HP 3(3,0) Long Term Care and Administration: PR: HSA major and Sophomore standing, or C.I. Organization and functioning of long-term care administration. Covers long-term care providers, interaction in long-term care continuum, managing long-term care and future issues. Even Fall,Spring. 
 HSA 3430 HPA-HP 3(3,0) Health Care Economics: PR: HSA 3111; ECO 2023; or C.I. To provide an application of economic principles to analyze how different economic incentives affect patients, providers, and policy makers behaviors in the delivery of health services. Fall,Spring. 
 HSA 4109 HPA-HP 3(3,0) Principles of Managed Care: PR: HSA 3111 or C.I. Course will introduce the contractual, financial, and practice pattern components of managed care. Even Fall,Spring. 
@@ -2415,13 +1859,11 @@ HSA 5177 HPA-HP 3(3,0) Foundations of Health Care Finance: PR: Admission to grad
 HSA 5198 HPA-HP 3(3,0) Health Care Decision Sciences and Knowledge Management: PR: STA 5206 or passing score on statistics assessment exam. Emphasis on development of a general systematic approach to solving problems under uncertainty. The role of informatics and application of information technology in improving managerial decision making process will be presented. Occasional. 
 HSA 5258 HPA-HP 3(3,0) CPT Coding for Health Services Administrators: PR: HSC 6636 or C.I. or BS in health- related field. Emphasis on developing skills to facilitate an understanding of CPT Coding process and the compliance issues relevant to the process. Occasional. 
 HSA 5436 HPA-HMI 3(3,0) Foundations of Health Care Economics: PR: Admission to HSA graduate program or C.I. Preparatory course for graduate students who are not prepared to take the required health care economics course. Fall. 
-HSA 5509 HPA-HMI Health Care Risk Management: PR: Admission to M.S. in Health Services Administration or C.I. This course examines the background, history and philosophy of health care risk management including clinical risks, malpractice, interpreting contracts and insurance and ethical decision making. Fall. 
+HSA 5509 HPA-HMI 3(3,0)  Health Care Risk Management: PR: Admission to M.S. in Health Services Administration or C.I. This course examines the background, history and philosophy of health care risk management including clinical risks, malpractice, interpreting contracts and insurance and ethical decision making. Fall. 
 HSC 1931C HPA-HPA 2(1,1) Foundations of Leadership: PR: LEAD Scholars Program. Seminar for LEAD Scholars in the College of Health & Public Affairs providing a foundation of leadership, scholarship, and service regarding disciplines in the college. Occasional. 
 HSC 2000 HPA-HP 2(2,0) Introduction to the Allied Health Professions: PR: Freshman and Sophomores only. A survey of allied health professions with regard to duties, responsibilities, education and training, ethics, and relationships with other health professionals. Graded S/U. Fall. 
 HSC 2921 HPA-HPA 2(2,0) LEAD Colloquium: PR: Accepted to the LEAD Scholars Program and have completed at least two of the following with a B (3.0) or better: HSC 1931C, EGS 1036C, IDS 1040C, GEB 1091C or EDG 1005C. Experiential leadership in an appropriate setting with the LEAD Scholars Program. May be repeated for credit. Occasional. 
 HSC 3110 HPA-HP 3(3,0) Medical Self Assessment: PR: Sophomore Standing. Development of clinical skills and understanding of one’s health to encourage active participation of individuals in their own health care. Fall,Spring. 
-
- 
 HSC 4008 HPA-HP 3(3,0) Professional Development in Health Professions: PR: ENC 1102 and Junior Standing. Career development planning, professional leadership approaches to problem solving, regulatory and professional requirements. Fall,Spring. 
 HSC 4158 HPA-HP 3(3,0) Medical Pharmacology I: PR: BSC 2010C and admission to Cardiopulmonary Sciences program, or C.I. General pharmacological principles such as regulations, prescriptions, routes of administration, drug action mechanisms, indications/contraindications, and the side effects of cardiopulmonary drug classes Fall. 
 HSC 4159 HPA-HP 2(2,0) Medical Pharmacology II: PR: HSC 4158 or C.I. Drugs used in cardiovascular disorders. Includes inotropic, chronotropic agents, beta blocker drugs, calcium channel antagonists. Spring. 
@@ -2436,21 +1878,13 @@ HSC 4572 HPA-HP 3(3,0) Clinical Nutrition: PR: HUN 2201. Basic principles of bot
 HSC 4652 HPA-HP 3(3,0) Health Law and Ethics: PR: ENC 1102 and Junior Standing, or C.I. Overview of the legal and ethical issues faced by health care consumers, practitioners, administrators and health care facilities. Fall,Spring. 
 HSC 4730 HPA-HP 3(3,0) Applied Health Research Methodology: PR: (STA 2023 or STA 2014C) and Junior Standing. Clinical research issues including: clinical research questions, protocol, patient safety, IRB, ethics and patient rights. Occasional. 
 HSC 5317 ED-E&HS 3(3,0) Health Methods: Teaching Strategies and Interventions: PR: Admission to Graduate Certificate in Health and Wellness or C.I. Application of the knowledge of teaching strategies, methodology, and curriculum to develop a comprehensive school health program. Occasional. 
-HSC 3147 HPA-HP Introduction to Pharmacology: PR: BSC 2010C and Sophomore Standing. Review of terminology and regulations. Study of drug types and usage. Fall,Spring. 
+HSC 3147 HPA-HP  3(3,0) Introduction to Pharmacology: PR: BSC 2010C and Sophomore Standing. Review of terminology and regulations. Study of drug types and usage. Fall,Spring. 
 HSC 3211 HPA-HP 3(3,0) Preventive Health Care: PR: PCB 3703C. An established interdisciplinary approach to help people maintain health and prevent chronic diseases, stress, and addiction Fall,Spring. 
 HSC 3432 HPA-HP 3(3,0) Occupational Safety for the Health Care Professional: PR: ZOO 3733C and PCB 3703C. Issues surrounding the health care environment and the risks associated with working there. Fall,Spring. 
 HSC 3537 HPA-HP 3(3,0) Medical Terminology: A study of the language of medicine and allied health specialties, including work construction, definitions, and application of terms. Fall,Spring. 
 HSC 3559 HPA-COM SC&DIS 3(3,0) Disabilities in American Society: PR: Junior or senior status. Personal, social, and environmental impediments confronted by persons with disabilities, including communicative disorders. Strategies that promote life satisfaction are also reviewed. Fall. 
 HSC 3593 HPA-HP 3(3,0) HIV Disease: A Human Concern: Analysis of the spectrum of HIV disease and the issues surrounding this public health crisis. Fall,Spring. 
 HSC 3640 HPA-HMI 3(3,0) Health Law: PR: HSA 3111 or C.I. Principles of law as applied to the health field, with special reference to health practices. Fall,Spring. 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
 HUM 2020 CAH-PHIL 3(3,0) Encountering the Humanities: The range of ideas, research methods and approaches to scholarship, critical reflection, and creative work in the humanities. Spring. 
 HUM 2210 CAH-PHIL 3(3,0) Humanistic Tradition I: An interdisciplinary, multicultural study of the arts and sciences contributed by diverse human traditions to world civilization. Focus is on ancient civilizations and the cultural heritage stemming from them. Primary sources (in translation) are emphasized. Fall,Spring. 
 HUM 2210H CAH-PHIL 3(3,0) Honors Humanistic Tradition I: PR: Permission of Honors. An interdisciplinary, multicultural study of the arts and sciences contributed by diverse human traditions to world civilization. Focus is on ancient civilizations and the cultural heritage stemming from them. Primary sources (in translation) are emphasized. Honors content. Fall. 
@@ -2479,31 +1913,19 @@ IDH 3600H CAH-PHIL 3(3,0) Honors Case Studies in Ethics: PR: Permission of Honor
 IDH 4030H BHC-HON 1(3,0) Honors Windows To The World: PR: Permission of Honors and IDH 1921H, enrolled in Accelerated Pre-med Program; or C.I. Students will cultivate an active sense of the liberal arts and sciences as they prepare for prestigious scholarships and graduate school. Graded S/U. May be repeated for credit. Occasional. 
 IDS 1040C COS-COMM 2(1,1) Foundations of Leadership: PR: LEAD Scholars Program. Seminar for LEAD Scholars in the College of Arts & Sciences providing a foundation of leadership, scholarship, and service regarding disciplines in the college. Fall,Spring. 
 IDS 2042C COS-COS 2(1,1) LEAD Colloquium: PR: Must have completed 2 of the following with a grade of B or better: IDS 1040C, GEB 1091C, HSC 1931C, EGS 1036C, EDG 1005, or EDF 1930C. Experiential leadership in an appropriate setting with the LEAD Scholars Program. Occasional. 
-HUM 3435 Medieval Humanities: PR: ENC 1102 or C.I. Development of Medieval thought and culture with emphasis on Philosophy, Religion, Literature and Art. Occasional. 
+HUM 3435  CAH-PHIL 3(3,0) Medieval Humanities: PR: ENC 1102 or C.I. Development of Medieval thought and culture with emphasis on Philosophy, Religion, Literature and Art. Occasional. 
 HUM 3460 CAH-PHIL 3(3,0) Latin American Humanities: PR: HUM 2210 or HUM 2230. Ideas in cultures of Latin America and Caribbean basin as expressed in arts, architecture, music, philosophy, religion, literature and film. Occasional. 
 HUM 3800 CAH-PHIL 3(3,0) Research Methods in Humanities: PR: Junior standing, and Humanities or Philosophy major or C.I. Research skills for the humanities, including methodologies, writing techniques, essay structuring, formatting, and methods for citing references and constructing bibliographies. Occasional. 
 HUM 3805 CAH-PHIL 3(3,0) Critical Theory in the Humanities: PR: HUM 2210 and HUM 2230, or C.I. Theories of interpreting technologies, texts, and practices, with emphasis on film, visual/performing arts, music, religion, and philosophy. Occasional. 
 HUM 3830 CAH-PHIL 3(3,0) Introduction to Digital Humanities: PR: Grade of “C” (2.0) or better required in one of the following: ENC 1101, ENC 1102, PHI 2010, HUM 2210, or HUM 2230 or C.I. Investigation of the application of digital tools to humanities questions, and to questions about contemporary life. Fall. 
-CAH-PHIL 
-3(3,0) 
-HUM 4301 The Classical Ideal: PR: HUM 2210 or C.I. The search for order and form in the arts of various times and cultures. Concerns reason, structure, objectivity, harmony. Open to all Juniors and Seniors. Spring. 
+HUM 4301  CAH-PHIL 3(3,0) The Classical Ideal: PR: HUM 2210 or C.I. The search for order and form in the arts of various times and cultures. Concerns reason, structure, objectivity, harmony. Open to all Juniors and Seniors. Spring. 
 HUM 4330 CAH-PHIL 3(3,0) Performance Theory: PR: Junior standing and HUM 2230 and either PHI 2010, PHI 2011, PHI 2108, or C.I. Traditional and contemporary theories of performance with a focus on linguistic performatives, bodily and virtual performances, self-identity, and the politics of performance. Occasional. 
 HUM 4459 CAH-PHIL 3(3,0) American Cultural Studies in Humanities: PR: HUM 2210 and HUM 2230, or C.I. Theories of culture intersecting race, class, gender, migration, ability, and national identity in North America. Occasional. 
-CAH-PHIL 
-3(3,0) 
-HUM 4823 CAH-PHIL Queer Theory in the Humanities: PR: HUM 2210 and HUM 2230 and Junior standing or C.I. Developments in queer theory. Challenge to research by scholars, activists, performers, and visual artists. Occasional. 
-HUM 4826 CAH-PHIL Postcolonial Theory: PR: HUM 2210 and HUM 2230; Junior standing. Interdisciplinary overview of postcolonial philosophy, literature, film, art and cultural theory. Even Fall. 
-HUM 4931 Key Figures in the Humanities & Cultural Studies: PR: HUM 2020 or C.I. Study of a central Humanities/Cultural Studies figure’s work, influences, reception, and effect. May be repeated for credit only when course content is different. Occasional. 
+HUM 4823 CAH-PHIL  3(3,0) Queer Theory in the Humanities: PR: HUM 2210 and HUM 2230 and Junior standing or C.I. Developments in queer theory. Challenge to research by scholars, activists, performers, and visual artists. Occasional. 
+HUM 4826 CAH-PHIL  3(3,0) Postcolonial Theory: PR: HUM 2210 and HUM 2230; Junior standing. Interdisciplinary overview of postcolonial philosophy, literature, film, art and cultural theory. Even Fall. 
+HUM 4931  CAH-PHIL 3(3,0) Key Figures in the Humanities & Cultural Studies: PR: HUM 2020 or C.I. Study of a central Humanities/Cultural Studies figure’s work, influences, reception, and effect. May be repeated for credit only when course content is different. Occasional. 
 HUM 4933 CAH-PHIL 3(3,0) Senior Research Seminar: PR: Senior standing and Humanities major, or C.I. Capstone course on research, developing effective oral and written communication skills. Spring. 
 HUM 4934 CAH-PHIL 3(3,0) Key Concepts in Humanities & Cultural Studies: PR: HUM 2020 or C.I. Study of the development, meaning, and implications of a central concept in the Humanities and Cultural Studies. May be repeated for credit only when course content is different. Occasional. 
-CAH-PHIL 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
 IDS 3150 UGST-INTERDISC 3(3,0) Foundations of Environmental Studies: PR: Junior standing, complete equivalent of UCF Science and Math GEP. An overview of the approaches taken by different disciplines to address regional, national, and global environmental issues. Spring. 
 IDS 3333 UGST-INTERDISC 3(3,0) World Comparative Studies: PR: ENC 1102 or C.I. Comparative study of cultures, economies, languages, and social systems using approaches and data from multiple disciplines. Occasional. 
 IDS 3933 UGST-INTERDISC 3(3,0) Cornerstone Experience: PR: ENC 1102, Junior standing, Interdisciplinary Studies major, or C.I. Interdisciplinary study essentials, including basic concepts and methodological tools, to synthesize material from disparate fields and apply them to academic plans and career goals. Fall,Spring. 
@@ -2518,12 +1940,10 @@ INP 3141C COS-PSYCH 1-3(0,3-9) Advanced Applied Psychology: PR: PSY 2012 and C.I
 INP 3951 COS-PSYCH 3(0,10) Industrial/Organizational Field Work: PR: C.I. An opportunity for advanced undergraduate psychology majors to become involved in the application of I/O psychology to local organizations. Occasional. 
 INP 4313 COS-PSYCH 3(3,0) Organizational Psychology: PR: PSY 2012 Analysis of the psychological principles underlying individual and group behavior in an organizational setting. Topics include group dynamics, leadership and participation, intergroup behavior, and organization development. Fall. 
 INP 4380 COS-PSYCH 3(3,0) Psychology of Teamwork: PR: PSY 2012 or C.I. Dynamics of small groups and teams from social and applied psychology perspectives. Occasional. 
-INP 5825 COS-PSYCH Human-computer Interface (HCI) design: A team approach: PR: Graduate status or senior standing or C.I. Interdisciplinary approach to human- computer interface design, including behavior, engineering, computer science, and instructional aspects. Tools and techniques for team development and the evaluation of software for usability. Occasional. 
+INP 5825 COS-PSYCH 3(3,0) Human-computer Interface (HCI) design: A team approach: PR: Graduate status or senior standing or C.I. Interdisciplinary approach to human- computer interface design, including behavior, engineering, computer science, and instructional aspects. Tools and techniques for team development and the evaluation of software for usability. Occasional. 
 INR 2002 COS-POLS 3(3,0) International Relations-Theory and Practice: PR: ENC 1102 or C.I. Analysis of the fundamental principles and factors affecting interstate relations and their application to contemporary global developments. Fall,Spring. 
 INR 3016 COS-POLS 3(3,0) Global Political Issues: PR: POS 2041 or C.I. Current global political topics from political development and income gap to gender issues and environmental challenges. Occasional. 
 INR 3250 COS-POLS 3(3,0) Politics of Pan-Africanism: PR: INR 2002. Political expressions of Pan-Africanism throughout the major regions of the African Diaspora. Occasional. 
-
- 
 INR 4075 COS-POLS 3(3,0) Human Rights Policy: PR: ENC 1102 or POS 2041 or C.I. Meaning of human rights, political and international implications of human rights policies, relationship to global peace, racism, gender inequality, economic development and democratization. Spring. 
 INR 4076 COS-POLS 3(3,0) Global Drug Policy: PR: ENC 1102 or POS 2041 or C.I. International drug control issues, policy formulation and enforcement, impact of government and political economic systems on drug policy. Selected Latin American and Third World cases. Odd Spring. 
 INR 4083 COS-POLS 3(3,0) War and Violent Politics: PR: POS 2041 or C.I. The theoretical and practical disciplinary debates on war and related phenomena, including civil war, genocide, and riots. Occasional. 
@@ -2538,30 +1958,15 @@ INR 4224 COS-POLS 3(3,0) Contemporary International Politics of Asia: PR: ENC 11
 INR 4225 COS-POLS 3(3,0) The Vietnam War: PR: POS 2041 or INR 2002, or C.I. Background of events leading to America’s involvement in Indochina, the course of the Vietnam War, and the lessons which that war imparts. Occasional. 
 INR 4243 COS-POLS 3(3,0) International Politics of Latin America: PR: ENC 1102 or POS 2041 or C.I. Study of contemporary U.S.-Latin American relations, interAmerican politics and organization, and the role of Latin America in the world. Occasional. 
 INR 4304 COS-POLS 3(3,0) Issues in International Public Policy: PR: ENC 1102 or POS 2041 or C.I. Endogenous and exogenous variables, including policy analysis and decision-making, which influence select international public policy issues. Occasional. 
-INR 3253 COS-POLS International Politics of Africa: PR: ENC 1102 or POS 2041 or C.I. The broad structures and processes of international politics and foreign policy in Africa, with particular attention on U.S.- African relations. Occasional. 
+INR 3253 COS-POLS  3(3,0) International Politics of Africa: PR: ENC 1102 or POS 2041 or C.I. The broad structures and processes of international politics and foreign policy in Africa, with particular attention on U.S.- African relations. Occasional. 
 INR 4011 COS-POLS 3(3,0) Politics of Globalization: PR: ENC 1102 or POS 2041 or C.I. Major political causes and consequences of globalization. Occasional. 
-INR 4030 COS-POLS Diplomacy: PR: ENC 1102 or POS 2041 or C.I. Concepts, theories, and methods of contemporary diplomacy; diplomatic processes in the international arena. Spring. 
-INR 4030H Honors Diplomacy: PR: POS 2041 and consent of Honors. Concepts, theories, and methods of contemporary diplomacy; diplomatic processes in the international arena. Occasional. 
+INR 4030 COS-POLS  3(3,0) Diplomacy: PR: ENC 1102 or POS 2041 or C.I. Concepts, theories, and methods of contemporary diplomacy; diplomatic processes in the international arena. Spring. 
+INR 4030H  COS-POLS 3(3,0) Honors Diplomacy: PR: POS 2041 and consent of Honors. Concepts, theories, and methods of contemporary diplomacy; diplomatic processes in the international arena. Occasional. 
 INR 4035 COS-POLS 3(3,0) International Political Economy: PR: ENC 1102 or POS 2041 or C.I. The international politics of regional and global economic interdependence, with emphasis upon North-South relations, the New International Economic Order, OPEC, and multinational corporations. Odd Spring. 
-COS-POLS 
-3(3,0) 
-INR 4054 Global Politics of Energy: PR: ENC 1102 or POS 2041 or C.I. International/national dimensions of global energy policy within developed and underdeveloped countries. Occasional. 
-COS-POLS 
-3(3,0) 
-INR 4060 COS-POLS Causes of War: PR: ENC 1102 or POS 2041 or C.I. The primary theoretical and empirical research explaining militarized interstate conflict. Fall. 
-INR 4063 COS-POLS The Cold War: PR: ENC 1102 or POS 2041 or C.I. Politics of US-Soviet relations emphasizing the Cold War including the global impact of the Cold War, and prospects for post-Cold War international politics. Occasional. 
+INR 4054  COS-POLS 3(3,0) Global Politics of Energy: PR: ENC 1102 or POS 2041 or C.I. International/national dimensions of global energy policy within developed and underdeveloped countries. Occasional. 
+INR 4060 COS-POLS  3(3,0) Causes of War: PR: ENC 1102 or POS 2041 or C.I. The primary theoretical and empirical research explaining militarized interstate conflict. Fall. 
+INR 4063 COS-POLS  3(3,0) The Cold War: PR: ENC 1102 or POS 2041 or C.I. Politics of US-Soviet relations emphasizing the Cold War including the global impact of the Cold War, and prospects for post-Cold War international politics. Occasional. 
 INR 4074 COS-POLS 3(3,0) Immigration Policy: PR: ENC 1102 or POS 2041 or C.I. Analysis of the complex subject of immigration, including U.S. and comparative immigration policy, illegal immigration, alien smuggling, and statelessness and their political/security impact. Occasional. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
 INR 4333 COS-POLS 3(3,0) International Security: PR: POS 2041 or C.I. The security relations and problems of nation states. Occasional. 
 INR 4335 COS-POLS 3(3,0) Coercion in International Politics: PR: ENC 1102 or POS 2041 or C.I. Examination of the role of coercive techniques among states in a nuclear age, ranging from nuclear strategy and deterrence to wars of national liberation and coups. Even Fall. 
 INR 4350 COS-POLS 3(3,0) Global Environmental Politics: PR: ENC 1102 or POS 2041 or C.I. The unique environmental struggles and political issues that occur on the international and global levels. Fall. 
@@ -2592,35 +1997,21 @@ JOU 3304 COS-COMM 3(3,0) Journalism Readings: PR: Either SPC 1608, SPC 1603C, CO
 JOU 3313C COS-COMM 3(2,1) Sports Reporting: PR: Journalism major and a minimum grade of “C” (2.0) in JOU 2100C. Covering sports for the media; issues, principles, and practices. Occasional. 
 JOU 3370 COS-COMM 3(3,0) Social Media Writing for Magazines: PR: JOU 2100C or PUR 3100. Social media writing for traditional magazines and journalism-based ‘zines. Students will learn about the practices of social media writing and create their own blogs based on journalism practices. Fall. 
 JOU 3510 COS-COMM 3(3,0) Magazine Publishing: PR: Journalism major or Magazine Journalism minor, and a minimum grade of “C” (2.0) in JOU 2100C. The magazine industry, emphasizing business operations and current topics. Fall. 
-ISC 2216 COS-MATH Interdisciplinary Applications of Calculus II: CR: MAC 2312. Interdisciplinary applications of differential and integral calculus topics in MAC 2312 to the solution of concrete problems in science, mathematics, and engineering disciplines. Spring. 
-ITA 1120C CAH-LANG Elementary Italian Language and Civilization I: Introduces the student to Italian culture through the major language skills: listening, speaking, reading and writing. Open only to students with no experience in this language. Fall,Spring. 
+ISC 2216 COS-MATH  1(3,0) Interdisciplinary Applications of Calculus II: CR: MAC 2312. Interdisciplinary applications of differential and integral calculus topics in MAC 2312 to the solution of concrete problems in science, mathematics, and engineering disciplines. Spring. 
+ITA 1120C CAH-LANG  4(3,1) Elementary Italian Language and Civilization I: Introduces the student to Italian culture through the major language skills: listening, speaking, reading and writing. Open only to students with no experience in this language. Fall,Spring. 
 ITA 1121C CAH-LANG 4(3,1) Elementary Italian Language and Civilization II: PR: ITA 1120C or equivalent. Continuation of ITA 1120C. Fall,Spring. 
 ITA 2200 CAH-LANG 3(3,0) Intermediate Italian Language and Civilization I: PR: ITA 1121C or equivalent. Designed to continue development of language skills at intermediate level, plus a review of grammar, study of syntax, idiomatic expression, extensive readings, and further study of Italian culture. Fall. 
 ITA 2201 CAH-LANG 3(3,0) Intermediate Italian Language and Civilization II: PR: ITA 2200 or equivalent. Designed to continue development of language skills at intermediate level, plus a review of grammar and study of syntax, with emphasis on Italian civilization. Spring. 
-ITA 3420 CAH-LANG Italian Composition: PR: ITA 2201 or equivalent. Development of skills in composition, with an introduction to Italian culture. Spring. 
-ITA 3440 CAH-LANG Italian for Business: PR: ITA 2200. Italian language for business purposes. Occasional. 
+ITA 3420 CAH-LANG  3(3,0) Italian Composition: PR: ITA 2201 or equivalent. Development of skills in composition, with an introduction to Italian culture. Spring. 
+ITA 3440 CAH-LANG  3(3,0) Italian for Business: PR: ITA 2200. Italian language for business purposes. Occasional. 
 ITA 3472 CAH-LANG 3(3,0) Renaissance Art Abroad: PR: Junior standing. A study of Renaissance art from Giotto to Michelangelo. Occasional. 
-ITA 3564 Modern Italian Culture: PR: ITA 2200 or C.I. Modern Italian culture (1920s through today) through literature, film, and mass media. Spring. 
-CAH-LANG 
-3(3,0) 
-ITA 3760 CAH-LANG Advanced Italian Oral Communication: PR: ITA 2201 or equivalent. Vocabulary building with systematic training in diction and locution. Speeches and oral presentations as well as production and delivery of real-life dialogues. Fall. 
-ITA 4280 CAH-LANG Italian Syntax Abroad: PR: ITA 3420. A study of Italian Syntax for advanced students of Italian. Occasional. 
-3(3,0) ITT 3443 CAH-LANG 3(3,0) 
-Dante’s Inferno: PR: ITW 3100. An in-depth study of Dante’s Inferno. In English. Occasional. 
+ITA 3564  CAH-LANG 3(3,0) Modern Italian Culture: PR: ITA 2200 or C.I. Modern Italian culture (1920s through today) through literature, film, and mass media. Spring. 
+ITA 3760 CAH-LANG  3(3,0) Advanced Italian Oral Communication: PR: ITA 2201 or equivalent. Vocabulary building with systematic training in diction and locution. Speeches and oral presentations as well as production and delivery of real-life dialogues. Fall. 
+ITA 4280 CAH-LANG  3(3,0) Italian Syntax Abroad: PR: ITA 3420. A study of Italian Syntax for advanced students of Italian. Occasional. 
+ITT 3443 CAH-LANG 3(3,0) Dante’s Inferno: PR: ITW 3100. An in-depth study of Dante’s Inferno. In English. Occasional. 
 ITT 3480 CAH-LANG 3(3,0) Study Abroad:Italian Literature in Translation: PR: C.I. Main literary tendencies and authors of Italian literature, taught in the native environment. Occasional. 
 ITT 4956 CAH-LANG 3(3,0) Study Abroad: Modern and Contemporary Italian Culture: PR: Junior standing and C.I. Modern and contemporary Italian culture in the natural environment. Occasional. 
-ITT 4957H Honors Italian Literature in Translation: PR: ENC 1102 and consent of Honors. Main literary tendencies and authors of Italian Literature, with honors content. Occasional. 
-CAH-LANG 
-3(3,0) 
-1(3,0) 
-4(3,1) 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
+ITT 4957H  CAH-LANG 3(3,0) Honors Italian Literature in Translation: PR: ENC 1102 and consent of Honors. Main literary tendencies and authors of Italian Literature, with honors content. Occasional. 
 JOU 3912 COS-COMM 3(3,0) Collaborative Experiential Research Practicum: PR: Either SPC 1608, SPC 1603C or COM 1000, and C.I. Students will work as research assistants in a team, under faculty supervision, and learn first-hand the process of conducting communication/social scientific research. May be used in the degree program a maximum of 2 times. Occasional. 
 JOU 4181 COS-COMM 3(3,0) Public Affairs Reporting: PR: Journalism major, and a minimum grade of “C” (2.0) in JOU 2100C and a minimum grade of “C” (2.0) in JOU 3184C or JOU 3101. Reporting on city, county and state government. Occasional. 
 JOU 4211C COS-COMM 3(2,1) Informational Graphics: PR: Journalism major and a minimum grade of “C” (2.0) in JOU 2100C. Use of boxes, charts and graphics in the print media. Occasional. 
@@ -2637,8 +2028,6 @@ JPN 1120C CAH-LANG 4(3,1) Elementary Japanese Language and Civilization I: Intro
 JPN 1121C CAH-LANG 4(3,1) Elementary Japanese Language and Civilization II: PR: JPN 1120C or equivalent. Continuation of JPN 1120C. Spring. 
 JPN 2200 CAH-LANG 3(3,1) Intermediate Japanese Language and Civilization I: PR: JPN 1121C or equivalent. This course aims to aid in acquiring and refining the acquisition of the four skills in modern Japanese: speaking, listening, reading, and writing. The emphasis is on accurate communication in Japanese. The culture of Japan will also be studied. Fall. 
 JPN 2201 CAH-LANG 3(3,1) Intermediate Japanese Language and Civilization II: PR: JPN 2200 or equivalent. Continuation of JPN 2200 with emphasis on Japanese civilization. Spring. 
-
- 
 JST 3401 CAH-JUD 3(3,0) Jewish People in Antiquity: PR: ENC 1102. History and culture of the Jewish people from the beginnings of Judaism in the biblical era through the Graeco-Roman and rabbinic periods. Fall. 
 JST 3402 CAH-JUD 3(3,0) Wanderings: The Jewish People in Dispersion: PR: ENC 1102. The life and history of the Jews in the medieval and modern worlds. Spring. 
 JST 3415 CAH-JUD 3(3,0) American Jewish History: PR: ENC 1102. Jewish presence in America and its influence on and contribution to American life and culture. Occasional. 
@@ -2654,33 +2043,18 @@ JST 3701 CAH-JUD 3(3,0) History of the Holocaust: A comprehensive study of the H
 JST 3751 CAH-JUD 3(3,0) Literature of the Holocaust: A study of the traumatic experience of the Holocaust in Europe as expressed and depicted in contemporary Jewish and Hebrew Literature. Occasional. 
 JST 3803 CAH-JUD 3(3,0) The Israeli Experience in Short Stories: PR: ENC 1102. The Israeli experience in contemporary short stories. Themes include Judaism - Past & Present; War & Peace; Society; the Holocaust; the Kibbutz and Israeli reality. Occasional. 
 JST 3810 CAH-JUD 3(3,0) The Jewish National Movement and Roots of Zionism: Roots of Zionism and Jewish nationalism and their relationship to modern anti-semitism, through analysis of European Jewish history and society. Occasional. 
-JPN 2952 Japanese Cultural Studies Abroad: PR: JPN 1120C and JPN 1121C. Japanese culture through key elements of Japanese life and comprehensive exposure of various aspects of their material cultural heritage. Conducted in Japanese. Occasional. 
-CAH-LANG 
-3(3,0) 
-JPN 3760 CAH-LANG Advanced Japanese Conversation: PR: JPN 1121C or equivalent proficiency. Communication in conversational Japanese to enhance knowledge of the sound changes, speech functions and styles in verbal discourse. Occasional. 
+JPN 2952  CAH-LANG 3(3,0) Japanese Cultural Studies Abroad: PR: JPN 1120C and JPN 1121C. Japanese culture through key elements of Japanese life and comprehensive exposure of various aspects of their material cultural heritage. Conducted in Japanese. Occasional. 
+JPN 3760 CAH-LANG  3(3,0) Advanced Japanese Conversation: PR: JPN 1121C or equivalent proficiency. Communication in conversational Japanese to enhance knowledge of the sound changes, speech functions and styles in verbal discourse. Occasional. 
 JST 3005 CAH-JUD 3(3,0) Tenets of Judaism: PR: ENC 1101 and ENC 1102. Values, practices, and beliefs that define Judaism. Occasional. 
-JST 3100 The Hebrew Creative Mind: Survey of Hebrew Literature in Translation. A survey of the creative expressions of Hebrew civilization as found in the Hebrew Bible, Apocrypha and Pseudepigrapha, the Mishnah, and the Talmud, Medieval Hebrew Poetry and Prose. Occasional. 
+JST 3100  CAH-JUD 3(3,0) The Hebrew Creative Mind: Survey of Hebrew Literature in Translation. A survey of the creative expressions of Hebrew civilization as found in the Hebrew Bible, Apocrypha and Pseudepigrapha, the Mishnah, and the Talmud, Medieval Hebrew Poetry and Prose. Occasional. 
 JST 3120 CAH-JUD 3(3,0) Hebrew Scriptures: PR: ENC 1102, Junior standing. The Hebrew Bible (Old Testament, in translation) in historical, social, religious, cultural and literary contexts. Occasional. 
-CAH-JUD 
-3(3,0) 
-JST 3121 Classic Texts of Judaism: PR: ENC 1102. Scriptures, post-Biblical Rabbinic writings, Exegesis, Apocrypha, Qumran documents, Mishnah, Talmud, the Siddur, as well as Jewish mystical writings. Occasional. 
+JST 3121  CAH-JUD 3(3,0) Classic Texts of Judaism: PR: ENC 1102. Scriptures, post-Biblical Rabbinic writings, Exegesis, Apocrypha, Qumran documents, Mishnah, Talmud, the Siddur, as well as Jewish mystical writings. Occasional. 
 JST 3125 CAH-JUD 3(3,0) The Book of Job: PR: Jr standing, ENC 1102. A textual-thematic study of Book of Job in English translation, exploring the Book of Job as literature, theodicy and ethics. Occasional. 
-CAH-JUD 3(3,0) 
-JST 3126 Romantic Love in the Bible: PR: ENC 1102, Junior standing. The dimensions of romantic love in the Hebrew Bible, focusing on the depiction of human feelings of love and relationship; the nature of man-woman interactions in ancient Israel. Occasional. 
+JST 3126  CAH-JUD 3(3,0) Romantic Love in the Bible: PR: ENC 1102, Junior standing. The dimensions of romantic love in the Hebrew Bible, focusing on the depiction of human feelings of love and relationship; the nature of man-woman interactions in ancient Israel. Occasional. 
 JST 3144 CAH-JUD 3(3,0) Dead Sea Scrolls: PR: Junior standing or C.I. The Dead Sea Scrolls, their literary and historical context, and significance. Occasional. 
 JST 3190 CAH-JUD 3(3,0) The Biblical Prophets: PR: ENC 1102. Writings of the biblical prophets, Isaiah, Jeremiah and Ezekiel against the backdrop of their times. Occasional. 
-CAH-JUD 
-3(3,0) 
-JST 3210 CAH-JUD Kabbalah: Jewish Mysticism: PR: ENC 1102. Jewish mysticism from its early roots in the prophetic age through the flowering of Kabbalah in medieval Spain and the land of Israel, with its texts and the Zohar. Occasional. 
+JST 3210 CAH-JUD  3(3,0) Kabbalah: Jewish Mysticism: PR: ENC 1102. Jewish mysticism from its early roots in the prophetic age through the flowering of Kabbalah in medieval Spain and the land of Israel, with its texts and the Zohar. Occasional. 
 JST 3312 CAH-JUD 3(3,0) Identity and Genre: PR: ENC 1102 or C.I. Jewish and Hebrew literature as related to the intellectual quest for Jewish identity and modernism in the 18th and 19th centuries. Occasional. 
-3(3,0) 
-3(3,0) 
-
-
- 
-
- 
-
 JST 3820 CAH-JUD 3(3,0) Modern Israeli Culture: PR: ENC 1102. Development of the State of Israel: Political and ideological struggle for the establishment of the State of Israel, with emphasis on forces which shaped contemporary Israeli society and politics. Occasional. 
 JST 3821 CAH-JUD 3(3,0) Building a Nation - the Challenges to and Accomplishments of the State of Israel: PR: Grade of “C” (2.0) or better in ENC 1102 or C.I. Development of Israel as a nation, including elements of nation building, the role of religion, culture, science, hi-tech and higher education. Occasional. 
 LAE 3414 ED-TL&L 3(3,0) Literature for Children: PR: Admission to Undergraduate Elementary Education Program or C.I. Criteria for analysis and evaluation of children’s literature in terms of interests, needs, and abilities of children. Fall,Spring. 
@@ -2712,28 +2086,16 @@ LDR 2002 UGST-INTERDISC 2(2,0) Intermediate Foundations of Leadership: PR: LDR 2
 LDR 2262 UGST-INTERDISC 1(0,1) Focused Volunteer Community Service: Students will engage in volunteer experiences and reflect upon the value of those experiences. Graded S/U. Fall,Spring. 
 LDR 3215 UGST-INTERDISC 2(2,0) Leadership Through Service: An Advanced Leadership Experience: PR: LDR 2001 and LDR 2002. Theories, processes, and leadership role in social change will be explored, contemporary leadership theories and practices related to citizenship and civic engagement will be studied, and leadership will be practiced in various settings. Fall. 
 LDR 3950 UGST-INTERDISC 2(2,0) Leadership in Action: Capstone Experience for LEAD Scholars: PR: LDR 3215. Leadership issues and theories, including related principles and practices. Students will develop a professional portfolio, reflect on their course of study, practice public speaking, and articulate their leadership philosophy. Spring. 
-LAE 5496 Disciplinary Literacy in the Content Areas: PR: Graduate standing. Designed to assist in understanding the advolsecent reader and writer, this course will examine theory, strategies, resources, and implementation options of disciplinary literacy specifically in the content areas (Mathematics, Science, Social Studies, and other content areas). Spring. 
+LAE 5496  ED-TL&L 3(3,0) Disciplinary Literacy in the Content Areas: PR: Graduate standing. Designed to assist in understanding the advolsecent reader and writer, this course will examine theory, strategies, resources, and implementation options of disciplinary literacy specifically in the content areas (Mathematics, Science, Social Studies, and other content areas). Spring. 
 LAH 3130 CAH-HIST 3(3,0) Latin American History I: PR: EUH 2000 and 2001 or C.I. The Colonial period. Occasional. 
-ED-TL&L 3(3,0) 
-LAH 3200 CAH-HIST Modern Latin America: PR: WOH 2022. Investigates the broader themes of Latin American history from independence to the present. Occasional. 
-LAH 3400 CAH-HIST History of Mexico and Central America: PR: EUH 2000 and 2001 or C.I. A survey of Mexican and Central American history from Pre-Columbian times to the present. Occasional. 
-LAH 3470 History of the Caribbean: PR: EUH 2000 and 2001 or C.I. History of Cuba, Puerto Rico, Dominican Republic, and Haiti from Pre-Columbian times to the present. Occasional. 
+LAH 3200 CAH-HIST  3(3,0) Modern Latin America: PR: WOH 2022. Investigates the broader themes of Latin American history from independence to the present. Occasional. 
+LAH 3400 CAH-HIST  3(3,0) History of Mexico and Central America: PR: EUH 2000 and 2001 or C.I. A survey of Mexican and Central American history from Pre-Columbian times to the present. Occasional. 
+LAH 3470  CAH-HIST 3(3,0) History of the Caribbean: PR: EUH 2000 and 2001 or C.I. History of Cuba, Puerto Rico, Dominican Republic, and Haiti from Pre-Columbian times to the present. Occasional. 
 LAH 4136 CAH-HIST 3(3,0) Colonial Florida: PR: AMH 2010 and AMH 2020 or C.I. History of Spanish Colonial Florida until 1821. Odd Fall. 
 LAH 4461 CAH-HIST 3(3,0) History of Puerto Rico: PR: Any two of the following: AMH 2010, AMH 2020, WOH 2012, or WOH 2022. History of Puerto Rico from pre-Columbian era to present. Occasional. 
-CAH-HIST 
-3(3,0) 
-LAH 4480 History of Cuba: PR: Any two of the following: AMH 2010, AMH 2020, WOH 2012, or WOH 2022. History of Cuba from pre-Columbian era to present. Occasional. 
+LAH 4480  CAH-HIST 3(3,0) History of Cuba: PR: Any two of the following: AMH 2010, AMH 2020, WOH 2012, or WOH 2022. History of Cuba from pre-Columbian era to present. Occasional. 
 LAH 4503 CAH-HIST 3(3,0) History of South America: PR: WOH 2022 or C.I. History of South America by focusing on themes of economic, social, and cultural history in the 19th and 20th centuries. Occasional. 
-CAH-HIST 
-3(3,0) 
-LAH 4512 CAH-HIST Modern Argentina: PR: WOH 2022. Examines the economic, social, and cultural history of Argentina. Occasional. 
-3(3,0) 
-3(3,0) 
-3(3,0) 
-
-
- 
-
+LAH 4512 CAH-HIST 3(3,0)  Modern Argentina: PR: WOH 2022. Examines the economic, social, and cultural history of Argentina. Occasional. 
 LEI 4266 ED-E&HS 3(1,2) Outdoor and Leisure Activities: Study of contemporary outdoor and leisure activities. Course will include but not be limited to the “adventure activity curriculum,” camping, water activities, fishing, orienteering, hiking. Occasional. 
 LIN 3010 CAH-ENG 3(3,0) Principles of Linguistics: PR: Grade of C (2.0) or better required in ENC 1102. An overview of the modern linguist’s approach to language. Analytic methods of phonology, morphology, syntax. Brief systematic survey of dialectology, language acquisition, and semantics. Occasional. 
 LIN 3673 CAH-WRITE 3(3,0) Grammar & Advanced Prose Style: PR: ENC 1102. Build on fundamental principles of grammatical correctness by learning and practicing the techniques that today’s expert writers use to increase sentence clarity and elegance. Occasional. 
@@ -2752,8 +2114,6 @@ LIN 4711 HPA-COM SC&DIS 3(3,0) Language Analysis: PR: LIN 3716 and LIN 3717. CR:
 LIN 4711L HPA-COM SC&DIS 1(0,1) Language Analysis Lab: PR: LIN 3716 and LIN 3717. CR: LIN 4711. Introduction to procedures for sampling, analyzing and describing language samples across the lifespan. Graded S/U. Fall,Spring. 
 LIN 4801 CAH-ENG 3(3,0) Language and Meaning: PR: Grade of C (2.0) or better required in ENC 1102 and sophomore standing. A linguistic study of the nature of language, meaning, and the ways in which man uses language in various social, cultural, institutional, and professional settings. Occasional. 
 LIN 5137 CAH-ENG 3(3,0) Linguistics: PR: Graduate status or senior standing or C.I. Modern linguistic theories and studies focusing on language acquisition and development, contemporary American English, semantics, and para-linguistics. Occasional. 
-
- 
 LIT 3313 CAH-ENG 3(3,0) Science Fiction: PR: ENC 1102. An investigation of science fiction as a literary form, together with selected readings. Occasional. 
 LIT 3313H CAH-ENG 3(3,0) Honors Science Fiction Literature: PR: Permission of Honors and ENC 1102H or equivalent credit. An investigation of science fiction as a literary form, together with selected readings. Honors content. Occasional. 
 LIT 3368 CAH-ENG 3(3,0) Magical Realism in Literature: PR: Grade of “C” (2.0) or better in ENC 1102, or C.I. Magical realism in literature, including consideration of its popularity, development, and treatment in various cultural contexts. Occasional. 
@@ -2769,6 +2129,7 @@ LIT 3605 CAH-ENG 3(3,0) Literature and War: PR: Grade of “C” (2.0) or better
 LIT 3714 CAH-ENG 3(3,0) Literary Modernism: PR: ENC 1102. Examines a specific period, a literary movement, and a set of aesthetic/ formal practices applied to poetry, novels, essays, and manifestos. Occasional. 
 LIT 3823 CAH-ENG 3(3,0) Hispanic Women Writers: PR: ENC 1102. Hispanic women writers in a variety of genres. May be repeated for credit. Occasional. 
 LIT 3833 CAH-ENG 3(3,0) Modern Asian Literature: PR: ENC 1102. Asian literatures in different genres translated into English or written in English from the modern period. Various countries emphasized in different iterations. Occasional. 
+
 LIN 5675 English Grammar and Usage: PR: Graduate status or senior standing or C.I. An overview of modern grammar, including structural, transformational and rhetorical grammar, along with an examination of controversial usage. Occasional. 
 LIT 2110 CAH-ENG 3(3,0) World Literature I: PR: ENC 1102. Poetry, prose, and drama selected from ancient Hebrew, Greek, and Oriental literature and from that of Renaissance Europe. Fall,Spring. 
 LIT 2120 CAH-ENG 3(3,0) World Literature II: PR: ENC 1102. Readings from Moliere, Voltaire, Goethe, Pushkin, Balzac, Tolstoy, Ibsen, Mann, Kafka, Camus, and others. Fall,Spring. 

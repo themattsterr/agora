@@ -1,0 +1,123 @@
+<template name="courseList">
+	<div class="ui sticky">
+	<div id="searchArea" class="ui segment">
+		<div class="ui form">
+			<div class="two fluid fields">
+				<div class="field">
+					<div id="collegeDropdown" class="ui fluid dropdown labeled search icon button">
+					    <i class="filter icon"></i>
+					    <span class="text">College</span>
+					    <div class="menu">
+					    	{{#each collegeList}}
+					    	<div class="item">{{this}}</div>
+					    	{{/each}}
+					  </div>
+					</div>
+				</div>		
+				<div class="field">
+					<div id="deptDropdown" class="ui fluid dropdown labeled search icon button">
+						<i class="filter icon"></i>
+					    <span class="text">Dept</span>
+					    <div class="menu">
+					    	{{#each deptList}}
+					    	<div class="item">{{this}}</div>
+					    	{{/each}}
+					  </div>
+					</div>
+				</div>
+
+				<script>$('.ui.dropdown.labeled.search.icon.button').dropdown();</script>
+			</div>
+		<div class="two fluid fields">
+			<div class="field">
+				<div class="ui left icon input">
+					 <i class="filter icon"></i>
+				  	<input id="codeSearchBox" type="text" placeholder="Code">
+
+				</div>
+			</div>
+			<div class="field">
+				<div class="ui left icon input">
+					 <i class="filter icon"></i>
+				  	<input id="titleSearchBox" type="text" placeholder="Title">
+				</div>
+			</div>
+		</div>
+		<div class="two fluid fields">
+			<div class="field">
+				<div id="yearDropdown" class="ui compact selection dropdown">
+					<input type="hidden" value="Year">
+					 <div class="text">Year</div>
+					<i class="dropdown icon"></i>
+					<div id="yearMenu" class="menu">
+						<div class="item" data-value="0">Freshman</div>
+						<div class="item" data-value="1">Sophomore</div>
+						<div class="item" data-value="2">Junior</div>
+						<div class="item" data-value="3">Senior</div>
+					</div>
+				</div>
+				<script>$('#yearDropdown').dropdown();</script>
+			</div>
+			<div class="field">
+				<div id="semesterDropdown" class="ui compact selection dropdown">
+					<input type="hidden" value="Sem">
+					 <div class="text">Sem</div>
+					<i class="dropdown icon"></i>
+					<div id="semesterMenu" class="menu">
+						<div class="item" data-value="0">Fall</div>
+						<div class="item" data-value="1">Spring</div>
+						<div class="item" data-value="2">Summer</div>
+					</div>
+				</div>
+				<script>$('#semesterDropdown').dropdown();</script>
+			</div>
+
+		</div>
+
+	</div>
+
+<div class="ui form">
+	<div class="three fields">
+		<div class="field">
+			<div id="resetButton" class="ui fluid button">Reset</div>
+		</div>
+		<div class="field">
+			<div id="searchButton" class="ui fluid button">Search</div>
+		</div>
+		<div class="field">
+			<div id="addCourseButton" class="ui fluid button">Add</div>
+		</div>
+					
+	</div>
+</div>
+</div>
+<script>
+	$('.ui.sticky').sticky();
+	$('#searchArea').css({width:'350px',height:'220px'});
+</script>
+
+</div>
+	<div id="searchResults" class="ui red segment">
+		<div class="ui cards">
+		{{#each courseArray}}
+		  <div id="card{{_id}}" class="course card">
+		    <div class="middle aligned content">
+		      <div class="header">
+		        {{title}}
+		      </div>
+		      <div class="description">
+		        <p>
+			        {{identifier}} - {{college}}-{{dept}} {{cedits}}
+			    </p>
+			    <p>
+			        {{description}}
+			    </p><p>
+			        {{prereqs}}
+		    	</p>
+		      </div>
+		    </div>
+		  </div>
+		 {{/each}}
+    	</div>
+  	</div>
+</template>

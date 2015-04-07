@@ -4,233 +4,27 @@
 </head>
 
 <body>
-
-	<div class="left-pane">
-			{{#if isSidebarOpen}}
-			{{> courseList}}
+{{#if isReady}}
+		<div class="left-pane">
+				{{#if isSidebarOpen}}
+				{{> courseList}}
+				{{/if}}
+		</div>
+		<div class="center-pane">
+			{{> head}}
+			{{#if isAccountSettings}}
+				{{> setup}}
+			{{else}}
+				{{> schedule}}
 			{{/if}}
-	</div>
-	<div class="center-pane">
-
-  		{{> schedule}}
-	</div>
+		</div>
+{{else}}
+		<div class="full height">
+			<div class="ui loading segment"></div>
+		</div>
+{{/if}}
 </body>
 
 
-<template name="schedule">
-	<div id="importModal" class="ui fullscreen modal">
-		<div class="header">
-      		Import Course Schedule
-		</div>
-		<div class="content">
-			<div class='ui form'>
-				<div class="fluid field">
-					<label>Course Info</label>
-					<textarea id="importInfoField"></textarea>
-				</div>
-				<div class="two fields">
-					<div class="fluid field">
-						<label>Start Year</label>
-						<div class="ui input">
-						  <input id="yearStartInput" type="text" placeholder="2010">
-						</div>
-					</div>
-					<div class="fluid field">
-						<label>End Year</label>
-						<div class="ui input">
-						  <input id="yearEndInput" type="text" placeholder="2015">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="actions">
-		      <div id="cancelButton" class="ui deny button">Cancel</div>
-		      <div id="updateButton" class="ui green approve button">Import</div>
-    	</div>
-	</div>
-	<script>$('.ui.fullscreen.modal').modal();
-	</script>
-	<div class="full height">
 
 
-		<div id="openSidebar" class="ui button">Sidebar</div>
-		<div id="importButton" class="ui button">Import</div>
-
-		<div class="ui segment">
-			<div id="dragArea" class="ui segment">
-				<div class="drop" id="dragAreaGrid">
-					{{#each scheduleHTMLArray}}
-						<div class="drag blue" coords={{coords}}>
-							{{courseInfo}}
-						</div>
-					{{/each}}
-				</div>
-
-				{{#each yearsWithTitles}}
-				<table class="ui three column celled table">
-					<thead>
-						<tr>
-						  <th>Fall {{this}}</th>
-						  <th>Spring {{this}}</th>
-						  <th>Summer {{this}}</th>
-						</tr>
-					</thead>
-					<tbody id="tableDragArea">
-						<tr>
-							<td class="fallClass1"><i class="radio icon"></i></td>
-							<td class="springClass1"><i class="radio icon"></i></td>
-							<td class="summerClass1"><i class="radio icon"></i></td>				
-						</tr>
-						<tr>
-							<td class="fallClass2"><i class="radio icon"></i></td>
-							<td class="springClass2"><i class="radio icon"></i></td>
-							<td class="summerClass2"><i class="radio icon"></i></td>								
-						</tr>
-						<tr>
-							<td class="fallClass3"><i class="radio icon"></i></td>
-							<td class="springClass3"><i class="radio icon"></i></td>
-							<td class="summerClass3"><i class="radio icon"></i></td>								
-						</tr>
-						<tr>
-							<td class="fallClass4"><i class="radio icon"></i></td>
-							<td class="springClass4"><i class="radio icon"></i></td>
-							<td class="summerClass4"><i class="radio icon"></i></td>								
-						</tr>
-						<tr>
-							<td class="fallClass5"><i class="radio icon"></i></td>
-							<td class="springClass5"><i class="radio icon"></i></td>
-							<td class="summerClass5"><i class="radio icon"></i></td>								
-						</tr>
-					</tbody>
-				</table>
-				{{/each}}
-
-			</div>
-		</div>
-  </div>
-</template>
-
-<template name="courseList">
-	<div class="ui sticky">
-	<div id="searchArea" class="ui segment">
-		<div class="ui form">
-			<div class="two fluid fields">
-				<div class="field">
-					<div id="collegeDropdown" class="ui fluid dropdown labeled search icon button">
-					    <i class="filter icon"></i>
-					    <span class="text">College</span>
-					    <div class="menu">
-					    	{{#each collegeList}}
-					    	<div class="item">{{this}}</div>
-					    	{{/each}}
-					  </div>
-					</div>
-				</div>		
-				<div class="field">
-					<div id="deptDropdown" class="ui fluid dropdown labeled search icon button">
-						<i class="filter icon"></i>
-					    <span class="text">Dept</span>
-					    <div class="menu">
-					    	{{#each deptList}}
-					    	<div class="item">{{this}}</div>
-					    	{{/each}}
-					  </div>
-					</div>
-				</div>
-
-				<script>$('.ui.dropdown.labeled.search.icon.button').dropdown();</script>
-			</div>
-		<div class="two fluid fields">
-			<div class="field">
-				<div class="ui left icon input">
-					 <i class="filter icon"></i>
-				  	<input id="codeSearchBox" type="text" placeholder="Code">
-
-				</div>
-			</div>
-			<div class="field">
-				<div class="ui left icon input">
-					 <i class="filter icon"></i>
-				  	<input id="titleSearchBox" type="text" placeholder="Title">
-				</div>
-			</div>
-		</div>
-		<div class="two fluid fields">
-			<div class="field">
-				<div id="resetButton" class="ui fluid button">Reset</div>
-			</div>
-			<div class="field">
-				<div id="searchButton" class="ui fluid button">Search</div>
-			</div>
-		</div>
-
-	</div>
-
-<div class="ui form">
-	<div class="three fields">
-		<div class="field">
-			<div id="yearDropdown" class="ui compact selection dropdown">
-				<input type="hidden" value="Year">
-				 <div class="text">Year</div>
-			    <i class="dropdown icon"></i>
-			    <div id="yearMenu" class="menu">
-			        <div class="item" data-value="0">Freshman</div>
-			        <div class="item" data-value="1">Sophomore</div>
-			        <div class="item" data-value="2">Junior</div>
-			        <div class="item" data-value="3">Senior</div>
-			    </div>
-			</div>
-			<script>$('#yearDropdown').dropdown();</script>
-		</div>
-		<div class="field">
-			<div id="semesterDropdown" class="ui compact selection dropdown">
-				<input type="hidden" value="Sem">
-				 <div class="text">Sem</div>
-			    <i class="dropdown icon"></i>
-			    <div id="semesterMenu" class="menu">
-			        <div class="item" data-value="0">Fall</div>
-			        <div class="item" data-value="1">Spring</div>
-			        <div class="item" data-value="2">Summer</div>
-			    </div>
-			</div>
-			<script>$('#semesterDropdown').dropdown();</script>
-		</div>
-		<div class="field">
-			<div id="addCourseButton" class="ui icon button"><i class="add icon"></i></div>
-			<div id="refreshButton" class="ui icon button"><i class="refresh icon"></i></div>
-		</div>
-					
-	</div>
-</div>
-</div>
-<script>
-	$('.ui.sticky').sticky();
-	$('#searchArea').css({width:'350px',height:'220px'});
-</script>
-
-</div>
-	<div id="searchResults" class="ui red segment">
-		<div class="ui cards">
-		{{#each courseArray}}
-		  <div id="card{{_id}}" class="course card">
-		    <div class="middle aligned content">
-		      <div class="header">
-		        {{title}}
-		      </div>
-		      <div class="description">
-		        <p>
-			        {{identifier}} - {{college}}-{{dept}} {{cedits}}
-			    </p>
-			    <p>
-			        {{description}}
-			    </p><p>
-			        {{prereqs}}
-		    	</p>
-		      </div>
-		    </div>
-		  </div>
-		 {{/each}}
-    	</div>
-  	</div>
-</template>
