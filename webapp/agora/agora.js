@@ -14,6 +14,7 @@ if (Meteor.isClient) {
   Session.setDefault('isSignUp', false);
 	Session.setDefault('viewHistory',null);
 
+Session.setDefault('currentView','main');
 
   var User = function(id){
   	this.id = id;
@@ -50,11 +51,19 @@ if (Meteor.isClient) {
 
  var user = new User(Meteor.userId());
 
+ Tracker.autorun(function(){
+ 	if(Session.get('currentUser') && Session.get('currentUser').major){
+ 		Session.set('currentMajor',Session.get('currentUser').major);
+ 	} else Session.set('currentMajor',null);
+ })
+
   Template.registerHelper('isReady', function () {
   	var first = AGORAUsers.findOne();
   	if (first){
   		if(!Session.get('currentUser')){
     		Session.set('currentUser',AGORAUsers.findOne({_id:Meteor.userId()}));
+    		if(Session.get('currentUser') && Session.get('currentUser').isAdvisor) Session.set('isAdvisor',true)
+    		else Session.set('isAdvisor',false);
     		//Session.set('mainUser',AGORAUsers.findOne({_id:Meteor.userId()}));
   		}
     	return true;
@@ -63,6 +72,23 @@ if (Meteor.isClient) {
     	console.log(first);
     	return false;
     }
+  });
+
+  Template.registerHelper('isAdvisor', function () {
+  	return Session.get('isAdvisor');
+  });
+
+  Template.registerHelper('degreeImages', function () {
+  	var arr = [];
+  	if(Session.get('currentMajor') == 'Computer Science'){
+		arr.push('Computer_Science_1');
+		arr.push('Computer_Science_2');
+  	}
+  	return arr;
+  });
+
+  Template.registerHelper('hasSchedule', function () {
+  	return Session.get('currentUser').importedSched;
   });
 
   Template.registerHelper('withIndex', function (array) {
@@ -82,16 +108,6 @@ if (Meteor.isClient) {
 		// returning null when using get mainUser
 		var user = Session.get('currentUser');
 		return user.isAdvisor;
-	},
-	userList: function(){
-		//var user = AGORAUsers.findOne({_id:Meteor.userId()});
-		var user = Session.get('mainUser');
-		var userList = AGORAUsers.find({_id: {$in: user.id_Students}}).fetch()
-		var nidList = [];
-		for (var i in userList){
-			nidList.push(userList[i].nid);
-		}
-		return nidList;
 	}
   });
 
@@ -123,6 +139,7 @@ if (Meteor.isClient) {
 				Session.set('selectedCourse', null);
 				Session.set('renderOrder', { last: 0 });
 				
+				Session.set('isAdvisor',false);
 				Session.set('viewHistory',null);
 				Session.set('currentView','main');
 			}

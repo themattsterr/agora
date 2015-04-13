@@ -12,7 +12,7 @@
 
 				<form class="ui form">
 					<a class="ui ribbon label">Filters</a>
-					<span>Description or whatever......</span>
+					<span>Filter courses returned in results section.</span>
 					<div class="hidden divider"></div>
 					<div class="two fluid fields">
 						<div class="field">
@@ -67,7 +67,7 @@
 				</div>
                 <div class="ui raised segment">
                     <a class="ui ribbon label">Results</a>
-                    <span>Description or whatever......</span>
+                    <span>Click on a course to select.</span>
                     <div id="searchResults" class="ui red segment">
                         <div class="ui cards">
                         {{#each courseArray}}
@@ -97,7 +97,7 @@
             <div class="column">
                 <div class="ui raised segment">
                     <a class="ui ribbon label">Schedule</a>
-                    <span>Description or whatever......</span>
+                    <span>Click on an empty cell to add selected course.</span>
 
 					<form class="ui form">
 						<div class="ui field">
@@ -105,9 +105,26 @@
 						</div>
 					</form>
 
-					{{#each yearsWithTitles}}
-						{{{scheduledCoursesHTML this}}}
-					{{/each}}
+
+					{{#if hasSchedule}}
+						{{#each yearsWithTitles}}
+							{{{scheduledCoursesHTML this}}}
+						{{/each}}
+					{{else}}
+					<div class="ui segment">
+						<div class="ui icon message">
+						  <i class="info icon"></i>
+						  <div class="content">
+							<div class="header">
+							  No schedule found.
+							</div>
+							<p>Import your schedule or create a new one to view it here.</p>
+						  </div>
+						</div>
+					</div>
+					{{/if}}
+
+					
                 </div>
             </div>
 

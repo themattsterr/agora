@@ -45,9 +45,9 @@ if(Meteor.isClient){
     		HTMLString += '<th>Spring '+year+'</th>';
     		HTMLString += '<th>Summer '+year+'</th></tr></thead><tbody>';
 			for (var i = 0; i < 4; i++) {
-				HTMLString += '<tr><td class="course cell">'+prevYearSchedule[0][i]+'</td>';
-				HTMLString += '<td class="course cell">'+currYearSchedule[1][i]+'</td>';
-				HTMLString += '<td class="course cell">'+currYearSchedule[2][i]+'</td></tr>';
+				HTMLString += '<tr><td style="text-align:center;" class="course cell">'+prevYearSchedule[0][i]+'</td>';
+				HTMLString += '<td style="text-align:center;" class="course cell">'+currYearSchedule[1][i]+'</td>';
+				HTMLString += '<td style="text-align:center;" class="course cell">'+currYearSchedule[2][i]+'</td></tr>';
     		}
     		HTMLString += '</tbody></table>';
     		return HTMLString;

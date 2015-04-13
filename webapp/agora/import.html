@@ -6,11 +6,11 @@
                 <div class="ui raised segment">
                     <form class="ui form">
                         <a class="ui ribbon label">Import Area</a>
-                        <span>Description or whatever......</span>
+                        <span>Copy and paste Degree Audit courses you wish to import.</span>
                         <div class="hidden divider"></div>
 
                         <div class="ui fluid field">
-                            <textarea id="importInfoField"></textarea>
+                            <textarea id="importInfoField" placeholder="FA10 COP3223"></textarea>
                             <div id="findCoursesButton" class="ui bottom attached button">Find Courses</div>
                         </div>
                         
@@ -20,7 +20,7 @@
             <div class="column">
                 <div class="ui raised segment">
                     <a class="ui ribbon label">Courses Found</a>
-                    <span>Description or whatever......</span>
+                    <span>Verify correctness of courses found then click import to update profile.</span>
                     <div class="hidden divider"></div>
                     <div class="ui fluid field">
                         {{#each yearsWithTitles}}

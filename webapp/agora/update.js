@@ -33,6 +33,7 @@ var fillYearArray = function(start,end){
 
     	//set current users stuff
     	var user = Session.get('currentUser');
+    	Session.set('currentMajor',user.major);
 		if (user){
 			$('#firstNameUpdate').val(user.firstName)
 			$('#lastNameUpdate').val(user.lastName)
@@ -170,6 +171,9 @@ var fillYearArray = function(start,end){
     });
 
     Template.update.events({
+    	'change #majorFieldUpdate' : function(event){
+    		Session.set('currentMajor', $('#majorDropdownUpdate').dropdown('get text'));
+    	},
         'click #createButton' : function(){
 			var user = 	{
 				firstName: $('#firstNameUpdate').val(),

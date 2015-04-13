@@ -7,8 +7,9 @@
         <div class="two column row">
             <div class="column">
                 <div class="ui raised segment">
-					<img class="ui centered image" src="/images/Computer_Science_1.png">
-					<img class="ui centered image" src="/images/Computer_Science_2.png">
+                	{{#each degreeImages}}
+					<img class="ui centered image" src="/images/{{this}}.png">
+					{{/each}}
 				</div>
 			</div>
 			<div class="column">

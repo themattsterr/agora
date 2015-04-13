@@ -30,6 +30,9 @@ if(Meteor.isClient){
         },
         'click #updateButtonProfile' : function(event){
             changeView('update');
+        },
+        'click #adviseStudentsProfile' : function(event){
+        	changeView('advisor');
         }
     });
 

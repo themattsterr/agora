@@ -25,9 +25,11 @@ if (Meteor.isClient) {
 
     Template.main.events({
         'click #studentButton' : function(){
+        	Session.set('isAdvisor',false);
             changeView( 'login' );
         },
         'click #advisorButton' : function(){
+        	Session.set('isAdvisor',true);
             changeView( 'login' );
         }
     });

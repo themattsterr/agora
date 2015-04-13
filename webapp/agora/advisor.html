@@ -1,0 +1,26 @@
+<template name="advisor">
+
+<div class="ui segment">
+                <div class="ui raised segment">
+                    <form class="ui form">
+                        <a class="ui ribbon label">Students</a>
+                        <span>Select a student from the list to view account.</span>
+                        <div class="hidden divider"></div>
+                        <div class="ui divided list">
+                        {{#each userList}}
+                        
+
+                          <div class="item">
+                            <div class="right floated compact ui button">View</div>
+                            <div class="content">
+                              <div class="header">{{lastName}}, {{firstName}}</div>
+                                {{nid}} - {{major}}
+                            </div>
+                          </div>
+                          {{/each}}
+                        </div>
+                    </form>
+                </div>
+</div>
+
+</template>

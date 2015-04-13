@@ -28,12 +28,7 @@ if (Meteor.isClient) {
     });
 
     Template.login.helpers({
-       majorList: function () {
-       	return ['Computer Science','Computer Engineering'];
-       },
-       catalogYearList: function () {
-       	return [2015,2016];
-       }
+
     });
 
     Template.login.events({
