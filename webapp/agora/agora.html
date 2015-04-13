@@ -1,27 +1,17 @@
 
 <head>
-  <title>agora</title>
+  <title>AGORA</title>
 </head>
 
 <body>
+
+{{> head}}
+
 {{#if isReady}}
-		<div class="left-pane">
-				{{#if isSidebarOpen}}
-				{{> courseList}}
-				{{/if}}
-		</div>
-		<div class="center-pane">
-			{{> head}}
-			{{#if isAccountSettings}}
-				{{> setup}}
-			{{else}}
-				{{> schedule}}
-			{{/if}}
-		</div>
+  {{> Template.dynamic template=currentView }}
 {{else}}
-		<div class="full height">
-			<div class="ui loading segment"></div>
-		</div>
+  <div class="ui loading segment">
+  </div>
 {{/if}}
 </body>
 

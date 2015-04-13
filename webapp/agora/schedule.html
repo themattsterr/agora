@@ -1,66 +1,71 @@
 <template name="schedule">
-	<div id="setupModal" class="ui small modal">
-		<div class="header">
-      		Almost Done!
-		</div>
-		<div class="content">
-			Go to Account Settings to finish setting up your account.
-		</div>
-		<div class="actions">
-		      <div id="cancelButton" class="ui deny button">Cancel</div>
-		      <div id="finishButton" class="ui green approve button">Finish</div>
-    	</div>
-	</div>
-	<script>$('.ui.small.modal').modal();
-	</script>
+
 
 	<div class="full height">
 
-			<div id="dragArea" class="ui segment">
-				<div class="drop" id="dragAreaGrid">
+    <div class="ui grid">
+        <div class="two column row">
+            <div class="column">
+                <div class="ui raised segment">
+					<img class="ui centered image" src="/images/Computer_Science_1.png">
+					<img class="ui centered image" src="/images/Computer_Science_2.png">
+				</div>
+			</div>
+			<div class="column">
+
+				<div id="dragArea" class="ui segment">
+					<div class="drop" id="dragAreaGrid">
+
+					</div>
+
+					{{#each yearsWithTitles}}
+					<table class="ui three column celled table" style="margin-top:0;margin-bottom:0;">
+						<thead>
+							<tr>
+							  <th>Fall {{subtractOne this}}</th>
+							  <th>Spring {{this}}</th>
+							  <th>Summer {{this}}</th>
+							</tr>
+						</thead>
+						<tbody id="tableDragArea">
+							<tr>
+								<td class="fallClass1"><i class="radio icon"></i></td>
+								<td class="springClass1"><i class="radio icon"></i></td>
+								<td class="summerClass1"><i class="radio icon"></i></td>				
+							</tr>
+							<tr>
+								<td class="fallClass2"><i class="radio icon"></i></td>
+								<td class="springClass2"><i class="radio icon"></i></td>
+								<td class="summerClass2"><i class="radio icon"></i></td>								
+							</tr>
+							<tr>
+								<td class="fallClass3"><i class="radio icon"></i></td>
+								<td class="springClass3"><i class="radio icon"></i></td>
+								<td class="summerClass3"><i class="radio icon"></i></td>								
+							</tr>
+							<tr>
+								<td class="fallClass4"><i class="radio icon"></i></td>
+								<td class="springClass4"><i class="radio icon"></i></td>
+								<td class="summerClass4"><i class="radio icon"></i></td>								
+							</tr>
+							<tr>
+								<td class="fallClass5"><i class="radio icon"></i></td>
+								<td class="springClass5"><i class="radio icon"></i></td>
+								<td class="summerClass5"><i class="radio icon"></i></td>								
+							</tr>
+						</tbody>
+					</table>
+					{{/each}}
 
 				</div>
 
-				{{#each yearsWithTitles}}
-				<table class="ui three column celled table" style="margin-top:0;margin-bottom:0;">
-					<thead>
-						<tr>
-						  <th>Fall {{subtractOne this}}</th>
-						  <th>Spring {{this}}</th>
-						  <th>Summer {{this}}</th>
-						</tr>
-					</thead>
-					<tbody id="tableDragArea">
-						<tr>
-							<td class="fallClass1"><i class="radio icon"></i></td>
-							<td class="springClass1"><i class="radio icon"></i></td>
-							<td class="summerClass1"><i class="radio icon"></i></td>				
-						</tr>
-						<tr>
-							<td class="fallClass2"><i class="radio icon"></i></td>
-							<td class="springClass2"><i class="radio icon"></i></td>
-							<td class="summerClass2"><i class="radio icon"></i></td>								
-						</tr>
-						<tr>
-							<td class="fallClass3"><i class="radio icon"></i></td>
-							<td class="springClass3"><i class="radio icon"></i></td>
-							<td class="summerClass3"><i class="radio icon"></i></td>								
-						</tr>
-						<tr>
-							<td class="fallClass4"><i class="radio icon"></i></td>
-							<td class="springClass4"><i class="radio icon"></i></td>
-							<td class="summerClass4"><i class="radio icon"></i></td>								
-						</tr>
-						<tr>
-							<td class="fallClass5"><i class="radio icon"></i></td>
-							<td class="springClass5"><i class="radio icon"></i></td>
-							<td class="summerClass5"><i class="radio icon"></i></td>								
-						</tr>
-					</tbody>
-				</table>
-				{{/each}}
-
+			
 			</div>
+		</div>
+	</div>
+
+
+
 
   </div>
 </template>

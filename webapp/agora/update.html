@@ -1,0 +1,141 @@
+<template name="update">
+
+<div class="ui form segment">
+<form class="ui form">
+    <div class="ui grid">
+        <div class="two column row">
+
+                <div class="column">
+                <div class="ui raised segment">
+                    <a class="ui ribbon label">Degree Info</a>
+                    <span>Description or whatever......</span>
+                    <div class="hidden divider"></div>
+                    <div class="ui two fields">
+                        <div class="ui field">
+                            <div id="majorDropdownUpdate" class="ui fluid dropdown labeled icon button">
+                                <i class="dropdown icon"></i>
+                                <span class="text">Major</span>
+                                <input type="hidden" id="majorFieldUpdate">
+                                <div class="menu">
+                                    {{#each majorList}}
+                                    <div class="item">{{this}}</div>
+                                    {{/each}}
+                              </div>
+                            </div>
+                        </div>
+                        <div class="ui field">
+                            <div id="catalogYearDropdownUpdate" class="ui fluid dropdown labeled icon button">
+                                <i class="dropdown icon"></i>
+                                <span class="text">Catalog Year</span>
+                                <input type="hidden" id="catalogYearFieldUpdate">
+                                <div class="menu">
+                                    {{#each catalogYearList}}
+                                    <div class="item">{{this}}</div>
+                                    {{/each}}
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui field">
+                        <img class="ui centered image" src="/images/Computer_Science_1.png">
+                        <img class="ui centered image" src="/images/Computer_Science_2.png">
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="column">
+                <div class="ui raised segment">
+
+                        <a class="ui ribbon label">Profile Info</a>
+                        <span>Description or whatever......</span>
+                        <div class="hidden divider"></div>
+
+                        {{#if isSignUp}}
+                        <div class="field">
+                            <label>Email</label>
+                            <input type="text" id="emailUpdate" placeholder="Email">
+                        </div>
+                        <div class="field">
+                            <label>Password</label>
+                            <input type="text" id="passwordUpdate" placeholder="Password">
+                        </div>
+                        <div class="field">
+                            <label>Verify</label>
+                            <input type="text" id="verifyPasswordUpdate" placeholder="Password">
+                        </div>
+                        {{/if}}
+
+                        <div class="field">
+                            <label>Name</label>
+                            <div class="ui two fields">
+                                <div class="ui field">
+                                    <input type="text" id="firstNameUpdate" placeholder="First Name">
+                                </div>
+                                <div class="ui field">
+                                    <input type="text" id="lastNameUpdate" placeholder="Last Name">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="field">
+                            <label>NID</label>
+                            <input type="text" id="nidFieldUpdate" placeholder="NID">
+                        </div>
+
+
+                        <div class="field">
+                            <label>Date Range</label>
+                            <div class="ui four fields">
+                                <div class="ui field">
+                                    <div id="startSemDropdownUpdate" class="ui fluid dropdown labeled icon button">
+                                        <i class="dropdown icon"></i>
+                                        <span class="text">Select</span>
+                                        <input type="hidden" id="startSemesterFieldUpdate">                        
+                                        <div class="menu">
+                                            <div class="item">Spring</div>
+                                            <div class="item">Summer</div>
+                                            <div class="item">Fall</div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="ui field">
+                                    <input type="number" id="startYearFieldUpdate" placeholder="2000">
+                                </div>
+                                <div class="ui field">
+                                    <div id="endSemDropdownUpdate" class="ui fluid dropdown labeled icon button">
+                                        <i class="dropdown icon"></i>
+                                        <span class="text">Select</span>
+                                        <input type="hidden" id="endSemesterFieldUpdate">
+                                        <div class="menu">
+                                            <div class="item">Spring</div>
+                                            <div class="item">Summer</div>
+                                            <div class="item">Fall</div>
+                                      </div>
+                                    </div>
+                                </div>
+                                <div class="ui field">
+                                    <input type="number" id="endYearFieldUpdate" placeholder="2020">
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class="one column row">
+             <div class="right aligned column">
+                {{#if isSignUp}}
+                <div id="createButton" class="ui green button">Create</div>
+                {{else}}
+                <div id="saveButton" class="ui green button">Save</div>
+                {{/if}}
+             </div>
+        </div>
+     </div>
+</form>
+<script>$('.ui.dropdown.labeled.icon.button').dropdown();</script>
+</div>
+
+</template>

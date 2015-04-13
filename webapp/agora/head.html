@@ -1,56 +1,27 @@
 <template name="head">
     <div class="ui head segment">
-        <div class="ui two column grid">
+        <div class="ui three column grid">
             <div class="column">
-                <div id="openSidebar" class="ui button">Sidebar</div>
-                <div id="scheduleButton" class="ui button">Schedule</div>
+                <div id="backButton" class="ui labeled icon button">
+                      <i class="arrow left icon"></i>
+                      Go Back
+                </div>
+            </div>
+            <div class="center aligned column">
+                <img class="ui centered tiny image" src="/images/agoralogin.png">
             </div>
             <div class="right aligned column">
                     {{#if currentUser}}
-
-
                         {{#with userEmail}}
-
-                                {{#if isUserAdvisor}}
-                                <div id="userDropdown" class="ui dropdown labeled blue icon button">
-                                    <i class="user icon"></i>
-                                    <span class="text">{{address}}</span>
-                                    <input type="hidden" id="userField">
-                                    <div class="menu">
-                                        {{#each userList}}
-                                        <div class="item">{{this}}</div>
-                                        {{/each}}
-                                        <div class="item">{{address}}</div>
-                                  </div>
-                                </div>
-                                <script>    
-                                    $('.ui.dropdown.labeled.icon.button').dropdown();
-                                </script>
-                                {{else}}
-                                <div class="ui labeled icon button">
-                                      <i class="user icon"></i>
-                                      {{address}}
-                                </div>
-                                {{/if}}
-                                <div id="signOutButton" class="ui icon sign out button" data-content="Sign out" data-position="bottom right">
-                                    <i class="sign out icon"></i>
-                                </div>
-                                <div id="accountSettingsButton" class="ui icon button" data-content="Settings" data-position="bottom right">
-                                    <i class="settings icon"></i>
-                                </div>
-
-                        {{/with}}
-                    {{else}}
-                        <div id="signInDropdown" class="ui top right pointing dropdown labeled icon button">
-                                    <i class="user icon"></i>
-                                    <span class="text">Sign in</span>
-                                    <div class="menu">
-                                    {{>login}}
-                                    </div>
+                        <div id="userButton" class="ui labeled icon button">
+                              <i class="user icon"></i>
+                              {{address}}
                         </div>
-                         <script>    
-                            $('.ui.top.right.pointing.dropdown.labeled.icon.button').dropdown();
-                        </script>
+                        {{/with}}
+                        <div id="logOutButton" class="ui labeled icon button">
+                              <i class="sign out icon"></i>
+                              Log Out
+                        </div>
                     {{/if}}
             </div>
         </div>

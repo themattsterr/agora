@@ -2,36 +2,27 @@
 
     
     <div class="ui centered form segment">
-        <div class="ui field">
-            <div class="ui left icon input">
-                <i class="at icon"></i>
-                <input id="loginEmailField" placeholder="Email" type="text">
+        <img class="ui centered large image" src="/images/agoralogin.png">
+        <form class="ui form">
+            <div class="ui field">
+                <div class="ui labeled input">
+                    <div class="ui label">Email</div>
+                    <input id="loginEmailField" type="text">
+                </div>
             </div>
-        </div>
-        <div clas="ui field">
-            <div class="ui left icon input">
-                  <i class="lock icon"></i>
-                  <input id="loginPasswordField" placeholder="Password" type="password">
+            <div class="ui field">
+                <div class="ui labeled input">
+                      <div class="ui label">Password</div>
+                      <input id="loginPasswordField" type="password">
+                </div>
             </div>
-        </div>
-        {{#if isSignUp}}
-        <div clas="ui field">
-            <div class="ui left icon input">
-                  <i class="lock icon"></i>
-                  <input id="loginVerifyPasswordField" placeholder="Verify Password" type="password">
+            <div class="ui field">
+                <div class="buttons" align="center">
+                    <div id="logInButton" class="ui button">Log in</div>
+                    <div id="signUpButton" class="ui button">Sign up</div>
+                </div>
             </div>
-        </div>
-        {{/if}}
-        <div clas="ui field">
-            <div class="buttons" align="center">
-                <div id="signInButton" class="ui button">Sign in</div>
-                {{#if isSignUp}}
-                <div id="createAccountButton" class="ui button">Create account</div>
-                {{else}}
-                <div id="signUpButton" class="ui button">Sign up</div>
-                {{/if}}
-            </div>
-        </div>
+        </form>
         <div id="loginError" class="ui error message">
             <div class="header">Error</div>
         </div>

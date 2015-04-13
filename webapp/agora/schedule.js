@@ -22,10 +22,10 @@ if (Meteor.isClient) {
         yearCount = currentUser.endYear - currentUser.startYear + 1;
 
         $('.drop').css({
-          //top: $('.table.ui.three.column.celled.table')[0].offsetTop + cellHeight,
-          //left: $('.table.ui.three.column.celled.table')[0].offsetLeft,
-          top:14 + cellHeight,
-          left:14,
+          top: $('.table.ui.three.column.celled.table')[0].offsetTop + cellHeight,
+          left: $('.table.ui.three.column.celled.table')[0].offsetLeft,
+          //top:14 + cellHeight,
+          //left:14,
           width: 3*cellWidth,
           height: 5*cellHeight + (6*(yearCount)*cellHeight)
         })
@@ -61,6 +61,21 @@ if (Meteor.isClient) {
 
       $('#dragAreaGrid')[0].innerHTML = "";
       for (var i in HTMLArray){
+
+        var year = JSON.parse(HTMLArray[i].coords).z;
+        var semester = JSON.parse(HTMLArray[i].coords).x;
+
+        //
+        //
+        //
+        //
+        //get current date
+        //check if year and semester within current date
+        //
+        //
+        //
+        //
+
         var HTMLString = '<div class="drag"';
         HTMLString += ' coords=' + HTMLArray[i].coords + ' >' + HTMLArray[i].courseInfo + '</div>';
         $('#dragAreaGrid')[0].innerHTML += HTMLString;
@@ -74,6 +89,8 @@ if (Meteor.isClient) {
             row = coordsObj.y,
             yr = coordsObj.z,
             curDiv = $('.drag')[i];
+
+      if(col > 0) yr--;
 
       $(curDiv).css({
           top: row*(cellHeight) + (6*(yr)*cellHeight),
@@ -143,7 +160,8 @@ if (Meteor.isClient) {
               gridY = gridY - 6*gridZ;
               if (gridY == 5)
                 gridZ = -1;
-
+              if (gridX > 0)
+                gridZ++;
               return {x: gridX, y: gridY, z: gridZ};
            }
 

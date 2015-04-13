@@ -12,7 +12,8 @@ if (Meteor.isClient) {
   Session.setDefault('renderOrder', { last: 0 });
   Session.setDefault('schedule',null);
   Session.setDefault('isSignUp', false);
-  Session.setDefault('currentView','schedule');
+	Session.setDefault('viewHistory',null);
+
 
   var User = function(id){
   	this.id = id;
@@ -47,23 +48,14 @@ if (Meteor.isClient) {
 	},1000);
   }
 
-	var user = new User(Meteor.userId());
-
-
-  Template.registerHelper('isSidebarOpen', function () {
-    return Session.get('isSidebarOpen');
-  });
-
-  Template.registerHelper('isAccountSettings', function () {
-    return Session.get('currentView') == 'account settings';
-  });
+ var user = new User(Meteor.userId());
 
   Template.registerHelper('isReady', function () {
   	var first = AGORAUsers.findOne();
   	if (first){
-  		if(!Session.get('mainUser')){
+  		if(!Session.get('currentUser')){
     		Session.set('currentUser',AGORAUsers.findOne({_id:Meteor.userId()}));
-    		Session.set('mainUser',AGORAUsers.findOne({_id:Meteor.userId()}));
+    		//Session.set('mainUser',AGORAUsers.findOne({_id:Meteor.userId()}));
   		}
     	return true;
   	}
@@ -88,7 +80,7 @@ if (Meteor.isClient) {
 	},
 	isUserAdvisor: function(){
 		// returning null when using get mainUser
-		var user = Session.get('mainUser');
+		var user = Session.get('currentUser');
 		return user.isAdvisor;
 	},
 	userList: function(){
@@ -104,72 +96,45 @@ if (Meteor.isClient) {
   });
 
   Template.head.events({
-    'click #accountSettingsButton' : function(){
-        Session.set('currentView','account settings');
+
+
+    'click #backButton' : function(){
+    	var cur = Session.get('currentView'),
+    		viewHistory = Session.get('viewHistory');
+    	
+    	if( !viewHistory || viewHistory.length == 0){
+    		if(cur == 'login') Session.set('currentView','main');
+    	}
+    	else {
+    		Session.set('currentView',viewHistory.pop());
+    		Session.set('viewHistory',viewHistory);
+    	}
+    	Session.set('isSignUp',false);
      },
-    'click #openSidebar': function () {
-        //$('.ui.sidebar').sidebar('toggle');
-        //Meteor.call('insertData', courses);
-        var initialElement = $('.center-pane');
-        var openedElement = $('.center-pane-out');
-
-        if (!initialElement.length) {
-          Session.set('isSidebarOpen',false);
-          openedElement[0].className = 'center-pane';
-          $('.left-pane-out')[0].className = 'left-pane'
-          $('.left-pane').css('left','0px');
-        }
-
-        if(!openedElement.length) {
-          Session.set('isSidebarOpen',true);
-          initialElement[0].className = 'center-pane-out';
-          $('.left-pane')[0].className = 'left-pane-out';
-          $('.left-pane').css('left','350px');
-
-        }
-      },
-    'click #scheduleButton': function () {
-        Session.set('currentView','schedule');
-      },
-    'click #signOutButton': function() {
+    'click #logOutButton': function() {
 		Meteor.logout(function(error){
 			if(error)
 				alert(error);
 			else {
 				Session.set('currentUser', null);
 				Session.set('mainUser', null);
-				Session.set('isSetupFinished', false);
-				Session.set('isSidebarOpen', false);
-				Session.set('isSignUp', false);
 				Session.set('searchParam', {});
 				Session.set('selectedCard', null);
 				Session.set('selectedCourse', null);
-				Session.set('schedule', null);
 				Session.set('renderOrder', { last: 0 });
-				if( Session.get('currentView') == 'schedule' ){
-					Template.schedule.rendered();
-				} else if( Session.get('currentView') == 'account settings' ) {
-					Template.setup.rendered();
-				}
+				
+				Session.set('viewHistory',null);
+				Session.set('currentView','main');
 			}
 
 		});
       },
-      'change #userField': function (event) {
-      	var selectedValue = $('#userDropdown').dropdown('get text');
-      	var selectedUser = {};
-      	if (selectedValue != Meteor.user().emails[0].address)
-      		selectedUser = AGORAUsers.findOne({nid: selectedValue});
-      	else 
-      		selectedUser = Session.get('mainUser');
+      'click #userButton' :function(event){
+      	changeView('profile');
+      }
 
-      	Session.set('currentUser',selectedUser);
-      	if( Session.get('currentView') == 'schedule' ){
-      		Template.schedule.rendered();
-      	} else if( Session.get('currentView') == 'account settings' ) {
-      		Template.setup.rendered();
-      	}
-	  }
+
+    
   });
 
 
@@ -202,11 +167,32 @@ if (Meteor.isClient) {
 		  ]
 		];
 
-
+  Template.registerHelper('currentView', function () {
+    return Session.get('currentView');
+  });
 
 }
 
+var changeView = function( newView ){
+  	var curView = Session.get('currentView'),
+  		viewHistory = Session.get('viewHistory');
 
+  	if (!viewHistory) {
+  		viewHistory = new Array();
+  		viewHistory.push(curView);
+  	} else {
+        var lastView = viewHistory.pop();
+        if(lastView){
+            viewHistory.push(lastView);
+            if(lastView != curView){
+                viewHistory.push(curView);
+            }
+        } else viewHistory.push(curView);
+  	}
+
+	Session.set('currentView',newView);
+	Session.set('viewHistory',viewHistory);
+}
 
 if (Meteor.isServer) {
   Meteor.startup(function () {

@@ -1,0 +1,39 @@
+<template name="import">
+<div class="ui form segment">
+    <div class="ui grid">
+        <div class="two column row">
+            <div class="column">
+                <div class="ui raised segment">
+                    <form class="ui form">
+                        <a class="ui ribbon label">Import Area</a>
+                        <span>Description or whatever......</span>
+                        <div class="hidden divider"></div>
+
+                        <div class="ui fluid field">
+                            <textarea id="importInfoField"></textarea>
+                            <div id="findCoursesButton" class="ui bottom attached button">Find Courses</div>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+            <div class="column">
+                <div class="ui raised segment">
+                    <a class="ui ribbon label">Courses Found</a>
+                    <span>Description or whatever......</span>
+                    <div class="hidden divider"></div>
+                    <div class="ui fluid field">
+                        {{#each yearsWithTitles}}
+                            {{{foundCoursesHTML this}}}
+                        {{/each}}
+                    </div>
+                    <div id="importButton" class="ui right floated blue button">
+                        Import
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+<script>$('.ui.dropdown.labeled.icon.button').dropdown();</script>
+</template>
