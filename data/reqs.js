@@ -1,6 +1,7 @@
 requirements = {
 	
 	general : {
+		hours : 39,
 		A : ["ENC 1101","ENC 1102", "SPC 1603C"],
 		B : [],
 		C : ["MAC 2311C","STA 2023"],
