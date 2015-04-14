@@ -1,4 +1,4 @@
-exports.tagObject = {
+tagObject = {
 	type: {
 		ABE: "Agricultural and Biological Engineering",
 		ABT: "Arabic Culture in Translation or Translation Skills",
@@ -149,9 +149,19 @@ exports.tagObject = {
 	},
 	level: ["Subcollegiate","Freshman","Sophomore","Junior","Senior","Graduate","Advanced Graduate","Doctoral"],
 	college: {
-		ECS: {
-			name: "Egineering and Computer Science",
-			departments: ["AFROTC", "CECE", "CS", "ECE", "ECS", "IEMS", "MSE", "MECH/AERO"]
+		ECS:  "Egineering and Computer Science",
+		BA : "Business Administration", 
+		BHC : "Burnett Honors College", 
+		CAH : "Arts & Humanities", 
+		COM : "Medicine", 
+		CON : "Nursing", 
+		COS : "Sciences", 
+		ECS : "Engineering and Computer Science", 
+		ED : "Education", 
+		HPA : "Health and Public Affairs", 
+		OPT : "Optics", 
+		RCHM : "Rosen College of Hospitality Management",
+		UGST : "Undergraduate Studies/Interdisciplinary Studies"
 	},
 	department: {
 		CS: "Computer Science",

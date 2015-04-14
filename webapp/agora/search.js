@@ -92,10 +92,10 @@ if (Meteor.isClient) {
 	      var search = Session.get('searchParam');
 
 	      if ($('#collegeDropdown').dropdown('get text') != "College")
-	        search.college = $('#collegeDropdown').dropdown('get text');
+	        search.college = $('#collegeDropdown').dropdown('get value');
 
 	      if ($('#deptDropdown').dropdown('get text') != "Department")
-	        search.dept = $('#deptDropdown').dropdown('get text');
+	        search.dept = $('#deptDropdown').dropdown('get value');
 
 	      Session.set('searchParam', search );
 

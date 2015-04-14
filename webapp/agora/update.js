@@ -188,9 +188,9 @@ var fillYearArray = function(start,end){
 				advisor: null,
 				nid: $('#nidFieldUpdate').val()
 			}
-            var email = $('#loginEmailField').val()
-			var pass = $('#loginPasswordField').val()
-			var passVerify = $('#loginVerifyPasswordField').val()
+            var email = $('#emailUpdate').val()
+			var pass = $('#passwordUpdate').val()
+			var passVerify = $('#verifyPasswordUpdate').val()
 
 			if (email != "") {
 				if( pass != "") {

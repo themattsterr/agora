@@ -188,6 +188,15 @@ Session.setDefault('currentView','main');
     return Session.get('currentView');
   });
 
+
+  Template.registerHelper('collegeCodeToName', function ( code ) {
+    return tagObject.college[code];
+  });
+
+  Template.registerHelper('deptCodeToName', function ( code ) {
+    return tagObject.department[code];
+  });
+
 }
 
 var changeView = function( newView ){

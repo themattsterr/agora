@@ -21,7 +21,7 @@
 								<span class="text">College</span>
 								<div class="menu">
 									{{#each collegeList}}
-									<div class="item">{{this}}</div>
+									<div class="item" data-value={{this}}>{{collegeCodeToName this}}</div>
 									{{/each}}
 							  </div>
 							</div>
@@ -32,7 +32,7 @@
 								<span class="text">Department</span>
 								<div class="menu">
 									{{#each deptList}}
-									<div class="item">{{this}}</div>
+									<div class="item" data-value={{this}}>{{deptCodeToName this}}</div>
 									{{/each}}
 							  </div>
 							</div>
