@@ -11,8 +11,13 @@
 
                         <div class="ui fluid field">
                             <textarea id="importInfoField" placeholder="FA10 COP3223"></textarea>
-                            <div id="findCoursesButton" class="ui bottom attached button">Find Courses</div>
+                            
                         </div>
+
+                        <div class="ui field">
+                                <div id="findCoursesButton" class="ui right floated button">Find Courses</div>
+                        </div>
+
                         
                     </form>
                 </div>
@@ -20,16 +25,46 @@
             <div class="column">
                 <div class="ui raised segment">
                     <a class="ui ribbon label">Courses Found</a>
-                    <span>Verify correctness of courses found then click import to update profile.</span>
+                    <span>Click import to update profile with courses shown below.</span>
                     <div class="hidden divider"></div>
-                    <div class="ui fluid field">
-                        {{#each yearsWithTitles}}
-                            {{{foundCoursesHTML this}}}
-                        {{/each}}
-                    </div>
+                        {{#with coursesFoundMessage}}
+                        <div class="ui {{variation}} icon message">
+                          <i class="info icon"></i>
+                          <div class="content">
+                            <div class="header">
+                                  {{header}}
+                            </div>
+                            {{{message}}}
+                          </div>
+                        </div>
+                        {{/with}}
+                     <div class="hidden divider"></div>
+                    {{#if coursesFound}}
+                           <div class="ui fluid field">
+                            <table class="ui three column celled table">
+                              <thead>
+                                <tr><th>Course</th>
+                                  <th>Semester</th>
+                                  <th>Year</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                              {{#each coursesFound}}
+                                <tr>
+                                  <td class="{{variation}} cell">{{identifier}}</td>
+                                  <td class="{{variation}} cell">{{semester}}</td>
+                                  <td class="{{variation}} cell">{{year}}</td>
+                              </tr>
+                              {{/each}}
+                              </tbody>
+                            </table>
+                          </div>
+                    
                     <div id="importButton" class="ui right floated blue button">
                         Import
                     </div>
+                    {{/if}}
+
                 </div>
             </div>
         </div>

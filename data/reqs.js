@@ -116,3 +116,35 @@ requirements = {
 		A: ["Select primarily from upper level courses after meeting with a departmental advisor. Courses may be outside the department."]
 	}
 }
+
+
+// its a litte weird because the order shown on the website is actually Fall 2011, Spring 2012, Summer 2012
+		var sched = 
+		[// schedule[0] is the first year
+		  [ //schedule[0][0] is the first semester (fall) of the first year 
+		      ["COP 3223", "ECO 2013", "MAC 2311C", "MAC 2312", "PHY 2053C", "ENC 1101"], //Fall 2011
+		      ["", "", "", "", "", ""], //Spring 2011
+		      ["", "", "", "", "", ""]  //Summer 2011
+		  ],
+		  [   
+		      ["BSC 2010C", "COP 3330", "COP 3502C", "COT 3100C", "", ""], //Fall 2012
+		      ["PHY 2048C", "ENC 1102", "STA 2023", "REL 2300", "", ""], //Spring 2012
+		      ["", "", "", "", "", ""]  //Summer 2012
+		  ],
+		  [   
+		      ["CIS 3360", "COP 3402", "MAS 3105", "PHY 3101", "", ""], //Fall 2013
+		      ["COP 3503C", "PHI 2010", "PHY 2049C", "PSY 2012", "SPC 1608", "WOH 2022"],
+		      ["CDA 3103", "MAC 2313", "", "", "", ""]
+		  ],
+		  [   
+		      ["COP 4710", "COP 4934", "ENC 3241", "", "", ""],
+		      ["CAP 4053", "COP 4020", "COP 4600", "EEL 4768", "", ""],
+		      ["COP 4331C", "COT 4210", "", "", "", ""]  
+		  ],
+		  [   
+		      ["", "", "", "", "", ""],
+		      ["CEN 5016", "COP 4935", "SPN 1120C", "", "", ""],
+		      ["", "", "", "", "", ""]  
+		  ]
+		];
+

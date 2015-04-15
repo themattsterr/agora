@@ -21,14 +21,6 @@ var changeView = function( newView ){
 
 if(Meteor.isClient){
 
-var fillYearArray = function(start,end){
-		var arr = [];
-		for(var i = 0; i <= end-start; i++){
-			arr[i] = 2000 + start + i;
-		}
-		Session.set('yearArray',arr);
-	}
-
     Template.update.rendered = function(){
 
     	//set current users stuff

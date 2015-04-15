@@ -5,6 +5,16 @@
 
 if (Meteor.isClient) {
 
+  	var fillYearArray = function(start,end){
+		start = Number(start.substr(2,2));
+		end = Number(end.substr(2,2));
+		var arr = [];
+		for(var i = 0; i <= end-start; i++){
+			arr[i] = 2000 + start + i;
+		}
+		Session.set('yearArray',arr);
+	}
+
     //used in drag and drop events for live updating
   	var updateCourseSchedule = function(scheduleData){
 		var user = Session.get('currentUser');
@@ -19,7 +29,7 @@ if (Meteor.isClient) {
         //cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 6),
         cellHeight = 37,
         currentUser = Session.get('currentUser'),
-        yearCount = currentUser.endYear - currentUser.startYear + 1;
+        yearCount = currentUser.endYear - currentUser.startYear;
 
         $('.drop').css({
           top: $('.table.ui.three.column.celled.table')[0].offsetTop + cellHeight,
@@ -27,7 +37,7 @@ if (Meteor.isClient) {
           //top:14 + cellHeight,
           //left:14,
           width: 3*cellWidth,
-          height: 5*cellHeight + (6*(yearCount)*cellHeight)
+          height: 7*cellHeight + (7*(yearCount)*cellHeight)
         })
 
       var renderOrder = Session.get('renderOrder');
@@ -93,7 +103,7 @@ if (Meteor.isClient) {
       if(col > 0) yr--;
 
       $(curDiv).css({
-          top: row*(cellHeight) + (6*(yr)*cellHeight),
+          top: row*(cellHeight) + (7*(yr)*cellHeight),
           left: col*(cellWidth),
           width: cellWidth,
           height: cellHeight
@@ -113,6 +123,8 @@ if (Meteor.isClient) {
 
     var currentUser = Session.get('currentUser');
 
+
+    fillYearArray(currentUser.startYear, currentUser.endYear);
 
          //if (!currentUser) {
           //Session.set('isSetupFinished',false);
@@ -142,7 +154,7 @@ if (Meteor.isClient) {
            var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
               //cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 6),
               cellHeight = 37,
-              yearCount = currentUser.endYear - currentUser.startYear + 1;
+              yearCount = currentUser.endYear - currentUser.startYear;
 
       
         jQuery(function($){
@@ -155,13 +167,18 @@ if (Meteor.isClient) {
 
               gridX = Math.round( x / cellWidth);
               gridY = Math.round( y / cellHeight);
-              gridZ = Math.floor(gridY / 6);
+              gridZ = Math.floor(gridY / 7);
 
-              gridY = gridY - 6*gridZ;
-              if (gridY == 5)
-                gridZ = -1;
+              gridY = gridY - 7*gridZ;
+
               if (gridX > 0)
                 gridZ++;
+
+              if (gridY == 6)
+                gridZ = -1;
+
+
+              console.log({x: gridX, y: gridY, z: gridZ});
               return {x: gridX, y: gridY, z: gridZ};
            }
 
@@ -205,7 +222,7 @@ if (Meteor.isClient) {
 
                 var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
 
-                if(coords.z >= 0 && coords.z < yearCount && schedule[coords.z][coords.x][coords.y] == "") {
+                if(coords.z >= 0 && coords.z <= yearCount && schedule[coords.z][coords.x][coords.y] == "") {
                   schedule[coords.z][coords.x][coords.y] = originalValue;
                   var coordsAttr = '{ \"z\":' + coords.z + ', \"x\": '+coords.x+', \"y\": '+coords.y+'}';
 
@@ -246,7 +263,7 @@ if (Meteor.isClient) {
       if(user.startSem == 'Fall')
         startYear = user.startYear++;
 
-      for(var i = 0; i <= user.endYear - startYear; i++){
+      for(var i = 0; i < user.endYear - startYear; i++){
           arr[i] = Number(user.startYear) + i;
       }
       return arr;

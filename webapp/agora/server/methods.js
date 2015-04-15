@@ -89,10 +89,11 @@ Meteor.methods({
 		];
 		var yearStart = Number(arr[0].split(' ')[0].substr(2));
 		var yearEnd = Number(arr[arr.length - 1].split(' ')[0].substr(2));
+
 		for(var i in arr){
 			var semYear = arr[i].split(' ')[0];
 			var identifier = arr[i].split(' ')[1].substr(0,3) + ' ' + arr[i].split(' ')[1].substr(3);
-			var year = Number(semYear.substr(2)) - yearStart;
+			var year = Number(semYear.substr(2));
 
 			var col = -1;
 			if (semYear.substr(0,2) == 'FA')
@@ -104,23 +105,52 @@ Meteor.methods({
 
 			
 			var course = {identifier: identifier, yr: year, col: col};
-			if (year + yearStart <= yearEnd || year < 0)
-				coursesToAdd.push(course);
+			if (col >= 0) coursesToAdd.push(course);
 		}
+		
+		var numFound = 0;
 
 		for(var i in coursesToAdd) {
 			var curCourse = coursesToAdd[i];
-			console.log(curCourse);
-			for (var curRow in sched[curCourse.yr][curCourse.col]){
-				if (sched[curCourse.yr][curCourse.col][curRow] == ""){
-					sched[curCourse.yr][curCourse.col][curRow] = curCourse.identifier;
-					break;
-				}
-			}
+			if (AGORACourses.findOne({identifier:curCourse.identifier})) numFound++;
+			else curCourse.variation = "warning";
+			if (curCourse.yr < yearStart) yearStart = curCourse.yr;
+			if (curCourse.yr > yearEnd) yearEnd = curCourse.yr;
+
+			if (curCourse.col == 0) curCourse.semester = "Fall";
+			if (curCourse.col == 1) curCourse.semester = "Spring";
+			if (curCourse.col == 2) curCourse.semester = "Summer";
+
+			curCourse.year = Number(curCourse.yr) + 2000;
+
+
+			
+			coursesToAdd[i] = curCourse;
+
 		}
 
+      coursesToAdd.sort(function(a, b) { 
+        if (a.yr > b.yr) 
+          { return 1; }
+        if (a.yr < b.yr) 
+          { return -1; }
+        if (a.yr == b.yr){
+        	if (a.col == 0) {
+        		if (b.col == 1) return 1;
+        		if (b.col == 2) return 1;
+        	}
+        	if (b.col == 0) {
+        		if (a.col == 1) return -1;
+        		if (a.col == 2) return -1;
+        	}
+        	if(a.col > b.col) return 1;
+        	if(a.col < b.col) return -1;
+        }
+        return 0; 
+      });
 
-		return {"schedule": sched, "yearStart": yearStart, "yearEnd": yearEnd, "numOfCourses": coursesToAdd.length};
+
+		return {"schedule": sched, "courses": coursesToAdd, "yearStart": yearStart, "yearEnd": yearEnd, "numTotal": coursesToAdd.length, "numFound": numFound};
 
 	},
 	'importCourseSchedule' : function(idUser, scheduleData){

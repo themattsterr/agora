@@ -65,9 +65,9 @@ if (Meteor.isClient) {
     			prevYearSchedule = sched[yrIndex-1];
     		else {
     			prevYearSchedule = [
-				  ["","","","",""],
-				  ["","","","",""],
-				  ["","","","",""] ];
+				  ["","","","","",""],
+				  ["","","","","",""],
+				  ["","","","","",""] ];
     		}
 
     		
@@ -77,7 +77,7 @@ if (Meteor.isClient) {
     		HTMLString += '<th>Fall '+ Number(year-1) +'</th>';
     		HTMLString += '<th>Spring '+year+'</th>';
     		HTMLString += '<th>Summer '+year+'</th></tr></thead><tbody>';
-			for (var i = 0; i < 4; i++) {
+			for (var i = 0; i < 6; i++) {
 				HTMLString += '<tr><td style="text-align: center;" class="clickableCell" yr="' + (yrIndex-1) + '"col="0" row="'+i+'">'+prevYearSchedule[0][i]+'</td>';
 				HTMLString += '<td style="text-align: center;"  class="clickableCell" yr="' + yrIndex + '"col="1" row="'+i+'">'+currYearSchedule[1][i]+'</td>';
 				HTMLString += '<td style="text-align: center;"  class="clickableCell" yr="' + yrIndex + '"col="2" row="'+i+'">'+currYearSchedule[2][i]+'</td></tr>';
