@@ -26,10 +26,12 @@ if (Meteor.isClient) {
   var resetSchedule = function(scheduleData){
       
      var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
-        //cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 6),
-        cellHeight = 37,
+        cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 7),
+        //cellHeight = 36,
         currentUser = Session.get('currentUser'),
         yearCount = currentUser.endYear - currentUser.startYear;
+     
+     if (currentUser.startSem == "Fall" && yearCount > 0) yearCount--;
 
         $('.drop').css({
           top: $('.table.ui.three.column.celled.table')[0].offsetTop + cellHeight,
@@ -37,7 +39,7 @@ if (Meteor.isClient) {
           //top:14 + cellHeight,
           //left:14,
           width: 3*cellWidth,
-          height: 7*cellHeight + (7*(yearCount)*cellHeight)
+          height: 7*cellHeight + (7*(yearCount)*cellHeight) - cellHeight
         })
 
       var renderOrder = Session.get('renderOrder');
@@ -87,7 +89,10 @@ if (Meteor.isClient) {
         //
 
         var HTMLString = '<div class="drag"';
-        HTMLString += ' coords=' + HTMLArray[i].coords + ' >' + HTMLArray[i].courseInfo + '</div>';
+        HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
+        HTMLString += '<div class="ui fluid right labeled icon button" style="background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\n';
+        HTMLString += '<i class="remove icon link icon"></i></div>';
+        HTMLString += '</div>';
         $('#dragAreaGrid')[0].innerHTML += HTMLString;
       }
 
@@ -152,10 +157,9 @@ if (Meteor.isClient) {
           resetSchedule(Session.get('schedule'));
      
            var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
-              //cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 6),
-              cellHeight = 37,
+              cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 7),
+              //cellHeight = 36,
               yearCount = currentUser.endYear - currentUser.startYear;
-
       
         jQuery(function($){
            var schedule = Session.get('schedule');
@@ -198,7 +202,7 @@ if (Meteor.isClient) {
                   background: "#85A1DA"
                 });
 
-            })
+            },{ not:'i' })
            .drag(function( ev, dd ){
 
               var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
@@ -242,11 +246,24 @@ if (Meteor.isClient) {
                 $( this ).css({
                   background: "#BCE"
                 });
-          });
+          })
         });
 
 
   }
+
+
+Template.schedule.events({
+	'click .remove.icon' : function(event){
+		var schedule = Session.get('schedule');
+		var div = event.target.offsetParent.offsetParent;
+		var coords = JSON.parse(div.getAttribute('coords'));
+		schedule[coords.z][coords.x][coords.y] = "";
+		Session.set('schedule',schedule);
+		updateCourseSchedule(schedule);
+		resetSchedule(schedule);
+	}
+})
 
 
   Template.schedule.helpers({
@@ -315,10 +332,6 @@ if (Meteor.isClient) {
 
       return HTMLArray;
     }
-  });
-
-  Template.schedule.events({
-
   });
 
 }
