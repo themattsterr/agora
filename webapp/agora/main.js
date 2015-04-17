@@ -34,4 +34,8 @@ if (Meteor.isClient) {
         }
     });
 
+    Template.main.onRendered(function(){
+    	if(Session.get('currentUser')) changeView('profile');
+    });
+
 }

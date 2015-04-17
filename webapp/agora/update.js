@@ -19,6 +19,16 @@ var changeView = function( newView ){
 	Session.set('viewHistory',viewHistory);
 }
 
+var fillYearArray = function(start,end){
+	start = Number(start.substr(2,2));
+	end = Number(end.substr(2,2));
+	var arr = [];
+	for(var i = 0; i <= end-start; i++){
+		arr[i] = 2000 + start + i;
+	}
+	Session.set('yearArray',arr);
+}
+
 if(Meteor.isClient){
 
     Template.update.rendered = function(){
@@ -170,7 +180,7 @@ if(Meteor.isClient){
 			var user = 	{
 				firstName: $('#firstNameUpdate').val(),
 				lastName: $('#lastNameUpdate').val(),
-				isAdvisor: false,
+				isAdvisor: Session.get('isAdvisor'),
 				major: $('#majorDropdownUpdate').dropdown('get text'),
 				catalog: $('#catalogYearFieldUpdate').val(),
 				startSem: $('#startSemDropdownUpdate').dropdown('get text'),
@@ -194,6 +204,7 @@ if(Meteor.isClient){
 								if(error) $('.ui.error.message').text(error).show();
 								else {
 								    Session.set('isSignUp',false);
+								    fillYearArray(user.startYear,user.endYear);
                                     user._id = Meteor.userId();
                                     user.numOfCourses = -1;
                                     Session.set('currentUser',user);
@@ -201,6 +212,7 @@ if(Meteor.isClient){
                                         user.startSem,user.startYear,user.endSem,user.endYear,user.advisor,user.nid,user.numOfCourses,
                                         function(error,result){
                                             if(error) console.log(error);
+                                            else changeView('profile');
                                         }
                                     );
 								}
@@ -234,6 +246,7 @@ if(Meteor.isClient){
             user.numOfCourses = Session.get('currentUser').numOfCourses;
             user.isAdvisor = Session.get('currentUser').isAdvisor;
             user.importedSched = Session.get('currentUser').importedSched;
+            fillYearArray(user.startYear,user.endYear);
             Session.set('currentUser',user);
             Meteor.call('updateUserData',user._id,user.firstName,user.lastName,user.major,user.catalog,
                 user.startSem,user.startYear,user.endSem,user.endYear,user.advisor,user.nid,user.numOfCourses,

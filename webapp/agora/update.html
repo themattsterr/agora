@@ -120,20 +120,18 @@
                                 </div>
                             </div>
                         </div>
-
+                        <div class="field">
+                                {{#if isSignUp}}
+                                <div id="createButton" class="ui right floated green button">Create</div>
+                                {{else}}
+                                <div id="saveButton" class="ui right floated green button">Save</div>
+                                {{/if}}
+                        </div>
                 </div>
             </div>
             
         </div>
-        <div class="one column row">
-             <div class="right aligned column">
-                {{#if isSignUp}}
-                <div id="createButton" class="ui green button">Create</div>
-                {{else}}
-                <div id="saveButton" class="ui green button">Save</div>
-                {{/if}}
-             </div>
-        </div>
+
      </div>
 </form>
 <script>$('.ui.dropdown.labeled.icon.button').dropdown();</script>

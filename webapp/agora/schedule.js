@@ -32,6 +32,7 @@ if (Meteor.isClient) {
         yearCount = currentUser.endYear - currentUser.startYear;
      
      if (currentUser.startSem == "Fall" && yearCount > 0) yearCount--;
+     if (currentUser.endSem == "Fall" && yearCount > 0) yearCount++;
 
         $('.drop').css({
           top: $('.table.ui.three.column.celled.table')[0].offsetTop + cellHeight,
@@ -105,7 +106,7 @@ if (Meteor.isClient) {
             yr = coordsObj.z,
             curDiv = $('.drag')[i];
 
-      if(col > 0) yr--;
+      if(col > 0 && yr > 0) yr--;
 
       $(curDiv).css({
           top: row*(cellHeight) + (7*(yr)*cellHeight),
@@ -274,15 +275,17 @@ Template.schedule.events({
     yearsWithTitles: function () {
       var arr = [];
       var user = Session.get('currentUser');
-      if(!user)
-        return [1];
-      var startYear = 2000;
+      var startYear = Number(user.startYear);
+      var endYear = Number(user.endYear);
       if(user.startSem == 'Fall')
-        startYear = user.startYear++;
+        startYear++;
+	  if(user.endSem == 'Fall')
+	  	endYear++;
 
-      for(var i = 0; i < user.endYear - startYear; i++){
-          arr[i] = Number(user.startYear) + i;
+      for(var i = 0; i <= endYear - startYear; i++){
+          arr[i] = startYear + i;
       }
+
       return arr;
     },
 
