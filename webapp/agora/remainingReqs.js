@@ -386,11 +386,26 @@ remainingReqs = function (sched){
 } 
 
 var dR = {
-  gep :[],
-  cpp : [],
-  core : [],
-  restricted : [],
-  other : []
+  gep :{
+    courses: [],
+    hours : 0
+  }
+  cpp : {
+    courses: [],
+    hours : 0
+  },
+  core : {
+    courses: [],
+    hours : 0
+  },
+  restricted : {
+    courses: [],
+    hours : 0
+  },
+  other : {
+    courses: [],
+    hours : 0
+  }
 }
 
 
