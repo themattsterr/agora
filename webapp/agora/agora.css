@@ -41,7 +41,7 @@
 }
 
 #dragArea {
-	height: 1000px;
+	height: 100%;
 }
 
 .drag {
@@ -53,8 +53,7 @@
 
    background: #BCE;
    cursor: move;
-   line-height: 40px;
-   text-align: center;
+
    display: inline-block;
    outline: none;
    border: black;
@@ -67,7 +66,7 @@
    margin: 0em 0.25em 0em 0em;
    font-weight: bold;
    font-style: normal;
-   text-align: center;
+   text-align: left;
    text-decoration: none;
    background-image: none;
    box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(39, 41, 43, 0.15) inset;

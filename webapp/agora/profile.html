@@ -14,7 +14,7 @@
                       <i class="edit icon"></i>
                       Update Profile
                     </div>
-                
+
                 {{#if isAdvisor}}
                 <div id="adviseStudentsProfile" class="ui labeled icon button">
                       <i class="users icon"></i>
@@ -25,6 +25,7 @@
                 </div>
         </div>
         {{#if hasSchedule}}
+        
         {{> schedule}}
         {{else}}
         <div class="ui segment">
@@ -36,6 +37,9 @@
                 </div>
                 <p>Import your schedule or create a new one to view it here.</p>
               </div>
+            </div>
+            <div class="ui button" id="createNewScheduleButton">
+                Create New Schedule
             </div>
         </div>
         {{/if}}

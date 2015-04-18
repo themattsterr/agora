@@ -21,15 +21,19 @@ if (Meteor.isClient) {
 		user.importedSched = scheduleData;
 		Session.set('currentUser',user);
 		Meteor.call('importCourseSchedule',user._id, scheduleData);
+		Template.schedule.rendered();
   	}
 
   var resetSchedule = function(scheduleData){
       
      var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
-        //cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 6),
-        cellHeight = 37,
+        cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 7),
+        //cellHeight = 36,
         currentUser = Session.get('currentUser'),
         yearCount = currentUser.endYear - currentUser.startYear;
+     
+     if (currentUser.startSem == "Fall" && yearCount > 0) yearCount--;
+     if (currentUser.endSem == "Fall" && yearCount > 0) yearCount++;
 
         $('.drop').css({
           top: $('.table.ui.three.column.celled.table')[0].offsetTop + cellHeight,
@@ -37,7 +41,7 @@ if (Meteor.isClient) {
           //top:14 + cellHeight,
           //left:14,
           width: 3*cellWidth,
-          height: 7*cellHeight + (7*(yearCount)*cellHeight)
+          height: 7*cellHeight + (7*(yearCount)*cellHeight) - cellHeight
         })
 
       var renderOrder = Session.get('renderOrder');
@@ -84,10 +88,22 @@ if (Meteor.isClient) {
         //
         //
         //
-        //
 
         var HTMLString = '<div class="drag"';
-        HTMLString += ' coords=' + HTMLArray[i].coords + ' >' + HTMLArray[i].courseInfo + '</div>';
+        HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
+        HTMLString += 		'<div class="ui buttons" style="width:100%;">\
+        					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\
+								<i class="remove icon link icon"></i>\
+							  </div>\
+							  <div class="ui right floated button" style=" background-color: rgba(0,0,0,0);">';
+		if(Session.get('show grades')) {
+			HTMLString += Session.get('currentUser').grades[HTMLArray[i].courseInfo];
+		}
+		HTMLString += '			</div>\
+							</div>';
+		//HTMLString += '<div class="ui fluid right labeled icon button" style="background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\n';
+        //HTMLString += '<i class="remove icon link icon"></i></div>';
+        HTMLString += '</div>';
         $('#dragAreaGrid')[0].innerHTML += HTMLString;
       }
 
@@ -100,7 +116,7 @@ if (Meteor.isClient) {
             yr = coordsObj.z,
             curDiv = $('.drag')[i];
 
-      if(col > 0) yr--;
+      if(col > 0 && yr > 0) yr--;
 
       $(curDiv).css({
           top: row*(cellHeight) + (7*(yr)*cellHeight),
@@ -126,36 +142,19 @@ if (Meteor.isClient) {
 
     fillYearArray(currentUser.startYear, currentUser.endYear);
 
-         //if (!currentUser) {
-          //Session.set('isSetupFinished',false);
-          //$('#dragArea')[0].className = "ui disable segment"
-          //$('#setupModal').modal({
-            //  onDeny : function(){
-
-              //},
-              //onApprove : function(){
-                //  Session.set('currentView','account settings');   
-              //}
-            //}).modal('show');
-
-      //} else {
-        //  Session.set('isSetupFinished',true);
-          //$('#dragArea')[0].className = "ui segment"
-    
-     //}
       
       if(!currentUser || !currentUser.importedSched){
         $('#dragAreaGrid')[0].innerHTML = "";
         return;
       }
+
           Session.set('schedule', currentUser.importedSched);
           resetSchedule(Session.get('schedule'));
      
            var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
-              //cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 6),
-              cellHeight = 37,
+              cellHeight = Number.parseInt($('.ui.three.column.celled.table')[0].offsetHeight / 7),
+              //cellHeight = 36,
               yearCount = currentUser.endYear - currentUser.startYear;
-
       
         jQuery(function($){
            var schedule = Session.get('schedule');
@@ -242,14 +241,44 @@ if (Meteor.isClient) {
                 $( this ).css({
                   background: "#BCE"
                 });
-          });
+          })
         });
 
 
   }
 
 
+Template.schedule.events({
+	'click .remove.icon' : function(event){
+		var schedule = Session.get('schedule');
+		var div = event.target.offsetParent.offsetParent;
+		var coords = JSON.parse(div.getAttribute('coords'));
+		schedule[coords.z][coords.x][coords.y] = "";
+		Session.set('schedule',schedule);
+		updateCourseSchedule(schedule);
+		//resetSchedule(schedule);
+	},
+	'click #showButtonProfile' : function(event){
+		Session.set('show grades',true);
+		Template.schedule.rendered();
+	},
+	'click #hideButtonProfile' : function(event){
+		Session.set('show grades',false);
+		Template.schedule.rendered();
+	},
+	'click #saveButtonProfile' : function(event){
+		window.print();
+	}
+})
+
+
   Template.schedule.helpers({
+  	remainingRequirements : function(){
+  		return remainingReqs(Session.get('currentUser').importedSched);
+  	},
+  	showingGrades : function(){
+    	return Session.get('show grades');
+    },
     subtractOne : function(year){
       var prevYear = Number(year) - 1;
       return prevYear + "";
@@ -257,15 +286,17 @@ if (Meteor.isClient) {
     yearsWithTitles: function () {
       var arr = [];
       var user = Session.get('currentUser');
-      if(!user)
-        return [1];
-      var startYear = 2000;
+      var startYear = Number(user.startYear);
+      var endYear = Number(user.endYear);
       if(user.startSem == 'Fall')
-        startYear = user.startYear++;
+        startYear++;
+	  if(user.endSem == 'Fall')
+	  	endYear++;
 
-      for(var i = 0; i < user.endYear - startYear; i++){
-          arr[i] = Number(user.startYear) + i;
+      for(var i = 0; i <= endYear - startYear; i++){
+          arr[i] = startYear + i;
       }
+
       return arr;
     },
 
@@ -315,10 +346,6 @@ if (Meteor.isClient) {
 
       return HTMLArray;
     }
-  });
-
-  Template.schedule.events({
-
   });
 
 }

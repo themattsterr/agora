@@ -46,14 +46,16 @@
                                 <tr><th>Course</th>
                                   <th>Semester</th>
                                   <th>Year</th>
+                                  <th>Grade</th>
                                 </tr>
                               </thead>
                               <tbody>
                               {{#each coursesFound}}
                                 <tr>
-                                  <td class="{{variation}} cell">{{identifier}}</td>
-                                  <td class="{{variation}} cell">{{semester}}</td>
-                                  <td class="{{variation}} cell">{{year}}</td>
+                                  <td class="{{courseVariation}} cell">{{identifier}}</td>
+                                  <td class="{{semVariation}} cell">{{semester}}</td>
+                                  <td class="{{yearVariation}} cell">{{year}}</td>
+                                  <td class="{{gradeVariation}} cell">{{grade}}</td>
                               </tr>
                               {{/each}}
                               </tbody>

@@ -1,6 +1,9 @@
 <template name="advisor">
 
 <div class="ui segment">
+<div class="ui grid">
+        <div class="two column row">
+            <div class="six wide column">
                 <div class="ui raised segment">
                     <form class="ui form">
                         <a class="ui ribbon label">Students</a>
@@ -11,7 +14,7 @@
                         
 
                           <div class="item">
-                            <div class="right floated compact ui button">View</div>
+                            <div class="right floated compact ui student button">View</div>
                             <div class="content">
                               <div class="header">{{lastName}}, {{firstName}}</div>
                                 {{nid}} - {{major}}
@@ -21,6 +24,19 @@
                         </div>
                     </form>
                 </div>
+			</div>
+			<div class="ten wide column">
+
+                <div class="ui segment">
+
+					{{#each studentYearsWithTitles}}
+							{{{studentScheduleHTML this}}}
+					{{/each}}
+
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 </template>

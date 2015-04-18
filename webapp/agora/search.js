@@ -38,23 +38,31 @@ if (Meteor.isClient) {
 	      return distinctEntries;
 	    },
 	    yearsWithTitles : function(){
-	    	var arr = [];
-	    	var curUser = Session.get('currentUser');
-			for(var i = 0; i <= Number(curUser.endYear)-Number(curUser.startYear); i++){
-				arr[i] = Number(curUser.startYear) + i;
-			}
-			return arr;
+		  var arr = [];
+		  var user = Session.get('currentUser');
+		  var startYear = Number(user.startYear);
+		  var endYear = Number(user.endYear);
+		  if(user.startSem == 'Fall')
+			startYear++;
+		  if(user.endSem == 'Fall')
+			endYear++;
+
+		  for(var i = 0; i <= endYear - startYear; i++){
+			  arr[i] = startYear + i;
+		  }
+
+		  return arr;
 	    },
 	    scheduledCoursesHTML: function(year) {
     		var sched = Session.get('currentUser').importedSched;
     		var curUser = Session.get('currentUser');
     		var yrIndex;
-    		if (curUser && curUser.startSem == 'Fall')
-    			year++;
+    		//if (curUser && curUser.startSem == 'Fall')
+    			//year++;
 
-    		if ( year > curUser.endYear) {
-    		    return "";
-    		}
+    		//if ( year > curUser.endYear && curUser.endSem != 'Fall') {
+    		    //return "";
+    		//}
 
 
 
@@ -69,18 +77,24 @@ if (Meteor.isClient) {
 				  ["","","","","",""],
 				  ["","","","","",""] ];
     		}
+    		
+    		var currYearSchedule = sched[yrIndex];
+    		if (yrIndex == sched.length) {
+    			 currYearSchedule = [
+				  ["","","","","",""],
+				  ["","","","","",""],
+				  ["","","","","",""] ];
+    		}
 
     		
-
-    		var currYearSchedule = sched[yrIndex];
     		var HTMLString = '<table class="ui three column celled table" style="margin-top:0;margin-bottom:0;"><thead><tr>';
     		HTMLString += '<th>Fall '+ Number(year-1) +'</th>';
     		HTMLString += '<th>Spring '+year+'</th>';
     		HTMLString += '<th>Summer '+year+'</th></tr></thead><tbody>';
 			for (var i = 0; i < 6; i++) {
-				HTMLString += '<tr><td style="text-align: center;" class="clickableCell" yr="' + (yrIndex-1) + '"col="0" row="'+i+'">'+prevYearSchedule[0][i]+'</td>';
-				HTMLString += '<td style="text-align: center;"  class="clickableCell" yr="' + yrIndex + '"col="1" row="'+i+'">'+currYearSchedule[1][i]+'</td>';
-				HTMLString += '<td style="text-align: center;"  class="clickableCell" yr="' + yrIndex + '"col="2" row="'+i+'">'+currYearSchedule[2][i]+'</td></tr>';
+				HTMLString += '<tr><td style="text-align: center; height:37px;" class="clickableCell" yr="' + (yrIndex-1) + '"col="0" row="'+i+'">'+prevYearSchedule[0][i]+'</td>';
+				HTMLString += '<td style="text-align: center; height:37px;"  class="clickableCell" yr="' + yrIndex + '"col="1" row="'+i+'">'+currYearSchedule[1][i]+'</td>';
+				HTMLString += '<td style="text-align: center; height:37px;"  class="clickableCell" yr="' + yrIndex + '"col="2" row="'+i+'">'+currYearSchedule[2][i]+'</td></tr>';
     		}
     		HTMLString += '</tbody></table>';
     		return HTMLString;
