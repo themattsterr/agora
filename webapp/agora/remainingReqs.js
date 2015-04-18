@@ -430,6 +430,6 @@ remainingReqs = function (sched, degreeRequirements){
   return degReqs;
 }; 
 
-/*DEBUG*/ console.log(sched);
-/*DEBUG*/ console.log(remainingReqs(sched, degreeRequirements));
-/*DEBUG*/ console.log(degreeRequirements);
+/*DEBUG/ console.log(sched);
+/*DEBUG/ console.log(remainingReqs(sched, degreeRequirements));
+/*DEBUG/ console.log(degreeRequirements);*/
