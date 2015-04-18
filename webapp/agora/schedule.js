@@ -86,10 +86,33 @@ if (Meteor.isClient) {
         //get current date
         //check if year and semester within current date
         //
-        //
-        //
+        //August 24, 2015 Fall
+        //May 18, 2015 Summer
+        //Jan 11, 2016 Spring 2016
+        var spring = [1,11];
+        var summer = [5,18];
+        var fall = [8,24];
+       
+        var rightNow = new Date();
+        var nowYear = rightNow.getFullYear();
+        var nowDate = rightNow.getDate();
+        var nowMonth = rightNow.getMonth();
+        var currentSemester = -1;
 
-        var HTMLString = '<div class="drag"';
+        if (nowMonth >= spring[0] && nowDate >= spring[1])
+        	currentSemester = 1;
+		if (nowMonth >= summer[0] && nowDate >= summer[1])
+			currentSemester = 2;
+		if (nowMonth >= fall[0] && nowDate >= fall[1])
+			currentSemester = 0;
+
+		console.log(currentSemester);
+
+        var HTMLString = '';
+        if(semester == currentSemester && Number(currentUser.startYear) + year <= nowYear)
+        	HTMLString += '<div class="drag locked"';
+        else
+        	HTMLString += '<div class="drag"';
         HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
         HTMLString += 		'<div class="ui buttons" style="width:100%;">\
         					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\
@@ -274,7 +297,8 @@ Template.schedule.events({
 
   Template.schedule.helpers({
   	remainingRequirements : function(){
-  		return remainingReqs(Session.get('currentUser').importedSched);
+  		//return remainingReqs(Session.get('currentUser').importedSched);
+  		return [];
   	},
   	showingGrades : function(){
     	return Session.get('show grades');

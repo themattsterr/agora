@@ -1,6 +1,5 @@
 
 
-
 var sampleSched = 
   [
     /*First Year*/
@@ -237,7 +236,6 @@ osPreReqs = ['COT 3960','COP 3223','COP 3330','COP 3502C','COP 3503C','COT 3100C
 console.log(
     allRequirementsFullfilled( osPreReqs, osCoReqs, fallTwelve)
 );
-
 
 
 

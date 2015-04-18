@@ -11,6 +11,8 @@ Input:
   Each semester array has .length classes.
 */
 
+
+
 //function made to replace console.log
 //the list is returned by remainingReqs which is called in meteor and the output
 // is printed in the remaining courses section of student profile
@@ -389,7 +391,7 @@ var dR = {
   gep :{
     courses: [],
     hours : 0
-  }
+  },
   cpp : {
     courses: [],
     hours : 0

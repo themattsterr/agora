@@ -73,7 +73,7 @@
 
    }
 
-.drag.still{
+.drag.locked{
 	background: #BCE;
 	cursor: default;
 	background-color: #e0e0e0;

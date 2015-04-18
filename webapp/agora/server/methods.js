@@ -165,5 +165,12 @@ Meteor.methods({
 	},
 	'importCourseSchedule' : function(idUser, scheduleData){
 		AGORAUsers.update({_id:idUser}, {$set:{importedSched: scheduleData} }, {upsert:true} );
+	},
+	'getCourseInfo' : function(courseCode){
+		var courseObj = AGORACourses.find(
+			{identifier:courseCode}
+		).fetch();
+		
+		console.log(courseObj);
 	}
 });
