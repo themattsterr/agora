@@ -106,18 +106,20 @@ if (Meteor.isClient) {
 		if (nowMonth >= fall[0] && nowDate >= fall[1])
 			currentSemester = 0;
 
-		console.log(currentSemester);
-
         var HTMLString = '';
-        if(semester == currentSemester && Number(currentUser.startYear) + year <= nowYear)
+        if(semester <= currentSemester || Number(currentUser.startYear) + year <= nowYear)
         	HTMLString += '<div class="drag locked"';
         else
         	HTMLString += '<div class="drag"';
         HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
         HTMLString += 		'<div class="ui buttons" style="width:100%;">\
-        					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\
-								<i class="remove icon link icon"></i>\
-							  </div>\
+        					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo;
+		if(semester <= currentSemester || Number(currentUser.startYear) + year <= nowYear)
+			HTMLString += 			'';
+		else
+			HTMLString += 			'<i class="remove icon link icon"></i>';
+		
+		HTMLString +=		  '</div>\
 							  <div class="ui right floated button" style=" background-color: rgba(0,0,0,0);">';
 		if(Session.get('show grades')) {
 			HTMLString += Session.get('currentUser').grades[HTMLArray[i].courseInfo];
