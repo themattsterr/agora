@@ -24,6 +24,15 @@ if (Meteor.isClient) {
 		Template.schedule.rendered();
   	}
 
+	var semesterToNumber = function(sem){
+			if (sem == "Fall") return 3;
+			else if (sem == "Spring") return 1;
+			else if (sem == "Summer") return 2;
+			else if (sem == 0) return 3;
+			else if (sem == 1 || sem == 2) return sem;
+			else return -1;
+		}
+
   var resetSchedule = function(scheduleData){
       
      var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
@@ -106,15 +115,30 @@ if (Meteor.isClient) {
 		if (nowMonth >= fall[0] && nowDate >= fall[1])
 			currentSemester = 0;
 
+		var locked = true;
+
+		if(Number(currentUser.startYear)+year > nowYear ) locked = false;
+
+		if(Number(currentUser.startYear)+year == nowYear && semesterToNumber(semester) > semesterToNumber(currentSemester)) locked = false;
+
+        /*if(semesterToNumber(semester) <= semesterToNumber(currentSemester) || Number(currentUser.startYear) + year < nowYear)
+        	locked = true
+        else if (semesterToNumber(semester) == semesterToNumber(currentSemester) && Number(currentUser.startYear) + year == nowYear)
+        	locked = true;
+        else if (Number(currentUser.startYear) + year > nowYear)
+        	locked = false;*/
+
+        
+
         var HTMLString = '';
-        if(semester <= currentSemester || Number(currentUser.startYear) + year <= nowYear)
+        if(locked)
         	HTMLString += '<div class="drag locked"';
         else
-        	HTMLString += '<div class="drag"';
+        	HTMLString += '<div class="drag move"';
         HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
         HTMLString += 		'<div class="ui buttons" style="width:100%;">\
         					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo;
-		if(semester <= currentSemester || Number(currentUser.startYear) + year <= nowYear)
+        if(locked)
 			HTMLString += 			'';
 		else
 			HTMLString += 			'<i class="remove icon link icon"></i>';
@@ -206,7 +230,7 @@ if (Meteor.isClient) {
               return {x: gridX, y: gridY, z: gridZ};
            }
 
-           $('.drag')
+           $('.drag.move')
             .drag("start",function( ev, dd ){
                 schedule = Session.get('schedule');
                 var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
