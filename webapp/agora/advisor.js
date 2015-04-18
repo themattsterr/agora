@@ -66,9 +66,13 @@ if(Meteor.isClient){
     		HTMLString += '<th>Spring '+year+'</th>';
     		HTMLString += '<th>Summer '+year+'</th></tr></thead><tbody>';
 			for (var i = 0; i < 6; i++) {
+				if (Session.get('currentStudent').grades){
 				var fallGrade = Session.get('currentStudent').grades[prevYearSchedule[0][i]];
 				var springGrade = Session.get('currentStudent').grades[currYearSchedule[1][i]];
 				var summerGrade = Session.get('currentStudent').grades[currYearSchedule[2][i]];
+				} else {
+					var fallGrade, springGrade, summerGrade;
+				}
 				
 				if(fallGrade)
 					HTMLString += '<tr><td style="text-align: center; height:37px;" yr="' + (yrIndex-1) + '"col="0" row="'+i+'">'+prevYearSchedule[0][i]+'  |  '+fallGrade+'</td>';
