@@ -119,7 +119,7 @@ var degreeRequirements =
     
   
   
-/* Returns a sample user schedule */
+/* a sample user schedule */
 var sched = 
   [
     /*First Year*/
@@ -158,7 +158,13 @@ var sched =
     ]
   ];
 
-
+/*
+  Input: 
+    a user's schedule
+    the courses required for a degree
+  Output:
+    the courses still required of the user for a degree 
+*/
 remainingReqs = function (sched, degreeRequirements){
 
   var returnList = [];
