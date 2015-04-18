@@ -11,14 +11,14 @@ requirements = {
 			choices[1] will be an array of preferred courses, if applicable.*/
 		A : ["ENC 1101","ENC 1102", 
 				choices = 	[
-								["Any", "Communication", "Course"], 
+								["Any Communication Course"], 
 								["SPC1603C"]
 							]
 			],
 		
 		B : [
 				choices = 	[
-								["Any", "Cultural", "& Historical", "Course"]
+								["Any Cultural & Historical Course"]
 							]
 			],
 		
@@ -26,13 +26,13 @@ requirements = {
 
 		D : [
 				choices = 	[
-								["Any", "Social Foundation", "Course"]
+								["Any Social Foundation Course"]
 							]
 			],
 
 		E : [
 				choices =	[
-								["Any", "Science", "Foundation Course"], 
+								["Any Science Foundation Course"], 
 								["BSC2010C","PHY2048C"]
 							]
 			],
@@ -120,19 +120,19 @@ requirements = {
 
 // its a litte weird because the order shown on the website is actually Fall 2011, Spring 2012, Summer 2012
 		var sched = 
-		[// schedule[0] is the first year
-		  [ //schedule[0][0] is the first semester (fall) of the first year 
-		      ["COP 3223", "ECO 2013", "MAC 2311C", "MAC 2312", "PHY 2053C", "ENC 1101"], //Fall 2011
-		      ["", "", "", "", "", ""], //Spring 2011
-		      ["", "", "", "", "", ""]  //Summer 2011
+		[
+		  [ 
+		      ["COP 3223", "ECO 2013", "MAC 2311C", "MAC 2312", "PHY 2053C", "ENC 1101"], 
+		      ["", "", "", "", "", ""], 
+		      ["", "", "", "", "", ""]  
 		  ],
 		  [   
-		      ["BSC 2010C", "COP 3330", "COP 3502C", "COT 3100C", "", ""], //Fall 2012
-		      ["PHY 2048C", "ENC 1102", "STA 2023", "REL 2300", "", ""], //Spring 2012
-		      ["", "", "", "", "", ""]  //Summer 2012
+		      ["BSC 2010C", "COP 3330", "COP 3502C", "COT 3100C", "", ""], 
+		      ["PHY 2048C", "ENC 1102", "STA 2023", "REL 2300", "", ""], 
+		      ["", "", "", "", "", ""]  
 		  ],
 		  [   
-		      ["CIS 3360", "COP 3402", "MAS 3105", "PHY 3101", "", ""], //Fall 2013
+		      ["CIS 3360", "COP 3402", "MAS 3105", "PHY 3101", "", ""], 
 		      ["COP 3503C", "PHI 2010", "PHY 2049C", "PSY 2012", "SPC 1608", "WOH 2022"],
 		      ["CDA 3103", "MAC 2313", "", "", "", ""]
 		  ],
