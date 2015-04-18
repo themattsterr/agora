@@ -92,9 +92,9 @@ if (Meteor.isClient) {
     		HTMLString += '<th>Spring '+year+'</th>';
     		HTMLString += '<th>Summer '+year+'</th></tr></thead><tbody>';
 			for (var i = 0; i < 6; i++) {
-				HTMLString += '<tr><td style="text-align: center;" class="clickableCell" yr="' + (yrIndex-1) + '"col="0" row="'+i+'">'+prevYearSchedule[0][i]+'</td>';
-				HTMLString += '<td style="text-align: center;"  class="clickableCell" yr="' + yrIndex + '"col="1" row="'+i+'">'+currYearSchedule[1][i]+'</td>';
-				HTMLString += '<td style="text-align: center;"  class="clickableCell" yr="' + yrIndex + '"col="2" row="'+i+'">'+currYearSchedule[2][i]+'</td></tr>';
+				HTMLString += '<tr><td style="text-align: center; height:37px;" class="clickableCell" yr="' + (yrIndex-1) + '"col="0" row="'+i+'">'+prevYearSchedule[0][i]+'</td>';
+				HTMLString += '<td style="text-align: center; height:37px;"  class="clickableCell" yr="' + yrIndex + '"col="1" row="'+i+'">'+currYearSchedule[1][i]+'</td>';
+				HTMLString += '<td style="text-align: center; height:37px;"  class="clickableCell" yr="' + yrIndex + '"col="2" row="'+i+'">'+currYearSchedule[2][i]+'</td></tr>';
     		}
     		HTMLString += '</tbody></table>';
     		return HTMLString;

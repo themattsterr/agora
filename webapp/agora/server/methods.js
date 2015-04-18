@@ -21,7 +21,7 @@ Meteor.methods({
 			numOfCourses: numOfCourses,
 		});
 	},
-	'updateUserData': function(id, first, last, major, catalog, startSem, startYear, endSem, endYear, advisor, nid, numOfCourses){
+	'updateUserData': function(id, first, last, major, catalog, startSem, startYear, endSem, endYear, advisor, nid, numOfCourses,grades){
 		var updateCount = AGORAUsers.update(
 		{_id:id},			//selector
 		{	$set :{				//modifier
@@ -38,6 +38,7 @@ Meteor.methods({
 			advisor: advisor,
 			nid: nid,
 			numOfCourses: numOfCourses,
+			grades: grades
 		}},	{upsert : false});
 	},
 	'addStudentToAdvisorList' :function(id_Advisor,id_Student){
@@ -56,7 +57,7 @@ Meteor.methods({
 	},
 	'parseCourseData' : function(courseData){
 
-		var regex = /((FA|SP|SU)[0-3][0-9]) ([A-Z]{3})(\d{4}(H|C)*)/gm
+		var regex = /((FA|SP|SU)[0-3][0-9]) ([A-Z]{3})(\d{4}(H|C)*).+?(\d{1,2}\.\d{1}) (.{1,3})/gm
 		var arr = courseData.match(regex);
 		var coursesToAdd = [];
 		var sched = 
@@ -89,7 +90,7 @@ Meteor.methods({
 		];
 		var yearStart = Number(arr[0].split(' ')[0].substr(2));
 		var yearEnd = Number(arr[arr.length - 1].split(' ')[0].substr(2));
-
+		console.log(arr);
 		for(var i in arr){
 			var semYear = arr[i].split(' ')[0];
 			var identifier = arr[i].split(' ')[1].substr(0,3) + ' ' + arr[i].split(' ')[1].substr(3);
@@ -102,9 +103,18 @@ Meteor.methods({
 				col = 1;
 			else if (semYear.substr(0,2) == 'SU')
 				col = 2;
-
 			
 			var course = {identifier: identifier, yr: year, col: col};
+
+			for(var j = 2; j < arr.length; j++){
+				if (arr[i].split(' ')[j] != ""){
+					course.credits = arr[i].split(' ')[j];
+					course.grade = arr[i].split(' ')[j+1];
+					break;
+				}
+			}
+			
+
 			if (col >= 0) coursesToAdd.push(course);
 		}
 		
@@ -113,7 +123,7 @@ Meteor.methods({
 		for(var i in coursesToAdd) {
 			var curCourse = coursesToAdd[i];
 			if (AGORACourses.findOne({identifier:curCourse.identifier})) numFound++;
-			else curCourse.variation = "warning";
+			else curCourse.courseVariation = "warning";
 			if (curCourse.yr < yearStart) yearStart = curCourse.yr;
 			if (curCourse.yr > yearEnd) yearEnd = curCourse.yr;
 

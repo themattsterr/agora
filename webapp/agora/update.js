@@ -249,7 +249,7 @@ if(Meteor.isClient){
             fillYearArray(user.startYear,user.endYear);
             Session.set('currentUser',user);
             Meteor.call('updateUserData',user._id,user.firstName,user.lastName,user.major,user.catalog,
-                user.startSem,user.startYear,user.endSem,user.endYear,user.advisor,user.nid,user.numOfCourses,
+                user.startSem,user.startYear,user.endSem,user.endYear,user.advisor,user.nid,user.numOfCourses,user.grades,
                 function(error,result){
                     if(error) console.log(error);
                 }

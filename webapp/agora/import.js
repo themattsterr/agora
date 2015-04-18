@@ -96,13 +96,13 @@ if(Meteor.isClient){
 					for (var i in result.courses){
 						var curCourse = result.courses[i];
 						if (curCourse.year < Number(user.startYear) || curCourse.year > Number(user.endYear)){
-							result.courses[i].variation = "negative";
+							result.courses[i].yearVariation = "negative";
 						} else if (curCourse.year == Number(user.startYear)){
 							if (semesterToNumber(curCourse.col) < semesterToNumber(user.startSem))
-								result.courses[i].variation = "negative";
+								result.courses[i].semVariation = "negative";
 						} else if (curCourse.year == Number(user.endYear)){
 							if (semesterToNumber(curCourse.col) > semesterToNumber(user.endSem))
-								result.courses[i].variation = "negative";
+								result.courses[i].semVariation = "negative";
 						}
 					}
 					Session.set('foundSchedule', result);
@@ -142,13 +142,15 @@ if(Meteor.isClient){
 
 			var yearStart = Number(user.startYear.substr(2));
 			var numAdded = 0;
+			user.grades = {};
 			for (var i in coursesToAdd){
 				var curCourse = coursesToAdd[i];
-				if (coursesToAdd[i].variation != "negative"){
+				if (coursesToAdd[i].yearVariation != "negative" && coursesToAdd[i].semVariation != "negative" ){
 					for (var curRow in sched[curCourse.yr - yearStart][curCourse.col]){
 						if (sched[curCourse.yr - yearStart][curCourse.col][curRow] == ""){
 							sched[curCourse.yr- yearStart][curCourse.col][curRow] = curCourse.identifier;
 							numAdded++;
+							user.grades[curCourse.identifier] = curCourse.grade;
 							break;
 						}
 					}
@@ -173,6 +175,7 @@ if(Meteor.isClient){
 				user.advisor,
 				user.nid,
 				user.numOfCourses,
+				user.grades,
 				function (error, result) {
 					if (!error) {
 

@@ -21,6 +21,7 @@ if (Meteor.isClient) {
 		user.importedSched = scheduleData;
 		Session.set('currentUser',user);
 		Meteor.call('importCourseSchedule',user._id, scheduleData);
+		Template.schedule.rendered();
   	}
 
   var resetSchedule = function(scheduleData){
@@ -87,12 +88,21 @@ if (Meteor.isClient) {
         //
         //
         //
-        //
 
         var HTMLString = '<div class="drag"';
         HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
-        HTMLString += '<div class="ui fluid right labeled icon button" style="background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\n';
-        HTMLString += '<i class="remove icon link icon"></i></div>';
+        HTMLString += 		'<div class="ui buttons" style="width:100%;">\
+        					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\
+								<i class="remove icon link icon"></i>\
+							  </div>\
+							  <div class="ui right floated button" style=" background-color: rgba(0,0,0,0);">';
+		if(Session.get('show grades')) {
+			HTMLString += Session.get('currentUser').grades[HTMLArray[i].courseInfo];
+		}
+		HTMLString += '			</div>\
+							</div>';
+		//HTMLString += '<div class="ui fluid right labeled icon button" style="background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\n';
+        //HTMLString += '<i class="remove icon link icon"></i></div>';
         HTMLString += '</div>';
         $('#dragAreaGrid')[0].innerHTML += HTMLString;
       }
@@ -132,28 +142,12 @@ if (Meteor.isClient) {
 
     fillYearArray(currentUser.startYear, currentUser.endYear);
 
-         //if (!currentUser) {
-          //Session.set('isSetupFinished',false);
-          //$('#dragArea')[0].className = "ui disable segment"
-          //$('#setupModal').modal({
-            //  onDeny : function(){
-
-              //},
-              //onApprove : function(){
-                //  Session.set('currentView','account settings');   
-              //}
-            //}).modal('show');
-
-      //} else {
-        //  Session.set('isSetupFinished',true);
-          //$('#dragArea')[0].className = "ui segment"
-    
-     //}
       
       if(!currentUser || !currentUser.importedSched){
         $('#dragAreaGrid')[0].innerHTML = "";
         return;
       }
+
           Session.set('schedule', currentUser.importedSched);
           resetSchedule(Session.get('schedule'));
      
@@ -203,7 +197,7 @@ if (Meteor.isClient) {
                   background: "#85A1DA"
                 });
 
-            },{ not:'i' })
+            })
            .drag(function( ev, dd ){
 
               var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
@@ -262,12 +256,29 @@ Template.schedule.events({
 		schedule[coords.z][coords.x][coords.y] = "";
 		Session.set('schedule',schedule);
 		updateCourseSchedule(schedule);
-		resetSchedule(schedule);
+		//resetSchedule(schedule);
+	},
+	'click #showButtonProfile' : function(event){
+		Session.set('show grades',true);
+		Template.schedule.rendered();
+	},
+	'click #hideButtonProfile' : function(event){
+		Session.set('show grades',false);
+		Template.schedule.rendered();
+	},
+	'click #saveButtonProfile' : function(event){
+		window.print();
 	}
 })
 
 
   Template.schedule.helpers({
+  	remainingRequirements : function(){
+  		return remainingReqs(Session.get('currentUser').importedSched);
+  	},
+  	showingGrades : function(){
+    	return Session.get('show grades');
+    },
     subtractOne : function(year){
       var prevYear = Number(year) - 1;
       return prevYear + "";

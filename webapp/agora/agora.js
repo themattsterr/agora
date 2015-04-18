@@ -4,7 +4,7 @@
 
 if (Meteor.isClient) {
 
-
+  Session.setDefault('show grades',false);
   Session.setDefault('searchParam', {});
   Session.setDefault('selectedCourse',null);
   Session.setDefault('selectedCard',null);
