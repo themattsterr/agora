@@ -24,6 +24,15 @@ if (Meteor.isClient) {
 		Template.schedule.rendered();
   	}
 
+	var semesterToNumber = function(sem){
+			if (sem == "Fall") return 3;
+			else if (sem == "Spring") return 1;
+			else if (sem == "Summer") return 2;
+			else if (sem == 0) return 3;
+			else if (sem == 1 || sem == 2) return sem;
+			else return -1;
+		}
+
   var resetSchedule = function(scheduleData){
       
      var cellWidth = $('#dragArea')[0].offsetWidth / 3 - 10,
@@ -86,15 +95,55 @@ if (Meteor.isClient) {
         //get current date
         //check if year and semester within current date
         //
-        //
-        //
+        //August 24, 2015 Fall
+        //May 18, 2015 Summer
+        //Jan 11, 2016 Spring 2016
+        var spring = [1,11];
+        var summer = [5,18];
+        var fall = [8,24];
+       
+        var rightNow = new Date();
+        var nowYear = rightNow.getFullYear();
+        var nowDate = rightNow.getDate();
+        var nowMonth = rightNow.getMonth();
+        var currentSemester = -1;
 
-        var HTMLString = '<div class="drag"';
+        if (nowMonth >= spring[0] && nowDate >= spring[1])
+        	currentSemester = 1;
+		if (nowMonth >= summer[0] && nowDate >= summer[1])
+			currentSemester = 2;
+		if (nowMonth >= fall[0] && nowDate >= fall[1])
+			currentSemester = 0;
+
+		var locked = true;
+
+		if(Number(currentUser.startYear)+year > nowYear ) locked = false;
+
+		if(Number(currentUser.startYear)+year == nowYear && semesterToNumber(semester) > semesterToNumber(currentSemester)) locked = false;
+
+        /*if(semesterToNumber(semester) <= semesterToNumber(currentSemester) || Number(currentUser.startYear) + year < nowYear)
+        	locked = true
+        else if (semesterToNumber(semester) == semesterToNumber(currentSemester) && Number(currentUser.startYear) + year == nowYear)
+        	locked = true;
+        else if (Number(currentUser.startYear) + year > nowYear)
+        	locked = false;*/
+
+        
+
+        var HTMLString = '';
+        if(locked)
+        	HTMLString += '<div class="drag locked"';
+        else
+        	HTMLString += '<div class="drag move"';
         HTMLString += ' coords=' + HTMLArray[i].coords + ' >' 
         HTMLString += 		'<div class="ui buttons" style="width:100%;">\
-        					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo + '\
-								<i class="remove icon link icon"></i>\
-							  </div>\
+        					<div class="ui labeled  icon button" style=" background-color: rgba(0,0,0,0);">' + HTMLArray[i].courseInfo;
+        if(locked)
+			HTMLString += 			'';
+		else
+			HTMLString += 			'<i class="remove icon link icon"></i>';
+		
+		HTMLString +=		  '</div>\
 							  <div class="ui right floated button" style=" background-color: rgba(0,0,0,0);">';
 		if(Session.get('show grades')) {
 			HTMLString += Session.get('currentUser').grades[HTMLArray[i].courseInfo];
@@ -181,7 +230,7 @@ if (Meteor.isClient) {
               return {x: gridX, y: gridY, z: gridZ};
            }
 
-           $('.drag')
+           $('.drag.move')
             .drag("start",function( ev, dd ){
                 schedule = Session.get('schedule');
                 var coords = gridCoords($(this)[0].offsetLeft,$(this)[0].offsetTop);
@@ -274,7 +323,8 @@ Template.schedule.events({
 
   Template.schedule.helpers({
   	remainingRequirements : function(){
-  		return remainingReqs(Session.get('currentUser').importedSched);
+  		//return remainingReqs(Session.get('currentUser').importedSched);
+  		return [];
   	},
   	showingGrades : function(){
     	return Session.get('show grades');

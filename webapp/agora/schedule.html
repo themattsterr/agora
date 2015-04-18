@@ -11,13 +11,15 @@
 							<a class="ui ribbon label">Remaining Courses</a>
 							<div class="hidden divider"></div>
 							<div class="ui divided list">
-                       		{{#each remainingRequirements}}
-                          		<div class="item">
-									<div class="content">
-									  <div class="header">{{this}}</div>
-									</div>
-								  </div>
-							{{/each}}
+                       		{{#with remainingRequirements}}
+								{{#each gep.courses}}
+									<div class="item">
+										<div class="content">
+										  <div class="header">{{this}}</div>
+										</div>
+									  </div>
+								{{/each}}
+							{{/with}}
 							</div>
 						</form>
 				</div>

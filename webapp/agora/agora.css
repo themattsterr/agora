@@ -73,11 +73,14 @@
 
    }
 
-.drag.still{
+.drag.locked{
+	border: black;
+    border-width: thin;
+    border-style: solid;
 	background: #BCE;
 	cursor: default;
 	background-color: #e0e0e0;
-	border: none;
+
 }
 
 .course.cell{

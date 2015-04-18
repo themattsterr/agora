@@ -12,6 +12,7 @@ Input:
 */
 
 /*function made to replace console.log
+
 //the list is returned by remainingReqs which is called in meteor and the output
 // is printed in the remaining courses section of student profile
 exports.addToList = function (list,data){
@@ -424,6 +425,7 @@ remainingReqs = function (sched, degreeRequirements){
 
     degReqs.other.courses.push(degreeRequirements.Other.courses);
     degReqs.other.courses.push(degreeRequirements.Other.choices.A);
+
 
   return degReqs;
 }; 
