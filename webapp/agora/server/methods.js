@@ -57,7 +57,7 @@ Meteor.methods({
 	},
 	'parseCourseData' : function(courseData){
 
-		var regex = /((FA|SP|SU)[0-3][0-9]) ([A-Z]{3})(\d{4}(H|C)*).+?(\d{1,2}\.\d{1}) (.{1,3})/gm
+		var regex = /((FA|SP|SU)[0-3][0-9]) ([A-Z]{3})(\d{4}[HC]*).+?(\d{1,2}\.\d{1}) (.{1,3})/gm
 		var arr = courseData.match(regex);
 		var coursesToAdd = [];
 		var sched = 
@@ -90,7 +90,7 @@ Meteor.methods({
 		];
 		var yearStart = Number(arr[0].split(' ')[0].substr(2));
 		var yearEnd = Number(arr[arr.length - 1].split(' ')[0].substr(2));
-		console.log(arr);
+
 		for(var i in arr){
 			var semYear = arr[i].split(' ')[0];
 			var identifier = arr[i].split(' ')[1].substr(0,3) + ' ' + arr[i].split(' ')[1].substr(3);
@@ -106,7 +106,7 @@ Meteor.methods({
 			
 			var course = {identifier: identifier, yr: year, col: col};
 
-			for(var j = 2; j < arr.length; j++){
+			for(var j = 2; j < arr[i].split(' ').length; j++){
 				if (arr[i].split(' ')[j] != ""){
 					course.credits = arr[i].split(' ')[j];
 					course.grade = arr[i].split(' ')[j+1];

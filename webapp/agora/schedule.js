@@ -323,8 +323,8 @@ Template.schedule.events({
 
   Template.schedule.helpers({
   	remainingRequirements : function(){
-  		//return remainingReqs(Session.get('currentUser').importedSched);
-  		return [];
+  		return remainingReqs(Session.get('currentUser').importedSched);
+  		//return [];
   	},
   	showingGrades : function(){
     	return Session.get('show grades');
