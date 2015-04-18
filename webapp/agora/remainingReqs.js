@@ -390,6 +390,11 @@ remainingReqs = function (sched, degreeRequirements){
     gep :{
       courses: [],
       hours : 0
+      names: ["Communication Foundations",
+          "Cultural & Historical Foundations",
+          "Mathematical Foundations",
+          "Social Foundations",
+          "Science Foundations"]
     },
     cpp : {
       courses: [],
