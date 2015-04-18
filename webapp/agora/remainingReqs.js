@@ -11,21 +11,18 @@ Input:
   Each semester array has .length classes.
 */
 
-//function made to replace console.log
+/*function made to replace console.log
 //the list is returned by remainingReqs which is called in meteor and the output
 // is printed in the remaining courses section of student profile
-function addToList(list,data){
+exports.addToList = function (list,data){
   if(list.indexOf(data) < 0)
     list.push(data);
-}
+}*/
 
-
-remainingReqs = function (sched){
-
-  var returnList = [];
-  /*Start with the original degreeRequirements*/
-  degreeRequirements = {
-    
+/*Start with the original degreeRequirements. 
+TODO: Consider a function that can parse the copy/paste info from the CourseCatalog*/
+var degreeRequirements = 
+  { 
     GEP : {
       /*The total number of hours required for the 
       GEP (General Education Program) requirements.*/
@@ -118,12 +115,12 @@ remainingReqs = function (sched){
         hours: {A: 0}
       }
     }
-  }/*end original degreeRequirements*/
-
- 
-
-  /* a sample user schedule */
-  var sched = 
+  };
+    
+  
+  
+/* Returns a sample user schedule */
+var sched = 
   [
     /*First Year*/
     [ 
@@ -162,6 +159,9 @@ remainingReqs = function (sched){
   ];
 
 
+remainingReqs = function (sched, degreeRequirements){
+
+  var returnList = [];
 
   /*  
     Post-conditions:
@@ -169,8 +169,7 @@ remainingReqs = function (sched){
   */
   for (var yr in sched)
   {
-    console.log("Year: " + yr);
-
+    
     /* Iterate through each semester of this yr*/
     for (var semest=0; semest<sched[yr].length; semest++)
     {     
@@ -302,13 +301,13 @@ remainingReqs = function (sched){
         /*Iterate through each degreeRequirements.CPP*/
           for (var j=0; j<degreeRequirements.CPP.courses.length; j++)
           {
-            /* DEBUG */ console.log("in CPP, comparing " + sched[yr][semest][takenCourse] + " to " + degreeRequirements.CPP.courses[j] +" ==> " + (sched[yr][semest][takenCourse] == degreeRequirements.CPP.courses[j]));
+            /* DEBUG  console.log("in CPP, comparing " + sched[yr][semest][takenCourse] + " to " + degreeRequirements.CPP.courses[j] +" ==> " + (sched[yr][semest][takenCourse] == degreeRequirements.CPP.courses[j]));*/
             /* If the course satisfies a degReq.CPP, remove it from degreeRequirements.CPP*/
             if (sched[yr][semest][takenCourse] == degreeRequirements.CPP.courses[j])
             {
               /* Splice out the satisfied requirement */
               degreeRequirements.CPP.courses.splice(j, 1);
-              /* DEBUG */ console.log("remainingReqs CPP: " +degreeRequirements.CPP.courses);
+              /* DEBUG  console.log("remainingReqs CPP: " +degreeRequirements.CPP.courses);*/
             }
           }
         /* Iterate through all degReq.CPP.choices.A[] */
@@ -347,8 +346,7 @@ remainingReqs = function (sched){
           {
             /* Splice out the satisfied requirement */
             degreeRequirements.Core.courses.splice(j, 1);
-            /* DEBUG */ console.log("remainingReqs Core: " +degreeRequirements.Core.courses);
-            addToList(returnList,degreeRequirements.Core.courses);
+            /* DEBUG  console.log("remainingReqs Core: " +degreeRequirements.Core.courses);*/
           }
         }
 
@@ -360,8 +358,7 @@ remainingReqs = function (sched){
           {
             /* Splice out the satisfied requirement */
             degreeRequirements.Restricted.courses.splice(j, 1);
-            /* DEBUG */ console.log("remainingReqs Restricted: " +degreeRequirements.Restricted.courses);
-            addToList(returnList,degreeRequirements.Restricted.courses);
+            /* DEBUG  console.log("remainingReqs Restricted: " +degreeRequirements.Restricted.courses);*/
           }
         }
 
@@ -373,39 +370,58 @@ remainingReqs = function (sched){
           {
             /* Splice out the satisfied requirement */
             degreeRequirements.Other.courses.splice(j, 1);
-            /* DEBUG */ console.log("remainingReqs Other: " +degreeRequirements.Other.courses);
-            addToList(returnList,degreeRequirements.Other.courses);
+            /* DEBUG  console.log("remainingReqs Other: " +degreeRequirements.Other.courses);*/
           }
         }
       }
     }
   }
 
-  return degreeRequirements;
-
-} 
-
-var dR = {
-  gep :{
-    courses: [],
-    hours : 0
+  /*Push the remaining requirements to an output object*/
+  var degReqs = 
+  {
+    gep :{
+      courses: [],
+      hours : 0
+    },
+    cpp : {
+      courses: [],
+      hours : 0
+    },
+    core : {
+      courses: [],
+      hours : 0
+    },
+    restricted : {
+      courses: [],
+      hours : 0
+    },
+    other : {
+      courses: [],
+      hours : 0
+    }
   }
-  cpp : {
-    courses: [],
-    hours : 0
-  },
-  core : {
-    courses: [],
-    hours : 0
-  },
-  restricted : {
-    courses: [],
-    hours : 0
-  },
-  other : {
-    courses: [],
-    hours : 0
-  }
-}
+    degReqs.gep.courses.push(degreeRequirements.GEP.courses);
+    degReqs.gep.courses.push(degreeRequirements.GEP.choices.A);
+    degReqs.gep.courses.push(degreeRequirements.GEP.choices.B);
+    degReqs.gep.courses.push(degreeRequirements.GEP.choices.C);
+    degReqs.gep.courses.push(degreeRequirements.GEP.choices.D);
+    degReqs.gep.courses.push(degreeRequirements.GEP.choices.E);
 
+    degReqs.cpp.courses.push(degreeRequirements.CPP.courses);
+    degReqs.cpp.courses.push(degreeRequirements.CPP.choices.A);
 
+    degReqs.core.courses.push(degreeRequirements.Core.courses);
+
+    degReqs.restricted.courses.push(degreeRequirements.Restricted.choices.A);  
+    degReqs.restricted.courses.push(degreeRequirements.Restricted.choices.B);
+
+    degReqs.other.courses.push(degreeRequirements.Other.courses);
+    degReqs.other.courses.push(degreeRequirements.Other.choices.A);
+
+  return degReqs;
+}; 
+
+/*DEBUG*/ console.log(sched);
+/*DEBUG*/ console.log(remainingReqs(sched, degreeRequirements));
+/*DEBUG*/ console.log(degreeRequirements);
