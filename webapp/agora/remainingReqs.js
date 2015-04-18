@@ -381,8 +381,16 @@ remainingReqs = function (sched){
     }
   }
 
-  return returnList;
+  return degreeRequirements;
 
-}  
+} 
+
+var dR = {
+  gep :[],
+  cpp : [],
+  core : [],
+  restricted : [],
+  other : []
+}
 
 
