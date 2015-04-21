@@ -5,6 +5,13 @@
 
 if (Meteor.isClient) {
 
+	var checkIfValidMove = function(course, coords){
+		//inlvalid because loccked semester
+		// beacuse not all prereqs met
+		// because course not offered in chosen semester
+
+	}
+
   	var fillYearArray = function(start,end){
 		start = Number(start.substr(2,2));
 		end = Number(end.substr(2,2));
@@ -359,7 +366,14 @@ Template.schedule.events({
     userInfo : function () {
       return Session.get('currentUser');
     },
-
+	gepNameFromIndex : function(index){
+		var names = ["Communication Foundations",
+          "Cultural & Historical Foundations",
+          "Mathematical Foundations",
+          "Social Foundations",
+          "Science Foundations"];
+		return names[index];
+	},
     scheduleHTMLArray: function () {
       //var curUserId = Session.get('currentUser');
       //Session.set('schedule', AGORAUsers.findOne({_id:curUserId}).importedSched);

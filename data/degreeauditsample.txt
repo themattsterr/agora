@@ -1,15 +1,49 @@
+Case 1
+=================================
+email: john@knights.ucf.edu
+pass: john
+
 FA14 ENC1101       3.0 B       
 FA14 COP3223       3.0 B  
 FA14 ECO2013       3.0 B
-FA14 MAC2312       4.0 C
+FA14 MAC2311C      4.0 C
+
 SP15 ENC1102       3.0 A
-SP15 REL2300       3.0 B-
 SP15 PHY2048C      4.0 B      
 SP15 COT3100C      3.0 B
+SP15 MAC2312       4.0 A
+
+FA15 CDA3103       3.0 -
+FA15 COP3330 	   3.0 -
+
+
+Case 2
+=================================
+email: jane&knights.ucf.edu
+pass: jane
+
+SP14 ENC1101       3.0 B       
+SP14 COP3223       3.0 B  
+SP14 ECO2013       3.0 B
+SP14 MAC2311C      4.0 C
+
+FA14 ENC1102       3.0 A
+FA14 PHY2048C      4.0 B      
+FA14 COT3100C      3.0 B
+FA14 MAC2312       4.0 A
+
+SP15 CDA3103       3.0 C-
+SP15 COP3330       3.0 B
+SP15 COP3502C      3.0 A
+SP15 COP3402       3.0 B
+
+FA15 COP3503C      3.0 -
+FA15 COT3960       3.0 -
+
+=================================
 
 
 
-in the future
 
       FA15 BSC2010C      4.0 C      FA15 COP3330       3.0 A
       FA15 COP3502C      3.0 B      FA15 COT3100C      3.0 B+

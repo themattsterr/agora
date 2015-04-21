@@ -3500,7 +3500,7 @@ courses = [
         "college": "ECS-ECE",
         "cedits": "3(3,0)",
         "title": "Computer Logic and Organization:",
-        "prereqs": " PR: {COP 3223} with a grade of “C” (2.0) or better; CR: {COT 3100C} or {MHF 3302} or {MAD 2104}. Logic design, computer arithmetic, Instruction Set Architecture (MIPS, SPIM simulator), performance, data path, control unit, memory hierarchy, I/O interface.",
+        "prereqs": " PR: {COP 3223} with a grade of “C” (2.0) or better; CR: {COT 3100C}. Logic design, computer arithmetic, Instruction Set Architecture (MIPS, SPIM simulator), performance, data path, control unit, memory hierarchy, I/O interface.",
         "semesters": " Fall,Spring."
     },
     {
@@ -3582,6 +3582,14 @@ courses = [
         "title": "Advanced Database Development:",
         "prereqs": " PR: {COP 3330} or C.I. Professional-level database access from object-oriented systems, including complex SQL queries and stored procedures. Use of object-relational frameworks. Hands-on exercises with current RDBMS software.",
         "semesters": " Spring."
+    },
+    {
+        "identifier": "CEN 5016",
+        "college":"ECS-ECS",
+        "credits":"3(3,0)",
+        "title":"Software Engineering:",
+        "prereqs":" PR: {COP 4600}. Application of formal software processes, engineering methods, and documentation standards to the development of large scale software systems. A team project is required.",
+        "semesters":" Spring."
     },
     {
         "identifier": "CEN 4350",
@@ -4894,6 +4902,14 @@ courses = [
         "title": "Concepts of Parallel and Distributed Processing:",
         "prereqs": " PR: {COP 3402} and {COP 3503C} each with a grade of “C” (2.0) or better and {COT 3960}. Parallel and distributed paradigms, architectures and algorithms, and the analytical tools, environments and languages needed to support these paradigms.",
         "semesters": " Occasional."
+    },
+    {
+        "identifier":"COP 3402",
+        "college": "ECS-ECE",
+        "cedits": "3(3,0)",
+        "title": "Systems Software:",
+        "prereqs": "PR: {CDA 3103} and {COP 3502C} each with a grade of “C” (2.0) or better. Design and development of assemblers, linkers, loaders, and compilers. Study memory hierarchy, program performance, and system level I/O.",
+        "semesters":" Fall,Spring."
     },
     {
         "identifier": "COP 4600",

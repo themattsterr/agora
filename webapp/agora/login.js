@@ -48,7 +48,10 @@ if (Meteor.isClient) {
 							Session.set('currentUser', AGORAUsers.findOne({_id:Meteor.userId()}));
 							//Session.set('mainUser',AGORAUsers.findOne({_id:Meteor.userId()}));
 							Session.set('viewHistory', null);
-							Session.set('currentView','profile');
+							if (!Session.get('isAdvisor'))
+								Session.set('currentView','profile');
+							else
+								Session.set('currentView','advisor');
 						}
 					});
 				} else {
