@@ -1,4 +1,4 @@
-courses = [
+var courses = [
     {
         "identifier": "ACG 2021",
         "college": "BA-ACCT",
@@ -4952,14 +4952,6 @@ courses = [
         "semesters": " Even Spring."
     },
     {
-        "identifier": "COP 3330",
-        "college":"ECS-ECE",
-        "cedits": "3(3,0)",
-        "title": "Object Oriented Programming:",
-        "prereqs": " PR: {COP 3223} with a grade of “C” (2.0) or better Object oriented programming concepts (classes, objects, methods, encapsulating, inheritance, interfaces) and the expression of these concepts in the programming languages such as JAVA.",
-        "semesters": "Fall,Spring." 
-    },
-    {
         "identifier": "COP 5537",
         "college": "ECS-CS",
         "cedits": "3(3,0)",
@@ -4980,7 +4972,7 @@ courses = [
         "college": "ECS-ECE",
         "cedits": "3(3,1)",
         "title": "Computer Science I:",
-        "prereqs": " PR: {COP 3223} all with a grade of “C” (2.0) or better. Problem solving techniques, order analysis and notation, abstract data types, and recursion.",
+        "prereqs": " PR: ({COP 3223} or {EGN 3211}) and {MAC 1105C} all with a grade of “C” (2.0) or better. Problem solving techniques, order analysis and notation, abstract data types, and recursion.",
         "semesters": " Fall,Spring."
     },
     {
@@ -4988,7 +4980,7 @@ courses = [
         "college": "ECS-ECE",
         "cedits": "3(3,1)",
         "title": "Computer Science II:",
-        "prereqs": " PR: {COP 3502C} and {COP 3330} and {COT 3100C} all with a grade of “C” (2.0) or better. Algorithm design and analysis for tree, list, set, and graph data models; algorithmic strategies and applications, and algorithmic complexity analysis; sorting and searching; practical applications.",
+        "prereqs": " PR: {COP 3502C} and {COP 3330} and ({MAD 2104} or {COT 3100C}) all with a grade of “C” (2.0) or better. Algorithm design and analysis for tree, list, set, and graph data models; algorithmic strategies and applications, and algorithmic complexity analysis; sorting and searching; practical applications.",
         "semesters": " Fall,Spring."
     },
     {
@@ -27304,3 +27296,5 @@ courses = [
         "semesters": " Spring."
     }
 ];
+
+module.exports = { courses : courses }

@@ -7,6 +7,7 @@ if (Meteor.isClient) {
 		Meteor.call('importCourseSchedule',user._id, scheduleData);
 	}
 	
+	
 
 	Template.search.rendered = function(){
     	//$('#searchResults').css({top: '220px',width:'350px', 'min-height':'740px'});
@@ -141,7 +142,32 @@ if (Meteor.isClient) {
 			  var lastCard = Session.get('selectedCard');
 			  var col = Number(event.target.getAttribute('col'));
 			  var yr = Number(event.target.getAttribute('yr'));
-			  var row = Number(event.target.getAttribute('row'));;
+			  var row = Number(event.target.getAttribute('row'));
+
+
+/// move this to schedule mover
+			  var prevClasses = previousClassesCompletedByCoords(schedule, {z: yr, x: col, y: row});
+			  for (var i in prevClasses.current){
+			  	var prevClass = AGORACourses.findOne({identifier:prevClasses.current[i]});
+			  	if (prevClass && prevClass.reqs)
+			  	{
+			  		// dfs or something i have no idea
+			  	}
+			  }
+			  for (var i in prevClasses.previous){
+			  	var prevClass = AGORACourses.findOne({identifier:prevClasses.previous[i]});
+			  	if (prevClass && prevClass.reqs) console.log(prevClass.reqs,prevClass.identifier)
+			  }
+			  if (course){
+				  var reqsLeft = allRequirementsFullfilled(course.reqs, [], prevClasses);
+
+
+				  if (reqsLeft && reqsLeft.before.length > 0){
+					Session.set('reqsLeft',reqsLeft.before);
+					$('.ui.modal').modal('show');
+					return false;
+				  }
+			  }
 
 			  if (event.target.innerHTML != "")
 				return false;

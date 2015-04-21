@@ -10,12 +10,20 @@
 						<form class="ui form">
 							<a class="ui ribbon label">Remaining Courses</a>
 							<div class="hidden divider"></div>
+							<label>GEP</label>
 							<div class="ui divided list">
                        		{{#with remainingRequirements}}
-								{{#each gep.courses}}
+								{{#each withIndex gep.courses}}
 									<div class="item">
 										<div class="content">
-										  <div class="header">{{this}}</div>
+										  <div class="header">{{ this.index }}</div>
+										  {{#each this.value}}
+										  <div class="item">
+										  	<div class="content">
+										  		{{this}}
+										  	</div>
+										  </div>
+										  {{/each}}
 										</div>
 									  </div>
 								{{/each}}

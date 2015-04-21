@@ -1,4 +1,21 @@
 <template name="search">
+<div class="ui modal">
+	<i class="close icon"></i>
+	<div class="header">
+	Pre-Requisites Not Met
+	</div>
+	<div class="content">
+	<div class="ui divided list">
+		{{#each reqsLeft}}
+			<div class="item">
+				<div class="content">
+				  <div class="header">{{this}}</div>
+				</div>
+			</div>
+		{{/each}}
+	</div>
+	</div>
+</div><script>$('.ui.modal').modal();</script>
 
 <div class="ui segment">
 

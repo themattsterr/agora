@@ -3096,6 +3096,12 @@ var coursesSemesters = [
         "semester3": ""
     },
     {
+        "course": "COP 3223",
+        "semester1": "Fall",
+        "semester2": "Spring",
+        "semester3": ""
+    },
+    {
         "course": "COP 3223H",
         "semester1": "Fall",
         "semester2": "",

@@ -44,8 +44,8 @@ var sampleSched =
 //    previous : [],
 //    current : []
 // }
-
-function previousClassesCompleted( sched, course){
+ 
+previousClassesCompleted = function( sched, course){
     var courseList = scheduleToCourseObjectList(sched);
     var returnValue = {
         previous : [],
@@ -79,7 +79,7 @@ function previousClassesCompleted( sched, course){
 
 // coordinates are the coordinates of the position in sched chosen
 // coordinates = {z:0, x:0, y:0}
-function previousClassesCompletedByCoords( sched, coords){
+previousClassesCompletedByCoords = function( sched, coords){
     var courseList = scheduleToCourseObjectList(sched);
     var returnValue = {
         previous : [],
@@ -107,13 +107,17 @@ function previousClassesCompletedByCoords( sched, coords){
         }
         curSemester = curCourse.semester;
     }
+    if (curSemester != semesterDisplayToChronological(coords.x) ) 
+        Array.prototype.push.apply(returnValue.previous,curSemesterList);
+    else
+        Array.prototype.push.apply(returnValue.current,curSemesterList);
     return returnValue;
 }
 
 
 // converts the display order of a semester [ Fall 10, Spring 11, Summer 11] to
 // the chronological order for sorting
-function semesterDisplayToChronological( sem ){
+semesterDisplayToChronological = function( sem ){
     switch( Number(sem) ) {
         case 0:
             return 2;
@@ -136,7 +140,7 @@ function semesterDisplayToChronological( sem ){
     semester : 0,       the semester the course was taken: 0=Spring, 1=Summer, 2=Fall
     course : 'COP3223'  the course code of the course
 }*/
-function scheduleToCourseObjectList( sched ){
+scheduleToCourseObjectList = function( sched ){
 
     var courseList = [];
     for (var yr in sched){
@@ -174,7 +178,7 @@ function scheduleToCourseObjectList( sched ){
     before : [],        classes that must be taken before
     during : []         classes that must be taken before or the same time
 }*/
-function allRequirementsFullfilled( prereqs, coreqs, completedClasses) {
+allRequirementsFullfilled = function( prereqs, coreqs, completedClasses) {
     // set return object to all requirements and remove them as they are found
     var reqsLeft = {
         before : prereqs,

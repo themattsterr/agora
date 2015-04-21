@@ -21,6 +21,17 @@ dataFileParser.parse({
 });*/
 
 dataFileParser.parse({
+	in: 'catalogdatadelimit.txt',
+	out: 'catalogdataNEW.js',
+	var: 'courses',
+	regex: /(.*?) # (.*?) # (.*?) # (.*?) # (.*?)# (.*?) #/gm,
+	as: 'identifier|college|cedits|title|prereqs|semesters'
+}).then(function(arr){
+	console.log(arr.length+" courses");
+});
+
+
+/*dataFileParser.parse({
 	in: 'catalogdata.txt',
 	out: 'catalogdata.js',
 	var: 'courses',
@@ -38,4 +49,4 @@ dataFileParser.parse({
 	as: 'course|semester1|semester2|semester3'
 }).then(function(arr){
 	console.log(arr.length+" semester courses");
-});
+});*/

@@ -87,6 +87,10 @@ Session.setDefault('currentView','main');
   	return arr;
   });
 
+  Template.registerHelper('reqsLeft', function () {
+  	return Session.get('reqsLeft');
+  });
+
   Template.registerHelper('hasSchedule', function () {
   	return Session.get('currentUser').importedSched;
   });

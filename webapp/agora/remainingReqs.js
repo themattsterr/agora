@@ -166,7 +166,7 @@ var sched =
   Output:
     the courses still required of the user for a degree 
 */
-remainingReqs = function (sched, degreeRequirements){
+remainingReqs = function (sched){
 
   var returnList = [];
 
@@ -389,7 +389,7 @@ remainingReqs = function (sched, degreeRequirements){
   {
     gep :{
       courses: [],
-      hours : 0
+      hours : 0,
       names: ["Communication Foundations",
           "Cultural & Historical Foundations",
           "Mathematical Foundations",

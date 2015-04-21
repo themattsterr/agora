@@ -1,7 +1,13 @@
-      FA14 COP3223       3.0 B      FA14 ECO2013       3.0 B
-      FA14 ENC1101       3.0 B      SP15 ENC1102       3.0 A
-      FA14 MAC2312       4.0 C      SP15 REL2300       3.0 B-
-      SP15 PHY2048C      4.0 B      SP15 STA2023       3.0 C
+FA14 ENC1101       3.0 B       
+FA14 COP3223       3.0 B  
+FA14 ECO2013       3.0 B
+FA14 MAC2312       4.0 C
+SP15 ENC1102       3.0 A
+SP15 REL2300       3.0 B-
+SP15 PHY2048C      4.0 B      
+SP15 COT3100C      3.0 B
+
+
 
 in the future
 

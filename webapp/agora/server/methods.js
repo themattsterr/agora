@@ -51,6 +51,10 @@ Meteor.methods({
 			console.log('inserting data')
 			for (var i = 0; i < arr.length; i++) {
 				var curCourse = arr[i];
+				curCourse.reqs = curCourse.prereqs.match(/[A-Z]{3} [0-9]{4}[CHL]*/g);
+				var dept = curCourse.college.split('-')[1];
+				curCourse.dept = dept;
+				curCourse.college = curCourse.college.split('-')[0];
 				AGORACourses.insert(curCourse);
 			}
 		}
