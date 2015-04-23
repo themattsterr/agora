@@ -10,10 +10,29 @@
 						<form class="ui form">
 							<a class="ui ribbon label">Remaining Courses</a>
 							<div class="hidden divider"></div>
-							<label>GEP</label>
+							<h3>Common Core Pre-Requisites</h3>
 							<div class="ui divided list">
                        		{{#with remainingRequirements}}
-								{{#each withIndex gep.courses}}
+								{{#each withIndex cpp.courses}}
+									<div class="item">
+										<div class="content">
+										  <div class="header">{{ gepNameFromIndex this.index }}</div>
+										  {{#each this.value}}
+										  <div class="item">
+										  	<div class="content">
+										  		{{this}}
+										  	</div>
+										  </div>
+										  {{/each}}
+										</div>
+									  </div>
+								{{/each}}
+							{{/with}}
+							</div>
+							<h3>Core Requirements</h3>
+							<div class="ui divided list">
+                       		{{#with remainingRequirements}}
+								{{#each withIndex core.courses}}
 									<div class="item">
 										<div class="content">
 										  <div class="header">{{ gepNameFromIndex this.index }}</div>

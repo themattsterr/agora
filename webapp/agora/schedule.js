@@ -204,6 +204,8 @@ if (Meteor.isClient) {
         return;
       }
 
+      Session.set('remainingReqs',remainingReqs(currentUser.importedSched));
+
           Session.set('schedule', currentUser.importedSched);
           resetSchedule(Session.get('schedule'));
      
@@ -330,7 +332,8 @@ Template.schedule.events({
 
   Template.schedule.helpers({
   	remainingRequirements : function(){
-  		return remainingReqs(Session.get('currentUser').importedSched);
+  		var user = Session.get('currentUser');
+  		return Session.get('remainingReqs');
   		//return [];
   	},
   	showingGrades : function(){
@@ -367,11 +370,8 @@ Template.schedule.events({
       return Session.get('currentUser');
     },
 	gepNameFromIndex : function(index){
-		var names = ["Communication Foundations",
-          "Cultural & Historical Foundations",
-          "Mathematical Foundations",
-          "Social Foundations",
-          "Science Foundations"];
+		var names = ["Required",
+          "Select One"];
 		return names[index];
 	},
     scheduleHTMLArray: function () {

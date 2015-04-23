@@ -4,6 +4,7 @@ if (Meteor.isClient) {
 		var user = Session.get('currentUser');
 		user.importedSched = scheduleData;
 		Session.set('currentUser',user);
+		Session.set('remainingReqs',remainingReqs(user.importedSched));
 		Meteor.call('importCourseSchedule',user._id, scheduleData);
 	}
 	
